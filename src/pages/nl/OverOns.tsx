@@ -14,11 +14,11 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2024 Q1", title: "De pijn gevoeld", description: "Gefrustreerd door dure, trage en onpersoonlijke executive search bureaus. Er moest een betere manier zijn." },
-  { year: "2024 Q2", title: "OneTime Recruit", description: "Gestart met een missie: executive search met vaste prijzen, snelheid en totale transparantie." },
-  { year: "2024 Q3", title: "Software & schaal", description: "Eigen recruitment technologie ontwikkeld. Talent pools per vacature — niet zoeken, maar matchen." },
-  { year: "2024 Q4", title: "OneGroup opgericht", description: "Uitbreiding naar een ecosysteem: OneRooted, OneSource en KlikKlaarSEO onder één dak." },
-  { year: "2025", title: "De markt veranderen", description: "Van disruptor naar de nieuwe standaard. Vaste fees, eigen talent pools en een groeiend netwerk van 7.500+ specialisten." },
+  { year: "Q1 2025", title: "De pijn gevoeld", description: "Gefrustreerd door dure, trage en onpersoonlijke executive search bureaus. Er moest een betere manier zijn." },
+  { year: "Q2 2025", title: "OneTime Recruit", description: "Gestart met een missie: executive search met vaste prijzen, snelheid en totale transparantie." },
+  { year: "Q3 2025", title: "Software & schaal", description: "Eigen recruitment technologie ontwikkeld. Talent pools per vacature — niet zoeken, maar matchen." },
+  { year: "Q4 2025", title: "OneGroup opgericht", description: "Uitbreiding naar een ecosysteem: OneRooted, OneSource en KlikKlaarSEO onder één dak." },
+  { year: "Q1 2026", title: "De markt veranderen", description: "Van disruptor naar de nieuwe standaard. Vaste fees, eigen talent pools en een groeiend netwerk van 7.500+ specialisten." },
 ];
 
 const team = [
