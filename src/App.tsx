@@ -7,6 +7,8 @@ import NLHome from "./pages/nl/Index";
 import NLDiensten from "./pages/nl/Diensten";
 import NLOverOns from "./pages/nl/OverOns";
 import NLContact from "./pages/nl/Contact";
+import NLVacatures from "./pages/nl/Vacatures";
+import NLOpdrachtgevers from "./pages/nl/Opdrachtgevers";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +27,8 @@ const App = () => (
           <Route path="/nl/diensten" element={<NLDiensten />} />
           <Route path="/nl/over-ons" element={<NLOverOns />} />
           <Route path="/nl/contact" element={<NLContact />} />
+          <Route path="/nl/vacatures" element={<NLVacatures />} />
+          <Route path="/nl/opdrachtgevers" element={<NLOpdrachtgevers />} />
 
           {/* Future: /de and /en routes */}
 
