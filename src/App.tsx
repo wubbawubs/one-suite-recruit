@@ -14,6 +14,8 @@ import NLOpdrachtgevers from "./pages/nl/Opdrachtgevers";
 import NLCLevelRecruitment from "./pages/nl/CLevelRecruitment";
 // DE pages
 import DEHome from "./pages/de/Index";
+// EN pages
+import ENHome from "./pages/en/Index";
 import NLAssessmentSelectie from "./pages/nl/AssessmentSelectie";
 import NLIndustries from "./pages/nl/Industries";
 import NLRecruitmentOperatingModel from "./pages/nl/RecruitmentOperatingModel";
@@ -124,7 +126,8 @@ const App = () => (
           {/* German (DE) routes */}
           <Route path="/de" element={<DEHome />} />
 
-          {/* Future: more /de and /en routes */}
+          {/* English (EN) routes */}
+          <Route path="/en" element={<ENHome />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
