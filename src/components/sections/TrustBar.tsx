@@ -8,7 +8,7 @@ export function TrustBar() {
     { value: "98%", label: "Klanttevredenheid" },
   ];
 
-  const clients = ["AFAS Software", "MAS Aviation", "KLM Group", "Royal Schiphol", "TechNova"];
+  const clients = ["Arvoo", "BGH Accountants", "OOvB Accountants", "Energiebehoud", "Thales"];
 
   return (
     <section className="border-b border-border/50 bg-card py-16">
