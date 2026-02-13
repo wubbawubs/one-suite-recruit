@@ -7,8 +7,18 @@ const footerNav = [
     title: "Diensten",
     links: [
       { label: "Executive Search", href: "/nl/executive-search" },
-      { label: "Leadership Advisory", href: "/nl/diensten" },
+      { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+      { label: "Industries", href: "/nl/industries" },
       { label: "Alle diensten", href: "/nl/diensten" },
+    ],
+  },
+  {
+    title: "Kennis",
+    links: [
+      { label: "Assessment & Selectie", href: "/nl/assessment-selectie" },
+      { label: "Recruitment Model", href: "/nl/recruitment-operating-model" },
+      { label: "Employer Branding", href: "/nl/employer-branding-retention" },
+      { label: "Kosten Executive Search", href: "/nl/kosten-executive-search" },
     ],
   },
   {
@@ -18,15 +28,6 @@ const footerNav = [
       { label: "Opdrachtgevers", href: "/nl/opdrachtgevers" },
       { label: "Vacatures", href: "/nl/vacatures" },
       { label: "Contact", href: "/nl/contact" },
-    ],
-  },
-  {
-    title: "OneGroup",
-    links: [
-      { label: "OneTime Recruit", href: "/nl" },
-      { label: "OneRooted", href: "#" },
-      { label: "OneSource", href: "#" },
-      { label: "KlikKlaarSEO", href: "#" },
     ],
   },
 ];
