@@ -1,5 +1,5 @@
-import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
 const cases = [
   {
@@ -30,7 +30,7 @@ export function CaseStudiesSection() {
           <h2 className="font-display text-3xl font-bold md:text-4xl">
             Bewezen resultaten
           </h2>
-          <p className="mt-4 text-lg text-primary-foreground/70">
+          <p className="mt-4 text-lg text-primary-foreground/60">
             Een selectie van succesvolle plaatsingen bij toonaangevende organisaties.
           </p>
         </div>
@@ -47,10 +47,10 @@ export function CaseStudiesSection() {
               <h3 className="mt-2 font-display text-xl font-semibold">
                 {c.client}
               </h3>
-              <p className="mt-3 text-sm leading-relaxed text-primary-foreground/60">
-                <strong className="text-primary-foreground/80">Uitdaging:</strong> {c.challenge}
+              <p className="mt-3 text-sm leading-relaxed text-primary-foreground/50">
+                <strong className="text-primary-foreground/70">Uitdaging:</strong> {c.challenge}
               </p>
-              <p className="mt-2 text-sm leading-relaxed text-primary-foreground/60">
+              <p className="mt-2 text-sm leading-relaxed text-primary-foreground/50">
                 <strong className="text-accent">Resultaat:</strong> {c.result}
               </p>
             </div>

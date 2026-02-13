@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import { Search, Users, Settings, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -34,7 +34,7 @@ export function ServicesSection() {
             Wat wij voor u doen
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Drie kerngebieden waarin we excelleren — allemaal gericht op het vinden en behouden van uitzonderlijk leiderschap.
+            Drie kerngebieden waarin we excelleren — allemaal gericht op het vinden en behouden van uitzonderlijk talent.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export function ServicesSection() {
             <Link
               key={s.title}
               to={s.href}
-              className="group rounded-xl border border-border bg-card p-8 transition-all hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5"
+              className="group rounded-xl border border-border bg-card p-8 transition-all hover:border-accent/40 hover:shadow-lg hover:shadow-accent/5"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent">
                 <s.icon className="h-6 w-6" />
