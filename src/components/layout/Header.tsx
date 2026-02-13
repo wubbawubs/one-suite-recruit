@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/onetime-logo.webp";
 
 const navItems = [
   { label: "Home", href: "/nl" },
@@ -24,32 +25,30 @@ export function Header() {
 
   return (
     <>
-      {/* Announcement bar — olive/gold */}
+      {/* Announcement bar */}
       <div className="bg-secondary py-1.5 text-center">
-        <p className="text-xs font-medium text-secondary-foreground">
+        <p className="text-xs font-medium tracking-wide text-secondary-foreground">
           DE nieuwe standaard voor recruitment.
         </p>
       </div>
 
-      <header className="sticky top-0 z-50 border-b border-border/50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
-        <div className="container flex h-16 items-center justify-between md:h-20">
+      <header className="sticky top-0 z-50 border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+        <div className="container flex h-[72px] items-center justify-between">
           {/* Logo */}
-          <Link to="/nl" className="flex items-center gap-2.5">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-accent bg-primary">
-              <span className="text-sm font-bold text-primary-foreground">🌳</span>
-            </div>
-            <span className="text-lg font-bold tracking-tight text-foreground" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+          <Link to="/nl" className="flex items-center gap-3">
+            <img src={logo} alt="OneTime Recruit" className="h-11 w-11" />
+            <span className="text-lg font-bold tracking-tight text-foreground font-sans">
               ONE-TIME <span className="font-normal">Recruit</span>
             </span>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden items-center gap-1 lg:flex">
+          <nav className="hidden items-center gap-0.5 lg:flex">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 to={item.href}
-                className={`rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-foreground ${
+                className={`px-4 py-2 text-[14px] font-medium transition-colors hover:text-foreground ${
                   location.pathname === item.href
                     ? "text-foreground"
                     : "text-muted-foreground"
@@ -62,7 +61,6 @@ export function Header() {
 
           {/* Right side */}
           <div className="flex items-center gap-3">
-            {/* Language Switcher */}
             <div className="hidden items-center gap-0.5 rounded-full border border-border px-1 py-0.5 md:flex">
               {languages.map((lang) => (
                 <Link
@@ -79,11 +77,10 @@ export function Header() {
               ))}
             </div>
 
-            <Button asChild className="hidden rounded-full bg-primary text-primary-foreground hover:bg-primary/90 md:inline-flex">
+            <Button asChild className="hidden rounded-full bg-primary px-6 text-primary-foreground hover:bg-primary/90 md:inline-flex">
               <Link to="/nl/contact">Direct contact?</Link>
             </Button>
 
-            {/* Mobile toggle */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="inline-flex items-center justify-center rounded-md p-2 text-foreground lg:hidden"
@@ -93,7 +90,6 @@ export function Header() {
           </div>
         </div>
 
-        {/* Mobile menu */}
         {mobileOpen && (
           <div className="border-t border-border bg-background lg:hidden">
             <nav className="container flex flex-col gap-1 py-4">
@@ -102,16 +98,16 @@ export function Header() {
                   key={item.href}
                   to={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className={`rounded-md px-3 py-2.5 text-sm font-medium transition-colors ${
+                  className={`rounded-lg px-4 py-3 text-sm font-medium transition-colors ${
                     location.pathname === item.href
-                      ? "bg-muted text-foreground"
+                      ? "bg-accent/10 text-accent"
                       : "text-muted-foreground hover:bg-muted"
                   }`}
                 >
                   {item.label}
                 </Link>
               ))}
-              <div className="mt-3 flex items-center gap-2 border-t border-border pt-3">
+              <div className="mt-3 flex items-center gap-2 border-t border-border pt-4">
                 <Globe className="h-4 w-4 text-muted-foreground" />
                 {languages.map((lang) => (
                   <Link
@@ -128,7 +124,7 @@ export function Header() {
                   </Link>
                 ))}
               </div>
-              <Button asChild className="mt-2 rounded-full bg-primary text-primary-foreground">
+              <Button asChild className="mt-3 rounded-full bg-primary text-primary-foreground">
                 <Link to="/nl/contact" onClick={() => setMobileOpen(false)}>
                   Direct contact?
                 </Link>
