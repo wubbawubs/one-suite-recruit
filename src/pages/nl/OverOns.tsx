@@ -168,17 +168,17 @@ const NLOverOns = () => {
               <h2 className="mt-4 font-display text-3xl font-bold md:text-[2.5rem] leading-tight">Hoe het begon</h2>
             </ScrollReveal>
 
-            <StaggerContainer className="mt-16 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5" stagger={0.08}>
-              {milestones.map((m) => (
-                <StaggerItem key={m.year} variant="fade-up">
+            <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+              {milestones.map((m, i) => (
+                <ScrollReveal key={m.year} variant="fade-up" delay={i * 0.1}>
                   <div className="group relative rounded-2xl border border-primary-foreground/8 bg-primary-foreground/[0.04] p-6 transition-all duration-300 hover:border-primary-foreground/15 hover:bg-primary-foreground/[0.07]">
                     <span className="font-display text-3xl font-bold text-accent">{m.year}</span>
                     <h3 className="mt-2 text-sm font-bold">{m.title}</h3>
                     <p className="mt-2 text-xs leading-relaxed text-primary-foreground/45">{m.description}</p>
                   </div>
-                </StaggerItem>
+                </ScrollReveal>
               ))}
-            </StaggerContainer>
+            </div>
           </div>
         </section>
 
