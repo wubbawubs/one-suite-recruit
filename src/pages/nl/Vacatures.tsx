@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 import { useState } from "react";
 
 const vacancies = [
@@ -39,6 +41,8 @@ const NLVacatures = () => {
       <PageMeta
         title="Vacatures, Executive Posities | OneTime Recruit"
         description="Bekijk exclusieve executive vacatures bij toonaangevende organisaties. C-level, VP en Director posities in Nederland."
+        locale="nl_NL"
+        alternates={getAlternates("vacatures", ["nl"])}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "ItemList",
@@ -53,6 +57,9 @@ const NLVacatures = () => {
         }}
       />
       <Header />
+      <div className="container">
+        <Breadcrumbs items={nlBreadcrumbs.vacatures} />
+      </div>
       <main>
         <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />

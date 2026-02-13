@@ -5,6 +5,8 @@ import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp, Linkedin } fr
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 import teamRobin from "@/assets/team-robin.jpeg";
 import teamErik from "@/assets/team-erik.jpeg";
 import teamJuliette from "@/assets/team-juliette.jpeg";
@@ -38,8 +40,13 @@ const NLOverOns = () => {
       <PageMeta
         title="Over Ons, OneTime Recruit"
         description="Leer meer over OneTime Recruit: onze missie, waarden, team en de reis van startup tot marktleider in executive search."
+        locale="nl_NL"
+        alternates={getAlternates("over-ons", ["nl"])}
       />
       <Header />
+      <div className="container">
+        <Breadcrumbs items={nlBreadcrumbs["over-ons"]} />
+      </div>
       <main>
         <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />

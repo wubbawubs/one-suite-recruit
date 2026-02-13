@@ -9,6 +9,7 @@ import { CaseStudiesSection } from "@/components/sections/CaseStudiesSection";
 import { InsightsSection } from "@/components/sections/InsightsSection";
 import { CTAStrip } from "@/components/sections/CTAStrip";
 import { PageMeta } from "@/components/PageMeta";
+import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 
 const orgJsonLd = {
   "@context": "https://schema.org",
@@ -29,6 +30,8 @@ const NLHome = () => {
         title="OneTime Recruit — Executive Search & Leiderschap"
         description="OneTime Recruit is dé specialist in executive search. Wij vinden C-level en senior leiders voor enterprise organisaties in Nederland."
         jsonLd={orgJsonLd}
+        locale="nl_NL"
+        alternates={getAlternates("home", ["nl"])}
       />
       <Header />
       <main>
