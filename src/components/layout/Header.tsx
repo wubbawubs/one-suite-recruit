@@ -1,14 +1,31 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X, Globe, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/onetime-logo.webp";
 
-const navConfigs: Record<string, { items: { label: string; href: string }[]; ctaLabel: string; ctaHref: string }> = {
+interface NavItem {
+  label: string;
+  href: string;
+  children?: { label: string; href: string; description?: string }[];
+}
+
+const navConfigs: Record<string, { items: NavItem[]; ctaLabel: string; ctaHref: string }> = {
   nl: {
     items: [
       { label: "Home", href: "/nl" },
-      { label: "Diensten", href: "/nl/diensten" },
+      {
+        label: "Diensten",
+        href: "/nl/diensten",
+        children: [
+          { label: "Executive Search", href: "/nl/executive-search", description: "Onze bewezen search methodiek" },
+          { label: "C-level & Directie", href: "/nl/c-level-recruitment", description: "CEO, CFO, CTO, CHRO recruitment" },
+          { label: "Industries", href: "/nl/industries", description: "Sectorspecialisatie per industrie" },
+          { label: "Assessment & Selectie", href: "/nl/assessment-selectie", description: "STAR-interviews & cultuurfit" },
+          { label: "Recruitment Model", href: "/nl/recruitment-operating-model", description: "Talent pools & RaaS" },
+          { label: "Employer Branding", href: "/nl/employer-branding-retention", description: "Aantrekken & behouden" },
+        ],
+      },
       { label: "Vacatures", href: "/nl/vacatures" },
       { label: "Opdrachtgevers", href: "/nl/opdrachtgevers" },
       { label: "Over ons", href: "/nl/over-ons" },
@@ -56,10 +73,30 @@ function getLocaleFromPath(pathname: string): string {
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [desktopDropdown, setDesktopDropdown] = useState<string | null>(null);
+  const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout>>();
   const location = useLocation();
   const locale = getLocaleFromPath(location.pathname);
   const config = navConfigs[locale] || navConfigs.nl;
   const navItems = config.items;
+
+  // Close dropdown on route change
+  useEffect(() => {
+    setDesktopDropdown(null);
+    setMobileOpen(false);
+    setMobileExpanded(null);
+  }, [location.pathname]);
+
+  const handleMouseEnter = (label: string) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setDesktopDropdown(label);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => setDesktopDropdown(null), 150);
+  };
 
   return (
     <>
@@ -89,17 +126,47 @@ export function Header() {
           {/* Desktop Nav */}
           <nav className="hidden items-center gap-0.5 lg:flex">
             {navItems.map((item) => (
-              <Link
+              <div
                 key={item.href}
-                to={item.href}
-                className={`px-4 py-2 text-[14px] font-medium transition-colors hover:text-foreground ${
-                  location.pathname === item.href
-                    ? "text-foreground"
-                    : "text-muted-foreground"
-                }`}
+                className="relative"
+                onMouseEnter={() => item.children && handleMouseEnter(item.label)}
+                onMouseLeave={item.children ? handleMouseLeave : undefined}
+                ref={desktopDropdown === item.label ? dropdownRef : undefined}
               >
-                {item.label}
-              </Link>
+                <Link
+                  to={item.href}
+                  className={`inline-flex items-center gap-1 px-4 py-2 text-[14px] font-medium transition-colors hover:text-foreground ${
+                    location.pathname === item.href || (item.children && location.pathname.startsWith(item.href.replace("/diensten", "")))
+                      ? "text-foreground"
+                      : "text-muted-foreground"
+                  }`}
+                >
+                  {item.label}
+                  {item.children && <ChevronDown className={`h-3.5 w-3.5 transition-transform ${desktopDropdown === item.label ? "rotate-180" : ""}`} />}
+                </Link>
+
+                {/* Dropdown */}
+                {item.children && desktopDropdown === item.label && (
+                  <div className="absolute left-1/2 top-full z-50 w-[520px] -translate-x-1/2 pt-2">
+                    <div className="rounded-xl border border-border bg-background p-3 shadow-xl">
+                      <div className="grid grid-cols-2 gap-1">
+                        {item.children.map((child) => (
+                          <Link
+                            key={child.href}
+                            to={child.href}
+                            className="rounded-lg px-3 py-3 transition-colors hover:bg-muted"
+                          >
+                            <span className="block text-sm font-semibold text-foreground">{child.label}</span>
+                            {child.description && (
+                              <span className="mt-0.5 block text-xs text-muted-foreground">{child.description}</span>
+                            )}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
             ))}
           </nav>
 
@@ -138,18 +205,58 @@ export function Header() {
           <div className="border-t border-border bg-background lg:hidden">
             <nav className="container flex flex-col gap-1 py-4">
               {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  to={item.href}
-                  onClick={() => setMobileOpen(false)}
-                  className={`rounded-lg px-4 py-3 text-sm font-medium transition-colors ${
-                    location.pathname === item.href
-                      ? "bg-accent/10 text-accent"
-                      : "text-muted-foreground hover:bg-muted"
-                  }`}
-                >
-                  {item.label}
-                </Link>
+                <div key={item.href}>
+                  {item.children ? (
+                    <>
+                      <button
+                        onClick={() => setMobileExpanded(mobileExpanded === item.label ? null : item.label)}
+                        className={`flex w-full items-center justify-between rounded-lg px-4 py-3 text-sm font-medium transition-colors ${
+                          location.pathname.startsWith("/nl/diensten") || location.pathname.startsWith("/nl/executive")
+                            ? "bg-accent/10 text-accent"
+                            : "text-muted-foreground hover:bg-muted"
+                        }`}
+                      >
+                        {item.label}
+                        <ChevronDown className={`h-4 w-4 transition-transform ${mobileExpanded === item.label ? "rotate-180" : ""}`} />
+                      </button>
+                      {mobileExpanded === item.label && (
+                        <div className="ml-4 mt-1 flex flex-col gap-0.5 border-l border-border pl-4">
+                          <Link
+                            to={item.href}
+                            onClick={() => setMobileOpen(false)}
+                            className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-muted"
+                          >
+                            Alles bekijken
+                          </Link>
+                          {item.children.map((child) => (
+                            <Link
+                              key={child.href}
+                              to={child.href}
+                              onClick={() => setMobileOpen(false)}
+                              className={`rounded-lg px-3 py-2 text-sm transition-colors ${
+                                location.pathname === child.href ? "font-medium text-accent" : "text-muted-foreground hover:bg-muted"
+                              }`}
+                            >
+                              {child.label}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <Link
+                      to={item.href}
+                      onClick={() => setMobileOpen(false)}
+                      className={`rounded-lg px-4 py-3 text-sm font-medium transition-colors ${
+                        location.pathname === item.href
+                          ? "bg-accent/10 text-accent"
+                          : "text-muted-foreground hover:bg-muted"
+                      }`}
+                    >
+                      {item.label}
+                    </Link>
+                  )}
+                </div>
               ))}
               <div className="mt-3 flex items-center gap-2 border-t border-border pt-4">
                 <Globe className="h-4 w-4 text-muted-foreground" />
