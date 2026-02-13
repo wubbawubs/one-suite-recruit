@@ -6,8 +6,8 @@ const footerNav = [
   {
     title: "Diensten",
     links: [
-      { label: "Executive Search", href: "/nl/diensten/executive-search" },
-      { label: "Leiderschap & Directie", href: "/nl/diensten/leiderschap" },
+      { label: "Executive Search", href: "/nl/diensten" },
+      { label: "Leadership Advisory", href: "/nl/diensten" },
       { label: "Alle diensten", href: "/nl/diensten" },
     ],
   },
@@ -15,9 +15,9 @@ const footerNav = [
     title: "Bedrijf",
     links: [
       { label: "Over ons", href: "/nl/over-ons" },
-      { label: "Hoe we werken", href: "/nl/hoe-we-werken" },
-      { label: "Referenties", href: "/nl/referenties" },
+      { label: "Opdrachtgevers", href: "/nl/opdrachtgevers" },
       { label: "Vacatures", href: "/nl/vacatures" },
+      { label: "Contact", href: "/nl/contact" },
     ],
   },
   {
@@ -47,7 +47,7 @@ export function Footer() {
               DE nieuwe standaard voor recruitment. Wij vinden het juiste talent voor uw organisatie.
             </p>
             <div className="mt-6 flex items-center gap-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="rounded-full border border-primary-foreground/15 p-2.5 text-primary-foreground/50 transition-colors hover:border-accent hover:text-accent">
+              <a href="https://www.linkedin.com/company/onetimerecruit/" target="_blank" rel="noopener noreferrer" className="rounded-full border border-primary-foreground/15 p-2.5 text-primary-foreground/50 transition-colors hover:border-accent hover:text-accent">
                 <Linkedin className="h-4 w-4" />
               </a>
               <a href="mailto:info@onetimerecruit.nl" className="rounded-full border border-primary-foreground/15 p-2.5 text-primary-foreground/50 transition-colors hover:border-accent hover:text-accent">

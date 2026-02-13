@@ -194,7 +194,7 @@ const NLContact = () => {
                     <h3 className="font-display text-lg font-bold text-foreground">Volg ons</h3>
                     <p className="mt-2 text-sm text-muted-foreground">Blijf op de hoogte van de laatste inzichten en vacatures.</p>
                     <div className="mt-5 flex gap-3">
-                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent">
+                      <a href="https://www.linkedin.com/company/onetimerecruit/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent">
                         <Linkedin className="h-4 w-4" /> LinkedIn
                       </a>
                     </div>

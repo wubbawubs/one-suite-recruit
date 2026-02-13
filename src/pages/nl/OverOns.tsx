@@ -21,9 +21,9 @@ const milestones = [
 ];
 
 const team = [
-  { name: "Daan van der Berg", role: "Founder & Managing Director", bio: "15+ jaar ervaring in executive search en organisatieontwikkeling." },
-  { name: "Lisa Jansen", role: "Senior Consultant", bio: "Gespecialiseerd in tech & SaaS leadership plaatsingen." },
-  { name: "Mark de Vries", role: "Consultant", bio: "Expert in finance & banking executive recruitment." },
+  { initials: "DvB", role: "Founder & Managing Director", bio: "15+ jaar ervaring in executive search en organisatieontwikkeling." },
+  { initials: "LJ", role: "Senior Consultant", bio: "Gespecialiseerd in tech & SaaS leadership plaatsingen." },
+  { initials: "MdV", role: "Consultant", bio: "Expert in finance & banking executive recruitment." },
 ];
 
 const NLOverOns = () => {
@@ -142,14 +142,13 @@ const NLOverOns = () => {
 
             <StaggerContainer className="mt-16 grid gap-8 md:grid-cols-3" stagger={0.12}>
               {team.map((t) => (
-                <StaggerItem key={t.name} variant="scale-in">
+                <StaggerItem key={t.initials} variant="scale-in">
                   <div className="group rounded-2xl border border-border bg-card p-8 text-center transition-all duration-300 hover:border-accent/25 hover:shadow-lg">
-                    <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-accent/10">
-                      <Users className="h-8 w-8 text-accent" />
+                    <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                      <span className="font-display text-xl font-bold">{t.initials}</span>
                     </div>
-                    <h3 className="mt-6 font-display text-lg font-bold text-card-foreground">{t.name}</h3>
-                    <p className="mt-1 text-sm font-medium text-accent">{t.role}</p>
-                    <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{t.bio}</p>
+                    <p className="mt-6 text-sm font-medium text-accent">{t.role}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{t.bio}</p>
                   </div>
                 </StaggerItem>
               ))}
@@ -162,10 +161,10 @@ const NLOverOns = () => {
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Onze reis</span>
-              <h2 className="mt-4 font-display text-3xl font-bold md:text-[2.5rem] leading-tight">Van startup tot marktleider</h2>
+              <h2 className="mt-4 font-display text-3xl font-bold md:text-[2.5rem] leading-tight">Onze reis tot nu toe</h2>
             </ScrollReveal>
 
-            <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-5" stagger={0.08}>
+            <StaggerContainer className="mt-16 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5" stagger={0.08}>
               {milestones.map((m) => (
                 <StaggerItem key={m.year} variant="fade-up">
                   <div className="group relative rounded-2xl border border-primary-foreground/8 bg-primary-foreground/[0.04] p-6 transition-all duration-300 hover:border-primary-foreground/15 hover:bg-primary-foreground/[0.07]">

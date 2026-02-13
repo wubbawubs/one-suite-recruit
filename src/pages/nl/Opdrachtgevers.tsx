@@ -20,9 +20,9 @@ const process = [
 ];
 
 const testimonials = [
-  { quote: "OneTime leverde binnen twee weken drie uitstekende CTO-kandidaten. De kwaliteit van de shortlist was indrukwekkend.", author: "HR Director", company: "AFAS Software" },
-  { quote: "Eindelijk een bureau dat écht begrijpt wat wij zoeken. De culturele fit was bij elke kandidaat raak.", author: "CEO", company: "MAS Aviation" },
-  { quote: "De transparante prijsstructuur en persoonlijke aanpak maken OneTime onze vaste partner voor executive plaatsingen.", author: "CHRO", company: "FinancePro Group" },
+  { quote: "OneTime leverde binnen twee weken drie uitstekende CTO-kandidaten. De kwaliteit van de shortlist was indrukwekkend.", author: "HR Director", company: "TechNova" },
+  { quote: "Eindelijk een bureau dat écht begrijpt wat wij zoeken. De culturele fit was bij elke kandidaat raak.", author: "COO", company: "Royal Schiphol" },
+  { quote: "De transparante prijsstructuur en persoonlijke aanpak maken OneTime onze vaste partner voor executive plaatsingen.", author: "CHRO", company: "KLM Group" },
 ];
 
 const packages = [
@@ -141,6 +141,7 @@ const NLOpdrachtgevers = () => {
                       <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Aanbevolen</span>
                     )}
                     <h3 className="font-display text-2xl font-bold text-card-foreground">{pkg.name}</h3>
+                    <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-accent">Op aanvraag</p>
                     <p className="mt-2 text-sm text-muted-foreground">{pkg.description}</p>
                     <ul className="mt-8 flex-1 space-y-3">
                       {pkg.features.map((f) => (

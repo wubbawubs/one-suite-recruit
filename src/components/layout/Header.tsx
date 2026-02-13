@@ -28,7 +28,7 @@ export function Header() {
       {/* Announcement bar */}
       <div className="bg-secondary py-1.5 text-center">
         <p className="text-xs font-medium tracking-wide text-secondary-foreground">
-          DE nieuwe standaard voor recruitment.
+          ✦ Eenmalig zoeken, voortaan zelf invullen — <Link to="/nl/opdrachtgevers" className="underline hover:text-accent transition-colors">ontdek hoe</Link>
         </p>
       </div>
 
