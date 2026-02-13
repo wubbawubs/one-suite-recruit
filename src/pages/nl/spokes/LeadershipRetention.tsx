@@ -53,9 +53,9 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar Employer Branding & Retention", href: "/nl/employer-branding-retention" },
   relatedLinks: [
     { label: "Onboarding executives", href: "/nl/onboarding-executives" },
+    { label: "Employer brand voor senior talent", href: "/nl/employer-brand-senior-talent" },
     { label: "Culture fit vs culture add", href: "/nl/culture-fit-vs-culture-add" },
     { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
   ],
 };
 

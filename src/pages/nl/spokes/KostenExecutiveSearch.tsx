@@ -56,8 +56,8 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
-    { label: "Executive search vs headhunter", href: "/nl/executive-search-vs-headhunter" },
     { label: "Hoe lang duurt executive search?", href: "/nl/hoe-lang-duurt-executive-search" },
+    { label: "Abonnement recruitment", href: "/nl/abonnement-recruitment" },
     { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
   ],
 };

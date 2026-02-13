@@ -52,10 +52,10 @@ const data: SpokePageData = {
   ],
   pillarLink: { label: "Terug naar Industries", href: "/nl/industries" },
   relatedLinks: [
-    { label: "Defence & high-tech hiring", href: "/nl/defence-hightech-recruitment" },
+    { label: "Defence & high-tech recruitment", href: "/nl/defence-hightech-recruitment" },
     { label: "Operations & supply chain", href: "/nl/operations-supply-chain" },
-    { label: "COO recruitment", href: "/nl/ceo-recruitment" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
+    { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },
   ],
 };
 

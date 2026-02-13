@@ -60,8 +60,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "CTO/CIO recruitment", href: "/nl/cto-cio-recruitment" },
-    { label: "CHRO recruitment", href: "/nl/chro-recruitment" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Finance, risk & compliance", href: "/nl/finance-risk-compliance" },
+    { label: "Compensation & benefits trends", href: "/nl/compensation-benefits-trends" },
   ],
 };
 

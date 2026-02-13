@@ -53,7 +53,7 @@ const data: SpokePageData = {
     { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
     { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },
-    { label: "Hiring governance & reporting", href: "/nl/hiring-governance-reporting" },
+    { label: "Talent acquisition strategy", href: "/nl/talent-acquisition-strategy" },
   ],
 };
 

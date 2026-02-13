@@ -61,8 +61,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Abonnement recruitment", href: "/nl/abonnement-recruitment" },
     { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },
-    { label: "Hiring governance & reporting", href: "/nl/hiring-governance-reporting" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },
+    { label: "Employer brand voor senior talent", href: "/nl/employer-brand-senior-talent" },
   ],
 };
 

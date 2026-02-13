@@ -54,9 +54,9 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar Industries", href: "/nl/industries" },
   relatedLinks: [
     { label: "CTO/CIO recruitment", href: "/nl/cto-cio-recruitment" },
-    { label: "Finance & risk leadership", href: "/nl/finance-risk-compliance" },
+    { label: "Finance & risk compliance", href: "/nl/finance-risk-compliance" },
     { label: "Employer brand voor senior talent", href: "/nl/employer-brand-senior-talent" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Compensation & benefits trends", href: "/nl/compensation-benefits-trends" },
   ],
 };
 

@@ -54,8 +54,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Aviation recruitment", href: "/nl/aviation-recruitment" },
     { label: "SaaS/IT leadership", href: "/nl/saas-it-leadership" },
-    { label: "CTO/CIO recruitment", href: "/nl/cto-cio-recruitment" },
     { label: "Confidential search", href: "/nl/confidential-search" },
+    { label: "CTO/CIO recruitment", href: "/nl/cto-cio-recruitment" },
   ],
 };
 

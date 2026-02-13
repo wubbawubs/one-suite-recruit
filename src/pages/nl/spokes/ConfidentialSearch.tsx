@@ -58,8 +58,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },
-    { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "Board & commissarissen search", href: "/nl/board-commissarissen-search" },
+    { label: "Defence & high-tech recruitment", href: "/nl/defence-hightech-recruitment" },
   ],
 };
 

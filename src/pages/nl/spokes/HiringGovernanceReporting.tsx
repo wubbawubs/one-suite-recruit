@@ -56,8 +56,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
     { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },
-    { label: "Abonnement recruitment", href: "/nl/abonnement-recruitment" },
     { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
+    { label: "Compensation & benefits trends", href: "/nl/compensation-benefits-trends" },
   ],
 };
 

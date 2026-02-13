@@ -55,7 +55,7 @@ const data: SpokePageData = {
     { label: "CFO recruitment", href: "/nl/cfo-recruitment" },
     { label: "Operations & supply chain", href: "/nl/operations-supply-chain" },
     { label: "Board & commissarissen search", href: "/nl/board-commissarissen-search" },
-    { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
+    { label: "Referentiechecks", href: "/nl/referentiechecks" },
   ],
 };
 

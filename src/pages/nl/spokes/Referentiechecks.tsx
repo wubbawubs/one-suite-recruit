@@ -61,8 +61,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "STAR interview guide", href: "/nl/star-interview-guide" },
     { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
-    { label: "Culture fit vs culture add", href: "/nl/culture-fit-vs-culture-add" },
     { label: "Confidential search", href: "/nl/confidential-search" },
+    { label: "Leadership retention", href: "/nl/leadership-retention" },
   ],
 };
 

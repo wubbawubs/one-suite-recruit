@@ -53,9 +53,9 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar Industries", href: "/nl/industries" },
   relatedLinks: [
     { label: "Aviation recruitment", href: "/nl/aviation-recruitment" },
-    { label: "Finance & risk leadership", href: "/nl/finance-risk-compliance" },
-    { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Finance & risk compliance", href: "/nl/finance-risk-compliance" },
+    { label: "Interim management", href: "/nl/interim-management" },
+    { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },
   ],
 };
 

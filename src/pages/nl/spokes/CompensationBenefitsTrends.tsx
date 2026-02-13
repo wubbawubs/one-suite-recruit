@@ -62,7 +62,7 @@ const data: SpokePageData = {
     { label: "Leadership retention", href: "/nl/leadership-retention" },
     { label: "Employer brand voor senior talent", href: "/nl/employer-brand-senior-talent" },
     { label: "CFO recruitment", href: "/nl/cfo-recruitment" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Hiring governance & reporting", href: "/nl/hiring-governance-reporting" },
   ],
 };
 

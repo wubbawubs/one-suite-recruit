@@ -56,9 +56,9 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
-    { label: "Kosten executive search", href: "/nl/kosten-executive-search" },
-    { label: "Hoe lang duurt executive search?", href: "/nl/hoe-lang-duurt-executive-search" },
-    { label: "Confidential search", href: "/nl/confidential-search" },
+    { label: "Headhunter Nederland", href: "/nl/headhunter-nederland" },
+    { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },
+    { label: "C-level recruitment", href: "/nl/c-level-recruitment" },
   ],
 };
 

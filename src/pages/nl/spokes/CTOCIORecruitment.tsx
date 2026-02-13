@@ -52,8 +52,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "CFO recruitment", href: "/nl/cfo-recruitment" },
-    { label: "SaaS/IT leadership hiring", href: "/nl/saas-it-leadership" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "SaaS/IT leadership", href: "/nl/saas-it-leadership" },
+    { label: "Defence & high-tech recruitment", href: "/nl/defence-hightech-recruitment" },
   ],
 };
 
