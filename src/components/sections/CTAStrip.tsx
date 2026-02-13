@@ -7,20 +7,20 @@ export function CTAStrip() {
     <section className="bg-accent py-16 md:py-20">
       <div className="container text-center">
         <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-4xl">
-          Klaar om het juiste leiderschap te vinden?
+          Klaar om het juiste talent te vinden?
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-lg text-accent-foreground/80">
           Plan een vrijblijvend gesprek en ontdek hoe wij uw organisatie kunnen versterken.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg">
+          <Button asChild size="lg" className="rounded-full bg-primary px-8 text-primary-foreground hover:bg-primary/90 shadow-lg">
             <Link to="/nl/contact">
               Plan een gesprek
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
-          <Button asChild variant="outline" size="lg" className="border-accent-foreground/30 text-accent-foreground hover:bg-accent-foreground/10">
-            <a href="tel:+31612345678">
+          <Button asChild variant="outline" size="lg" className="rounded-full border-accent-foreground/30 text-accent-foreground hover:bg-accent-foreground/10 px-8">
+            <a href="tel:+31617226186">
               <Phone className="mr-2 h-4 w-4" />
               Bel direct
             </a>
