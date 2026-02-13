@@ -56,7 +56,7 @@ export function ScrollReveal({
       variants={variantMap[variant]}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once, margin: "-60px" }}
+      viewport={{ once, amount: 0.05 }}
       transition={{ duration, delay, ease: [0.25, 0.1, 0.25, 1] }}
       className={className}
     >
@@ -82,7 +82,7 @@ export function StaggerContainer({
     <motion.div
       initial="hidden"
       whileInView="visible"
-      viewport={{ once, margin: "-60px" }}
+      viewport={{ once, amount: 0.1 }}
       transition={{ staggerChildren: stagger }}
       className={className}
     >
