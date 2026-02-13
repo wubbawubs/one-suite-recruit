@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Mail, Phone } from "lucide-react";
+import logo from "@/assets/onetime-logo.webp";
 
 const footerNav = [
   {
@@ -32,47 +33,43 @@ const footerNav = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-primary text-primary-foreground">
-      <div className="container py-16">
+    <footer className="border-t border-primary-foreground/5 bg-primary text-primary-foreground">
+      <div className="container py-16 lg:py-20">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
-          {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2.5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-accent bg-primary-foreground/10">
-                <span className="text-sm">🌳</span>
-              </div>
-              <span className="text-xl font-bold" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+            <div className="flex items-center gap-3">
+              <img src={logo} alt="OneTime Recruit" className="h-12 w-12" />
+              <span className="text-xl font-bold font-sans">
                 ONE-TIME <span className="font-normal">Recruit</span>
               </span>
             </div>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-primary-foreground/60">
+            <p className="mt-5 max-w-xs text-sm leading-relaxed text-primary-foreground/55">
               DE nieuwe standaard voor recruitment. Wij vinden het juiste talent voor uw organisatie.
             </p>
             <div className="mt-6 flex items-center gap-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/50 transition-colors hover:text-accent">
-                <Linkedin className="h-5 w-5" />
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="rounded-full border border-primary-foreground/15 p-2.5 text-primary-foreground/50 transition-colors hover:border-accent hover:text-accent">
+                <Linkedin className="h-4 w-4" />
               </a>
-              <a href="mailto:info@onetimerecruit.nl" className="text-primary-foreground/50 transition-colors hover:text-accent">
-                <Mail className="h-5 w-5" />
+              <a href="mailto:info@onetimerecruit.nl" className="rounded-full border border-primary-foreground/15 p-2.5 text-primary-foreground/50 transition-colors hover:border-accent hover:text-accent">
+                <Mail className="h-4 w-4" />
               </a>
-              <a href="tel:+31617226186" className="text-primary-foreground/50 transition-colors hover:text-accent">
-                <Phone className="h-5 w-5" />
+              <a href="tel:+31617226186" className="rounded-full border border-primary-foreground/15 p-2.5 text-primary-foreground/50 transition-colors hover:border-accent hover:text-accent">
+                <Phone className="h-4 w-4" />
               </a>
             </div>
           </div>
 
-          {/* Nav columns */}
           {footerNav.map((group) => (
             <div key={group.title}>
-              <h4 className="text-sm font-semibold uppercase tracking-wider text-primary-foreground/40" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+              <h4 className="text-xs font-semibold uppercase tracking-[0.15em] text-primary-foreground/35 font-sans">
                 {group.title}
               </h4>
-              <ul className="mt-4 space-y-3">
+              <ul className="mt-5 space-y-3">
                 {group.links.map((link) => (
                   <li key={link.label}>
                     <Link
                       to={link.href}
-                      className="text-sm text-primary-foreground/60 transition-colors hover:text-accent"
+                      className="text-sm text-primary-foreground/55 transition-colors hover:text-accent"
                     >
                       {link.label}
                     </Link>
@@ -83,16 +80,15 @@ export function Footer() {
           ))}
         </div>
 
-        {/* Bottom bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-primary-foreground/10 pt-8 md:flex-row">
-          <p className="text-xs text-primary-foreground/35">
+        <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-primary-foreground/8 pt-8 md:flex-row">
+          <p className="text-xs text-primary-foreground/30">
             © {new Date().getFullYear()} OneTime Recruit — Onderdeel van OneGroup
           </p>
           <div className="flex gap-6">
-            <Link to="#" className="text-xs text-primary-foreground/35 hover:text-primary-foreground/60">
+            <Link to="#" className="text-xs text-primary-foreground/30 hover:text-primary-foreground/55">
               Privacybeleid
             </Link>
-            <Link to="#" className="text-xs text-primary-foreground/35 hover:text-primary-foreground/60">
+            <Link to="#" className="text-xs text-primary-foreground/30 hover:text-primary-foreground/55">
               Algemene voorwaarden
             </Link>
           </div>

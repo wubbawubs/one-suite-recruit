@@ -36,24 +36,27 @@ export function ProcessSection() {
     <section className="py-20 md:py-28">
       <div className="container">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
+          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+            Ons proces
+          </span>
+          <h2 className="mt-3 font-display text-3xl font-bold text-foreground md:text-4xl">
             Hoe we werken
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Een bewezen proces van intake tot aftercare — zodat u zeker weet dat u het juiste leiderschap vindt.
+            Een bewezen proces van intake tot aftercare.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {steps.map((step) => (
             <div
               key={step.number}
-              className="relative rounded-xl border border-border bg-card p-6 transition-colors hover:border-accent/30"
+              className="group relative overflow-hidden rounded-xl border border-border bg-card p-7 transition-all hover:border-accent/30 hover:shadow-md"
             >
-              <span className="font-display text-4xl font-bold text-accent/20">
+              <span className="font-display text-5xl font-bold text-accent/15 transition-colors group-hover:text-accent/25">
                 {step.number}
               </span>
-              <h3 className="mt-2 font-display text-lg font-semibold text-card-foreground">
+              <h3 className="mt-1 font-display text-lg font-semibold text-card-foreground">
                 {step.title}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
