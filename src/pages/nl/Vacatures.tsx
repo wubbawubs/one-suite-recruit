@@ -37,7 +37,7 @@ const NLVacatures = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Vacatures — Executive Posities | OneTime Recruit"
+        title="Vacatures, Executive Posities | OneTime Recruit"
         description="Bekijk exclusieve executive vacatures bij toonaangevende organisaties. C-level, VP en Director posities in Nederland."
         jsonLd={{
           "@context": "https://schema.org",
@@ -64,7 +64,7 @@ const NLVacatures = () => {
                 Uw volgende <span className="text-accent">leiderschapsrol</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Exclusieve executive posities bij toonaangevende organisaties. Veel opdrachten zijn vertrouwelijk — neem contact op voor het volledige overzicht.
+                Exclusieve executive posities bij toonaangevende organisaties. Veel opdrachten zijn vertrouwelijk, neem contact op voor het volledige overzicht.
               </p>
             </ScrollReveal>
           </div>

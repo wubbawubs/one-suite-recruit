@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 
 const cases = [
-  { client: "MAS Aviation", industry: "Luchtvaart", challenge: "Behoefte aan een ervaren VP Operations binnen 6 weken.", result: "Kandidaat geplaatst in 18 dagen — nog steeds actief na 2 jaar.", metric: "18 dagen" },
+  { client: "MAS Aviation", industry: "Luchtvaart", challenge: "Behoefte aan een ervaren VP Operations binnen 6 weken.", result: "Kandidaat geplaatst in 18 dagen, nog steeds actief na 2 jaar.", metric: "18 dagen" },
   { client: "AFAS Software", industry: "Tech / SaaS", challenge: "Zoektocht naar een CTO die innovatie en schaalbaarheid combineert.", result: "3 topkandidaten gepresenteerd, plaatsing binnen 4 weken.", metric: "4 weken" },
   { client: "FinancePro Group", industry: "Finance", challenge: "CFO-positie voor een snelgroeiende fintech met complexe compliance-eisen.", result: "Succesvolle plaatsing met 98% match-score op competenties.", metric: "98% match" },
 ];

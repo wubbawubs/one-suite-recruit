@@ -82,7 +82,7 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-primary-foreground/8 pt-8 md:flex-row">
           <p className="text-xs text-primary-foreground/30">
-            © {new Date().getFullYear()} OneTime Recruit — Onderdeel van OneGroup
+            © {new Date().getFullYear()} OneTime Recruit, Onderdeel van OneGroup
           </p>
           <div className="flex gap-6">
             <Link to="#" className="text-xs text-primary-foreground/30 hover:text-primary-foreground/55">

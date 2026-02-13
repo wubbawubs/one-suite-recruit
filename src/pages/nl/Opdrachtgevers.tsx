@@ -8,7 +8,7 @@ import { PageMeta } from "@/components/PageMeta";
 
 const benefits = [
   { icon: Shield, title: "Garantie op elke plaatsing", description: "6 maanden volledige garantie. Valt de kandidaat uit? Wij zoeken kosteloos een vervanger." },
-  { icon: Clock, title: "Gemiddeld 18 dagen", description: "Van intake tot shortlist in recordtijd — zonder concessies aan kwaliteit." },
+  { icon: Clock, title: "Gemiddeld 18 dagen", description: "Van intake tot shortlist in recordtijd, zonder concessies aan kwaliteit." },
   { icon: Star, title: "98% klanttevredenheid", description: "Onze klanten waarderen ons met een 9,4 gemiddeld. Relaties voor de lange termijn." },
   { icon: Zap, title: "Vaste prijs, geen verrassingen", description: "Transparant tarief vooraf. Geen verborgen kosten, geen percentages op jaarsalaris." },
 ];
@@ -54,7 +54,7 @@ const NLOpdrachtgevers = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Voor Opdrachtgevers — OneTime Recruit"
+        title="Voor Opdrachtgevers, OneTime Recruit"
         description="Ontdek waarom 98% van onze opdrachtgevers tevreden is. Vaste prijs, 18 dagen doorlooptijd en 6 maanden garantie op elke plaatsing."
       />
       <Header />
