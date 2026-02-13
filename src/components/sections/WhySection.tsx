@@ -1,4 +1,5 @@
 import { CheckCircle } from "lucide-react";
+import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 
 const differentiators = [
   {
@@ -28,7 +29,7 @@ export function WhySection() {
     <section className="bg-muted/60 py-24 md:py-32">
       <div className="container">
         <div className="grid items-start gap-12 lg:grid-cols-5 lg:gap-20">
-          <div className="lg:col-span-2 lg:sticky lg:top-28">
+          <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
               Waarom OneTime
             </span>
@@ -39,25 +40,27 @@ export function WhySection() {
               Wij zijn uw strategische partner in het vinden van leiderschap dat het verschil maakt.
             </p>
             <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
-          </div>
+          </ScrollReveal>
 
-          <div className="space-y-4 lg:col-span-3">
-            {differentiators.map((d, i) => (
-              <div key={d.title} className="flex gap-5 rounded-2xl border border-border bg-card p-6 transition-all duration-200 hover:border-accent/25 hover:shadow-md">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent/10">
-                  <CheckCircle className="h-5 w-5 text-accent" />
+          <StaggerContainer className="space-y-4 lg:col-span-3" stagger={0.08}>
+            {differentiators.map((d) => (
+              <StaggerItem key={d.title} variant="fade-up">
+                <div className="flex gap-5 rounded-2xl border border-border bg-card p-6 transition-all duration-200 hover:border-accent/25 hover:shadow-md">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent/10">
+                    <CheckCircle className="h-5 w-5 text-accent" />
+                  </div>
+                  <div>
+                    <h3 className="text-[15px] font-bold text-card-foreground font-sans">
+                      {d.title}
+                    </h3>
+                    <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                      {d.description}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-[15px] font-bold text-card-foreground font-sans">
-                    {d.title}
-                  </h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                    {d.description}
-                  </p>
-                </div>
-              </div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </div>
     </section>

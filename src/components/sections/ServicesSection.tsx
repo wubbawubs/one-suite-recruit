@@ -1,5 +1,6 @@
 import { Search, Users, Settings, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 
 const services = [
   {
@@ -30,7 +31,7 @@ export function ServicesSection() {
   return (
     <section className="py-24 md:py-32">
       <div className="container">
-        <div className="mx-auto max-w-2xl text-center">
+        <ScrollReveal className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
             Onze expertise
           </span>
@@ -40,39 +41,40 @@ export function ServicesSection() {
           <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
             Drie kerngebieden waarin we excelleren — allemaal gericht op het vinden en behouden van uitzonderlijk talent.
           </p>
-        </div>
+        </ScrollReveal>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-3">
+        <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
           {services.map((s) => (
-            <Link
-              key={s.title}
-              to={s.href}
-              className={`group relative rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${
-                s.highlight
-                  ? "border-accent/20 bg-accent/[0.03]"
-                  : "border-border bg-card"
-              } hover:border-accent/30`}
-            >
-              {s.highlight && (
-                <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">
-                  Populair
+            <StaggerItem key={s.title} variant="fade-up">
+              <Link
+                to={s.href}
+                className={`group relative block rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${
+                  s.highlight
+                    ? "border-accent/20 bg-accent/[0.03]"
+                    : "border-border bg-card"
+                } hover:border-accent/30`}
+              >
+                {s.highlight && (
+                  <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">
+                    Populair
+                  </span>
+                )}
+                <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
+                  <s.icon className="h-6 w-6" />
+                </div>
+                <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">
+                  {s.title}
+                </h3>
+                <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">
+                  {s.description}
+                </p>
+                <span className="mt-6 inline-flex items-center text-sm font-semibold text-accent transition-all group-hover:gap-2">
+                  Meer informatie <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
-              )}
-              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
-                <s.icon className="h-6 w-6" />
-              </div>
-              <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">
-                {s.title}
-              </h3>
-              <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">
-                {s.description}
-              </p>
-              <span className="mt-6 inline-flex items-center text-sm font-semibold text-accent transition-all group-hover:gap-2">
-                Meer informatie <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </span>
-            </Link>
+              </Link>
+            </StaggerItem>
           ))}
-        </div>
+        </StaggerContainer>
       </div>
     </section>
   );
