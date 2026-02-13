@@ -59,9 +59,9 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/assessment-selectie" },
   relatedLinks: [
     { label: "STAR interview guide", href: "/nl/star-interview-guide" },
-    { label: "Referentiechecks best practices", href: "/nl/referentiechecks" },
-    { label: "Culture fit vs culture add", href: "/nl/culture-fit-vs-culture-add" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Referentiechecks", href: "/nl/referentiechecks" },
+    { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
+    { label: "Hiring governance & reporting", href: "/nl/hiring-governance-reporting" },
   ],
 };
 

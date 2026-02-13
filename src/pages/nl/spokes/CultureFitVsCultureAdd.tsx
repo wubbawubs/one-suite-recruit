@@ -55,9 +55,9 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/assessment-selectie" },
   relatedLinks: [
     { label: "STAR interview guide", href: "/nl/star-interview-guide" },
-    { label: "Leadership retention", href: "/nl/leadership-retention" },
-    { label: "Onboarding executives", href: "/nl/onboarding-executives" },
+    { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
     { label: "CHRO recruitment", href: "/nl/chro-recruitment" },
+    { label: "Onboarding executives", href: "/nl/onboarding-executives" },
   ],
 };
 

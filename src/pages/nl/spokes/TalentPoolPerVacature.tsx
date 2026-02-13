@@ -52,7 +52,7 @@ const data: SpokePageData = {
     { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
     { label: "Abonnement recruitment", href: "/nl/abonnement-recruitment" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Werving en selectie", href: "/nl/werving-en-selectie" },
   ],
 };
 

@@ -53,8 +53,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Executive search vs headhunter", href: "/nl/executive-search-vs-headhunter" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },
-    { label: "Hoe lang duurt executive search?", href: "/nl/hoe-lang-duurt-executive-search" },
-    { label: "Confidential search", href: "/nl/confidential-search" },
+    { label: "CEO Recruitment", href: "/nl/ceo-recruitment" },
+    { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
   ],
 };
 

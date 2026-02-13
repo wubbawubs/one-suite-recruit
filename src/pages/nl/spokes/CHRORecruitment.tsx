@@ -53,8 +53,8 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
+    { label: "Board & commissarissen search", href: "/nl/board-commissarissen-search" },
     { label: "Leadership retention", href: "/nl/leadership-retention" },
-    { label: "Employer brand voor senior talent", href: "/nl/employer-brand-senior-talent" },
     { label: "Culture fit vs culture add", href: "/nl/culture-fit-vs-culture-add" },
   ],
 };

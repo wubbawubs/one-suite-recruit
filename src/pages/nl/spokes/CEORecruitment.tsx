@@ -65,9 +65,9 @@ const data: SpokePageData = {
   pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
   relatedLinks: [
     { label: "CFO recruitment", href: "/nl/cfo-recruitment" },
-    { label: "CTO/CIO recruitment", href: "/nl/cto-cio-recruitment" },
     { label: "Board & commissarissen search", href: "/nl/board-commissarissen-search" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
+    { label: "Onboarding executives", href: "/nl/onboarding-executives" },
   ],
 };
 

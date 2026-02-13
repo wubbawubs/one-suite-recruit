@@ -53,8 +53,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "Confidential search", href: "/nl/confidential-search" },
-    { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Referentiechecks", href: "/nl/referentiechecks" },
+    { label: "Finance, risk & compliance", href: "/nl/finance-risk-compliance" },
   ],
 };
 

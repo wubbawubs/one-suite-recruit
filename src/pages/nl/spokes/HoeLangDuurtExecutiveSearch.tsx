@@ -55,8 +55,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },
-    { label: "Executive search vs headhunter", href: "/nl/executive-search-vs-headhunter" },
-    { label: "Confidential search", href: "/nl/confidential-search" },
+    { label: "Hiring governance & reporting", href: "/nl/hiring-governance-reporting" },
+    { label: "Onboarding executives", href: "/nl/onboarding-executives" },
   ],
 };
 

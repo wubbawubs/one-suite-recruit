@@ -54,8 +54,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Leadership retention", href: "/nl/leadership-retention" },
     { label: "Compensation & benefits trends", href: "/nl/compensation-benefits-trends" },
-    { label: "Onboarding executives", href: "/nl/onboarding-executives" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "Werving en selectie", href: "/nl/werving-en-selectie" },
+    { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
   ],
 };
 

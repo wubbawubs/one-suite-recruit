@@ -64,8 +64,8 @@ const data: SpokePageData = {
   relatedLinks: [
     { label: "Leadership retention", href: "/nl/leadership-retention" },
     { label: "Culture fit vs culture add", href: "/nl/culture-fit-vs-culture-add" },
-    { label: "Compensation & benefits trends", href: "/nl/compensation-benefits-trends" },
-    { label: "Executive search pillar", href: "/nl/executive-search" },
+    { label: "STAR interview guide", href: "/nl/star-interview-guide" },
+    { label: "Interim management", href: "/nl/interim-management" },
   ],
 };
 
