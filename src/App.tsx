@@ -14,6 +14,11 @@ import NLOpdrachtgevers from "./pages/nl/Opdrachtgevers";
 import NLCLevelRecruitment from "./pages/nl/CLevelRecruitment";
 // DE pages
 import DEHome from "./pages/de/Index";
+import DELeistungen from "./pages/de/Leistungen";
+import DEKontakt from "./pages/de/Kontakt";
+import DEUeberUns from "./pages/de/UeberUns";
+import DEStellenangebote from "./pages/de/Stellenangebote";
+import DEFuerArbeitgeber from "./pages/de/FuerArbeitgeber";
 // EN pages
 import ENHome from "./pages/en/Index";
 import NLAssessmentSelectie from "./pages/nl/AssessmentSelectie";
@@ -125,6 +130,11 @@ const App = () => (
 
           {/* German (DE) routes */}
           <Route path="/de" element={<DEHome />} />
+          <Route path="/de/leistungen" element={<DELeistungen />} />
+          <Route path="/de/kontakt" element={<DEKontakt />} />
+          <Route path="/de/ueber-uns" element={<DEUeberUns />} />
+          <Route path="/de/stellenangebote" element={<DEStellenangebote />} />
+          <Route path="/de/fuer-arbeitgeber" element={<DEFuerArbeitgeber />} />
 
           {/* English (EN) routes */}
           <Route path="/en" element={<ENHome />} />
