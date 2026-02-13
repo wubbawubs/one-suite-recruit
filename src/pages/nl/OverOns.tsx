@@ -1,10 +1,14 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
-import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp } from "lucide-react";
+import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
+import teamRobin from "@/assets/team-robin.jpeg";
+import teamErik from "@/assets/team-erik.jpeg";
+import teamJuliette from "@/assets/team-juliette.jpeg";
+import teamLuuk from "@/assets/team-luuk.jpeg";
 
 const values = [
   { icon: Target, title: "Resultaatgericht", description: "Wij meten ons succes aan uw resultaat. Elke plaatsing moet duurzaam impact maken." },
@@ -22,9 +26,10 @@ const milestones = [
 ];
 
 const team = [
-  { initials: "DvB", role: "Founder & Managing Director", bio: "15+ jaar ervaring in executive search en organisatieontwikkeling." },
-  { initials: "LJ", role: "Senior Consultant", bio: "Gespecialiseerd in tech & SaaS leadership plaatsingen." },
-  { initials: "MdV", role: "Consultant", bio: "Expert in finance & banking executive recruitment." },
+  { tag: "Creates", name: "Robin Dennie", role: "Founder & CEO", bio: "25 jaar bureau-ervaring. Recruitment innovator die verandert hoe bedrijven werven.", photo: teamRobin, linkedin: "https://www.linkedin.com/in/robindennie024/" },
+  { tag: "Advises", name: "Erik Dijkshoorn", role: "Strategic Advisor", bio: "Uitgebreide ervaring in meerdere C-level rollen. Leadership coach en strategisch denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
+  { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Bureau manager en BI specialist. Het financiële en operationele geweten van OneGroup.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
+  { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Jonge, gedreven tech leider. Gepassioneerd over het bouwen van schaalbare oplossingen die recruitment beter maken.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
 ];
 
 const NLOverOns = () => {
@@ -138,21 +143,38 @@ const NLOverOns = () => {
         {/* Team */}
         <section className="py-24 md:py-32">
           <div className="container">
-            <ScrollReveal className="mx-auto max-w-2xl text-center">
+            <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Ons team</span>
-              <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">De mensen achter OneTime</h2>
-              <p className="mt-5 text-lg text-muted-foreground">Ervaren professionals met een passie voor leiderschap en talent.</p>
+              <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">De mensen achter OneGroup</h2>
+              <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
+                OneGroup is niet gebouwd door productmanagers die gokten op recruitmentproblemen. Het is gebouwd door operators die ze jarenlang hebben geleefd.
+              </p>
             </ScrollReveal>
 
-            <StaggerContainer className="mt-16 grid gap-8 md:grid-cols-3" stagger={0.12}>
+            <StaggerContainer className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.1}>
               {team.map((t) => (
-                <StaggerItem key={t.initials} variant="scale-in">
-                  <div className="group rounded-2xl border border-border bg-card p-8 text-center transition-all duration-300 hover:border-accent/25 hover:shadow-lg">
-                    <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                      <span className="font-display text-xl font-bold">{t.initials}</span>
+                <StaggerItem key={t.name} variant="fade-up">
+                  <div className="group relative flex h-full flex-col rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-accent/25 hover:shadow-xl hover:-translate-y-1">
+                    <div className="flex items-start justify-between">
+                      <img
+                        src={t.photo}
+                        alt={t.name}
+                        className="h-16 w-16 rounded-full object-cover ring-2 ring-border group-hover:ring-accent/30 transition-all"
+                      />
+                      <a
+                        href={t.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-accent/10 hover:text-accent"
+                        aria-label={`${t.name} op LinkedIn`}
+                      >
+                        <Linkedin className="h-4 w-4" />
+                      </a>
                     </div>
-                    <p className="mt-6 text-sm font-medium text-accent">{t.role}</p>
-                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{t.bio}</p>
+                    <span className="mt-5 text-[10px] font-bold uppercase tracking-[0.2em] text-accent">{t.tag}</span>
+                    <h3 className="mt-1 font-display text-lg font-bold text-card-foreground">{t.name}</h3>
+                    <p className="text-sm font-medium text-muted-foreground">{t.role}</p>
+                    <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground/70">{t.bio}</p>
                   </div>
                 </StaggerItem>
               ))}
