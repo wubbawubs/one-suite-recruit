@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- NL Home -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://onetimerecruit.nl/nl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://onetimerecruit.nl/de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onetimerecruit.nl/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onetimerecruit.nl/nl"/>
+  </url>
+
+  <!-- NL Hoofdpagina's -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/diensten</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/executive-search</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/over-ons</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/vacatures</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/opdrachtgevers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- NL Pillar/Hub pages -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/c-level-recruitment</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/assessment-selectie</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/industries</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/recruitment-operating-model</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/employer-branding-retention</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Executive Search spokes -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/wat-is-executive-search</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/executive-search-vs-headhunter</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/kosten-executive-search</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/hoe-lang-duurt-executive-search</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/confidential-search</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- C-level spokes -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/ceo-recruitment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/cfo-recruitment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/cto-cio-recruitment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/chro-recruitment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/board-commissarissen-search</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Assessment spokes -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/star-interview-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/assessment-inzetten</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/referentiechecks</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/culture-fit-vs-culture-add</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Recruitment model spokes -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/talent-pool-per-vacature</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/recruitment-as-a-service</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/abonnement-recruitment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/hiring-governance-reporting</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Industry spokes -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/aviation-recruitment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/defence-hightech-recruitment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/saas-it-leadership</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/finance-risk-compliance</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/operations-supply-chain</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Employer branding spokes -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/leadership-retention</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/onboarding-executives</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/employer-brand-senior-talent</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/compensation-benefits-trends</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- High-volume spokes -->
+  <url>
+    <loc>https://onetimerecruit.nl/nl/werving-en-selectie</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/headhunter-nederland</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/interim-management</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/directie-werving</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/nl/talent-acquisition-strategy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- DE pages -->
+  <url>
+    <loc>https://onetimerecruit.nl/de</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/de/leistungen</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/de/kontakt</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/de/ueber-uns</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/de/stellenangebote</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/de/fuer-arbeitgeber</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- EN pages -->
+  <url>
+    <loc>https://onetimerecruit.nl/en</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/en/services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/en/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/en/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/en/jobs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://onetimerecruit.nl/en/for-employers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
