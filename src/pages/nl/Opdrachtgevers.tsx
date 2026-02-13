@@ -94,7 +94,7 @@ const NLOpdrachtgevers = () => {
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4" stagger={0.1}>
               {benefits.map((b) => (
                 <StaggerItem key={b.title} variant="fade-up">
-                  <div className="rounded-2xl border border-border bg-card p-8 text-center transition-all duration-300 hover:border-accent/25 hover:shadow-lg hover:-translate-y-0.5">
+                  <div className="h-full rounded-2xl border border-border bg-card p-8 text-center transition-all duration-300 hover:border-accent/25 hover:shadow-lg hover:-translate-y-0.5">
                     <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
                       <b.icon className="h-6 w-6" />
                     </div>
@@ -117,7 +117,7 @@ const NLOpdrachtgevers = () => {
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4" stagger={0.1}>
               {process.map((p) => (
                 <StaggerItem key={p.step} variant="scale-in">
-                  <div className="group relative overflow-hidden rounded-2xl border border-border bg-card p-8 transition-all duration-300 hover:border-accent/25 hover:shadow-lg">
+                  <div className="group relative h-full overflow-hidden rounded-2xl border border-border bg-card p-8 transition-all duration-300 hover:border-accent/25 hover:shadow-lg">
                     <div className="absolute left-0 top-0 h-1 w-0 bg-accent transition-all duration-500 group-hover:w-full" />
                     <span className="font-display text-[3rem] font-bold leading-none text-accent/10 group-hover:text-accent/20 transition-colors">{p.step}</span>
                     <h3 className="mt-2 font-display text-lg font-bold text-card-foreground">{p.title}</h3>
