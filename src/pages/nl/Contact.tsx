@@ -72,7 +72,7 @@ const NLContact = () => {
       />
       <Header />
       <main>
-        <section className="relative overflow-hidden bg-primary py-24 md:py-32">
+        <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
           <div className="absolute inset-0 opacity-[0.03]" style={{
             backgroundImage: `radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)`,
@@ -81,7 +81,7 @@ const NLContact = () => {
           <div className="container relative z-10">
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Contact</span>
-              <h1 className="mt-4 font-display text-4xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.5rem]">
+              <h1 className="mt-4 font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.5rem]">
                 Laten we <span className="text-accent">kennismaken</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">

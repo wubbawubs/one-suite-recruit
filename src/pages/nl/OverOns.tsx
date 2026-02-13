@@ -41,7 +41,7 @@ const NLOverOns = () => {
       />
       <Header />
       <main>
-        <section className="relative overflow-hidden bg-primary py-24 md:py-32">
+        <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
           <div className="absolute inset-0 opacity-[0.03]" style={{
             backgroundImage: `radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)`,
@@ -50,7 +50,7 @@ const NLOverOns = () => {
           <div className="container relative z-10">
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Over ons</span>
-              <h1 className="mt-4 font-display text-4xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.5rem]">
+              <h1 className="mt-4 font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.5rem]">
                 Wij geloven in <span className="text-accent">leiderschap</span> dat het verschil maakt
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
@@ -75,30 +75,28 @@ const NLOverOns = () => {
                 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                   Onze aanpak combineert het beste van executive search met moderne technologie en een persoonlijke touch. Het resultaat: duurzame plaatsingen die impact maken.
                 </p>
-                <div className="mt-8 flex items-center gap-8">
+                <div className="mt-8 grid grid-cols-3 gap-4">
                   <div>
-                    <p className="font-display text-4xl font-bold text-foreground">98%</p>
-                    <p className="mt-1 text-sm text-muted-foreground">Klanttevredenheid</p>
+                    <p className="font-display text-2xl font-bold text-foreground md:text-4xl">98%</p>
+                    <p className="mt-1 text-xs text-muted-foreground md:text-sm">Klanttevredenheid</p>
                   </div>
-                  <div className="h-12 w-px bg-border" />
-                  <div>
-                    <p className="font-display text-4xl font-bold text-foreground">7.500+</p>
-                    <p className="mt-1 text-sm text-muted-foreground">Specialisten</p>
+                  <div className="border-l border-border pl-4">
+                    <p className="font-display text-2xl font-bold text-foreground md:text-4xl">7.500+</p>
+                    <p className="mt-1 text-xs text-muted-foreground md:text-sm">Specialisten</p>
                   </div>
-                  <div className="h-12 w-px bg-border" />
-                  <div>
-                    <p className="font-display text-4xl font-bold text-foreground">18</p>
-                    <p className="mt-1 text-sm text-muted-foreground">Dagen gem. plaatsing</p>
+                  <div className="border-l border-border pl-4">
+                    <p className="font-display text-2xl font-bold text-foreground md:text-4xl">18</p>
+                    <p className="mt-1 text-xs text-muted-foreground md:text-sm">Dagen gem.</p>
                   </div>
                 </div>
               </ScrollReveal>
 
               <ScrollReveal variant="slide-right">
-                <div className="rounded-2xl border border-border bg-muted/40 p-10">
+                <div className="rounded-2xl border border-border bg-muted/40 p-6 md:p-10">
                   <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-accent/10">
                     <TrendingUp className="h-8 w-8 text-accent" />
                   </div>
-                  <h3 className="mt-6 font-display text-2xl font-bold text-foreground">Onderdeel van OneGroup</h3>
+                  <h3 className="mt-6 font-display text-xl font-bold text-foreground md:text-2xl">Onderdeel van OneGroup</h3>
                   <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
                     OneTime Recruit maakt deel uit van OneGroup, een ecosysteem van gespecialiseerde recruitment- en HR-labels. 
                     Samen bieden we een compleet spectrum aan talent- en organisatieoplossingen.

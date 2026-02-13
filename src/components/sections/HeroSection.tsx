@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-primary py-24 md:py-32 lg:py-40">
+    <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32 xl:py-40">
       <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)`,
@@ -30,7 +30,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
-            className="font-display text-4xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
+            className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
           >
             Het abonnement voor
             <br />
