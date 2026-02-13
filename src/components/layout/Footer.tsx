@@ -6,7 +6,7 @@ const footerNav = [
   {
     title: "Diensten",
     links: [
-      { label: "Executive Search", href: "/nl/diensten" },
+      { label: "Executive Search", href: "/nl/executive-search" },
       { label: "Leadership Advisory", href: "/nl/diensten" },
       { label: "Alle diensten", href: "/nl/diensten" },
     ],

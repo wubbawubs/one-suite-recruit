@@ -14,7 +14,7 @@ const services = [
     title: "Executive Search",
     description: "Wij vinden de juiste C-level en senior executives voor uw organisatie. Via ons exclusieve netwerk en bewezen assessmentmethode identificeren wij leiders die écht het verschil maken.",
     features: ["C-suite & VP-level plaatsingen", "Competentie-based assessment", "Cultuurfit-analyse", "18 dagen gemiddelde doorlooptijd"],
-    href: "/nl/contact",
+    href: "/nl/executive-search",
     highlight: true,
   },
   {
