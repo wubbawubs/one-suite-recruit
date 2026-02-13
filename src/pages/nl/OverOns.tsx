@@ -14,11 +14,11 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2018", title: "Oprichting", description: "OneTime Recruit opgericht met de missie om executive search persoonlijker en transparanter te maken." },
-  { year: "2019", title: "100e plaatsing", description: "Binnen een jaar bereikten we onze 100e succesvolle plaatsing op C-level." },
-  { year: "2021", title: "OneGroup", description: "Uitbreiding naar OneGroup met meerdere gespecialiseerde labels." },
-  { year: "2023", title: "Internationaal", description: "Start van internationale search voor multinationals vanuit Nederland." },
-  { year: "2025", title: "7.500+ specialisten", description: "Ons netwerk groeit naar meer dan 7.500 actieve senior professionals." },
+  { year: "2024 Q1", title: "De pijn gevoeld", description: "Gefrustreerd door dure, trage en onpersoonlijke executive search bureaus. Er moest een betere manier zijn." },
+  { year: "2024 Q2", title: "OneTime Recruit", description: "Gestart met een missie: executive search met vaste prijzen, snelheid en totale transparantie." },
+  { year: "2024 Q3", title: "Software & schaal", description: "Eigen recruitment technologie ontwikkeld. Talent pools per vacature — niet zoeken, maar matchen." },
+  { year: "2024 Q4", title: "OneGroup opgericht", description: "Uitbreiding naar een ecosysteem: OneRooted, OneSource en KlikKlaarSEO onder één dak." },
+  { year: "2025", title: "De markt veranderen", description: "Van disruptor naar de nieuwe standaard. Vaste fees, eigen talent pools en een groeiend netwerk van 7.500+ specialisten." },
 ];
 
 const team = [
@@ -99,7 +99,7 @@ const NLOverOns = () => {
                     Samen bieden we een compleet spectrum aan talent- en organisatieoplossingen.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">
-                    {["OneTime Recruit", "OneRooted", "OneSource", "Click Larasio"].map((label) => (
+                    {["OneTime Recruit", "OneRooted", "OneSource", "KlikKlaarSEO"].map((label) => (
                       <span key={label} className="rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-muted-foreground">
                         {label}
                       </span>
@@ -164,8 +164,8 @@ const NLOverOns = () => {
         <section className="bg-primary py-24 text-primary-foreground md:py-32">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Onze reis</span>
-              <h2 className="mt-4 font-display text-3xl font-bold md:text-[2.5rem] leading-tight">Onze reis tot nu toe</h2>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Van frustratie naar de nieuwe standaard</span>
+              <h2 className="mt-4 font-display text-3xl font-bold md:text-[2.5rem] leading-tight">Hoe het begon</h2>
             </ScrollReveal>
 
             <StaggerContainer className="mt-16 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5" stagger={0.08}>
