@@ -25,7 +25,7 @@ const services = [
   {
     icon: Settings,
     title: "Recruitment Operating Model",
-    description: "Wij bouwen en optimaliseren uw interne recruitmentprocessen. Van employer branding tot selectiemethodologie — zodat u structureel beter werft.",
+    description: "Wij bouwen en optimaliseren uw interne recruitmentprocessen. Van employer branding tot selectiemethodologie, zodat u structureel beter werft.",
     features: ["Proces-audit & optimalisatie", "Employer branding strategie", "ATS implementatie", "Recruiter training"],
     href: "/nl/diensten",
   },
@@ -56,7 +56,7 @@ const NLDiensten = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Diensten — OneTime Recruit"
+        title="Diensten, OneTime Recruit"
         description="Van executive search tot interim management en talent mapping. Ontdek onze strategische recruitment diensten voor enterprise organisaties."
         jsonLd={{
           "@context": "https://schema.org",
@@ -82,7 +82,7 @@ const NLDiensten = () => {
                 Strategische oplossingen voor <span className="text-accent">uitzonderlijk talent</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Van executive search tot volledige recruitmentoptimalisatie — wij leveren op elk niveau.
+                Van executive search tot volledige recruitmentoptimalisatie, wij leveren op elk niveau.
               </p>
             </ScrollReveal>
           </div>

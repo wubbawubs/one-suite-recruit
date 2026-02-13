@@ -20,7 +20,7 @@ const values = [
 const milestones = [
   { year: "Q1 2025", title: "De pijn gevoeld", description: "Gefrustreerd door dure, trage en onpersoonlijke executive search bureaus. Er moest een betere manier zijn." },
   { year: "Q2 2025", title: "OneTime Recruit", description: "Gestart met een missie: executive search met vaste prijzen, snelheid en totale transparantie." },
-  { year: "Q3 2025", title: "Software & schaal", description: "Eigen recruitment technologie ontwikkeld. Talent pools per vacature — niet zoeken, maar matchen." },
+  { year: "Q3 2025", title: "Software & schaal", description: "Eigen recruitment technologie ontwikkeld. Talent pools per vacature, niet zoeken, maar matchen." },
   { year: "Q4 2025", title: "OneGroup opgericht", description: "Uitbreiding naar een ecosysteem: OneRooted, OneSource en KlikKlaarSEO onder één dak." },
   { year: "Q1 2026", title: "De markt veranderen", description: "Van disruptor naar de nieuwe standaard. Vaste fees, eigen talent pools en een groeiend netwerk van 7.500+ specialisten." },
 ];
@@ -36,7 +36,7 @@ const NLOverOns = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Over Ons — OneTime Recruit"
+        title="Over Ons, OneTime Recruit"
         description="Leer meer over OneTime Recruit: onze missie, waarden, team en de reis van startup tot marktleider in executive search."
       />
       <Header />
@@ -100,7 +100,7 @@ const NLOverOns = () => {
                   </div>
                   <h3 className="mt-6 font-display text-2xl font-bold text-foreground">Onderdeel van OneGroup</h3>
                   <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
-                    OneTime Recruit maakt deel uit van OneGroup — een ecosysteem van gespecialiseerde recruitment- en HR-labels. 
+                    OneTime Recruit maakt deel uit van OneGroup, een ecosysteem van gespecialiseerde recruitment- en HR-labels. 
                     Samen bieden we een compleet spectrum aan talent- en organisatieoplossingen.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">

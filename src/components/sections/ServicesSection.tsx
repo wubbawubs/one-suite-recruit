@@ -39,7 +39,7 @@ export function ServicesSection() {
             Wat wij voor u doen
           </h2>
           <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
-            Drie kerngebieden waarin we excelleren — allemaal gericht op het vinden en behouden van uitzonderlijk talent.
+            Drie kerngebieden waarin we excelleren, allemaal gericht op het vinden en behouden van uitzonderlijk talent.
           </p>
         </ScrollReveal>
 

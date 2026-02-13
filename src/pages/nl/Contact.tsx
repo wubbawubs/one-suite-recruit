@@ -14,7 +14,7 @@ const contactInfo = [
   { icon: Phone, label: "Telefoon", value: "+31 6 17 22 61 86", href: "tel:+31617226186" },
   { icon: Mail, label: "E-mail", value: "info@onetimerecruit.nl", href: "mailto:info@onetimerecruit.nl" },
   { icon: MapPin, label: "Locatie", value: "Amsterdam, Nederland", href: "#" },
-  { icon: Clock, label: "Bereikbaar", value: "Ma–Vr 08:30–18:00", href: "#" },
+  { icon: Clock, label: "Bereikbaar", value: "Ma-Vr 08:30-18:00", href: "#" },
 ];
 
 const NLContact = () => {
@@ -54,7 +54,7 @@ const NLContact = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Contact — OneTime Recruit"
+        title="Contact, OneTime Recruit"
         description="Neem contact op met OneTime Recruit voor een vrijblijvend gesprek over executive search. Bereikbaar op werkdagen van 08:30 tot 18:00."
         jsonLd={{
           "@context": "https://schema.org",
