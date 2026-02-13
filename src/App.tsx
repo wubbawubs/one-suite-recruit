@@ -21,6 +21,11 @@ import DEStellenangebote from "./pages/de/Stellenangebote";
 import DEFuerArbeitgeber from "./pages/de/FuerArbeitgeber";
 // EN pages
 import ENHome from "./pages/en/Index";
+import ENServices from "./pages/en/Services";
+import ENContact from "./pages/en/Contact";
+import ENAbout from "./pages/en/About";
+import ENJobs from "./pages/en/Jobs";
+import ENForEmployers from "./pages/en/ForEmployers";
 import NLAssessmentSelectie from "./pages/nl/AssessmentSelectie";
 import NLIndustries from "./pages/nl/Industries";
 import NLRecruitmentOperatingModel from "./pages/nl/RecruitmentOperatingModel";
@@ -138,6 +143,11 @@ const App = () => (
 
           {/* English (EN) routes */}
           <Route path="/en" element={<ENHome />} />
+          <Route path="/en/services" element={<ENServices />} />
+          <Route path="/en/contact" element={<ENContact />} />
+          <Route path="/en/about" element={<ENAbout />} />
+          <Route path="/en/jobs" element={<ENJobs />} />
+          <Route path="/en/for-employers" element={<ENForEmployers />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
