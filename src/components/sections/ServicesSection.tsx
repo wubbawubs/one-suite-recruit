@@ -8,6 +8,7 @@ const services = [
     description:
       "Wij vinden de juiste C-level en senior executives voor uw organisatie. Met een exclusief netwerk en bewezen assessmentmethode.",
     href: "/nl/diensten/executive-search",
+    highlight: true,
   },
   {
     icon: Users,
@@ -27,35 +28,47 @@ const services = [
 
 export function ServicesSection() {
   return (
-    <section className="py-20 md:py-28">
+    <section className="py-24 md:py-32">
       <div className="container">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
+            Onze expertise
+          </span>
+          <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">
             Wat wij voor u doen
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
             Drie kerngebieden waarin we excelleren — allemaal gericht op het vinden en behouden van uitzonderlijk talent.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-8 md:grid-cols-3">
+        <div className="mt-16 grid gap-6 md:grid-cols-3">
           {services.map((s) => (
             <Link
               key={s.title}
               to={s.href}
-              className="group rounded-xl border border-border bg-card p-8 transition-all hover:border-accent/40 hover:shadow-lg hover:shadow-accent/5"
+              className={`group relative rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${
+                s.highlight
+                  ? "border-accent/20 bg-accent/[0.03]"
+                  : "border-border bg-card"
+              } hover:border-accent/30`}
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent">
+              {s.highlight && (
+                <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">
+                  Populair
+                </span>
+              )}
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
                 <s.icon className="h-6 w-6" />
               </div>
-              <h3 className="mt-5 font-display text-xl font-semibold text-card-foreground">
+              <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">
                 {s.title}
               </h3>
-              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">
                 {s.description}
               </p>
-              <span className="mt-5 inline-flex items-center text-sm font-medium text-accent opacity-0 transition-opacity group-hover:opacity-100">
-                Meer informatie <ArrowRight className="ml-1 h-3.5 w-3.5" />
+              <span className="mt-6 inline-flex items-center text-sm font-semibold text-accent transition-all group-hover:gap-2">
+                Meer informatie <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </span>
             </Link>
           ))}
