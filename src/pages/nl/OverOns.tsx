@@ -28,7 +28,7 @@ const milestones = [
 const team = [
   { tag: "Creates", name: "Robin Dennie", role: "Founder & CEO", bio: "25 jaar bureau-ervaring. Recruitment innovator die verandert hoe bedrijven werven.", photo: teamRobin, linkedin: "https://www.linkedin.com/in/robindennie024/" },
   { tag: "Advises", name: "Erik Dijkshoorn", role: "Strategic Advisor", bio: "Uitgebreide ervaring in meerdere C-level rollen. Leadership coach en strategisch denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
-  { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Bureau manager en BI specialist. Het financiële en operationele geweten van OneGroup.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
+  { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Bureau manager en BI specialist. Het financiële en operationele geweten van OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Jonge, gedreven tech leider. Gepassioneerd over het bouwen van schaalbare oplossingen die recruitment beter maken.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
 ];
 
@@ -145,9 +145,9 @@ const NLOverOns = () => {
           <div className="container">
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Ons team</span>
-              <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">De mensen achter OneGroup</h2>
+              <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">De mensen achter OneTime Recruit</h2>
               <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
-                OneGroup is niet gebouwd door productmanagers die gokten op recruitmentproblemen. Het is gebouwd door operators die ze jarenlang hebben geleefd.
+                OneTime Recruit is niet gebouwd door productmanagers die gokten op recruitmentproblemen. Het is gebouwd door operators die ze jarenlang hebben geleefd.
               </p>
             </ScrollReveal>
 
