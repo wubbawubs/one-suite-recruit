@@ -26,7 +26,7 @@ const footerNav = [
       { label: "OneTime Recruit", href: "/nl" },
       { label: "OneRooted", href: "#" },
       { label: "OneSource", href: "#" },
-      { label: "Click Larasio", href: "#" },
+      { label: "KlikKlaarSEO", href: "#" },
     ],
   },
 ];
