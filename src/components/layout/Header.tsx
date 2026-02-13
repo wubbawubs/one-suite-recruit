@@ -4,14 +4,44 @@ import { Menu, X, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/onetime-logo.webp";
 
-const navItems = [
-  { label: "Home", href: "/nl" },
-  { label: "Diensten", href: "/nl/diensten" },
-  { label: "Vacatures", href: "/nl/vacatures" },
-  { label: "Opdrachtgevers", href: "/nl/opdrachtgevers" },
-  { label: "Over ons", href: "/nl/over-ons" },
-  { label: "Contact", href: "/nl/contact" },
-];
+const navConfigs: Record<string, { items: { label: string; href: string }[]; ctaLabel: string; ctaHref: string }> = {
+  nl: {
+    items: [
+      { label: "Home", href: "/nl" },
+      { label: "Diensten", href: "/nl/diensten" },
+      { label: "Vacatures", href: "/nl/vacatures" },
+      { label: "Opdrachtgevers", href: "/nl/opdrachtgevers" },
+      { label: "Over ons", href: "/nl/over-ons" },
+      { label: "Contact", href: "/nl/contact" },
+    ],
+    ctaLabel: "Direct contact?",
+    ctaHref: "/nl/contact",
+  },
+  de: {
+    items: [
+      { label: "Home", href: "/de" },
+      { label: "Leistungen", href: "/de/leistungen" },
+      { label: "Stellenangebote", href: "/de/stellenangebote" },
+      { label: "Für Arbeitgeber", href: "/de/fuer-arbeitgeber" },
+      { label: "Über uns", href: "/de/ueber-uns" },
+      { label: "Kontakt", href: "/de/kontakt" },
+    ],
+    ctaLabel: "Kontakt aufnehmen",
+    ctaHref: "/de/kontakt",
+  },
+  en: {
+    items: [
+      { label: "Home", href: "/en" },
+      { label: "Services", href: "/en/services" },
+      { label: "Jobs", href: "/en/jobs" },
+      { label: "For Employers", href: "/en/for-employers" },
+      { label: "About", href: "/en/about" },
+      { label: "Contact", href: "/en/contact" },
+    ],
+    ctaLabel: "Get in touch",
+    ctaHref: "/en/contact",
+  },
+};
 
 const languages = [
   { code: "nl", label: "NL", href: "/nl" },
@@ -19,23 +49,37 @@ const languages = [
   { code: "en", label: "EN", href: "/en" },
 ];
 
+function getLocaleFromPath(pathname: string): string {
+  const match = pathname.match(/^\/(nl|de|en)/);
+  return match ? match[1] : "nl";
+}
+
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
+  const locale = getLocaleFromPath(location.pathname);
+  const config = navConfigs[locale] || navConfigs.nl;
+  const navItems = config.items;
 
   return (
     <>
       {/* Announcement bar */}
       <div className="bg-secondary py-1.5 text-center">
         <p className="text-xs font-medium tracking-wide text-secondary-foreground">
-          ✦ Eenmalig zoeken, voortaan zelf invullen, <Link to="/nl/opdrachtgevers" className="underline hover:text-accent transition-colors">ontdek hoe</Link>
+          {locale === "de" ? (
+            <>✦ Einmal suchen, danach selbst besetzen, <Link to="/de/fuer-arbeitgeber" className="underline hover:text-accent transition-colors">erfahren Sie wie</Link></>
+          ) : locale === "en" ? (
+            <>✦ Search once, hire yourself from then on, <Link to="/en/for-employers" className="underline hover:text-accent transition-colors">discover how</Link></>
+          ) : (
+            <>✦ Eenmalig zoeken, voortaan zelf invullen, <Link to="/nl/opdrachtgevers" className="underline hover:text-accent transition-colors">ontdek hoe</Link></>
+          )}
         </p>
       </div>
 
       <header className="sticky top-0 z-50 border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
         <div className="container flex h-[72px] items-center justify-between">
           {/* Logo */}
-          <Link to="/nl" className="flex items-center gap-3">
+          <Link to={`/${locale}`} className="flex items-center gap-3">
             <img src={logo} alt="OneTime Recruit" className="h-11 w-11" />
             <span className="text-lg font-bold tracking-tight text-foreground font-sans">
               ONE-TIME <span className="font-normal">Recruit</span>
@@ -78,7 +122,7 @@ export function Header() {
             </div>
 
             <Button asChild className="hidden rounded-full bg-primary px-6 text-primary-foreground hover:bg-primary/90 md:inline-flex">
-              <Link to="/nl/contact">Direct contact?</Link>
+              <Link to={config.ctaHref}>{config.ctaLabel}</Link>
             </Button>
 
             <button
@@ -125,8 +169,8 @@ export function Header() {
                 ))}
               </div>
               <Button asChild className="mt-3 rounded-full bg-primary text-primary-foreground">
-                <Link to="/nl/contact" onClick={() => setMobileOpen(false)}>
-                  Direct contact?
+                <Link to={config.ctaHref} onClick={() => setMobileOpen(false)}>
+                  {config.ctaLabel}
                 </Link>
               </Button>
             </nav>
