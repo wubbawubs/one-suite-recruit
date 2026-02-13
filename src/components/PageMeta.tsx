@@ -1,6 +1,11 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+interface HreflangAlternate {
+  lang: string;
+  path: string;
+}
+
 interface PageMetaProps {
   title: string;
   description: string;
@@ -10,10 +15,21 @@ interface PageMetaProps {
   ogType?: string;
   jsonLd?: Record<string, unknown>;
   canonical?: string;
+  /** Current page locale for og:locale, defaults to "nl_NL" */
+  locale?: string;
+  /** Hreflang alternates for multilingual SEO */
+  alternates?: HreflangAlternate[];
 }
 
 const BASE_URL = "https://onetimerecruit.nl";
 const DEFAULT_OG_IMAGE = "https://lovable.dev/opengraph-image-p98pqg.png";
+
+/** Maps lang codes to og:locale format */
+const localeMap: Record<string, string> = {
+  nl: "nl_NL",
+  de: "de_DE",
+  en: "en_US",
+};
 
 export const PageMeta = ({
   title,
@@ -24,6 +40,8 @@ export const PageMeta = ({
   ogType = "website",
   jsonLd,
   canonical,
+  locale = "nl_NL",
+  alternates,
 }: PageMetaProps) => {
   const { pathname } = useLocation();
   const fullCanonical = canonical || `${BASE_URL}${pathname}`;
@@ -56,7 +74,7 @@ export const PageMeta = ({
     setMeta("property", "og:image", finalOgImage);
     setMeta("property", "og:url", fullCanonical);
     setMeta("property", "og:site_name", "OneTime Recruit");
-    setMeta("property", "og:locale", "nl_NL");
+    setMeta("property", "og:locale", locale);
 
     // Twitter
     setMeta("name", "twitter:card", "summary_large_image");
@@ -72,6 +90,32 @@ export const PageMeta = ({
       document.head.appendChild(link);
     }
     link.setAttribute("href", fullCanonical);
+
+    // Hreflang alternate links
+    // Remove existing hreflang links first
+    document.querySelectorAll('link[data-hreflang]').forEach((el) => el.remove());
+
+    if (alternates && alternates.length > 0) {
+      alternates.forEach(({ lang, path }) => {
+        const hrefLink = document.createElement("link");
+        hrefLink.setAttribute("rel", "alternate");
+        hrefLink.setAttribute("hreflang", lang);
+        hrefLink.setAttribute("href", `${BASE_URL}${path}`);
+        hrefLink.setAttribute("data-hreflang", "true");
+        document.head.appendChild(hrefLink);
+      });
+
+      // Add x-default (points to NL as primary)
+      const defaultAlt = alternates.find((a) => a.lang === "nl") || alternates[0];
+      if (defaultAlt) {
+        const xDefault = document.createElement("link");
+        xDefault.setAttribute("rel", "alternate");
+        xDefault.setAttribute("hreflang", "x-default");
+        xDefault.setAttribute("href", `${BASE_URL}${defaultAlt.path}`);
+        xDefault.setAttribute("data-hreflang", "true");
+        document.head.appendChild(xDefault);
+      }
+    }
 
     // JSON-LD
     const scriptId = "page-jsonld";
@@ -89,11 +133,12 @@ export const PageMeta = ({
     }
 
     return () => {
-      // Cleanup JSON-LD on unmount
+      // Cleanup JSON-LD and hreflang on unmount
       const s = document.getElementById(scriptId);
       if (s) s.remove();
+      document.querySelectorAll('link[data-hreflang]').forEach((el) => el.remove());
     };
-  }, [title, description, finalOgTitle, finalOgDescription, finalOgImage, ogType, fullCanonical, jsonLd]);
+  }, [title, description, finalOgTitle, finalOgDescription, finalOgImage, ogType, fullCanonical, locale, alternates, jsonLd]);
 
   return null;
 };

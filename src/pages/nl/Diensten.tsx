@@ -5,6 +5,8 @@ import { Search, Users, Settings, Target, BarChart3, Briefcase, ArrowRight, Chec
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 
 const services = [
   {
@@ -58,6 +60,8 @@ const NLDiensten = () => {
       <PageMeta
         title="Diensten, OneTime Recruit"
         description="Van executive search tot interim management en talent mapping. Ontdek onze strategische recruitment diensten voor enterprise organisaties."
+        locale="nl_NL"
+        alternates={getAlternates("diensten", ["nl"])}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Service",
@@ -68,6 +72,9 @@ const NLDiensten = () => {
         }}
       />
       <Header />
+      <div className="container">
+        <Breadcrumbs items={nlBreadcrumbs.diensten} />
+      </div>
       <main>
         <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />

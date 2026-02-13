@@ -5,6 +5,8 @@ import { ArrowRight, CheckCircle, Shield, Clock, Users, Star, TrendingUp, Zap } 
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 
 const benefits = [
   { icon: Shield, title: "Garantie op elke plaatsing", description: "6 maanden volledige garantie. Valt de kandidaat uit? Wij zoeken kosteloos een vervanger." },
@@ -56,8 +58,13 @@ const NLOpdrachtgevers = () => {
       <PageMeta
         title="Voor Opdrachtgevers, OneTime Recruit"
         description="Ontdek waarom 98% van onze opdrachtgevers tevreden is. Vaste prijs, 18 dagen doorlooptijd en 6 maanden garantie op elke plaatsing."
+        locale="nl_NL"
+        alternates={getAlternates("opdrachtgevers", ["nl"])}
       />
       <Header />
+      <div className="container">
+        <Breadcrumbs items={nlBreadcrumbs.opdrachtgevers} />
+      </div>
       <main>
         <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
