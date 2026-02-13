@@ -63,6 +63,12 @@ import LeadershipRetention from "./pages/nl/spokes/LeadershipRetention";
 import OnboardingExecutives from "./pages/nl/spokes/OnboardingExecutives";
 import EmployerBrandSeniorTalent from "./pages/nl/spokes/EmployerBrandSeniorTalent";
 import CompensationBenefitsTrends from "./pages/nl/spokes/CompensationBenefitsTrends";
+// New high-volume spokes
+import WervingEnSelectie from "./pages/nl/spokes/WervingEnSelectie";
+import HeadhunterNederland from "./pages/nl/spokes/HeadhunterNederland";
+import InterimManagement from "./pages/nl/spokes/InterimManagement";
+import DirectieWerving from "./pages/nl/spokes/DirectieWerving";
+import TalentAcquisitionStrategy from "./pages/nl/spokes/TalentAcquisitionStrategy";
 
 import NotFound from "./pages/NotFound";
 
@@ -132,6 +138,13 @@ const App = () => (
           <Route path="/nl/onboarding-executives" element={<OnboardingExecutives />} />
           <Route path="/nl/employer-brand-senior-talent" element={<EmployerBrandSeniorTalent />} />
           <Route path="/nl/compensation-benefits-trends" element={<CompensationBenefitsTrends />} />
+
+          {/* New high-volume spokes */}
+          <Route path="/nl/werving-en-selectie" element={<WervingEnSelectie />} />
+          <Route path="/nl/headhunter-nederland" element={<HeadhunterNederland />} />
+          <Route path="/nl/interim-management" element={<InterimManagement />} />
+          <Route path="/nl/directie-werving" element={<DirectieWerving />} />
+          <Route path="/nl/talent-acquisition-strategy" element={<TalentAcquisitionStrategy />} />
 
           {/* German (DE) routes */}
           <Route path="/de" element={<DEHome />} />
