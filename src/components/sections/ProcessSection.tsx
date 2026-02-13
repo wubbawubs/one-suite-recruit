@@ -33,33 +33,35 @@ const steps = [
 
 export function ProcessSection() {
   return (
-    <section className="py-20 md:py-28">
+    <section className="py-24 md:py-32">
       <div className="container">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
             Ons proces
           </span>
-          <h2 className="mt-3 font-display text-3xl font-bold text-foreground md:text-4xl">
+          <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">
             Hoe we werken
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-5 text-lg text-muted-foreground">
             Een bewezen proces van intake tot aftercare.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {steps.map((step) => (
+        <div className="mt-16 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {steps.map((step, i) => (
             <div
               key={step.number}
-              className="group relative overflow-hidden rounded-xl border border-border bg-card p-7 transition-all hover:border-accent/30 hover:shadow-md"
+              className="group relative overflow-hidden rounded-2xl border border-border bg-card p-8 transition-all duration-300 hover:border-accent/25 hover:shadow-lg hover:-translate-y-0.5"
             >
-              <span className="font-display text-5xl font-bold text-accent/15 transition-colors group-hover:text-accent/25">
+              {/* Accent line top */}
+              <div className="absolute left-0 top-0 h-1 w-0 bg-accent transition-all duration-500 group-hover:w-full" />
+              <span className="font-display text-[3.5rem] font-bold leading-none text-accent/10 transition-colors group-hover:text-accent/20">
                 {step.number}
               </span>
-              <h3 className="mt-1 font-display text-lg font-semibold text-card-foreground">
+              <h3 className="mt-2 font-display text-lg font-bold text-card-foreground">
                 {step.title}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
                 {step.description}
               </p>
             </div>

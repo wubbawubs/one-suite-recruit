@@ -25,30 +25,33 @@ const differentiators = [
 
 export function WhySection() {
   return (
-    <section className="bg-muted/50 py-20 md:py-28">
+    <section className="bg-muted/60 py-24 md:py-32">
       <div className="container">
-        <div className="grid items-start gap-16 lg:grid-cols-2">
-          <div className="lg:sticky lg:top-28">
-            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+        <div className="grid items-start gap-12 lg:grid-cols-5 lg:gap-20">
+          <div className="lg:col-span-2 lg:sticky lg:top-28">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
               Waarom OneTime
             </span>
-            <h2 className="mt-3 font-display text-3xl font-bold text-foreground md:text-4xl">
-              Niet zomaar een recruitmentbureau
+            <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">
+              Niet zomaar een recruitment&shy;bureau
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
               Wij zijn uw strategische partner in het vinden van leiderschap dat het verschil maakt.
             </p>
+            <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
           </div>
 
-          <div className="space-y-5">
-            {differentiators.map((d) => (
-              <div key={d.title} className="flex gap-4 rounded-xl border border-border bg-card p-5 transition-colors hover:border-accent/30">
-                <CheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
+          <div className="space-y-4 lg:col-span-3">
+            {differentiators.map((d, i) => (
+              <div key={d.title} className="flex gap-5 rounded-2xl border border-border bg-card p-6 transition-all duration-200 hover:border-accent/25 hover:shadow-md">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent/10">
+                  <CheckCircle className="h-5 w-5 text-accent" />
+                </div>
                 <div>
-                  <h3 className="text-[15px] font-semibold text-card-foreground font-sans">
+                  <h3 className="text-[15px] font-bold text-card-foreground font-sans">
                     {d.title}
                   </h3>
-                  <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
                     {d.description}
                   </p>
                 </div>
