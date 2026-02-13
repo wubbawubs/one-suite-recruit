@@ -108,7 +108,7 @@ export function StaggerItem({
     <motion.div
       variants={variantMap[variant]}
       transition={{ duration, ease: [0.25, 0.1, 0.25, 1] }}
-      className={className}
+      className={`h-full ${className || ""}`}
     >
       {children}
     </motion.div>

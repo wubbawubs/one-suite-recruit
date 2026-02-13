@@ -48,7 +48,7 @@ export function ServicesSection() {
             <StaggerItem key={s.title} variant="fade-up">
               <Link
                 to={s.href}
-                className={`group relative block rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${
+                className={`group relative flex h-full flex-col rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${
                   s.highlight
                     ? "border-accent/20 bg-accent/[0.03]"
                     : "border-border bg-card"
@@ -65,7 +65,7 @@ export function ServicesSection() {
                 <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">
                   {s.title}
                 </h3>
-                <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">
+                <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted-foreground">
                   {s.description}
                 </p>
                 <span className="mt-6 inline-flex items-center text-sm font-semibold text-accent transition-all group-hover:gap-2">
