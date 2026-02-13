@@ -21,7 +21,7 @@ export function CaseStudiesSection() {
         <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
           {cases.map((c) => (
             <StaggerItem key={c.client} variant="fade-up">
-              <div className="group rounded-2xl border border-primary-foreground/8 bg-primary-foreground/[0.04] p-8 transition-all duration-300 hover:border-primary-foreground/15 hover:bg-primary-foreground/[0.07]">
+              <div className="group h-full rounded-2xl border border-primary-foreground/8 bg-primary-foreground/[0.04] p-8 transition-all duration-300 hover:border-primary-foreground/15 hover:bg-primary-foreground/[0.07]">
                 <div className="flex items-center justify-between">
                   <span className="text-[11px] font-bold uppercase tracking-[0.15em] text-accent">{c.industry}</span>
                   <span className="rounded-full bg-accent/15 px-3 py-1 text-xs font-bold text-accent">{c.metric}</span>
