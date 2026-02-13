@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { ScrollToTop } from "./components/ScrollToTop";
 import NLHome from "./pages/nl/Index";
 import NLDiensten from "./pages/nl/Diensten";
+import NLExecutiveSearch from "./pages/nl/ExecutiveSearch";
 import NLOverOns from "./pages/nl/OverOns";
 import NLContact from "./pages/nl/Contact";
 import NLVacatures from "./pages/nl/Vacatures";
@@ -27,6 +28,7 @@ const App = () => (
           {/* Dutch (NL) routes */}
           <Route path="/nl" element={<NLHome />} />
           <Route path="/nl/diensten" element={<NLDiensten />} />
+          <Route path="/nl/executive-search" element={<NLExecutiveSearch />} />
           <Route path="/nl/over-ons" element={<NLOverOns />} />
           <Route path="/nl/contact" element={<NLContact />} />
           <Route path="/nl/vacatures" element={<NLVacatures />} />
