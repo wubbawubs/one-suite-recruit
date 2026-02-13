@@ -1,19 +1,48 @@
+# OneTime Recruit — Website & SEO Masterplan Implementatie
 
+## Fase 1: NL SEO Fundament + DE/EN Basis (nu)
 
-## Aanpassing team sectie copy naar OneTime Recruit
+### 1A. Technisch SEO fundament (alle talen)
+- [ ] Hreflang tags implementeren in PageMeta component
+- [ ] Sitemap structuur per locale
+- [ ] Breadcrumb component + BreadcrumbList schema
+- [ ] Canonical URLs per pagina
+- [ ] robots.txt optimaliseren
 
-De volgende teksten worden aangepast:
+### 1B. NL Pillar Pages (SEO-first)
+- [ ] `/nl/executive-search` — pillar page met schema, FAQ, CTA
+- [ ] `/nl/leiderschap-en-directie` — C-level / Director hiring pillar
+- [ ] `/nl/industries` — hub page met industry cards
+- [ ] `/nl/onegroup` — ecosysteem pagina (OneRooted, OneSource, KlikKlaarSEO)
+- [ ] `/nl/hoe-wij-werken` — methodologie + proces deep-dive
 
-### 1. Sectie heading en subtekst (regel 148-150)
-- **"De mensen achter OneGroup"** wordt **"De mensen achter OneTime Recruit"**
-- **"OneGroup is niet gebouwd door productmanagers..."** wordt **"OneTime Recruit is niet gebouwd door productmanagers die gokten op recruitmentproblemen. Het is gebouwd door operators die ze jarenlang hebben geleefd."**
+### 1C. DE Basis Pagina's (blue-collar focus)
+- [ ] `/de` — homepage (Personalvermittlung focus)
+- [ ] `/de/leistungen` — diensten overzicht
+- [ ] `/de/fuer-arbeitgeber` — voor werkgevers
+- [ ] `/de/stellenangebote` — vacatures
+- [ ] `/de/ueber-uns` — over ons
+- [ ] `/de/kontakt` — contact
 
-### 2. Bio van Juliette (regel 31)
-- **"Het financiële en operationele geweten van OneGroup"** wordt **"Het financiële en operationele geweten van OneTime Recruit."**
+### 1D. EN Basis Pagina's (international layer)
+- [ ] `/en` — homepage
+- [ ] `/en/services` — services overview
+- [ ] `/en/executive-search` — executive search
+- [ ] `/en/about` — about
+- [ ] `/en/contact` — contact
+- [ ] `/en/jobs` — vacancies
 
-### 3. CTO bio blijft ongewijzigd
-Luuk Wubs zijn bio blijft exact zoals het nu is.
+## Fase 2: Content Clusters & Conversie (later)
+- NL spoke articles (12-18 stuks)
+- Case studies met schema
+- FAQ secties met FAQPage schema
+- Industry hub pages (Aviation, Tech/SaaS, Finance)
+- Comparison content (executive search vs headhunter)
+- Lead magnets / insight reports
 
-### Technisch
-Alleen tekstwijzigingen in `src/pages/nl/OverOns.tsx` op regels 31, 148 en 150.
-
+## Fase 3: Optimalisatie (later)
+- GA4 + GTM tracking
+- Conversion events
+- A/B testing CTAs
+- Performance optimalisatie
+- Link building strategie
