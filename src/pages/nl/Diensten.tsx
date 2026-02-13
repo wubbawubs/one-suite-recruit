@@ -1,7 +1,7 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
-import { Search, Users, Settings, Target, BarChart3, Briefcase, ArrowRight, CheckCircle } from "lucide-react";
+import { Search, Users, Settings, Target, BarChart3, Briefcase, ArrowRight, CheckCircle, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 
@@ -11,7 +11,7 @@ const services = [
     title: "Executive Search",
     description: "Wij vinden de juiste C-level en senior executives voor uw organisatie. Via ons exclusieve netwerk en bewezen assessmentmethode identificeren wij leiders die écht het verschil maken.",
     features: ["C-suite & VP-level plaatsingen", "Competentie-based assessment", "Cultuurfit-analyse", "18 dagen gemiddelde doorlooptijd"],
-    href: "/nl/diensten/executive-search",
+    href: "/nl/contact",
     highlight: true,
   },
   {
@@ -19,7 +19,7 @@ const services = [
     title: "Leadership Advisory",
     description: "Strategisch advies over leiderschap, teamsamenstelling en organisatieontwikkeling op het hoogste niveau. Wij helpen uw leiderschapsteam toekomstbestendig te maken.",
     features: ["Leiderschapsevaluaties", "Succesplanning", "Team-effectiviteitsanalyse", "Board advisory"],
-    href: "/nl/diensten/leiderschap",
+    href: "/nl/contact",
   },
   {
     icon: Settings,
@@ -103,10 +103,32 @@ const NLDiensten = () => {
                         </li>
                       ))}
                     </ul>
+                    <Link to={s.href} className="mt-6 inline-flex items-center text-sm font-semibold text-accent transition-all group-hover:gap-2">
+                      Meer informatie <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Link>
                   </div>
                 </StaggerItem>
               ))}
             </StaggerContainer>
+          </div>
+        </section>
+
+        {/* Social proof strip */}
+        <section className="border-y border-border/50 bg-muted/40 py-14">
+          <div className="container">
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center">
+              {[
+                { value: "500+", label: "Succesvolle plaatsingen" },
+                { value: "18", label: "Dagen gem. doorlooptijd" },
+                { value: "98%", label: "Klanttevredenheid" },
+                { value: "7.500+", label: "Specialisten in netwerk" },
+              ].map((m) => (
+                <div key={m.label}>
+                  <p className="font-display text-3xl font-bold text-foreground md:text-4xl">{m.value}</p>
+                  <p className="mt-2 text-xs font-medium text-muted-foreground">{m.label}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 

@@ -41,7 +41,7 @@ export function CaseStudiesSection() {
         </StaggerContainer>
 
         <ScrollReveal variant="fade-in" delay={0.3} className="mt-12 text-center">
-          <Link to="/nl/referenties" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+          <Link to="/nl/opdrachtgevers" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
             Alle referenties bekijken <ArrowRight className="h-4 w-4" />
           </Link>
         </ScrollReveal>

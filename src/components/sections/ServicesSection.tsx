@@ -8,7 +8,7 @@ const services = [
     title: "Executive Search",
     description:
       "Wij vinden de juiste C-level en senior executives voor uw organisatie. Met een exclusief netwerk en bewezen assessmentmethode.",
-    href: "/nl/diensten/executive-search",
+    href: "/nl/diensten",
     highlight: true,
   },
   {
@@ -16,7 +16,7 @@ const services = [
     title: "Leadership Advisory",
     description:
       "Strategisch advies over leiderschap, teamsamenstelling en organisatieontwikkeling op het hoogste niveau.",
-    href: "/nl/diensten/leiderschap",
+    href: "/nl/diensten",
   },
   {
     icon: Settings,

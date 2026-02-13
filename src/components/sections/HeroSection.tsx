@@ -19,13 +19,10 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
-            className="mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 backdrop-blur-sm"
+            className="mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 px-6 py-2.5 backdrop-blur-sm"
           >
-            <span className="rounded-full border border-primary-foreground/20 bg-primary-foreground/8 px-6 py-2.5 text-sm font-medium text-primary-foreground shadow-sm">
-              Eenmalig een zoekopdracht
-            </span>
-            <span className="px-6 py-2.5 text-sm text-primary-foreground/40 cursor-pointer hover:text-primary-foreground/60 transition-colors">
-              Voortaan in eigen beheer invullen
+            <span className="text-sm font-medium text-primary-foreground/70">
+              ✦ Eenmalig zoeken — voortaan zelf invullen
             </span>
           </motion.div>
 

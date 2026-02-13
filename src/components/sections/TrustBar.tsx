@@ -37,7 +37,7 @@ export function TrustBar() {
             {clients.map((name) => (
               <span
                 key={name}
-                className="text-[15px] font-bold text-muted-foreground/30 tracking-wide transition-colors hover:text-muted-foreground/55"
+                className="text-base font-extrabold uppercase tracking-[0.15em] text-muted-foreground/25 transition-colors hover:text-muted-foreground/50"
               >
                 {name}
               </span>

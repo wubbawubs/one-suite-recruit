@@ -19,15 +19,18 @@ const vacancies = [
 ];
 
 const industries = ["Alle sectoren", "Tech / SaaS", "Finance", "Luchtvaart", "Retail", "Industrieel", "FMCG", "Publieke sector"];
+const levels = ["Alle niveaus", "C-level", "VP", "Director"];
 
 const NLVacatures = () => {
   const [search, setSearch] = useState("");
   const [selectedIndustry, setSelectedIndustry] = useState("Alle sectoren");
+  const [selectedLevel, setSelectedLevel] = useState("Alle niveaus");
 
   const filtered = vacancies.filter((v) => {
     const matchesSearch = v.title.toLowerCase().includes(search.toLowerCase()) || v.company.toLowerCase().includes(search.toLowerCase()) || v.location.toLowerCase().includes(search.toLowerCase());
     const matchesIndustry = selectedIndustry === "Alle sectoren" || v.industry === selectedIndustry;
-    return matchesSearch && matchesIndustry;
+    const matchesLevel = selectedLevel === "Alle niveaus" || v.level === selectedLevel;
+    return matchesSearch && matchesIndustry && matchesLevel;
   });
 
   return (
@@ -60,13 +63,22 @@ const NLVacatures = () => {
                   <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                   <Input placeholder="Zoek op functie, bedrijf of locatie..." value={search} onChange={(e) => setSearch(e.target.value)} className="pl-10" maxLength={100} />
                 </div>
-                <div className="flex items-center gap-2 overflow-x-auto">
-                  <SlidersHorizontal className="h-4 w-4 shrink-0 text-muted-foreground" />
-                  {industries.map((ind) => (
-                    <button key={ind} onClick={() => setSelectedIndustry(ind)} className={`shrink-0 rounded-full px-4 py-2 text-xs font-medium transition-colors ${selectedIndustry === ind ? "bg-accent text-accent-foreground" : "border border-border bg-background text-muted-foreground hover:border-accent/30 hover:text-foreground"}`}>
-                      {ind}
-                    </button>
-                  ))}
+                <div className="flex flex-col gap-3 md:flex-row md:items-center">
+                  <div className="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0">
+                    <SlidersHorizontal className="h-4 w-4 shrink-0 text-muted-foreground" />
+                    {industries.map((ind) => (
+                      <button key={ind} onClick={() => setSelectedIndustry(ind)} className={`shrink-0 rounded-full px-4 py-2 text-xs font-medium transition-colors ${selectedIndustry === ind ? "bg-accent text-accent-foreground" : "border border-border bg-background text-muted-foreground hover:border-accent/30 hover:text-foreground"}`}>
+                        {ind}
+                      </button>
+                    ))}
+                  </div>
+                  <div className="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0 md:border-l md:border-border md:pl-3">
+                    {levels.map((lvl) => (
+                      <button key={lvl} onClick={() => setSelectedLevel(lvl)} className={`shrink-0 rounded-full px-4 py-2 text-xs font-medium transition-colors ${selectedLevel === lvl ? "bg-primary text-primary-foreground" : "border border-border bg-background text-muted-foreground hover:border-primary/30 hover:text-foreground"}`}>
+                        {lvl}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </div>
             </ScrollReveal>
@@ -103,7 +115,7 @@ const NLVacatures = () => {
             {filtered.length === 0 && (
               <div className="mt-16 text-center">
                 <p className="text-lg text-muted-foreground">Geen posities gevonden met deze filters.</p>
-                <Button variant="outline" className="mt-4 rounded-full" onClick={() => { setSearch(""); setSelectedIndustry("Alle sectoren"); }}>
+                <Button variant="outline" className="mt-4 rounded-full" onClick={() => { setSearch(""); setSelectedIndustry("Alle sectoren"); setSelectedLevel("Alle niveaus"); }}>
                   Filters resetten
                 </Button>
               </div>
