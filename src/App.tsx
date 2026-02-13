@@ -4,6 +4,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import NLHome from "./pages/nl/Index";
+import NLDiensten from "./pages/nl/Diensten";
+import NLOverOns from "./pages/nl/OverOns";
+import NLContact from "./pages/nl/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -15,15 +18,16 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          {/* Redirect root to /nl */}
           <Route path="/" element={<Navigate to="/nl" replace />} />
 
           {/* Dutch (NL) routes */}
           <Route path="/nl" element={<NLHome />} />
+          <Route path="/nl/diensten" element={<NLDiensten />} />
+          <Route path="/nl/over-ons" element={<NLOverOns />} />
+          <Route path="/nl/contact" element={<NLContact />} />
 
           {/* Future: /de and /en routes */}
 
-          {/* Catch-all */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
