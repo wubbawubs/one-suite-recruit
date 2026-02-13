@@ -5,6 +5,7 @@ import { MapPin, Clock, Briefcase, ArrowRight, Search, SlidersHorizontal } from 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import { PageMeta } from "@/components/PageMeta";
 import { useState } from "react";
 
 const vacancies = [
@@ -35,9 +36,24 @@ const NLVacatures = () => {
 
   return (
     <div className="min-h-screen">
+      <PageMeta
+        title="Vacatures — Executive Posities | OneTime Recruit"
+        description="Bekijk exclusieve executive vacatures bij toonaangevende organisaties. C-level, VP en Director posities in Nederland."
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Executive Vacatures",
+          description: "Exclusieve executive posities bij toonaangevende organisaties in Nederland.",
+          numberOfItems: vacancies.length,
+          itemListElement: vacancies.map((v, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            item: { "@type": "JobPosting", title: v.title, hiringOrganization: { "@type": "Organization", name: v.company }, jobLocation: { "@type": "Place", address: v.location }, employmentType: v.type === "Interim" ? "TEMPORARY" : "FULL_TIME" },
+          })),
+        }}
+      />
       <Header />
       <main>
-        {/* Hero */}
         <section className="relative overflow-hidden bg-primary py-24 md:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
           <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: `radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)`, backgroundSize: '32px 32px' }} />

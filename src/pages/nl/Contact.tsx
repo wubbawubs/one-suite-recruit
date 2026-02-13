@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import { PageMeta } from "@/components/PageMeta";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -52,9 +53,25 @@ const NLContact = () => {
 
   return (
     <div className="min-h-screen">
+      <PageMeta
+        title="Contact — OneTime Recruit"
+        description="Neem contact op met OneTime Recruit voor een vrijblijvend gesprek over executive search. Bereikbaar op werkdagen van 08:30 tot 18:00."
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          name: "Contact OneTime Recruit",
+          description: "Neem contact op met OneTime Recruit.",
+          mainEntity: {
+            "@type": "Organization",
+            name: "OneTime Recruit",
+            telephone: "+31617226186",
+            email: "info@onetimerecruit.nl",
+            address: { "@type": "PostalAddress", addressLocality: "Amsterdam", addressCountry: "NL" },
+          },
+        }}
+      />
       <Header />
       <main>
-        {/* Hero */}
         <section className="relative overflow-hidden bg-primary py-24 md:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
           <div className="absolute inset-0 opacity-[0.03]" style={{

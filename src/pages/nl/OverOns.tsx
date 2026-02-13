@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import { PageMeta } from "@/components/PageMeta";
 
 const values = [
   { icon: Target, title: "Resultaatgericht", description: "Wij meten ons succes aan uw resultaat. Elke plaatsing moet duurzaam impact maken." },
@@ -29,9 +30,12 @@ const team = [
 const NLOverOns = () => {
   return (
     <div className="min-h-screen">
+      <PageMeta
+        title="Over Ons — OneTime Recruit"
+        description="Leer meer over OneTime Recruit: onze missie, waarden, team en de reis van startup tot marktleider in executive search."
+      />
       <Header />
       <main>
-        {/* Hero */}
         <section className="relative overflow-hidden bg-primary py-24 md:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
           <div className="absolute inset-0 opacity-[0.03]" style={{

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Search, Users, Settings, Target, BarChart3, Briefcase, ArrowRight, CheckCircle, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import { PageMeta } from "@/components/PageMeta";
 
 const services = [
   {
@@ -54,9 +55,20 @@ const services = [
 const NLDiensten = () => {
   return (
     <div className="min-h-screen">
+      <PageMeta
+        title="Diensten — OneTime Recruit"
+        description="Van executive search tot interim management en talent mapping. Ontdek onze strategische recruitment diensten voor enterprise organisaties."
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          provider: { "@type": "Organization", name: "OneTime Recruit" },
+          serviceType: "Executive Search",
+          areaServed: { "@type": "Country", name: "Netherlands" },
+          description: "Strategische executive search en recruitment diensten voor enterprise organisaties in Nederland.",
+        }}
+      />
       <Header />
       <main>
-        {/* Hero */}
         <section className="relative overflow-hidden bg-primary py-24 md:py-32">
           <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
           <div className="absolute inset-0 opacity-[0.03]" style={{
