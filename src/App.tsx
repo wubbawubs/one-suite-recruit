@@ -12,6 +12,8 @@ import NLContact from "./pages/nl/Contact";
 import NLVacatures from "./pages/nl/Vacatures";
 import NLOpdrachtgevers from "./pages/nl/Opdrachtgevers";
 import NLCLevelRecruitment from "./pages/nl/CLevelRecruitment";
+// DE pages
+import DEHome from "./pages/de/Index";
 import NLAssessmentSelectie from "./pages/nl/AssessmentSelectie";
 import NLIndustries from "./pages/nl/Industries";
 import NLRecruitmentOperatingModel from "./pages/nl/RecruitmentOperatingModel";
@@ -119,7 +121,10 @@ const App = () => (
           <Route path="/nl/employer-brand-senior-talent" element={<EmployerBrandSeniorTalent />} />
           <Route path="/nl/compensation-benefits-trends" element={<CompensationBenefitsTrends />} />
 
-          {/* Future: /de and /en routes */}
+          {/* German (DE) routes */}
+          <Route path="/de" element={<DEHome />} />
+
+          {/* Future: more /de and /en routes */}
 
           <Route path="*" element={<NotFound />} />
         </Routes>
