@@ -11,6 +11,7 @@ import teamRobin from "@/assets/team-robin.jpeg";
 import teamErik from "@/assets/team-erik.jpeg";
 import teamJuliette from "@/assets/team-juliette.jpeg";
 import teamLuuk from "@/assets/team-luuk.jpeg";
+import sfeerOverOns from "@/assets/sfeer-over-ons.jpg";
 
 const values = [
   { icon: Target, title: "Resultaatgericht", description: "Wij meten ons succes aan uw resultaat. Elke plaatsing moet duurzaam impact maken." },
@@ -98,7 +99,10 @@ const NLOverOns = () => {
                 </div>
               </ScrollReveal>
 
-              <ScrollReveal variant="slide-right">
+              <ScrollReveal variant="slide-right" className="space-y-6">
+                <div className="overflow-hidden rounded-2xl">
+                  <img src={sfeerOverOns} alt="OneTime Recruit team" className="h-auto w-full object-cover" />
+                </div>
                 <div className="rounded-2xl border border-border bg-muted/40 p-6 md:p-10">
                   <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-accent/10">
                     <TrendingUp className="h-8 w-8 text-accent" />

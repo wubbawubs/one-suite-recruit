@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import sfeerHero from "@/assets/sfeer-hero.jpg";
 
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-primary py-16 md:py-24 lg:py-32 xl:py-40">
-      <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary to-[hsl(150_35%_15%)]" />
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: `radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)`,
-        backgroundSize: '32px 32px',
-      }} />
+      <div className="absolute inset-0">
+        <img src={sfeerHero} alt="" className="h-full w-full object-cover opacity-20" />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/70 to-[hsl(150_35%_15%)]" />
       <div className="absolute -left-40 top-1/2 h-[500px] w-[500px] -translate-y-1/2 rounded-full bg-accent/5 blur-[120px]" />
       <div className="absolute -right-40 bottom-0 h-[400px] w-[400px] rounded-full bg-accent/5 blur-[100px]" />
 

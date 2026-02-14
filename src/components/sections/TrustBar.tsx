@@ -1,4 +1,5 @@
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import sfeerExtra from "@/assets/sfeer-extra.jpg";
 
 export function TrustBar() {
   const metrics = [
@@ -11,8 +12,12 @@ export function TrustBar() {
   const clients = ["Arvoo", "BGH Accountants", "OOvB Accountants", "Energiebehoud", "Thales"];
 
   return (
-    <section className="border-b border-border/50 bg-card py-16">
-      <div className="container">
+    <section className="relative border-b border-border/50 bg-card py-16 overflow-hidden">
+      <div className="absolute right-0 top-0 hidden h-full w-1/3 lg:block">
+        <img src={sfeerExtra} alt="" className="h-full w-full object-cover opacity-[0.07]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-card via-card/80 to-transparent" />
+      </div>
+      <div className="container relative z-10">
         <StaggerContainer className="grid grid-cols-2 gap-y-10 gap-x-6 md:grid-cols-4" stagger={0.08}>
           {metrics.map((m, i) => (
             <StaggerItem key={m.label} variant="fade-up">
