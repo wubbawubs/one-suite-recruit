@@ -23,9 +23,9 @@ const process = [
 ];
 
 const testimonials = [
-  { quote: "OneTime leverde binnen twee weken drie uitstekende CTO-kandidaten. De kwaliteit van de shortlist was indrukwekkend.", author: "HR Director", company: "TechNova" },
-  { quote: "Eindelijk een bureau dat écht begrijpt wat wij zoeken. De culturele fit was bij elke kandidaat raak.", author: "COO", company: "Royal Schiphol" },
-  { quote: "De transparante prijsstructuur en persoonlijke aanpak maken OneTime onze vaste partner voor executive plaatsingen.", author: "CHRO", company: "KLM Group" },
+  { quote: "OneTime leverde binnen twee weken drie uitstekende CTO-kandidaten. De kwaliteit van de shortlist was indrukwekkend.", author: "HR Director", company: "MAS Aviation" },
+  { quote: "Eindelijk een bureau dat écht begrijpt wat wij zoeken. De culturele fit was bij elke kandidaat raak.", author: "COO", company: "AFAS Software" },
+  { quote: "De transparante prijsstructuur en persoonlijke aanpak maken OneTime onze vaste partner voor executive plaatsingen.", author: "CHRO", company: "FinancePro Group" },
 ];
 
 const packages = [
