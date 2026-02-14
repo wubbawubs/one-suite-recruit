@@ -54,34 +54,36 @@ export function ServicesSection() {
             <StaggerItem key={s.title} variant="fade-up">
               <Link
                 to={s.href}
-                className={`group relative flex h-full flex-col rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${
+                className={`group relative flex h-full flex-col overflow-hidden rounded-2xl border transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${
                   s.highlight
                     ? "border-accent/20 bg-accent/[0.03]"
                     : "border-border bg-card"
                 } hover:border-accent/30`}
               >
                 {s.highlight && (
-                  <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">
+                  <span className="absolute top-3 right-6 z-10 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">
                     Populair
                   </span>
                 )}
                 {s.image && (
-                  <div className="mb-4 -mx-8 -mt-8 md:-mx-10 md:-mt-10 h-40 overflow-hidden rounded-t-2xl">
-                    <img src={s.image} alt="" className="h-full w-full object-cover" />
+                  <div className="h-44 overflow-hidden">
+                    <img src={s.image} alt="" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                   </div>
                 )}
-                <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
-                  <s.icon className="h-6 w-6" />
+                <div className="flex flex-1 flex-col p-8 md:p-10">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
+                    <s.icon className="h-6 w-6" />
+                  </div>
+                  <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">
+                    {s.title}
+                  </h3>
+                  <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted-foreground">
+                    {s.description}
+                  </p>
+                  <span className="mt-6 inline-flex items-center text-sm font-semibold text-accent transition-all group-hover:gap-2">
+                    Meer informatie <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
                 </div>
-                <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">
-                  {s.title}
-                </h3>
-                <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted-foreground">
-                  {s.description}
-                </p>
-                <span className="mt-6 inline-flex items-center text-sm font-semibold text-accent transition-all group-hover:gap-2">
-                  Meer informatie <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </span>
               </Link>
             </StaggerItem>
           ))}
