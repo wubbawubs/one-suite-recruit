@@ -23,9 +23,9 @@ const process = [
 ];
 
 const testimonials = [
-  { quote: "OneTime delivered three outstanding CTO candidates within two weeks. The quality of the shortlist was impressive.", author: "HR Director", company: "TechNova" },
-  { quote: "Finally an agency that truly understands what we're looking for. The cultural fit was spot on with every candidate.", author: "COO", company: "Royal Schiphol" },
-  { quote: "The transparent pricing structure and personal approach make OneTime our go-to partner for executive placements.", author: "CHRO", company: "KLM Group" },
+  { quote: "OneTime delivered three outstanding CTO candidates within two weeks. The quality of the shortlist was impressive.", author: "HR Director", company: "MAS Aviation" },
+  { quote: "Finally an agency that truly understands what we're looking for. The cultural fit was spot on with every candidate.", author: "COO", company: "AFAS Software" },
+  { quote: "The transparent pricing structure and personal approach make OneTime our go-to partner for executive placements.", author: "CHRO", company: "FinancePro Group" },
 ];
 
 const packages = [
