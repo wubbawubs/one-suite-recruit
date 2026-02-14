@@ -3,11 +3,17 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Globe, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/onetime-logo.webp";
+import sfeerWerving from "@/assets/sfeer-werving.jpg";
+import sfeerSelectie from "@/assets/sfeer-selectie.jpg";
+import sfeerAbonnement from "@/assets/sfeer-abonnement.jpg";
+import sfeerEigenBeheer from "@/assets/sfeer-eigen-beheer.jpg";
+import sfeerZoekopdracht from "@/assets/sfeer-zoekopdracht.jpg";
+import sfeerOverOns from "@/assets/sfeer-over-ons.jpg";
 
 interface NavItem {
   label: string;
   href: string;
-  children?: { label: string; href: string; description?: string }[];
+  children?: { label: string; href: string; description?: string; image?: string }[];
 }
 
 const navConfigs: Record<string, { items: NavItem[]; ctaLabel: string; ctaHref: string }> = {
@@ -18,12 +24,12 @@ const navConfigs: Record<string, { items: NavItem[]; ctaLabel: string; ctaHref: 
         label: "Diensten",
         href: "/nl/diensten",
         children: [
-          { label: "Executive Search", href: "/nl/executive-search", description: "Onze bewezen search methodiek" },
-          { label: "C-level & Directie", href: "/nl/c-level-recruitment", description: "CEO, CFO, CTO, CHRO recruitment" },
-          { label: "Industries", href: "/nl/industries", description: "Sectorspecialisatie per industrie" },
-          { label: "Assessment & Selectie", href: "/nl/assessment-selectie", description: "STAR-interviews & cultuurfit" },
-          { label: "Recruitment Model", href: "/nl/recruitment-operating-model", description: "Talent pools & RaaS" },
-          { label: "Employer Branding", href: "/nl/employer-branding-retention", description: "Aantrekken & behouden" },
+          { label: "Executive Search", href: "/nl/executive-search", description: "Onze bewezen search methodiek", image: sfeerWerving },
+          { label: "C-level & Directie", href: "/nl/c-level-recruitment", description: "CEO, CFO, CTO, CHRO recruitment", image: sfeerSelectie },
+          { label: "Industries", href: "/nl/industries", description: "Sectorspecialisatie per industrie", image: sfeerAbonnement },
+          { label: "Assessment & Selectie", href: "/nl/assessment-selectie", description: "STAR-interviews & cultuurfit", image: sfeerEigenBeheer },
+          { label: "Recruitment Model", href: "/nl/recruitment-operating-model", description: "Talent pools & RaaS", image: sfeerZoekopdracht },
+          { label: "Employer Branding", href: "/nl/employer-branding-retention", description: "Aantrekken & behouden", image: sfeerOverOns },
         ],
       },
       { label: "Vacatures", href: "/nl/vacatures" },
@@ -154,12 +160,19 @@ export function Header() {
                           <Link
                             key={child.href}
                             to={child.href}
-                            className="rounded-lg px-3 py-3 transition-colors hover:bg-muted"
+                            className="flex items-center gap-3 rounded-lg px-3 py-3 transition-colors hover:bg-muted"
                           >
-                            <span className="block text-sm font-semibold text-foreground">{child.label}</span>
-                            {child.description && (
-                              <span className="mt-0.5 block text-xs text-muted-foreground">{child.description}</span>
+                            {child.image && (
+                              <div className="h-10 w-14 shrink-0 overflow-hidden rounded-md">
+                                <img src={child.image} alt="" className="h-full w-full object-cover" />
+                              </div>
                             )}
+                            <div>
+                              <span className="block text-sm font-semibold text-foreground">{child.label}</span>
+                              {child.description && (
+                                <span className="mt-0.5 block text-xs text-muted-foreground">{child.description}</span>
+                              )}
+                            </div>
                           </Link>
                         ))}
                       </div>
