@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
+import { CalendlyEmbed } from "@/components/CalendlyEmbed";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAlternates } from "@/lib/seo";
 import { useState } from "react";
@@ -156,6 +157,11 @@ const ENContact = () => {
             </div>
           </div>
         </section>
+
+        <CalendlyEmbed
+          title="Schedule a meeting"
+          subtitle="Choose a time that works for you for a no-obligation introductory call."
+        />
 
         <section className="border-t border-border bg-muted/40 py-16">
           <div className="container">

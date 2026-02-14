@@ -19,7 +19,7 @@ export function CTAStrip() {
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg" className="h-13 rounded-full bg-primary px-10 text-[15px] font-semibold text-primary-foreground shadow-lg hover:bg-primary/90 transition-all duration-300">
-              <Link to="/nl/contact">
+              <Link to="/nl/contact#calendly">
                 Plan een gesprek
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
