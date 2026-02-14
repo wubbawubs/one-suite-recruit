@@ -1,5 +1,6 @@
 import { CheckCircle } from "lucide-react";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import sfeerZoekopdracht from "@/assets/sfeer-zoekopdracht.jpg";
 
 const differentiators = [
   {
@@ -40,6 +41,9 @@ export function WhySection() {
               Wij zijn uw strategische partner in het vinden van leiderschap dat het verschil maakt.
             </p>
             <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
+            <div className="mt-8 overflow-hidden rounded-2xl">
+              <img src={sfeerZoekopdracht} alt="OneTime Recruit team in gesprek" className="h-auto w-full object-cover" />
+            </div>
           </ScrollReveal>
 
           <StaggerContainer className="space-y-4 lg:col-span-3" stagger={0.08}>
