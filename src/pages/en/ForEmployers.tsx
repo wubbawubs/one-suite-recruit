@@ -23,9 +23,11 @@ const process = [
 ];
 
 const testimonials = [
-  { quote: "OneTime delivered three outstanding CTO candidates within two weeks. The quality of the shortlist was impressive.", author: "HR Director", company: "MAS Aviation" },
-  { quote: "Finally an agency that truly understands what we're looking for. The cultural fit was spot on with every candidate.", author: "COO", company: "AFAS Software" },
-  { quote: "The transparent pricing structure and personal approach make OneTime our go-to partner for executive placements.", author: "CHRO", company: "FinancePro Group" },
+  { quote: "OneTime immediately understood the type of leadership we needed. The shortlist quality was exceptional.", author: "Board of Directors", company: "Arvoo" },
+  { quote: "Fast communication, personal approach and candidates that truly fit our culture. Outstanding experience.", author: "Managing Partner", company: "BGH Accountants" },
+  { quote: "The transparent process and keen eye for cultural fit make OneTime our go-to recruitment partner.", author: "HR Manager", company: "OOvB Accountants" },
+  { quote: "From intake to placement everything ran smoothly. The candidate has been performing excellently for over a year.", author: "Director", company: "Energiebehoud" },
+  { quote: "OneTime combines speed with quality. Within three weeks we had the right candidate in for an interview.", author: "HR Director", company: "Thales" },
 ];
 
 const packages = [
@@ -170,7 +172,7 @@ const ENForEmployers = () => {
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Client experience</span>
               <h2 className="mt-4 font-display text-3xl font-bold md:text-[2.5rem] leading-tight">What our clients say</h2>
             </ScrollReveal>
-            <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
+            <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3" stagger={0.12}>
               {testimonials.map((t) => (
                 <StaggerItem key={t.company} variant="fade-up">
                   <div className="flex h-full flex-col rounded-2xl border border-primary-foreground/8 bg-primary-foreground/[0.04] p-8">

@@ -122,8 +122,8 @@ const NLDiensten = () => {
                       </span>
                     )}
                     {s.image && (
-                      <div className="h-48 overflow-hidden">
-                        <img src={s.image} alt="" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                    <div className="h-44 overflow-hidden">
+                        <img src={s.image} alt="" className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
                       </div>
                     )}
                     <div className="flex flex-1 flex-col p-8">
