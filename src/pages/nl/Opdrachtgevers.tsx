@@ -23,9 +23,11 @@ const process = [
 ];
 
 const testimonials = [
-  { quote: "OneTime leverde binnen twee weken drie uitstekende CTO-kandidaten. De kwaliteit van de shortlist was indrukwekkend.", author: "HR Director", company: "MAS Aviation" },
-  { quote: "Eindelijk een bureau dat écht begrijpt wat wij zoeken. De culturele fit was bij elke kandidaat raak.", author: "COO", company: "AFAS Software" },
-  { quote: "De transparante prijsstructuur en persoonlijke aanpak maken OneTime onze vaste partner voor executive plaatsingen.", author: "CHRO", company: "FinancePro Group" },
+  { quote: "OneTime begreep direct welk type leiderschap wij zochten. De shortlist was kwalitatief uitzonderlijk.", author: "Directie", company: "Arvoo" },
+  { quote: "Snelle schakeling, persoonlijke aanpak en kandidaten die écht bij onze cultuur passen. Topervaring.", author: "Managing Partner", company: "BGH Accountants" },
+  { quote: "De transparante werkwijze en het scherpe oog voor culturele fit maken OneTime onze vaste recruitment partner.", author: "HR Manager", company: "OOvB Accountants" },
+  { quote: "Van intake tot plaatsing liep alles vlekkeloos. De kandidaat draait inmiddels ruim een jaar uitstekend mee.", author: "Directeur", company: "Energiebehoud" },
+  { quote: "OneTime combineert snelheid met kwaliteit. Binnen drie weken hadden wij de juiste kandidaat op gesprek.", author: "HR Director", company: "Thales" },
 ];
 
 const packages = [
@@ -179,7 +181,7 @@ const NLOpdrachtgevers = () => {
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Klantervaring</span>
               <h2 className="mt-4 font-display text-3xl font-bold md:text-[2.5rem] leading-tight">Wat onze opdrachtgevers zeggen</h2>
             </ScrollReveal>
-            <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
+            <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3" stagger={0.12}>
               {testimonials.map((t) => (
                 <StaggerItem key={t.company} variant="fade-up">
                   <div className="flex h-full flex-col rounded-2xl border border-primary-foreground/8 bg-primary-foreground/[0.04] p-8">
