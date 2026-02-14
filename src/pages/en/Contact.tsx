@@ -84,6 +84,11 @@ const ENContact = () => {
           </div>
         </section>
 
+        <CalendlyEmbed
+          title="Schedule a meeting"
+          subtitle="Choose a time that works for you for a no-obligation introductory call."
+        />
+
         <section className="py-24 md:py-32">
           <div className="container">
             <div className="grid gap-16 lg:grid-cols-5">
@@ -157,11 +162,6 @@ const ENContact = () => {
             </div>
           </div>
         </section>
-
-        <CalendlyEmbed
-          title="Schedule a meeting"
-          subtitle="Choose a time that works for you for a no-obligation introductory call."
-        />
 
         <section className="border-t border-border bg-muted/40 py-16">
           <div className="container">

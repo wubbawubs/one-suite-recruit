@@ -84,6 +84,11 @@ const DEKontakt = () => {
           </div>
         </section>
 
+        <CalendlyEmbed
+          title="Termin vereinbaren"
+          subtitle="Wählen Sie einen passenden Zeitpunkt für ein unverbindliches Kennenlerngespräch."
+        />
+
         <section className="py-24 md:py-32">
           <div className="container">
             <div className="grid gap-16 lg:grid-cols-5">
@@ -157,11 +162,6 @@ const DEKontakt = () => {
             </div>
           </div>
         </section>
-
-        <CalendlyEmbed
-          title="Termin vereinbaren"
-          subtitle="Wählen Sie einen passenden Zeitpunkt für ein unverbindliches Kennenlerngespräch."
-        />
 
         <section className="border-t border-border bg-muted/40 py-16">
           <div className="container">

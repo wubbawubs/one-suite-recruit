@@ -99,6 +99,8 @@ const NLContact = () => {
           </div>
         </section>
 
+        <CalendlyEmbed />
+
         {/* Contact Form + Info */}
         <section className="py-24 md:py-32">
           <div className="container">
@@ -229,8 +231,6 @@ const NLContact = () => {
             </div>
           </div>
         </section>
-
-        <CalendlyEmbed />
 
         {/* Quick CTA */}
         <section className="border-t border-border bg-muted/40 py-16">
