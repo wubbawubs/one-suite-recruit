@@ -7,6 +7,24 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { PageMeta } from "@/components/PageMeta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import React from "react";
+
+/** Parse [text](/url) markdown links in a string into React elements */
+function parseInlineLinks(text: string): React.ReactNode {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+  if (parts.length === 1) return text;
+  return parts.map((part, i) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (match) {
+      return (
+        <Link key={i} to={match[2]} className="font-medium text-accent underline underline-offset-2 hover:text-accent/80 transition-colors">
+          {match[1]}
+        </Link>
+      );
+    }
+    return part;
+  });
+}
 
 interface FAQ {
   q: string;
@@ -106,7 +124,7 @@ export function SpokePage({ data }: { data: SpokePageData }) {
                 <h2 className="font-display text-2xl font-bold text-foreground md:text-3xl">{section.title}</h2>
                 <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-muted-foreground">
                   {section.content.split("\n\n").map((p, j) => (
-                    <p key={j}>{p}</p>
+                    <p key={j}>{parseInlineLinks(p)}</p>
                   ))}
                 </div>
                 {section.items && section.items.length > 0 && (
@@ -114,7 +132,7 @@ export function SpokePage({ data }: { data: SpokePageData }) {
                     {section.items.map((item, j) => (
                       <li key={j} className="flex items-start gap-3 text-[15px] text-muted-foreground">
                         <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                        {item}
+                        {parseInlineLinks(item)}
                       </li>
                     ))}
                   </ul>

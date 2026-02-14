@@ -40,7 +40,7 @@ const data: SpokePageData = {
     },
     {
       title: "De business case voor abonnement recruitment",
-      content: "Laten we het doorrekenen met een concreet voorbeeld:\n\nTraditioneel model: 4 plaatsingen per jaar × €40.000 per-placement fee = €160.000 per jaar.\n\nAbonnementsmodel: vast maandbedrag dat significant lager ligt dan het totaal van losse opdrachten. Bovendien krijgt u doorlopende talent pooling, marktinzichten en strategisch advies als onderdeel van het abonnement.\n\nDe besparing is doorgaans 20-40% ten opzichte van traditionele per-placement fees.",
+      content: "Laten we het doorrekenen met een concreet voorbeeld:\n\nTraditioneel model: 4 plaatsingen per jaar × €40.000 [per-placement fee](/nl/kosten-executive-search) = €160.000 per jaar.\n\nAbonnementsmodel: vast maandbedrag dat significant lager ligt dan het totaal van losse opdrachten. Bovendien krijgt u doorlopende [talent pooling](/nl/talent-pool-per-vacature), marktinzichten en strategisch advies als onderdeel van het abonnement.\n\nDe besparing is doorgaans 20-40% ten opzichte van traditionele per-placement fees. Dit past binnen een bredere [talent acquisition strategy](/nl/talent-acquisition-strategy).",
     },
   ],
   faqs: [

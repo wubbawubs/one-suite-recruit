@@ -43,7 +43,7 @@ const data: SpokePageData = {
     },
     {
       title: "Assessment voor tech executives",
-      content: "Bij het beoordelen van SaaS/IT executives evalueren wij op sector-specifieke dimensies:\n\nScalability — heeft de kandidaat bewezen ervaring met het schalen van teams en producten? Technical credibility — kan de kandidaat geloofwaardig leiding geven aan engineers? Metrics-fluency — begrijpt de kandidaat SaaS KPI's (MRR, NRR, CAC/LTV, churn)? Fundraising — bij venture-backed bedrijven: ervaring met funding rondes en investor relations.",
+      content: "Bij het [beoordelen van SaaS/IT executives](/nl/assessment-inzetten) evalueren wij op sector-specifieke dimensies:\n\nScalability — heeft de kandidaat bewezen ervaring met het schalen van teams en producten? Technical credibility — kan de kandidaat geloofwaardig leiding geven aan engineers? Dit beoordelen wij met [STAR-interviews](/nl/star-interview-guide). Metrics-fluency — begrijpt de kandidaat SaaS KPI's (MRR, NRR, CAC/LTV, churn)? Fundraising — bij venture-backed bedrijven: ervaring met funding rondes en investor relations. [Compensation trends](/nl/compensation-benefits-trends) spelen een belangrijke rol bij het aantrekken van tech leiders.",
     },
   ],
   faqs: [

@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "De strategische rol van de moderne CHRO",
-      content: "De Chief Human Resources Officer is geëvolueerd van een operationele HR-manager naar een strategische board-level leider. De moderne CHRO is verantwoordelijk voor talent strategie, organisatieontwikkeling, cultuurverandering en employee experience.\n\nIn tijden van arbeidskrapte, remote werk en generatieverschuivingen is de CHRO belangrijker dan ooit. Organisaties die investeren in sterk people-leiderschap presteren aantoonbaar beter op retentie, productiviteit en innovatie.",
+      content: "De Chief Human Resources Officer is geëvolueerd van een operationele HR-manager naar een strategische board-level leider. De moderne CHRO is verantwoordelijk voor [talent acquisition strategy](/nl/talent-acquisition-strategy), organisatieontwikkeling, cultuurverandering en employee experience.\n\nIn tijden van arbeidskrapte, remote werk en generatieverschuivingen is de CHRO belangrijker dan ooit. Organisaties die investeren in sterk people-leiderschap presteren aantoonbaar beter op [retentie](/nl/leadership-retention), productiviteit en innovatie.",
     },
     {
       title: "Wanneer een CHRO zoeken?",
@@ -37,7 +37,7 @@ const data: SpokePageData = {
         "Talent management — track record in opbouwen van talent pipelines en succession planning",
         "Data & analytics — gebruik van people analytics voor evidence-based HR",
         "Change management — ervaring met grootschalige verandertrajecten",
-        "Employer branding — vermogen om de organisatie als aantrekkelijke werkgever te positioneren",
+        "[Employer branding](/nl/employer-brand-senior-talent) — vermogen om de organisatie als aantrekkelijke werkgever te positioneren",
       ],
     },
     {

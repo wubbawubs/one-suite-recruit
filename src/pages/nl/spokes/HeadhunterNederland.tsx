@@ -15,7 +15,7 @@ const data = {
   sections: [
     {
       title: "Wat doet een headhunter?",
-      content: "Een headhunter is een recruitment-specialist die proactief kandidaten benadert voor senior en executive posities. In tegenstelling tot reguliere recruiters wacht een headhunter niet op sollicitaties, maar identificeert en benadert actief de beste leiders in de markt — inclusief kandidaten die niet actief op zoek zijn.\n\nIn Nederland is headhunting de gangbare methode voor het invullen van C-level, directie en VP-posities. De beste kandidaten voor deze rollen staan zelden open op jobboards. Zij worden gevonden via netwerken, referrals en gerichte search.",
+      content: "Een headhunter is een recruitment-specialist die proactief kandidaten benadert voor senior en executive posities. In tegenstelling tot reguliere recruiters wacht een headhunter niet op sollicitaties, maar identificeert en benadert actief de beste leiders in de markt — inclusief kandidaten die niet actief op zoek zijn.\n\nIn Nederland is headhunting de gangbare methode voor het invullen van [C-level](/nl/c-level-recruitment), [directie](/nl/directie-werving) en VP-posities. De beste kandidaten voor deze rollen staan zelden open op jobboards. Zij worden gevonden via netwerken, referrals en gerichte [executive search](/nl/wat-is-executive-search).",
     },
     {
       title: "Headhunter vs. executive search bureau: wat kiest u?",
@@ -30,7 +30,7 @@ const data = {
     },
     {
       title: "Waarom OneTime Recruit als uw headhunter?",
-      content: "Wij onderscheiden ons op drie punten: transparantie, snelheid en kwaliteit. Onze vaste tarieven elimineren de perverse prikkel om het hoogste salaris te adviseren. Onze gemiddelde doorlooptijd van 18 dagen is de helft van het branchegemiddelde. En ons retentiepercentage van 95% na 12 maanden bewijst dat onze matches duurzaam zijn.\n\nDaarnaast bieden wij iets unieks: een dedicated talent pool per vacature die u behoudt. Bij toekomstige vacatures kunt u direct uit deze pool putten — zonder een nieuwe search te starten.",
+      content: "Wij onderscheiden ons op drie punten: transparantie, snelheid en kwaliteit. Onze [vaste tarieven](/nl/kosten-executive-search) elimineren de perverse prikkel om het hoogste salaris te adviseren. Onze gemiddelde [doorlooptijd van 18 dagen](/nl/hoe-lang-duurt-executive-search) is de helft van het branchegemiddelde. En ons retentiepercentage van 95% na 12 maanden bewijst dat onze matches duurzaam zijn.\n\nDaarnaast bieden wij iets unieks: een dedicated [talent pool per vacature](/nl/talent-pool-per-vacature) die u behoudt. Bij toekomstige vacatures kunt u direct uit deze pool putten — zonder een nieuwe search te starten.",
     },
   ],
   faqs: [

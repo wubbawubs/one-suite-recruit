@@ -25,7 +25,7 @@ const data: SpokePageData = {
         "Onduidelijke verwachtingen — het mandaat en de verantwoordelijkheden zijn niet helder gedefinieerd",
         "Onvoldoende onboarding — de leider wordt niet adequaat geïntroduceerd en ondersteund",
         "Politieke dynamiek — de leider kan niet navigeren in de interne stakeholder-structuur",
-        "Verkeerde fase-match — een scale-up leider in een corporate omgeving of vice versa",
+        "Verkeerde fase-match — een scale-up leider in een corporate omgeving of vice versa. Lees meer over [culture fit vs culture add](/nl/culture-fit-vs-culture-add)",
       ],
     },
     {
@@ -33,9 +33,9 @@ const data: SpokePageData = {
       content: "Het voorkomen van mis-hires begint al vóór de plaatsing:",
       items: [
         "Grondige intake — investeer tijd in het begrijpen van de organisatie, het team en de uitdagingen",
-        "Cultuurfit-assessment — evalueer niet alleen competenties maar ook waarden en leiderschapsstijl",
+        "[Cultuurfit-assessment](/nl/culture-fit-vs-culture-add) — evalueer niet alleen competenties maar ook waarden en leiderschapsstijl",
         "Realistische jobpreview — wees eerlijk over de uitdagingen en context van de rol",
-        "Referentiechecks op cultureel gedrag — niet alleen prestaties, maar ook hoe de kandidaat omgaat met tegenslag",
+        "[Referentiechecks](/nl/referentiechecks) op cultureel gedrag — niet alleen prestaties, maar ook hoe de kandidaat omgaat met tegenslag",
         "Structured onboarding — een 100-dagen plan met duidelijke mijlpalen",
         "Early warning systeem — regelmatige check-ins in de eerste 6 maanden",
       ],

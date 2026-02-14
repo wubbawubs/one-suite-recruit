@@ -32,7 +32,7 @@ const data: SpokePageData = {
     },
     {
       title: "Hoe evalueer je culturele match?",
-      content: "Het beoordelen van culturele match — of het nu fit of add is — vereist een gestructureerde aanpak:",
+      content: "Het beoordelen van culturele match — of het nu fit of add is — vereist een gestructureerde aanpak. Gebruik daarbij altijd [STAR-interviews](/nl/star-interview-guide) en [referentiechecks](/nl/referentiechecks):",
       items: [
         "Definieer uw kernwaarden expliciet — wat is niet onderhandelbaar?",
         "Gebruik gestructureerde interviewvragen over waarden en werkstijl",
@@ -44,7 +44,7 @@ const data: SpokePageData = {
     },
     {
       title: "Het enterprise perspectief",
-      content: "In enterprise organisaties speelt culturele match op meerdere niveaus: de organisatiecultuur, de subcultuur van de business unit, het team en de relatie met key stakeholders.\n\nEen leider die excellent past bij de organisatiecultuur kan falen als de subcultuur van het team fundamenteel anders is. Daarom is het essentieel om culturele match op alle niveaus te evalueren, niet alleen op organisatieniveau.",
+      content: "In enterprise organisaties speelt culturele match op meerdere niveaus: de organisatiecultuur, de subcultuur van de business unit, het team en de relatie met key stakeholders.\n\nEen leider die excellent past bij de organisatiecultuur kan falen als de subcultuur van het team fundamenteel anders is. Daarom is het essentieel om culturele match op alle niveaus te evalueren. Een gedegen [onboardingprogramma](/nl/onboarding-executives) helpt hierbij enorm.",
     },
   ],
   faqs: [

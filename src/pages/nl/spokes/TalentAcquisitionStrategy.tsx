@@ -15,7 +15,7 @@ const data = {
   sections: [
     {
       title: "Waarom een talent acquisition strategy?",
-      content: "De meeste organisaties hebben een recruitment strategie voor operationele functies, maar behandelen executive recruitment als een incident. Het gevolg: langzame doorlooptijden, inconsistente kwaliteit en onvoorspelbare kosten.\n\nEen talent acquisition strategy voor executive posities verandert dit fundamenteel. In plaats van reactief te reageren op vacatures, bouwt u proactief aan een pipeline van toekomstige leiders. Met dedicated talent pools, gestructureerde assessment en data-gedreven governance.",
+      content: "De meeste organisaties hebben een recruitment strategie voor operationele functies, maar behandelen executive recruitment als een incident. Het gevolg: langzame [doorlooptijden](/nl/hoe-lang-duurt-executive-search), inconsistente kwaliteit en onvoorspelbare [kosten](/nl/kosten-executive-search).\n\nEen talent acquisition strategy voor executive posities verandert dit fundamenteel. In plaats van reactief te reageren op vacatures, bouwt u proactief aan een pipeline van toekomstige leiders. Met dedicated [talent pools](/nl/talent-pool-per-vacature), gestructureerde [assessment](/nl/assessment-inzetten) en data-gedreven [governance](/nl/hiring-governance-reporting).",
       items: [
         "Proactieve opvolgingsplanning voor kritieke posities",
         "Dedicated talent pools per functiegroep",

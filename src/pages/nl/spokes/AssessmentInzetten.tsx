@@ -28,7 +28,7 @@ const data: SpokePageData = {
       title: "Wanneer wél een assessment",
       content: "Een assessment voegt de meeste waarde toe in de volgende situaties:",
       items: [
-        "Strategische posities — CEO, CFO, CTO en andere C-level rollen",
+        "Strategische posities — [CEO](/nl/ceo-recruitment), [CFO](/nl/cfo-recruitment), [CTO](/nl/cto-cio-recruitment) en andere [C-level rollen](/nl/c-level-recruitment)",
         "Hoge kosten bij mismatch — posities waar een verkeerde keuze zeer kostbaar is",
         "Meerdere gelijkwaardige kandidaten — wanneer de shortlist sterk is",
         "Cultuur-gevoelige rollen — posities waar fit met de organisatiecultuur cruciaal is",
@@ -48,7 +48,7 @@ const data: SpokePageData = {
     },
     {
       title: "Best practices voor assessment",
-      content: "Om assessments effectief in te zetten, zijn de volgende richtlijnen belangrijk:\n\nGebruik gevalideerde instrumenten met bewezen voorspellende waarde. Communiceer het doel en de rol van het assessment transparant naar kandidaten. Bespreek resultaten altijd in combinatie met andere datapunten (interview, referenties, track record). En gebruik assessments nooit als enig selectiecriterium — ze zijn een aanvulling op het proces, geen vervanging.",
+      content: "Om assessments effectief in te zetten, zijn de volgende richtlijnen belangrijk:\n\nGebruik gevalideerde instrumenten met bewezen voorspellende waarde. Communiceer het doel en de rol van het assessment transparant naar kandidaten. Bespreek resultaten altijd in combinatie met andere datapunten ([STAR-interviews](/nl/star-interview-guide), [referenties](/nl/referentiechecks), track record). En gebruik assessments nooit als enig selectiecriterium — ze zijn een aanvulling op het proces, geen vervanging.",
     },
   ],
   faqs: [

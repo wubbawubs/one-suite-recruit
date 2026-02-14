@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Waarom employer branding voor executives anders is",
-      content: "Traditionele employer branding richt zich op volume-werving: vacaturemarketing, social media campagnes, campus recruitment. Voor executive talent werkt dit niet.\n\nSenior leiders worden niet bereikt via vacaturesites. Zij worden benaderd via netwerken, referrals en executive search. Hun besluitvorming is gebaseerd op strategie, cultuur, autonomie en impact — niet op ping-pongtafels en flexibele werktijden.",
+      content: "Traditionele employer branding richt zich op volume-werving: vacaturemarketing, social media campagnes, campus recruitment. Voor executive talent werkt dit niet.\n\nSenior leiders worden niet bereikt via vacaturesites. Zij worden benaderd via netwerken, referrals en [executive search](/nl/wat-is-executive-search). Hun besluitvorming is gebaseerd op strategie, cultuur, autonomie en impact — niet op ping-pongtafels en flexibele werktijden. Een overtuigend [compensatiepakket](/nl/compensation-benefits-trends) is randvoorwaardelijk.",
     },
     {
       title: "Wat executive talent zoekt in een werkgever",

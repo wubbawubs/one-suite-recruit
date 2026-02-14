@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Wat is de STAR-methode?",
-      content: "STAR staat voor Situatie, Taak, Actie en Resultaat. Het is een gestructureerde interviewmethode die kandidaten vraagt om concrete voorbeelden te geven uit hun werkervaring.\n\nDoor te focussen op specifieke situaties uit het verleden, voorspelt de STAR-methode toekomstig gedrag beter dan traditionele sollicitatiegesprekken. Onderzoek toont aan dat gestructureerde interviews 2x zo voorspellend zijn als ongestructureerde gesprekken.",
+      content: "STAR staat voor Situatie, Taak, Actie en Resultaat. Het is een gestructureerde interviewmethode die kandidaten vraagt om concrete voorbeelden te geven uit hun werkervaring. Het is een essentieel onderdeel van elk [assessment](/nl/assessment-inzetten) traject.\n\nDoor te focussen op specifieke situaties uit het verleden, voorspelt de STAR-methode toekomstig gedrag beter dan traditionele sollicitatiegesprekken. Onderzoek toont aan dat gestructureerde interviews 2x zo voorspellend zijn als ongestructureerde gesprekken. In combinatie met [referentiechecks](/nl/referentiechecks) levert dit de hoogste voorspellende waarde op.",
     },
     {
       title: "De vier elementen uitgelegd",

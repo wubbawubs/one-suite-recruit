@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Gemiddelde doorlooptijd: 4-8 weken",
-      content: "De totale doorlooptijd van een executive search traject — van eerste intake tot getekend contract — varieert doorgaans tussen de 4 en 8 weken. Bij OneTime Recruit is de gemiddelde tijd van intake tot shortlist 18 werkdagen.\n\nDe daadwerkelijke doorlooptijd hangt af van meerdere factoren: de complexiteit van de rol, de schaarste in de markt, de snelheid van besluitvorming aan uw kant, en of er sprake is van een confidential search.",
+      content: "De totale doorlooptijd van een executive search traject — van eerste intake tot getekend contract — varieert doorgaans tussen de 4 en 8 weken. Bij OneTime Recruit is de gemiddelde tijd van intake tot shortlist 18 werkdagen.\n\nDe daadwerkelijke doorlooptijd hangt af van meerdere factoren: de complexiteit van de rol, de schaarste in de markt, de snelheid van besluitvorming aan uw kant, en of er sprake is van een [confidential search](/nl/confidential-search).",
     },
     {
       title: "Fase 1: Intake & profieldefinitie (dag 1-2)",
@@ -27,7 +27,7 @@ const data: SpokePageData = {
     },
     {
       title: "Fase 3: Assessment & shortlist (dag 9-14)",
-      content: "Kandidaten worden geëvalueerd via competentie-based interviews, cultuurfit-analyse en referentiechecks. Het resultaat is een shortlist van 3-5 gekwalificeerde kandidaten.",
+      content: "Kandidaten worden geëvalueerd via competentie-based interviews, [cultuurfit-analyse](/nl/culture-fit-vs-culture-add) en [referentiechecks](/nl/referentiechecks). Het resultaat is een shortlist van 3-5 gekwalificeerde kandidaten.",
     },
     {
       title: "Fase 4: Presentatie & selectie (dag 15-18+)",

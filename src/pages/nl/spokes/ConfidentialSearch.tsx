@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Wat is confidential search?",
-      content: "Confidential search — ook wel 'blind search' of 'discreet search' genoemd — is een executive search traject waarbij de identiteit van de opdrachtgever niet wordt onthuld aan kandidaten totdat een vergevorderd stadium in het proces is bereikt.\n\nDit type search wordt ingezet wanneer bekendmaking van de vacature schadelijk zou zijn voor de organisatie, de huidige functiehouder, of de marktpositie.",
+      content: "Confidential search — ook wel 'blind search' of 'discreet search' genoemd — is een [executive search](/nl/wat-is-executive-search) traject waarbij de identiteit van de opdrachtgever niet wordt onthuld aan kandidaten totdat een vergevorderd stadium in het proces is bereikt.\n\nDit type search wordt ingezet wanneer bekendmaking van de vacature schadelijk zou zijn voor de organisatie, de huidige functiehouder, of de marktpositie. Vooral bij [board en commissarissen search](/nl/board-commissarissen-search) is discretie vaak essentieel.",
     },
     {
       title: "Wanneer is confidential search nodig?",
@@ -40,7 +40,7 @@ const data: SpokePageData = {
         "Alle kandidaatcommunicatie loopt via het bureau, nooit direct",
         "Gebruik van anonieme functieprofielen in de marktbenadering",
         "NDA's worden afgenomen voordat gevoelige informatie wordt gedeeld",
-        "Referentiechecks worden uitgesteld tot de finale fase",
+        "[Referentiechecks](/nl/referentiechecks) worden uitgesteld tot de finale fase",
         "Interne communicatie bij de opdrachtgever wordt beperkt tot need-to-know basis",
       ],
     },

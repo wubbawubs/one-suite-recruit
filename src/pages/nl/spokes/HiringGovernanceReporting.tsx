@@ -25,7 +25,7 @@ const data: SpokePageData = {
         "Time-to-productivity — hoe snel is de nieuwe leider effectief?",
         "Quality of hire — retentie na 12 maanden, performance ratings, 360-feedback",
         "Source effectiveness — welke kanalen leveren de beste kandidaten?",
-        "Cost per hire — totale kosten inclusief search fees, assessment en onboarding",
+        "Cost per hire — totale [kosten](/nl/kosten-executive-search) inclusief search fees, [assessment](/nl/assessment-inzetten) en [onboarding](/nl/onboarding-executives)",
         "Offer acceptance rate — percentage kandidaten dat het aanbod accepteert",
         "Hiring manager satisfaction — tevredenheid van de interne opdrachtgever",
       ],

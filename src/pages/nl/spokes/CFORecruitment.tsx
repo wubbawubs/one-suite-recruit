@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "De veranderende rol van de CFO",
-      content: "De rol van de CFO is de afgelopen jaren fundamenteel veranderd. Waar de CFO traditioneel verantwoordelijk was voor financiële rapportage en compliance, is de moderne CFO een strategische sparringpartner van de CEO.\n\nDe CFO van vandaag combineert financiële expertise met strategisch inzicht, data-gedreven besluitvorming en stakeholder management. Bij M&A-trajecten, schaalvergroting en digitale transformatie speelt de CFO een sleutelrol.",
+      content: "De rol van de CFO is de afgelopen jaren fundamenteel veranderd. Waar de CFO traditioneel verantwoordelijk was voor financiële rapportage en compliance, is de moderne CFO een strategische sparringpartner van de [CEO](/nl/ceo-recruitment).\n\nDe CFO van vandaag combineert financiële expertise met strategisch inzicht, data-gedreven besluitvorming en stakeholder management. Bij M&A-trajecten in de [finance sector](/nl/finance-risk-compliance), schaalvergroting en digitale transformatie speelt de CFO een sleutelrol.",
     },
     {
       title: "Assessment criteria voor CFO's",
@@ -37,7 +37,7 @@ const data: SpokePageData = {
         "Onderschatting van de culturele fit — een Controller-type past niet in een entrepreneurial omgeving",
         "Te weinig aandacht voor de relatie CEO-CFO: deze tandem moet complementair zijn",
         "Verwarring tussen de rol van CFO en Financial Controller",
-        "Onvoldoende referentiechecks bij eerdere auditors en board members",
+        "Onvoldoende [referentiechecks](/nl/referentiechecks) bij eerdere auditors en board members",
       ],
     },
     {

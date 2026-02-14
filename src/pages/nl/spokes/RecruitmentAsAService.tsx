@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Wat is Recruitment-as-a-Service?",
-      content: "Recruitment-as-a-Service (RaaS) is een model waarbij uw organisatie doorlopend toegang heeft tot professionele recruitment capaciteit via een abonnement. In plaats van per vacature een bureau in te schakelen, heeft u een dedicated team dat continu werkt aan uw talent pipeline.\n\nBij OneTime Recruit bieden wij RaaS specifiek voor executive en senior posities. U betaalt een vast maandbedrag en krijgt toegang tot search, assessment, talent pooling en strategisch advies.",
+      content: "Recruitment-as-a-Service (RaaS) is een model waarbij uw organisatie doorlopend toegang heeft tot professionele recruitment capaciteit via een [abonnement](/nl/abonnement-recruitment). In plaats van per vacature een bureau in te schakelen, heeft u een dedicated team dat continu werkt aan uw [talent pipeline](/nl/talent-pool-per-vacature).\n\nBij OneTime Recruit bieden wij RaaS specifiek voor executive en senior posities. U betaalt een vast maandbedrag en krijgt toegang tot search, [assessment](/nl/assessment-inzetten), talent pooling en strategisch advies.",
     },
     {
       title: "Hoe verschilt RaaS van traditionele search?",

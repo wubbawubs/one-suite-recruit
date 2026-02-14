@@ -31,7 +31,7 @@ const data = {
     },
     {
       title: "Directie werving in specifieke sectoren",
-      content: "Sectorkennis maakt het verschil bij directie werving. Een directeur in de luchtvaart opereert in een fundamenteel andere context dan een directeur in SaaS. Wij specialiseren in Aviation, Defence & High-Tech, SaaS/IT, Finance en Operations — en begrijpen de specifieke leiderschapsuitdagingen in elke sector.\n\nDit vertaalt zich in relevantere shortlists, betere matches en hogere retentie na plaatsing.",
+      content: "Sectorkennis maakt het verschil bij directie werving. Een directeur in de [luchtvaart](/nl/aviation-recruitment) opereert in een fundamenteel andere context dan een directeur in [SaaS](/nl/saas-it-leadership). Wij specialiseren in Aviation, [Defence & High-Tech](/nl/defence-hightech-recruitment), SaaS/IT, [Finance](/nl/finance-risk-compliance) en [Operations](/nl/operations-supply-chain) — en begrijpen de specifieke leiderschapsuitdagingen in elke sector.\n\nDit vertaalt zich in relevantere shortlists, betere matches en hogere [retentie na plaatsing](/nl/leadership-retention).",
     },
   ],
   faqs: [
