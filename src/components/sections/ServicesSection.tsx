@@ -1,6 +1,9 @@
 import { Search, Users, Settings, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import sfeerWerving from "@/assets/sfeer-werving.jpg";
+import sfeerSelectie from "@/assets/sfeer-selectie.jpg";
+import sfeerAbonnement from "@/assets/sfeer-abonnement.jpg";
 
 const services = [
   {
@@ -10,6 +13,7 @@ const services = [
       "Wij vinden de juiste C-level en senior executives voor uw organisatie. Met een exclusief netwerk en bewezen assessmentmethode.",
     href: "/nl/diensten",
     highlight: true,
+    image: sfeerWerving,
   },
   {
     icon: Users,
@@ -17,6 +21,7 @@ const services = [
     description:
       "Strategisch advies over leiderschap, teamsamenstelling en organisatieontwikkeling op het hoogste niveau.",
     href: "/nl/diensten",
+    image: sfeerSelectie,
   },
   {
     icon: Settings,
@@ -24,6 +29,7 @@ const services = [
     description:
       "Wij bouwen en optimaliseren uw interne recruitmentprocessen. Van employer branding tot selectiemethodologie.",
     href: "/nl/diensten",
+    image: sfeerAbonnement,
   },
 ];
 
@@ -58,6 +64,11 @@ export function ServicesSection() {
                   <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">
                     Populair
                   </span>
+                )}
+                {s.image && (
+                  <div className="mb-4 -mx-8 -mt-8 md:-mx-10 md:-mt-10 h-40 overflow-hidden rounded-t-2xl">
+                    <img src={s.image} alt="" className="h-full w-full object-cover" />
+                  </div>
                 )}
                 <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
                   <s.icon className="h-6 w-6" />
