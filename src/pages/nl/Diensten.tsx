@@ -64,7 +64,7 @@ const services = [
     features: ["100-dagen programma", "Stakeholder alignment", "Quick wins identificatie", "Performance monitoring"],
     href: "/nl/diensten",
     image: sfeerOverOns,
-    imagePosition: "center 35%",
+    imagePosition: "center 45%",
   },
 ];
 
