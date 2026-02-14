@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Waarom referentiechecks cruciaal zijn",
-      content: "Referentiechecks bieden informatie die geen enkel interview of assessment kan leveren: de ervaring van mensen die daadwerkelijk met de kandidaat hebben gewerkt. Bij senior posities zijn referentiechecks extra belangrijk omdat de impact van een mis-hire exponentieel groter is.\n\nToch worden referentiechecks vaak als formaliteit afgehandeld — een gemiste kans. Met de juiste aanpak leveren ze cruciale inzichten op over leiderschapsstijl, prestaties en potentiële valkuilen.",
+      content: "Referentiechecks bieden informatie die geen enkel interview of [assessment](/nl/assessment-inzetten) kan leveren: de ervaring van mensen die daadwerkelijk met de kandidaat hebben gewerkt. Bij senior posities zijn referentiechecks extra belangrijk omdat de [impact van een mis-hire](/nl/leadership-retention) exponentieel groter is.\n\nToch worden referentiechecks vaak als formaliteit afgehandeld — een gemiste kans. Met de juiste aanpak leveren ze cruciale inzichten op over leiderschapsstijl, prestaties en potentiële valkuilen.",
     },
     {
       title: "Wie als referent benaderen?",

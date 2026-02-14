@@ -15,7 +15,7 @@ const data = {
   sections: [
     {
       title: "Wanneer kiest u voor interim management?",
-      content: "Interim management is de juiste keuze wanneer uw organisatie direct leiderschap nodig heeft. Of het nu gaat om een onverwacht vertrek, een strategische transformatie, een crisis of een overbruggingsperiode — een ervaren interim executive brengt direct de competenties en ervaring die nodig zijn.\n\nHet verschil met reguliere interim-bureaus? Wij selecteren interim executives met dezelfde grondige assessment-methodiek als bij permanente plaatsingen. STAR-interviews, cultuurfit-analyse en referentiechecks zijn standaard — ook voor interim opdrachten.",
+      content: "Interim management is de juiste keuze wanneer uw organisatie direct leiderschap nodig heeft. Of het nu gaat om een onverwacht vertrek, een strategische transformatie, een crisis of een overbruggingsperiode — een ervaren interim executive brengt direct de competenties en ervaring die nodig zijn.\n\nHet verschil met reguliere interim-bureaus? Wij selecteren interim executives met dezelfde grondige [assessment-methodiek](/nl/assessment-inzetten) als bij permanente plaatsingen. [STAR-interviews](/nl/star-interview-guide), [cultuurfit-analyse](/nl/culture-fit-vs-culture-add) en [referentiechecks](/nl/referentiechecks) zijn standaard — ook voor interim opdrachten.",
       items: [
         "Onverwacht vertrek van een bestuurslid of directielid",
         "Strategische transformatie of reorganisatie",

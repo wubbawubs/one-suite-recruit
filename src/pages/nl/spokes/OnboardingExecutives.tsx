@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Waarom executive onboarding anders is",
-      content: "De onboarding van een executive verschilt fundamenteel van het inwerken van een medewerker. Een nieuwe leider moet niet alleen de organisatie leren kennen, maar ook vertrouwen opbouwen, stakeholders alignen en snel impact tonen — alles tegelijk.\n\n40% van executives die binnen 18 maanden falen, wijst gebrekkige onboarding aan als belangrijkste oorzaak. Een gestructureerd 90-dagen plan reduceert dit risico drastisch.",
+      content: "De onboarding van een executive verschilt fundamenteel van het inwerken van een medewerker. Een nieuwe leider moet niet alleen de organisatie leren kennen, maar ook vertrouwen opbouwen, stakeholders alignen en snel impact tonen — alles tegelijk.\n\n40% van executives die binnen 18 maanden falen, wijst gebrekkige onboarding aan als belangrijkste oorzaak. Dit is een van de belangrijkste oorzaken van slechte [leadership retention](/nl/leadership-retention). Een gestructureerd 90-dagen plan reduceert dit risico drastisch.",
     },
     {
       title: "Fase 1: Dag 1-30 — Observeren & begrijpen",
@@ -52,7 +52,7 @@ const data: SpokePageData = {
     },
     {
       title: "De rol van de organisatie",
-      content: "Succesvolle executive onboarding is een gedeelde verantwoordelijkheid. De organisatie speelt een cruciale rol:\n\nZorg voor een duidelijk mandaat en verwachtingsmanagement vooraf. Wijs een buddy of mentor aan op gelijk niveau. Plan introductiegesprekken met alle key stakeholders. En geef de nieuwe leider de ruimte om te leren voordat resultaten verwacht worden.\n\nBij OneTime Recruit begeleiden wij zowel de executive als de organisatie gedurende de onboardingperiode.",
+      content: "Succesvolle executive onboarding is een gedeelde verantwoordelijkheid. De organisatie speelt een cruciale rol:\n\nZorg voor een duidelijk mandaat en verwachtingsmanagement vooraf. Wijs een buddy of mentor aan op gelijk niveau. Plan introductiegesprekken met alle key stakeholders. En geef de nieuwe leider de ruimte om te leren — net als bij de [cultuurfit-evaluatie](/nl/culture-fit-vs-culture-add) vooraf, is ook de culturele integratie achteraf cruciaal.\n\nBij OneTime Recruit begeleiden wij zowel de executive als de organisatie gedurende de onboardingperiode.",
     },
   ],
   faqs: [

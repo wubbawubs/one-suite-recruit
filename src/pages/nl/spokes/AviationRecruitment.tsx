@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Waarom aviation recruitment uniek is",
-      content: "De luchtvaartsector kent unieke uitdagingen die het recruitmentproces complexer maken dan in andere sectoren. Leiders in aviation moeten opereren in een sterk gereguleerde omgeving, omgaan met 24/7 operaties en balanceren tussen veiligheid, efficiëntie en klanttevredenheid.\n\nDaarnaast is de talentpool relatief klein: aviation-specifieke ervaring is schaars en wordt sterk gewaardeerd. Dit maakt executive search in de luchtvaart een specialisme.",
+      content: "De luchtvaartsector kent unieke uitdagingen die het recruitmentproces complexer maken dan in andere sectoren. Leiders in aviation moeten opereren in een sterk gereguleerde omgeving, omgaan met 24/7 [operaties](/nl/operations-supply-chain) en balanceren tussen veiligheid, efficiëntie en klanttevredenheid.\n\nDaarnaast is de talentpool relatief klein: aviation-specifieke ervaring is schaars en wordt sterk gewaardeerd. Dit maakt [executive search](/nl/wat-is-executive-search) in de luchtvaart een specialisme.",
     },
     {
       title: "Posities die wij invullen",

@@ -27,7 +27,7 @@ const data: SpokePageData = {
     },
     {
       title: "3. Abonnementsmodel (recruitment-as-a-service)",
-      content: "Het nieuwste model: een maandelijks abonnement dat toegang geeft tot executive search capaciteit. Ideaal voor organisaties die meerdere posities per jaar invullen.\n\nBij een abonnement betaalt u een vast maandbedrag en kunt u doorlopend gebruikmaken van search, assessment en talent pool services. De kosten per plaatsing dalen significant bij hogere volumes.",
+      content: "Het nieuwste model: een maandelijks [abonnement](/nl/abonnement-recruitment) dat toegang geeft tot executive search capaciteit. Ideaal voor organisaties die meerdere posities per jaar invullen.\n\nBij een [recruitment-as-a-service](/nl/recruitment-as-a-service) abonnement betaalt u een vast maandbedrag en kunt u doorlopend gebruikmaken van search, assessment en [talent pool](/nl/talent-pool-per-vacature) services. De kosten per plaatsing dalen significant bij hogere volumes.",
       items: [
         "Vast maandbedrag — voorspelbare recruitmentkosten",
         "Onbeperkt gebruik van talent pool en assessment",

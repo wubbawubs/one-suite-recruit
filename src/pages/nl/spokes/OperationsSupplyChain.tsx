@@ -42,7 +42,7 @@ const data: SpokePageData = {
     },
     {
       title: "Sector-specifieke operations uitdagingen",
-      content: "Operations leiderschap verschilt sterk per sector:\n\nIn manufacturing draait het om productie-efficiëntie, kwaliteit en veiligheid. In retail en e-commerce om supply chain snelheid, last-mile delivery en omnichannel operations. In healthcare om patiëntveiligheid, compliance en capaciteitsmanagement. En in tech om schaalbare operations die meegroeien met de business.\n\nWij passen onze search aan op de specifieke uitdagingen van uw sector.",
+      content: "Operations leiderschap verschilt sterk per sector:\n\nIn manufacturing draait het om productie-efficiëntie, kwaliteit en veiligheid. In de [luchtvaartsector](/nl/aviation-recruitment) om 24/7 operaties en safety-first leiderschap. In [finance](/nl/finance-risk-compliance) om compliance en risicobeheersing. En in [tech](/nl/saas-it-leadership) om schaalbare operations die meegroeien met de business.\n\nWij passen onze search aan op de specifieke uitdagingen van uw sector.",
     },
   ],
   faqs: [

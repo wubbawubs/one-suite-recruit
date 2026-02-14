@@ -15,7 +15,7 @@ const data = {
   sections: [
     {
       title: "Wat is executive werving en selectie?",
-      content: "Werving en selectie op executive niveau verschilt fundamenteel van reguliere recruitment. Het gaat niet om het plaatsen van vacatures en wachten op sollicitaties — het gaat om het proactief identificeren, benaderen en beoordelen van leiders die het verschil maken.\n\nBij OneTime Recruit combineren wij de snelheid van modern recruitment met de diepgang van executive search. Onze consultants hebben gemiddeld 15+ jaar ervaring in het vinden van C-level, directie en VP-posities in Nederland.",
+      content: "Werving en selectie op executive niveau verschilt fundamenteel van reguliere recruitment. Het gaat niet om het plaatsen van vacatures en wachten op sollicitaties — het gaat om het proactief identificeren, benaderen en beoordelen van leiders die het verschil maken.\n\nBij OneTime Recruit combineren wij de snelheid van modern recruitment met de diepgang van [executive search](/nl/wat-is-executive-search). Onze consultants hebben gemiddeld 15+ jaar ervaring in het vinden van [C-level](/nl/c-level-recruitment), [directie](/nl/directie-werving) en VP-posities in Nederland.",
       items: [
         "Proactieve search in ons netwerk van 7.500+ executives",
         "Gestructureerde STAR-interviews voor objectieve beoordeling",

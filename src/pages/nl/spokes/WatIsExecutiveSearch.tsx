@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Definitie van executive search",
-      content: "Executive search is een gespecialiseerde vorm van werving en selectie die zich richt op het identificeren, benaderen en plaatsen van senior leiders en bestuurders. Anders dan traditionele recruitment — waarbij vacatures worden gepubliceerd en gewacht wordt op sollicitanten — is executive search een proactief, doelgericht proces.\n\nDe term 'executive search' verwijst naar het actief zoeken naar executives: C-level bestuurders, directieleden, VP's en andere senior leiderschapsposities. Het wordt ook wel 'retained search' genoemd, omdat de opdrachtgever een exclusieve overeenkomst aangaat met het searchbureau.",
+      content: "Executive search is een gespecialiseerde vorm van [werving en selectie](/nl/werving-en-selectie) die zich richt op het identificeren, benaderen en plaatsen van senior leiders en bestuurders. Anders dan traditionele recruitment — waarbij vacatures worden gepubliceerd en gewacht wordt op sollicitanten — is executive search een proactief, doelgericht proces.\n\nDe term 'executive search' verwijst naar het actief zoeken naar executives: [C-level bestuurders](/nl/c-level-recruitment), directieleden, VP's en andere senior leiderschapsposities. Het wordt ook wel 'retained search' genoemd, omdat de opdrachtgever een exclusieve overeenkomst aangaat met het searchbureau.",
     },
     {
       title: "Hoe werkt het executive search proces?",
@@ -41,7 +41,7 @@ const data: SpokePageData = {
     },
     {
       title: "De meerwaarde van executive search",
-      content: "In tegenstelling tot volume-recruitment richt executive search zich op kwaliteit boven kwantiteit. Een gespecialiseerd searchbureau zoals OneTime Recruit biedt:\n\nToegang tot passieve kandidaten die niet vindbaar zijn via vacaturesites of LinkedIn. Diepgaande assessment op basis van bewezen methodieken zoals STAR-interviews. Een dedicated talent pool die u behoudt, ook na de plaatsing. En transparante vaste tarieven in plaats van onvoorspelbare procentuele fees.",
+      content: "In tegenstelling tot volume-recruitment richt executive search zich op kwaliteit boven kwantiteit. Een gespecialiseerd searchbureau zoals OneTime Recruit biedt:\n\nToegang tot passieve kandidaten die niet vindbaar zijn via vacaturesites of LinkedIn. Diepgaande assessment op basis van bewezen methodieken zoals [STAR-interviews](/nl/star-interview-guide). Een dedicated [talent pool](/nl/talent-pool-per-vacature) die u behoudt, ook na de plaatsing. En transparante [vaste tarieven](/nl/kosten-executive-search) in plaats van onvoorspelbare procentuele fees.",
     },
   ],
   faqs: [

@@ -22,7 +22,7 @@ const data: SpokePageData = {
       content: "Wij werven senior leiders voor financiële instellingen en fintech bedrijven:",
       items: [
         "CEO / COO — banken, verzekeraars, asset managers, fintech",
-        "CFO / Finance Director — financial management, treasury, investor relations",
+        "[CFO](/nl/cfo-recruitment) / Finance Director — financial management, treasury, investor relations",
         "Chief Risk Officer (CRO) — enterprise risk management, credit risk, market risk",
         "Chief Compliance Officer (CCO) — regulatory compliance, AML/KYC, financial crime",
         "CISO — cybersecurity in de financiële sector",
@@ -31,7 +31,7 @@ const data: SpokePageData = {
     },
     {
       title: "DNB en AFM toetsing",
-      content: "Een bijzonder aspect van leadership recruitment in de financiële sector is de fit & proper toetsing door DNB en/of AFM. Bestuurders en commissarissen van financiële instellingen moeten vooraf worden getoetst op geschiktheid en betrouwbaarheid.\n\nDit proces voegt 4-8 weken toe aan de doorlooptijd en stelt aanvullende eisen aan kandidaten. Ons searchteam houdt hier vanaf het begin rekening mee en screent kandidaten proactief op toetsingsrisico's.",
+      content: "Een bijzonder aspect van leadership recruitment in de financiële sector is de fit & proper toetsing door DNB en/of AFM. Bestuurders en [commissarissen](/nl/board-commissarissen-search) van financiële instellingen moeten vooraf worden getoetst op geschiktheid en betrouwbaarheid.\n\nDit proces voegt 4-8 weken toe aan de [doorlooptijd](/nl/hoe-lang-duurt-executive-search) en stelt aanvullende eisen aan kandidaten. Ons searchteam houdt hier vanaf het begin rekening mee en screent kandidaten proactief op toetsingsrisico's.",
     },
     {
       title: "Trends in financial leadership",

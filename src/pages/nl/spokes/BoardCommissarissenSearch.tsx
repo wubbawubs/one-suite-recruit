@@ -30,7 +30,7 @@ const data: SpokePageData = {
     },
     {
       title: "Het search proces voor board posities",
-      content: "Board search vereist een delicate aanpak. Potentiële commissarissen zijn doorgaans zeer senior professionals die niet actief zoeken. De benadering moet op het juiste niveau plaatsvinden:\n\nWe beginnen met een grondige analyse van de huidige board samenstelling en identificeren de gaps. Vervolgens stellen we een longlist samen op basis van governance-ervaring, sectorkennis en de specifieke behoeften van de organisatie.\n\nKandidaten worden beoordeeld op hun toezichthoudende kwaliteiten, onafhankelijkheid en vermogen om waarde toe te voegen aan de board dynamiek.",
+      content: "Board search vereist een delicate aanpak. Potentiële commissarissen zijn doorgaans zeer senior professionals die niet actief zoeken. De benadering moet op het juiste niveau plaatsvinden — vaak als [confidential search](/nl/confidential-search):\n\nWe beginnen met een grondige analyse van de huidige board samenstelling en identificeren de gaps. Vervolgens stellen we een longlist samen op basis van governance-ervaring, sectorkennis en de specifieke behoeften van de organisatie.\n\nKandidaten worden beoordeeld op hun toezichthoudende kwaliteiten, onafhankelijkheid en vermogen om waarde toe te voegen aan de board dynamiek. Uitgebreide [referentiechecks](/nl/referentiechecks) zijn standaard bij elke board search.",
     },
     {
       title: "Governance en compliance",

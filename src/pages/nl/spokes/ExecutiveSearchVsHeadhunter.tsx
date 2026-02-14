@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "De drie methoden vergeleken",
-      content: "In de recruitmentwereld worden de termen 'executive search', 'headhunter' en 'werving & selectie' vaak door elkaar gebruikt. Toch zijn er wezenlijke verschillen in aanpak, kosten en resultaat.\n\nExecutive search is een gestructureerd, methodisch proces voor senior leiderschapsposities. Een headhunter werkt vaak individueel en reactiever. Werving & selectie is de breedste categorie en richt zich op het vullen van vacatures op alle niveaus.",
+      content: "In de recruitmentwereld worden de termen '[executive search](/nl/wat-is-executive-search)', '[headhunter](/nl/headhunter-nederland)' en '[werving & selectie](/nl/werving-en-selectie)' vaak door elkaar gebruikt. Toch zijn er wezenlijke verschillen in aanpak, kosten en resultaat.\n\nExecutive search is een gestructureerd, methodisch proces voor senior leiderschapsposities. Een headhunter werkt vaak individueel en reactiever. Werving & selectie is de breedste categorie en richt zich op het vullen van vacatures op alle niveaus.",
     },
     {
       title: "Executive search: strategisch en exclusief",
@@ -23,7 +23,7 @@ const data: SpokePageData = {
       items: [
         "Exclusieve opdracht — het bureau werkt niet tegelijkertijd voor concurrenten",
         "Proactieve marktbenadering — ook passieve kandidaten worden benaderd",
-        "Uitgebreide assessment — STAR-interviews, cultuurfit-analyse, referentiechecks",
+        "Uitgebreide assessment — [STAR-interviews](/nl/star-interview-guide), [cultuurfit-analyse](/nl/culture-fit-vs-culture-add), [referentiechecks](/nl/referentiechecks)",
         "Garantieregeling — kosteloze herstart als de match niet werkt",
         "Vast tarief of abonnement — geen onvoorspelbare procentuele fees",
       ],

@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Waarom CEO recruitment anders is",
-      content: "Het werven van een CEO verschilt fundamenteel van elke andere leiderschapspositie. De CEO bepaalt de strategische richting, cultuur en uiteindelijk het succes van de hele organisatie. Een verkeerde keuze heeft verstrekkende gevolgen — niet alleen financieel, maar ook voor medewerkersbehoud, stakeholdervertrouwen en marktpositie.\n\nDaarom vereist CEO recruitment een uitzonderlijk grondige aanpak: diepgaande stakeholderanalyse, board-level alignment, en een assessment dat verder gaat dan competenties alleen.",
+      content: "Het werven van een CEO verschilt fundamenteel van elke andere leiderschapspositie. De CEO bepaalt de strategische richting, cultuur en uiteindelijk het succes van de hele organisatie. Een verkeerde keuze heeft verstrekkende gevolgen — niet alleen financieel, maar ook voor [leadership retention](/nl/leadership-retention) en marktpositie.\n\nDaarom vereist CEO recruitment een uitzonderlijk grondige aanpak: diepgaande stakeholderanalyse, board-level alignment, en een [assessment](/nl/assessment-inzetten) dat verder gaat dan competenties alleen.",
     },
     {
       title: "Wanneer is CEO search nodig?",
@@ -49,12 +49,12 @@ const data: SpokePageData = {
         "Onvoldoende alignment binnen de board over het gewenste profiel",
         "Onderschatting van cultuurfit — een briljante strateeg kan falen in de verkeerde cultuur",
         "Te snel beslissen onder druk van een vacuüm aan de top",
-        "Onvoldoende referentiechecks bij eerdere board members",
+        "Onvoldoende [referentiechecks](/nl/referentiechecks) bij eerdere board members",
       ],
     },
     {
       title: "Het CEO search proces bij OneTime Recruit",
-      content: "Ons CEO search proces is specifiek ontworpen voor de complexiteit van deze rol:\n\nWe beginnen met uitgebreide board consultatie om consensus te bereiken over het gewenste profiel. Vervolgens voeren wij een brede marktverkenning uit, inclusief internationale kandidaten indien gewenst. Elke kandidaat doorloopt een meervoudig assessment met STAR-interviews, psychometrische evaluatie en uitgebreide referentiechecks.\n\nNa plaatsing bieden wij een 100-dagen onboardingprogramma om een succesvolle start te waarborgen.",
+      content: "Ons CEO search proces is specifiek ontworpen voor de complexiteit van deze rol:\n\nWe beginnen met uitgebreide board consultatie om consensus te bereiken over het gewenste profiel. Vervolgens voeren wij een brede marktverkenning uit, inclusief internationale kandidaten indien gewenst. Elke kandidaat doorloopt een meervoudig assessment met [STAR-interviews](/nl/star-interview-guide), psychometrische evaluatie en uitgebreide referentiechecks.\n\nNa plaatsing bieden wij een [100-dagen onboardingprogramma](/nl/onboarding-executives) om een succesvolle start te waarborgen.",
     },
   ],
   faqs: [

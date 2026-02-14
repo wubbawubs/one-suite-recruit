@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "De unieke uitdaging van defence recruitment",
-      content: "Recruitment in de defence en high-tech sector kent uitdagingen die in geen enkele andere sector voorkomen. Security clearance vereisten beperken de kandidaat-pool drastisch. De cultuurverschillen tussen publieke en private sector zijn groot. En de concurrentie om technisch leiderschap met de bredere tech-markt is hevig.\n\nDaarom is gespecialiseerde executive search essentieel in deze sector.",
+      content: "Recruitment in de defence en high-tech sector kent uitdagingen die in geen enkele andere sector voorkomen. Security clearance vereisten beperken de kandidaat-pool drastisch. De cultuurverschillen tussen publieke en private sector zijn groot. En de concurrentie om technisch leiderschap met de bredere [tech-markt](/nl/saas-it-leadership) is hevig.\n\nDaarom is gespecialiseerde [executive search](/nl/wat-is-executive-search) essentieel in deze sector. Vaak zijn deze trajecten ook [confidential](/nl/confidential-search) van aard.",
     },
     {
       title: "Posities die wij invullen",

@@ -23,7 +23,7 @@ const data: SpokePageData = {
       items: [
         "Identificatie — proactieve marktverkenning om potentiële kandidaten in kaart te brengen",
         "Screening — eerste evaluatie op basis van profiel, ervaring en beschikbaarheid",
-        "Kwalificatie — diepgaande assessment, STAR-interviews en cultuurfit-analyse",
+        "Kwalificatie — diepgaande [assessment](/nl/assessment-inzetten), [STAR-interviews](/nl/star-interview-guide) en [cultuurfit-analyse](/nl/culture-fit-vs-culture-add)",
       ],
     },
     {
@@ -39,7 +39,7 @@ const data: SpokePageData = {
     },
     {
       title: "Verschil met traditionele databases",
-      content: "Een talent pool per vacature verschilt wezenlijk van de grote databases die traditionele recruitmentbureaus hanteren:\n\nTraditionale databases bevatten duizenden profielen die niet specifiek gescreend zijn voor uw vacature. Een dedicated talent pool bevat 15-30 zorgvuldig geïdentificeerde en geëvalueerde kandidaten die exact passen bij uw specifieke profiel.\n\nDe kwaliteit per kandidaat is significant hoger, en de informatie is actueel en relevant — geen verouderde cv's van drie jaar oud.",
+      content: "Een talent pool per vacature verschilt wezenlijk van de grote databases die traditionele recruitmentbureaus hanteren:\n\nTraditionale databases bevatten duizenden profielen die niet specifiek gescreend zijn voor uw vacature. Een dedicated talent pool bevat 15-30 zorgvuldig geïdentificeerde en geëvalueerde kandidaten die exact passen bij uw specifieke profiel. Dit past uitstekend binnen een [recruitment-as-a-service](/nl/recruitment-as-a-service) model.\n\nDe kwaliteit per kandidaat is significant hoger, en de informatie is actueel en relevant — geen verouderde cv's van drie jaar oud.",
     },
   ],
   faqs: [

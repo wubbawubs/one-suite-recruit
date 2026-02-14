@@ -30,7 +30,7 @@ const data: SpokePageData = {
     },
     {
       title: "De unieke uitdaging van tech recruitment",
-      content: "Tech leadership recruitment kent specifieke uitdagingen die het proces complexer maken dan andere C-level posities:\n\nDe markt is extreem competitief: goede tech leiders worden voortdurend benaderd. De technologische veroudering is snel: ervaring van 5 jaar geleden kan irrelevant zijn. En de cultuurkloof tussen tech-gedreven en business-gedreven organisaties is vaak groter dan verwacht.\n\nDaarom is het essentieel om een searchbureau in te schakelen dat de tech-markt begrijpt en de juiste netwerken heeft.",
+      content: "Tech leadership recruitment kent specifieke uitdagingen die het proces complexer maken dan andere C-level posities:\n\nDe markt is extreem competitief: goede tech leiders worden voortdurend benaderd. De technologische veroudering is snel: ervaring van 5 jaar geleden kan irrelevant zijn. En de [cultuurkloof](/nl/culture-fit-vs-culture-add) tussen tech-gedreven en business-gedreven organisaties is vaak groter dan verwacht.\n\nDaarom is het essentieel om een searchbureau in te schakelen dat de [SaaS/IT-markt](/nl/saas-it-leadership) begrijpt en de juiste netwerken heeft.",
     },
     {
       title: "CTO/CIO profiel per organisatietype",
