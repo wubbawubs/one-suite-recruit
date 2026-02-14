@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
+import { CalendlyEmbed } from "@/components/CalendlyEmbed";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 import { useState } from "react";
@@ -228,6 +229,8 @@ const NLContact = () => {
             </div>
           </div>
         </section>
+
+        <CalendlyEmbed />
 
         {/* Quick CTA */}
         <section className="border-t border-border bg-muted/40 py-16">
