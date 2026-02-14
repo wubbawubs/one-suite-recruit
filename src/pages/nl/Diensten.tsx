@@ -123,7 +123,7 @@ const NLDiensten = () => {
                     )}
                     {s.image && (
                     <div className="h-48 overflow-hidden">
-                        <img src={s.image} alt="" className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105" />
+                        <img src={s.image} alt="" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" style={{ objectPosition: 'center 10%' }} />
                       </div>
                     )}
                     <div className="flex flex-1 flex-col p-8">
