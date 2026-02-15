@@ -48,9 +48,9 @@ const steps = [
 ];
 
 const cases = [
-  { client: "MAS Aviation", industry: "Luftfahrt", challenge: "Bedarf an einem erfahrenen VP Operations innerhalb von 6 Wochen.", result: "Kandidat in 18 Tagen vermittelt, nach 2 Jahren noch aktiv.", metric: "18 Tage" },
-  { client: "AFAS Software", industry: "Tech / SaaS", challenge: "Suche nach einem CTO, der Innovation und Skalierbarkeit vereint.", result: "3 Top-Kandidaten präsentiert, Vermittlung innerhalb von 4 Wochen.", metric: "4 Wochen" },
-  { client: "FinancePro Group", industry: "Finanzen", challenge: "CFO-Position für ein schnell wachsendes Fintech mit komplexen Compliance-Anforderungen.", result: "Erfolgreiche Vermittlung mit 98% Match-Score bei Kompetenzen.", metric: "98% Match" },
+  { client: "Arvoo", industry: "High-tech", challenge: "Suche nach einem technischen Direktor mit Vision für F&E und Wachstum.", result: "Kandidat innerhalb von 3 Wochen vermittelt, nach 1+ Jahr erfolgreich.", metric: "3 Wochen" },
+  { client: "BGH Accountants", industry: "Wirtschaftsprüfung", challenge: "Managing Partner Position mit Fokus auf Kundenbeziehungen und Teamführung.", result: "Shortlist von 4 Kandidaten, Vermittlung innerhalb von 18 Tagen.", metric: "18 Tage" },
+  { client: "Thales", industry: "Defence / Tech", challenge: "Senior-Führungsposition in einer komplexen, internationalen Organisation.", result: "Erfolgreiche Vermittlung mit optimaler Kompetenz- und Kulturpassung.", metric: "Top Match" },
 ];
 
 const articles = [
