@@ -11,6 +11,7 @@ import teamRobin from "@/assets/team-robin.jpeg";
 import teamErik from "@/assets/team-erik.jpeg";
 import teamJuliette from "@/assets/team-juliette.jpeg";
 import teamLuuk from "@/assets/team-luuk.jpeg";
+import teamAdriana from "@/assets/team-adriana.jpeg";
 
 const values = [
   { icon: Target, title: "Ergebnisorientiert", description: "Wir messen unseren Erfolg an Ihrem Ergebnis. Jede Besetzung muss nachhaltig Wirkung zeigen." },
@@ -32,6 +33,8 @@ const team = [
   { tag: "Advises", name: "Erik Dijkshoorn", role: "Strategischer Berater", bio: "Umfangreiche Erfahrung in mehreren C-Level-Rollen. Leadership Coach und strategischer Denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
   { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Agenturbetrieb und BI-Spezialistin. Das finanzielle und operative Gewissen von OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Junger, engagierter Tech-Leader. Leidenschaftlich beim Aufbau skalierbarer Lösungen, die Recruitment verbessern.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
+  { tag: "Leads", name: "Adriana Antkowiak", role: "Direktorin Deutschland", bio: "Leitet die Expansion auf dem deutschen Markt. Verbindet den niederländischen Recruitment-Ansatz mit dem deutschen Arbeitsmarkt.", photo: teamAdriana, linkedin: "https://www.linkedin.com/in/adrianna-antkowiak-180096235/" },
+  { tag: "Inspires", name: "Roland Nederstigt", role: "Partner", bio: "Einflussreicher HR-Leader mit jahrzehntelanger Erfahrung. Strategischer Partner, der Unternehmen hilft, das Beste aus ihren Menschen herauszuholen.", photo: null, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
 ];
 
 const DEUeberUns = () => {
@@ -141,12 +144,18 @@ const DEUeberUns = () => {
                 OneTime Recruit wurde nicht von Produktmanagern gebaut, die auf Recruitment-Probleme gewettet haben. Es wurde von Operatoren gebaut, die sie jahrelang erlebt haben.
               </p>
             </ScrollReveal>
-            <StaggerContainer className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.1}>
+            <StaggerContainer className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" stagger={0.1}>
               {team.map((t) => (
                 <StaggerItem key={t.name} variant="fade-up">
                   <div className="group relative flex h-full flex-col rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-accent/25 hover:shadow-xl hover:-translate-y-1">
                     <div className="flex items-start justify-between">
-                      <img src={t.photo} alt={t.name} className="h-16 w-16 rounded-full object-cover ring-2 ring-border group-hover:ring-accent/30 transition-all" />
+                      {t.photo ? (
+                        <img src={t.photo} alt={t.name} className="h-16 w-16 rounded-full object-cover ring-2 ring-border group-hover:ring-accent/30 transition-all" />
+                      ) : (
+                        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 ring-2 ring-border group-hover:ring-accent/30 transition-all">
+                          <span className="font-display text-lg font-bold text-accent">{t.name.split(' ').map(n => n[0]).join('')}</span>
+                        </div>
+                      )}
                       <a href={t.linkedin} target="_blank" rel="noopener noreferrer" className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:bg-accent/10 hover:text-accent" aria-label={`${t.name} auf LinkedIn`}>
                         <Linkedin className="h-4 w-4" />
                       </a>

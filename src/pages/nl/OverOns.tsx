@@ -11,6 +11,7 @@ import teamRobin from "@/assets/team-robin.jpeg";
 import teamErik from "@/assets/team-erik.jpeg";
 import teamJuliette from "@/assets/team-juliette.jpeg";
 import teamLuuk from "@/assets/team-luuk.jpeg";
+import teamAdriana from "@/assets/team-adriana.jpeg";
 import sfeerOverOns from "@/assets/sfeer-over-ons.jpg";
 
 const values = [
@@ -33,6 +34,8 @@ const team = [
   { tag: "Advises", name: "Erik Dijkshoorn", role: "Strategic Advisor", bio: "Uitgebreide ervaring in meerdere C-level rollen. Leadership coach en strategisch denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
   { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Bureau manager en BI specialist. Het financiële en operationele geweten van OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Jonge, gedreven tech leider. Gepassioneerd over het bouwen van schaalbare oplossingen die recruitment beter maken.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
+  { tag: "Leads", name: "Adriana Antkowiak", role: "Director Germany", bio: "Leidt de Duitse marktexpansie. Bouwt bruggen tussen de Nederlandse aanpak en de Duitse arbeidsmarkt.", photo: teamAdriana, linkedin: "https://www.linkedin.com/in/adrianna-antkowiak-180096235/" },
+  { tag: "Inspires", name: "Roland Nederstigt", role: "Partner", bio: "Impactvol HR-leider met decennia ervaring. Strategisch partner die organisaties helpt het beste uit hun mensen te halen.", photo: null, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
 ];
 
 const NLOverOns = () => {
@@ -160,16 +163,22 @@ const NLOverOns = () => {
               </p>
             </ScrollReveal>
 
-            <StaggerContainer className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4" stagger={0.1}>
+            <StaggerContainer className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" stagger={0.1}>
               {team.map((t) => (
                 <StaggerItem key={t.name} variant="fade-up">
                   <div className="group relative flex h-full flex-col rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-accent/25 hover:shadow-xl hover:-translate-y-1">
                     <div className="flex items-start justify-between">
-                      <img
-                        src={t.photo}
-                        alt={t.name}
-                        className="h-16 w-16 rounded-full object-cover ring-2 ring-border group-hover:ring-accent/30 transition-all"
-                      />
+                      {t.photo ? (
+                        <img
+                          src={t.photo}
+                          alt={t.name}
+                          className="h-16 w-16 rounded-full object-cover ring-2 ring-border group-hover:ring-accent/30 transition-all"
+                        />
+                      ) : (
+                        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 ring-2 ring-border group-hover:ring-accent/30 transition-all">
+                          <span className="font-display text-lg font-bold text-accent">{t.name.split(' ').map(n => n[0]).join('')}</span>
+                        </div>
+                      )}
                       <a
                         href={t.linkedin}
                         target="_blank"
