@@ -42,7 +42,7 @@ const data: SpokePageData = {
     },
     {
       title: "OneTime Recruit in aviation",
-      content: "OneTime Recruit heeft diepgaande ervaring in de luchtvaartsector. We werken samen met airlines, MRO-bedrijven, airports en aviation services organisaties. Onze ervaring omvat plaatsingen bij onder andere MAS Aviation en andere toonaangevende spelers in de sector.\n\nOns netwerk in aviation is opgebouwd over jaren en omvat executives in heel Europa en het Midden-Oosten.",
+      content: "OneTime Recruit heeft diepgaande ervaring in de luchtvaartsector. We werken samen met airlines, MRO-bedrijven, airports en aviation services organisaties. Onze ervaring omvat plaatsingen bij onder andere MAAS Aviation en andere toonaangevende spelers in de sector.\n\nOns netwerk in aviation is opgebouwd over jaren en omvat executives in heel Europa en het Midden-Oosten.",
     },
   ],
   faqs: [

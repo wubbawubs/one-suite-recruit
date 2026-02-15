@@ -48,9 +48,9 @@ const steps = [
 ];
 
 const cases = [
-  { client: "MAS Aviation", industry: "Aviation", challenge: "Need for an experienced VP Operations within 6 weeks.", result: "Candidate placed in 18 days, still active after 2 years.", metric: "18 days" },
-  { client: "AFAS Software", industry: "Tech / SaaS", challenge: "Search for a CTO who combines innovation and scalability.", result: "3 top candidates presented, placement within 4 weeks.", metric: "4 weeks" },
-  { client: "FinancePro Group", industry: "Finance", challenge: "CFO position for a fast-growing fintech with complex compliance requirements.", result: "Successful placement with 98% competency match score.", metric: "98% match" },
+  { client: "Arvoo", industry: "High-tech", challenge: "Search for a technical director with a vision for R&D and growth.", result: "Candidate placed within 3 weeks, successful in role after 1+ year.", metric: "3 weeks" },
+  { client: "BGH Accountants", industry: "Accountancy", challenge: "Managing Partner position with emphasis on client relationships and team leadership.", result: "Shortlist of 4 candidates, placement within 18 days.", metric: "18 days" },
+  { client: "Thales", industry: "Defence / Tech", challenge: "Senior leadership position in a complex, international organisation.", result: "Successful match on both competencies and cultural fit.", metric: "Top match" },
 ];
 
 const articles = [

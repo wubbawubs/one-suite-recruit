@@ -12,8 +12,8 @@ import { useState } from "react";
 
 const vacancies = [
   { title: "Chief Technology Officer", company: "TechNova", location: "Amsterdam", type: "Fulltime", level: "C-level", industry: "Tech / SaaS", posted: "2 dagen geleden", urgent: true },
-  { title: "VP Operations", company: "MAS Aviation", location: "Schiphol", type: "Fulltime", level: "VP", industry: "Luchtvaart", posted: "5 dagen geleden", urgent: false },
-  { title: "Chief Financial Officer", company: "FinancePro Group", location: "Rotterdam", type: "Fulltime", level: "C-level", industry: "Finance", posted: "1 week geleden", urgent: true },
+  { title: "VP Operations", company: "MAAS Aviation", location: "Schiphol", type: "Fulltime", level: "VP", industry: "Luchtvaart", posted: "5 dagen geleden", urgent: false },
+  { title: "Chief Financial Officer", company: "Vertrouwelijk", location: "Rotterdam", type: "Fulltime", level: "C-level", industry: "Finance", posted: "1 week geleden", urgent: true },
   { title: "Head of People & Culture", company: "Vertrouwelijk", location: "Utrecht", type: "Fulltime", level: "Director", industry: "Retail", posted: "3 dagen geleden", urgent: false },
   { title: "Managing Director DACH", company: "Vertrouwelijk", location: "Amsterdam / München", type: "Fulltime", level: "C-level", industry: "Industrieel", posted: "1 dag geleden", urgent: true },
   { title: "Director of Engineering", company: "ScaleUp B.V.", location: "Eindhoven", type: "Fulltime", level: "Director", industry: "Tech / SaaS", posted: "4 dagen geleden", urgent: false },
