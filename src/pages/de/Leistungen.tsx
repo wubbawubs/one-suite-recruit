@@ -83,10 +83,10 @@ const DELeistungen = () => {
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Unsere Leistungen</span>
               <h1 className="mt-4 font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.5rem]">
-                Strategische Lösungen für <span className="text-accent">außergewöhnliche Talente</span>
+                Traditionelles Recruiting <span className="text-accent">kostet mehr als Sie denken</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Von Executive Search bis vollständiger Rekrutierungsoptimierung — wir liefern auf jedem Niveau.
+                Versteckte Gebühren, monatelange Laufzeiten und null Transparenz. Wir machen es anders — Festpreis, 18 Tage, und Sie behalten die Kontrolle.
               </p>
             </ScrollReveal>
           </div>

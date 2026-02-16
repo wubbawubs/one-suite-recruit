@@ -83,10 +83,10 @@ const ENServices = () => {
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Services</span>
               <h1 className="mt-4 font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.5rem]">
-                Strategic solutions for <span className="text-accent">exceptional talent</span>
+                Traditional recruitment <span className="text-accent">costs more than you think</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                From executive search to complete recruitment optimisation — we deliver at every level.
+                Hidden fees, months-long timelines and zero transparency. We do it differently — fixed fee, 18 days, and you stay in control.
               </p>
             </ScrollReveal>
           </div>

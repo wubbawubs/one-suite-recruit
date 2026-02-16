@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
 import { getAlternates } from "@/lib/seo";
+import { ProblemSection } from "@/components/sections/ProblemSection";
+import { ComparisonSection } from "@/components/sections/ComparisonSection";
 
 const services = [
   {
@@ -31,11 +33,11 @@ const services = [
 ];
 
 const differentiators = [
-  { title: "Exklusives Netzwerk", description: "Zugang zu einem sorgfältig aufgebauten Netzwerk von Senior-Führungskräften, die nicht aktiv suchen." },
-  { title: "Bewährte Assessment-Methode", description: "Strukturierte Auswahl basierend auf Kompetenzen, Kulturpassung und Führungspotenzial." },
-  { title: "Festpreis, keine Überraschungen", description: "Transparente Tarife ohne versteckte Kosten. Sie wissen im Voraus genau, was Ihre Investition ist." },
-  { title: "Nachbetreuung & Garantie", description: "6 Monate Nachbetreuung und Garantie auf jede Vermittlung. Wir stehen für nachhaltige Besetzungen." },
-  { title: "Persönlicher Partner", description: "Ein dedizierter Berater, der Ihr Unternehmen, Ihre Kultur und Ihre Ambitionen genau kennt." },
+  { title: "Kandidaten, die Sie nirgendwo anders finden", description: "Unser Netzwerk von 7.500+ Senior-Führungskräften, die nicht auf Jobportalen sind. Wir sprechen sie persönlich an." },
+  { title: "Kein Bauchgefühl — nur Daten", description: "Strukturiertes Assessment auf Kompetenzen, Führungsstil und Kulturpassung. Jeder Kandidat objektiv bewertet." },
+  { title: "Festpreis, keine Prozente", description: "Sie zahlen einen festen Betrag, nicht 25-30% des Jahresgehalts. Vorab klar, nachher keine Überraschungen." },
+  { title: "6 Monate Garantie auf jede Besetzung", description: "Passt es nicht? Wir finden kostenfrei einen Ersatz. Wir glauben an unsere Matches." },
+  { title: "Ein Partner, der Ihr Unternehmen wirklich kennt", description: "Keine wechselnden Berater. Ein dedizierter Partner, der Ihre Kultur, Ihr Team und Ihre Ambitionen versteht." },
 ];
 
 const steps = [
@@ -103,7 +105,7 @@ const DEHome = () => {
                 className="mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 px-6 py-2.5 backdrop-blur-sm"
               >
                 <span className="text-sm font-medium text-primary-foreground/70">
-                  ✦ Einmal suchen, danach selbst besetzen
+                  ✦ Der neue Standard im Executive Recruitment
                 </span>
               </motion.div>
 
@@ -113,18 +115,18 @@ const DEHome = () => {
                 transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                 className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
               >
-                Ihr Abonnement für
+                Ihre nächste Führungskraft ist
                 <br />
-                <span className="text-accent">unbegrenzten Zugang</span> zu Talenten
+                <span className="text-accent">nicht auf einem Jobportal</span>
               </motion.h1>
 
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
-                className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg italic"
+                className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                Ein digitaler Talentpool pro Vakanz mit qualifizierten Kandidaten und aktuellen Informationen wie Verfügbarkeit.
+                Traditionelle Suche ist langsam, teuer und intransparent. Wir liefern eine Shortlist bewährter Führungskräfte in 18 Tagen — zum Festpreis.
               </motion.p>
 
               <motion.div
@@ -134,10 +136,10 @@ const DEHome = () => {
                 className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
               >
                 <Button asChild size="lg" className="h-13 rounded-full bg-accent px-10 text-[15px] font-semibold text-accent-foreground shadow-lg shadow-accent/25 hover:bg-accent/90 hover:shadow-xl hover:shadow-accent/30 transition-all duration-300">
-                  <Link to="/de/leistungen">Ich bin Auftraggeber</Link>
+                  <Link to="/de/kontakt">Gespräch vereinbaren</Link>
                 </Button>
                 <Button asChild size="lg" className="h-13 rounded-full border-2 border-accent/60 bg-transparent px-10 text-[15px] font-semibold text-accent hover:bg-accent/10 hover:border-accent transition-all duration-300">
-                  <Link to="/de/stellenangebote">Ich habe Talent</Link>
+                  <Link to="/de/leistungen">Unseren Ansatz entdecken</Link>
                 </Button>
               </motion.div>
 
@@ -149,8 +151,9 @@ const DEHome = () => {
               >
                 <div className="h-px w-8 bg-primary-foreground/15" />
                 <p className="text-sm text-primary-foreground/40">
-                  <span className="font-bold text-primary-foreground/75">+7.500 Spezialisten</span>{" "}
-                  bereit für Ihren Auftrag
+                  <span className="font-bold text-primary-foreground/75">18 Tage</span>{" "}
+                  durchschnittliche Laufzeit — <span className="font-bold text-primary-foreground/75">Festpreis</span>{" "}
+                  — <span className="font-bold text-primary-foreground/75">6 Monate Garantie</span>
                 </p>
                 <div className="h-px w-8 bg-primary-foreground/15" />
               </motion.div>
@@ -188,6 +191,9 @@ const DEHome = () => {
           </div>
         </section>
 
+        {/* Problem */}
+        <ProblemSection lang="de" />
+
         {/* Services */}
         <section className="py-24 md:py-32">
           <div className="container">
@@ -211,6 +217,9 @@ const DEHome = () => {
             </StaggerContainer>
           </div>
         </section>
+
+        {/* Comparison */}
+        <ComparisonSection lang="de" />
 
         {/* Why OneTime */}
         <section className="bg-muted/60 py-24 md:py-32">
@@ -326,7 +335,7 @@ const DEHome = () => {
           <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="container relative z-10 text-center">
             <ScrollReveal variant="scale-in">
-              <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">Bereit, die richtigen Talente zu finden?</h2>
+              <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">Hören Sie auf zu suchen. Fangen Sie an zu finden.</h2>
               <p className="mx-auto mt-5 max-w-lg text-lg text-accent-foreground/80">Vereinbaren Sie ein unverbindliches Gespräch und erfahren Sie, wie wir Ihr Unternehmen stärken können.</p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button asChild size="lg" className="h-13 rounded-full bg-primary px-10 text-[15px] font-semibold text-primary-foreground shadow-lg hover:bg-primary/90 transition-all duration-300">

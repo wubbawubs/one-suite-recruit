@@ -4,24 +4,24 @@ import sfeerZoekopdracht from "@/assets/sfeer-zoekopdracht.jpg";
 
 const differentiators = [
   {
-    title: "Exclusief netwerk",
-    description: "Toegang tot een zorgvuldig opgebouwd netwerk van senior executives die niet actief zoeken.",
+    title: "Kandidaten die u nergens anders vindt",
+    description: "Ons netwerk bestaat uit 7.500+ senior executives die niet op jobboards zitten. Wij benaderen ze persoonlijk.",
   },
   {
-    title: "Bewezen assessmentmethode",
-    description: "Gestructureerde selectie op basis van competenties, cultuurfit en leiderschapspotentieel.",
+    title: "Geen onderbuikgevoel, maar data",
+    description: "Gestructureerd assessment op competenties, leiderschapsstijl en cultuurfit. Elke kandidaat objectief beoordeeld.",
   },
   {
-    title: "Vaste prijs, geen verrassingen",
-    description: "Transparante tarieven zonder verborgen kosten. U weet vooraf exact wat uw investering is.",
+    title: "Vaste prijs, geen percentages",
+    description: "U betaalt een vast bedrag, geen 25-30% van het jaarsalaris. Vooraf helder, achteraf geen verrassingen.",
   },
   {
-    title: "Aftercare & garantie",
-    description: "6 maanden nazorg en garantie op elke plaatsing. Wij staan voor duurzame matches.",
+    title: "6 maanden garantie op elke plaatsing",
+    description: "Past het niet? Dan vinden wij kosteloos een vervanger. Wij geloven in onze matches.",
   },
   {
-    title: "Persoonlijke partner",
-    description: "Eén dedicated consultant die uw organisatie, cultuur en ambities door en door kent.",
+    title: "Eén partner die uw organisatie écht kent",
+    description: "Geen wisselende consultants. Eén dedicated partner die uw cultuur, team en ambities door en door begrijpt.",
   },
 ];
 

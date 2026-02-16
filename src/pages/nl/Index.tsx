@@ -2,7 +2,9 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { TrustBar } from "@/components/sections/TrustBar";
+import { ProblemSection } from "@/components/sections/ProblemSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
+import { ComparisonSection } from "@/components/sections/ComparisonSection";
 import { WhySection } from "@/components/sections/WhySection";
 import { ProcessSection } from "@/components/sections/ProcessSection";
 import { CaseStudiesSection } from "@/components/sections/CaseStudiesSection";
@@ -37,7 +39,9 @@ const NLHome = () => {
       <main>
         <HeroSection />
         <TrustBar />
+        <ProblemSection lang="nl" />
         <ServicesSection />
+        <ComparisonSection lang="nl" />
         <WhySection />
         <ProcessSection />
         <CaseStudiesSection />

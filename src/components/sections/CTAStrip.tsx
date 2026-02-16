@@ -12,7 +12,7 @@ export function CTAStrip() {
       <div className="container relative z-10 text-center">
         <ScrollReveal variant="scale-in">
           <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">
-            Klaar om het juiste talent te vinden?
+            Stop met zoeken. Start met vinden.
           </h2>
           <p className="mx-auto mt-5 max-w-lg text-lg text-accent-foreground/80">
             Plan een vrijblijvend gesprek en ontdek hoe wij uw organisatie kunnen versterken.
