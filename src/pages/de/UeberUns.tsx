@@ -12,6 +12,7 @@ import teamErik from "@/assets/team-erik.jpeg";
 import teamJuliette from "@/assets/team-juliette.jpeg";
 import teamLuuk from "@/assets/team-luuk.jpeg";
 import teamAdriana from "@/assets/team-adriana.jpeg";
+import teamRoland from "@/assets/team-roland.jpeg";
 
 const values = [
   { icon: Target, title: "Ergebnisorientiert", description: "Wir messen unseren Erfolg an Ihrem Ergebnis. Jede Besetzung muss nachhaltig Wirkung zeigen." },
@@ -30,11 +31,11 @@ const milestones = [
 
 const team = [
   { tag: "Creates", name: "Robin Dennie", role: "Gründer & CEO", bio: "25 Jahre Agentur-Erfahrung. Recruitment-Innovator, der verändert, wie Unternehmen einstellen.", photo: teamRobin, linkedin: "https://www.linkedin.com/in/robindennie024/" },
-  { tag: "Advises", name: "Erik Dijkshoorn", role: "Strategischer Berater", bio: "Umfangreiche Erfahrung in mehreren C-Level-Rollen. Leadership Coach und strategischer Denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
-  { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Agenturbetrieb und BI-Spezialistin. Das finanzielle und operative Gewissen von OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
+  { tag: "Advises", name: "Erik Dijkshoorn", role: "Managing Partner", bio: "Umfangreiche Erfahrung in mehreren C-Level-Rollen und General Management. Leadership Coach und strategischer Denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
+  { tag: "Directs", name: "Juliëtte Welten", role: "COO", bio: "Agenturbetrieb und BI-Spezialistin. Das finanzielle und operative Gewissen von OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Junger, engagierter Tech-Leader. Leidenschaftlich beim Aufbau skalierbarer Lösungen, die Recruitment verbessern.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
   { tag: "Leads", name: "Adriana Antkowiak", role: "Direktorin Deutschland", bio: "Leitet die Expansion auf dem deutschen Markt. Verbindet den niederländischen Recruitment-Ansatz mit dem deutschen Arbeitsmarkt.", photo: teamAdriana, linkedin: "https://www.linkedin.com/in/adrianna-antkowiak-180096235/" },
-  { tag: "Inspires", name: "Roland Nederstigt", role: "Partner", bio: "Einflussreicher HR-Leader mit jahrzehntelanger Erfahrung. Strategischer Partner, der Unternehmen hilft, das Beste aus ihren Menschen herauszuholen.", photo: null, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
+  { tag: "Inspires", name: "Roland Boegheim", role: "Partner", bio: "Einflussreicher HR-Leader mit jahrzehntelanger Erfahrung. Strategischer Partner, der Unternehmen hilft, das Beste aus ihren Menschen herauszuholen.", photo: teamRoland, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
 ];
 
 const DEUeberUns = () => {

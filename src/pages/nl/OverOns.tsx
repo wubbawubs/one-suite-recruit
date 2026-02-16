@@ -12,6 +12,7 @@ import teamErik from "@/assets/team-erik.jpeg";
 import teamJuliette from "@/assets/team-juliette.jpeg";
 import teamLuuk from "@/assets/team-luuk.jpeg";
 import teamAdriana from "@/assets/team-adriana.jpeg";
+import teamRoland from "@/assets/team-roland.jpeg";
 import sfeerOverOns from "@/assets/sfeer-over-ons.jpg";
 
 const values = [
@@ -31,11 +32,11 @@ const milestones = [
 
 const team = [
   { tag: "Creates", name: "Robin Dennie", role: "Founder & CEO", bio: "25 jaar bureau-ervaring. Recruitment innovator die verandert hoe bedrijven werven.", photo: teamRobin, linkedin: "https://www.linkedin.com/in/robindennie024/" },
-  { tag: "Advises", name: "Erik Dijkshoorn", role: "Strategic Advisor", bio: "Uitgebreide ervaring in meerdere C-level rollen. Leadership coach en strategisch denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
-  { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Bureau manager en BI specialist. Het financiële en operationele geweten van OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
+  { tag: "Advises", name: "Erik Dijkshoorn", role: "Managing Partner", bio: "Uitgebreide ervaring in meerdere C-level rollen en algemeen management. Leadership coach en strategisch denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
+  { tag: "Directs", name: "Juliëtte Welten", role: "COO", bio: "Bureau manager en BI specialist. Het financiële en operationele geweten van OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Jonge, gedreven tech leider. Gepassioneerd over het bouwen van schaalbare oplossingen die recruitment beter maken.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
   { tag: "Leads", name: "Adriana Antkowiak", role: "Director Germany", bio: "Leidt de Duitse marktexpansie. Bouwt bruggen tussen de Nederlandse aanpak en de Duitse arbeidsmarkt.", photo: teamAdriana, linkedin: "https://www.linkedin.com/in/adrianna-antkowiak-180096235/" },
-  { tag: "Inspires", name: "Roland Nederstigt", role: "Partner", bio: "Impactvol HR-leider met decennia ervaring. Strategisch partner die organisaties helpt het beste uit hun mensen te halen.", photo: null, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
+  { tag: "Inspires", name: "Roland Boegheim", role: "Partner", bio: "Impactvol HR-leider met decennia ervaring. Strategisch partner die organisaties helpt het beste uit hun mensen te halen.", photo: teamRoland, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
 ];
 
 const NLOverOns = () => {

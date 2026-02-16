@@ -12,6 +12,7 @@ import teamErik from "@/assets/team-erik.jpeg";
 import teamJuliette from "@/assets/team-juliette.jpeg";
 import teamLuuk from "@/assets/team-luuk.jpeg";
 import teamAdriana from "@/assets/team-adriana.jpeg";
+import teamRoland from "@/assets/team-roland.jpeg";
 
 const values = [
   { icon: Target, title: "Results-Driven", description: "We measure our success by your results. Every placement must deliver lasting impact." },
@@ -30,11 +31,11 @@ const milestones = [
 
 const team = [
   { tag: "Creates", name: "Robin Dennie", role: "Founder & CEO", bio: "25 years of agency experience. Recruitment innovator changing how companies hire.", photo: teamRobin, linkedin: "https://www.linkedin.com/in/robindennie024/" },
-  { tag: "Advises", name: "Erik Dijkshoorn", role: "Strategic Advisor", bio: "Extensive experience in multiple C-level roles. Leadership coach and strategic thinker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
-  { tag: "Directs", name: "Juliëtte Welten", role: "Operations Director", bio: "Agency management and BI specialist. The financial and operational conscience of OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
+  { tag: "Advises", name: "Erik Dijkshoorn", role: "Managing Partner", bio: "Extensive experience in multiple C-level roles and general management. Leadership coach and strategic thinker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
+  { tag: "Directs", name: "Juliëtte Welten", role: "COO", bio: "Agency management and BI specialist. The financial and operational conscience of OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Young, driven tech leader. Passionate about building scalable solutions that make recruitment better.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
   { tag: "Leads", name: "Adriana Antkowiak", role: "Director Germany", bio: "Leads the German market expansion. Bridges the Dutch recruitment approach with the German labour market.", photo: teamAdriana, linkedin: "https://www.linkedin.com/in/adrianna-antkowiak-180096235/" },
-  { tag: "Inspires", name: "Roland Nederstigt", role: "Partner", bio: "Impactful HR leader with decades of experience. Strategic partner helping organisations get the best out of their people.", photo: null, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
+  { tag: "Inspires", name: "Roland Boegheim", role: "Partner", bio: "Impactful HR leader with decades of experience. Strategic partner helping organisations get the best out of their people.", photo: teamRoland, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
 ];
 
 const ENAbout = () => {
