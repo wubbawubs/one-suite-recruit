@@ -27,7 +27,7 @@ const differentiators = [
 
 export function WhySection() {
   return (
-    <section className="bg-muted/60 py-24 md:py-32">
+    <section className="bg-muted/60 py-16 md:py-24 lg:py-32">
       <div className="container">
         <div className="grid items-start gap-12 lg:grid-cols-5 lg:gap-20">
           <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">

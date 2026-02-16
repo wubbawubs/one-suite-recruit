@@ -86,28 +86,28 @@ export function ProblemSection({ lang = "nl" }: ProblemSectionProps) {
   const t = content[lang];
 
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-16 md:py-24">
       <div className="container">
         <ScrollReveal className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-destructive">
             {t.label}
           </span>
-          <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">
+          <h2 className="mt-3 font-display text-2xl font-bold text-foreground md:text-[2.5rem] leading-tight">
             {t.headline}
           </h2>
         </ScrollReveal>
 
-        <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
+        <StaggerContainer className="mt-10 md:mt-14 grid gap-4 md:gap-6 md:grid-cols-3" stagger={0.12}>
           {t.cards.map((card) => (
             <StaggerItem key={card.title} variant="fade-up">
-              <div className="group flex h-full flex-col rounded-2xl border border-destructive/15 bg-destructive/[0.03] p-8 transition-all duration-300 hover:border-destructive/25 hover:shadow-lg">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-destructive/10 text-destructive">
-                  <card.icon className="h-6 w-6" />
+              <div className="group flex h-full flex-col rounded-2xl border border-destructive/15 bg-destructive/[0.03] p-6 md:p-8 transition-all duration-300 hover:border-destructive/25 hover:shadow-lg">
+                <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-destructive/10 text-destructive">
+                  <card.icon className="h-5 w-5 md:h-6 md:w-6" />
                 </div>
-                <h3 className="mt-5 font-display text-lg font-bold text-card-foreground">
+                <h3 className="mt-4 font-display text-base md:text-lg font-bold text-card-foreground">
                   {card.title}
                 </h3>
-                <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted-foreground">
+                <p className="mt-2 flex-1 text-sm md:text-[15px] leading-relaxed text-muted-foreground">
                   {card.pain}
                 </p>
               </div>
@@ -115,12 +115,12 @@ export function ProblemSection({ lang = "nl" }: ProblemSectionProps) {
           ))}
         </StaggerContainer>
 
-        <ScrollReveal delay={0.3} className="mt-14 text-center">
-          <p className="text-2xl font-bold text-foreground md:text-3xl font-display">
+        <ScrollReveal delay={0.3} className="mt-10 text-center">
+          <p className="text-xl font-bold text-foreground md:text-3xl font-display">
             {t.closing}
           </p>
-          <div className="mt-6">
-            <Button asChild size="lg" className="h-13 rounded-full bg-accent px-10 text-[15px] font-semibold text-accent-foreground shadow-lg shadow-accent/25 hover:bg-accent/90 transition-all duration-300">
+          <div className="mt-5">
+            <Button asChild size="lg" className="h-12 md:h-13 rounded-full bg-accent px-8 md:px-10 text-sm md:text-[15px] font-semibold text-accent-foreground shadow-lg shadow-accent/25 hover:bg-accent/90 transition-all duration-300">
               <Link to={t.ctaHref}>
                 {t.cta} <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
