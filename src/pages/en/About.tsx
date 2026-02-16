@@ -25,7 +25,7 @@ const milestones = [
   { year: "Q1 2025", title: "Felt the pain", description: "Frustrated by expensive, slow and impersonal executive search agencies. There had to be a better way." },
   { year: "Q2 2025", title: "OneTime Recruit", description: "Launched with a mission: executive search with fixed pricing, speed and total transparency." },
   { year: "Q3 2025", title: "Software & scale", description: "Developed proprietary recruitment technology. Talent pools per vacancy — not searching, but matching." },
-  { year: "Q4 2025", title: "OneGroup founded", description: "Expanded into an ecosystem: OneRooted, OneSource and KlikKlaarSEO under one roof." },
+  { year: "Q4 2025", title: "OneGroup founded", description: "Expanded into an ecosystem: One Rooted, OneSource and KlikKlaarSEO under one roof." },
   { year: "Q1 2026", title: "Changing the market", description: "From disruptor to the new standard. Fixed fees, proprietary talent pools and a growing network of 7,500+ specialists." },
 ];
 
@@ -103,7 +103,7 @@ const ENAbout = () => {
                     OneTime Recruit is part of OneGroup, an ecosystem of specialised recruitment and HR labels. Together, we offer a complete spectrum of talent and organisational solutions.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">
-                    {["OneTime Recruit", "OneRooted", "OneSource", "KlikKlaarSEO"].map((label) => (
+                    {["OneTime Recruit", "One Rooted", "OneSource", "KlikKlaarSEO"].map((label) => (
                       <span key={label} className="rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-muted-foreground">{label}</span>
                     ))}
                   </div>

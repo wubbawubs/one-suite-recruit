@@ -26,8 +26,8 @@ const services = [
   },
   {
     icon: Settings,
-    title: "Hiring OS by OneRooted",
-    description: "Wir bauen Ihr eigenes Recruitment Operating Model, damit Sie selbstständig Top-Talente gewinnen können. Powered by OneRooted.",
+    title: "Hiring OS by One Rooted",
+    description: "Wir bauen Ihr eigenes Recruitment Operating Model, damit Sie selbstständig Top-Talente gewinnen können. Powered by One Rooted.",
     href: "https://onerooted.nl/en/",
   },
 ];

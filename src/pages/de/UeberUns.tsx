@@ -25,7 +25,7 @@ const milestones = [
   { year: "Q1 2025", title: "Den Schmerz gespürt", description: "Frustriert von teuren, langsamen und unpersönlichen Executive Search Agenturen. Es musste einen besseren Weg geben." },
   { year: "Q2 2025", title: "OneTime Recruit", description: "Gestartet mit einer Mission: Executive Search mit Festpreisen, Schnelligkeit und totaler Transparenz." },
   { year: "Q3 2025", title: "Software & Skalierung", description: "Eigene Recruitment-Technologie entwickelt. Talent Pools pro Vakanz — nicht suchen, sondern matchen." },
-  { year: "Q4 2025", title: "OneGroup gegründet", description: "Expansion zu einem Ökosystem: OneRooted, OneSource und KlikKlaarSEO unter einem Dach." },
+  { year: "Q4 2025", title: "OneGroup gegründet", description: "Expansion zu einem Ökosystem: One Rooted, OneSource und KlikKlaarSEO unter einem Dach." },
   { year: "Q1 2026", title: "Den Markt verändern", description: "Vom Disruptor zum neuen Standard. Festpreise, eigene Talent Pools und ein wachsendes Netzwerk von 7.500+ Spezialisten." },
 ];
 
@@ -104,7 +104,7 @@ const DEUeberUns = () => {
                     OneTime Recruit ist Teil von OneGroup, einem Ökosystem spezialisierter Recruitment- und HR-Labels. Zusammen bieten wir ein vollständiges Spektrum an Talent- und Organisationslösungen.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">
-                    {["OneTime Recruit", "OneRooted", "OneSource", "KlikKlaarSEO"].map((label) => (
+                    {["OneTime Recruit", "One Rooted", "OneSource", "KlikKlaarSEO"].map((label) => (
                       <span key={label} className="rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-muted-foreground">{label}</span>
                     ))}
                   </div>
