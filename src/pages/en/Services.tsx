@@ -26,10 +26,10 @@ const services = [
   },
   {
     icon: Settings,
-    title: "Recruitment Operating Model",
-    description: "We build and optimise your internal recruitment processes. From employer branding to selection methodology, so you structurally hire better.",
+    title: "Hiring OS by OneRooted",
+    description: "We build your own recruitment operating model so you can independently attract top talent. Powered by OneRooted.",
     features: ["Process audit & optimisation", "Employer branding strategy", "ATS implementation", "Recruiter training"],
-    href: "/en/services",
+    href: "https://onerooted.nl/en/",
   },
   {
     icon: Target,
@@ -86,7 +86,7 @@ const ENServices = () => {
                 Traditional recruitment <span className="text-accent">costs more than you think</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Hidden fees, months-long timelines and zero transparency. We do it differently — fixed fee, 18 days, and you stay in control.
+                Hidden fees, months-long timelines and zero transparency. We do it differently, fixed fee, 18 days, and you stay in control.
               </p>
             </ScrollReveal>
           </div>

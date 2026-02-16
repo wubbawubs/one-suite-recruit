@@ -26,10 +26,10 @@ const services = [
   },
   {
     icon: Settings,
-    title: "Recruitment Operating Model",
-    description: "Wir bauen und optimieren Ihre internen Rekrutierungsprozesse. Von Employer Branding bis Auswahlmethodik, damit Sie strukturell besser einstellen.",
+    title: "Hiring OS by OneRooted",
+    description: "Wir bauen Ihr eigenes Recruitment Operating Model, damit Sie selbstständig Top-Talente gewinnen. Powered by OneRooted.",
     features: ["Prozess-Audit & Optimierung", "Employer Branding Strategie", "ATS Implementierung", "Recruiter Training"],
-    href: "/de/leistungen",
+    href: "https://onerooted.nl/en/",
   },
   {
     icon: Target,
@@ -86,7 +86,7 @@ const DELeistungen = () => {
                 Traditionelles Recruiting <span className="text-accent">kostet mehr als Sie denken</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Versteckte Gebühren, monatelange Laufzeiten und null Transparenz. Wir machen es anders — Festpreis, 18 Tage, und Sie behalten die Kontrolle.
+                Versteckte Gebühren, monatelange Laufzeiten und null Transparenz. Wir machen es anders, Festpreis, 18 Tage, und Sie behalten die Kontrolle.
               </p>
             </ScrollReveal>
           </div>
