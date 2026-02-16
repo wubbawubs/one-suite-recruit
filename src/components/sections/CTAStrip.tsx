@@ -5,19 +5,20 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 export function CTAStrip() {
   return (
-    <section className="relative overflow-hidden bg-accent py-16 md:py-24">
+    <section className="relative overflow-hidden bg-accent py-14 md:py-20">
       <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
       <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
 
       <div className="container relative z-10 text-center">
         <ScrollReveal variant="scale-in">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-foreground/60 mb-4">Gemiddeld 18 dagen van intake tot shortlist</p>
           <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">
             Stop met zoeken. Start met vinden.
           </h2>
-          <p className="mx-auto mt-5 max-w-lg text-lg text-accent-foreground/80">
+          <p className="mx-auto mt-4 max-w-lg text-lg text-accent-foreground/80">
             Plan een vrijblijvend gesprek en ontdek hoe wij uw organisatie kunnen versterken.
           </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg" className="h-13 rounded-full bg-primary px-10 text-[15px] font-semibold text-primary-foreground shadow-lg hover:bg-primary/90 transition-all duration-300">
               <Link to="/nl/contact#calendly">
                 Plan een gesprek
@@ -31,6 +32,7 @@ export function CTAStrip() {
               </a>
             </Button>
           </div>
+          <p className="mt-6 text-xs text-accent-foreground/50">Vaste prijs | 6 maanden garantie | Geen verborgen kosten</p>
         </ScrollReveal>
       </div>
     </section>

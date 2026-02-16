@@ -118,7 +118,7 @@ export default function EmployerBrandingRetention() {
         </section>
 
         {/* Intro */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-3xl">
               <h2 className="font-display text-2xl font-bold text-foreground md:text-4xl">Waarom retentie begint vóór de plaatsing</h2>

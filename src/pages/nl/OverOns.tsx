@@ -73,7 +73,7 @@ const NLOverOns = () => {
         </section>
 
         {/* Mission */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <div className="grid items-center gap-16 lg:grid-cols-2">
               <ScrollReveal variant="slide-left">
@@ -130,7 +130,7 @@ const NLOverOns = () => {
         </section>
 
         {/* Values */}
-        <section className="bg-muted/60 py-24 md:py-32">
+        <section className="bg-muted/60 py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Onze waarden</span>
@@ -154,7 +154,7 @@ const NLOverOns = () => {
         </section>
 
         {/* Team */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Ons team</span>
@@ -202,7 +202,7 @@ const NLOverOns = () => {
         </section>
 
         {/* Timeline */}
-        <section className="bg-primary py-24 text-primary-foreground md:py-32">
+        <section className="bg-primary py-16 text-primary-foreground md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Van frustratie naar de nieuwe standaard</span>
@@ -224,16 +224,16 @@ const NLOverOns = () => {
         </section>
 
         {/* CTA */}
-        <section className="relative overflow-hidden bg-accent py-20 md:py-24">
+        <section className="relative overflow-hidden bg-accent py-14 md:py-20">
           <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="container relative z-10 text-center">
             <ScrollReveal variant="scale-in">
               <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">
-                Wil je meer weten over ons?
+                Klaar om uw volgende leider te vinden?
               </h2>
-              <p className="mx-auto mt-5 max-w-lg text-lg text-accent-foreground/80">
-                Neem contact op en ontdek hoe wij uw organisatie kunnen versterken.
+              <p className="mx-auto mt-4 max-w-lg text-lg text-accent-foreground/80">
+                Plan een vrijblijvend gesprek en ontdek hoe wij uw organisatie versterken.
               </p>
               <div className="mt-10">
                 <Button asChild size="lg" className="h-13 rounded-full bg-primary px-10 text-[15px] font-semibold text-primary-foreground shadow-lg hover:bg-primary/90 transition-all duration-300">

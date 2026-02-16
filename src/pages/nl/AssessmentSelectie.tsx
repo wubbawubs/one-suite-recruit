@@ -119,7 +119,7 @@ export default function AssessmentSelectie() {
         </section>
 
         {/* Intro content */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-3xl">
               <h2 className="font-display text-2xl font-bold text-foreground md:text-4xl">Waarom assessment het verschil maakt</h2>
@@ -133,7 +133,7 @@ export default function AssessmentSelectie() {
         </section>
 
         {/* Method steps */}
-        <section className="border-y border-border/50 bg-muted/30 py-24 md:py-32">
+        <section className="border-y border-border/50 bg-muted/30 py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Onze methode</span>
@@ -154,7 +154,7 @@ export default function AssessmentSelectie() {
         </section>
 
         {/* Spoke links */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Verdieping</span>

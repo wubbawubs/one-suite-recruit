@@ -167,7 +167,7 @@ const NLExecutiveSearch = () => {
         </section>
 
         {/* What you get — deliverables */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Wat u krijgt</span>
@@ -195,7 +195,7 @@ const NLExecutiveSearch = () => {
         </section>
 
         {/* Who it's for — personas */}
-        <section className="border-y border-border/50 bg-muted/30 py-24 md:py-32">
+        <section className="border-y border-border/50 bg-muted/30 py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Voor wie</span>
@@ -245,7 +245,7 @@ const NLExecutiveSearch = () => {
         </section>
 
         {/* Process */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Ons proces</span>
@@ -282,7 +282,7 @@ const NLExecutiveSearch = () => {
         </section>
 
         {/* Assessment methodology */}
-        <section className="border-y border-border/50 bg-muted/30 py-24 md:py-32">
+        <section className="border-y border-border/50 bg-muted/30 py-16 md:py-24">
           <div className="container">
             <div className="mx-auto max-w-4xl">
               <ScrollReveal className="text-center">
@@ -316,7 +316,7 @@ const NLExecutiveSearch = () => {
         </section>
 
         {/* Industry proof */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Sectoren</span>
@@ -346,7 +346,7 @@ const NLExecutiveSearch = () => {
         </section>
 
         {/* FAQ */}
-        <section className="border-t border-border/50 bg-muted/30 py-24 md:py-32">
+        <section className="border-t border-border/50 bg-muted/30 py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Veelgestelde vragen</span>

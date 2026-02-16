@@ -93,7 +93,7 @@ const ENForEmployers = () => {
           </div>
         </section>
 
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Why OneTime</span>
@@ -113,7 +113,7 @@ const ENForEmployers = () => {
           </div>
         </section>
 
-        <section className="bg-muted/60 py-24 md:py-32">
+        <section className="bg-muted/60 py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">How it works</span>
@@ -134,7 +134,7 @@ const ENForEmployers = () => {
           </div>
         </section>
 
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Collaboration models</span>
@@ -166,7 +166,7 @@ const ENForEmployers = () => {
           </div>
         </section>
 
-        <section className="bg-primary py-24 text-primary-foreground md:py-32">
+        <section className="bg-primary py-16 text-primary-foreground md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Client experience</span>
@@ -188,7 +188,7 @@ const ENForEmployers = () => {
           </div>
         </section>
 
-        <section className="relative overflow-hidden bg-accent py-20 md:py-24">
+        <section className="relative overflow-hidden bg-accent py-14 md:py-20">
           <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="container relative z-10 text-center">
