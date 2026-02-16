@@ -22,7 +22,7 @@ export function HeroSection() {
             className="mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 px-6 py-2.5 backdrop-blur-sm"
           >
             <span className="text-sm font-medium text-primary-foreground/70">
-              ✦ Eenmalig zoeken, voortaan zelf invullen
+              ✦ De nieuwe standaard in executive recruitment
             </span>
           </motion.div>
 
@@ -32,18 +32,18 @@ export function HeroSection() {
             transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
             className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
           >
-            Het abonnement voor
+            Uw volgende leider zit
             <br />
-            <span className="text-accent">onbeperkt toegang</span> tot talent
+            <span className="text-accent">niet op een jobboard</span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
-            className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg italic"
+            className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
           >
-            Een digitale talentpool per vacature met geschikte kandidaten en up-to-date informatie zoals beschikbaarheid.
+            Traditionele search is traag, duur en ondoorzichtig. Wij leveren een shortlist van bewezen leiders in 18 dagen — tegen een vaste prijs.
           </motion.p>
 
           <motion.div
@@ -53,10 +53,10 @@ export function HeroSection() {
             className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
           >
             <Button asChild size="lg" className="h-13 rounded-full bg-accent px-10 text-[15px] font-semibold text-accent-foreground shadow-lg shadow-accent/25 hover:bg-accent/90 hover:shadow-xl hover:shadow-accent/30 transition-all duration-300">
-              <Link to="/nl/diensten">Ik ben opdrachtgever</Link>
+              <Link to="/nl/contact#calendly">Plan een gesprek</Link>
             </Button>
             <Button asChild size="lg" className="h-13 rounded-full border-2 border-accent/60 bg-transparent px-10 text-[15px] font-semibold text-accent hover:bg-accent/10 hover:border-accent transition-all duration-300">
-              <Link to="/nl/vacatures">Ik heb talent</Link>
+              <Link to="/nl/diensten">Bekijk onze aanpak</Link>
             </Button>
           </motion.div>
 
@@ -68,8 +68,9 @@ export function HeroSection() {
           >
             <div className="h-px w-8 bg-primary-foreground/15" />
             <p className="text-sm text-primary-foreground/40">
-              <span className="font-bold text-primary-foreground/75">+7.500 Specialisten</span>{" "}
-              klaar voor jouw opdracht
+              <span className="font-bold text-primary-foreground/75">18 dagen</span>{" "}
+              gemiddelde doorlooptijd — <span className="font-bold text-primary-foreground/75">vaste prijs</span>{" "}
+              — <span className="font-bold text-primary-foreground/75">6 maanden garantie</span>
             </p>
             <div className="h-px w-8 bg-primary-foreground/15" />
           </motion.div>

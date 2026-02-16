@@ -100,10 +100,10 @@ const NLDiensten = () => {
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Onze diensten</span>
               <h1 className="mt-4 font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.5rem]">
-                Strategische oplossingen voor <span className="text-accent">uitzonderlijk talent</span>
+                Traditionele recruitment <span className="text-accent">kost u meer dan u denkt</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Van executive search tot volledige recruitmentoptimalisatie, wij leveren op elk niveau.
+                Verborgen fees, maandenlange doorlooptijden en nul transparantie. Wij doen het anders — vaste prijs, 18 dagen, en u houdt de regie.
               </p>
             </ScrollReveal>
           </div>

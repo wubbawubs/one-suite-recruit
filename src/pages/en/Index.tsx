@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { PageMeta } from "@/components/PageMeta";
 import { getAlternates } from "@/lib/seo";
+import { ProblemSection } from "@/components/sections/ProblemSection";
+import { ComparisonSection } from "@/components/sections/ComparisonSection";
 
 const services = [
   {
@@ -31,11 +33,11 @@ const services = [
 ];
 
 const differentiators = [
-  { title: "Exclusive Network", description: "Access to a carefully curated network of senior leaders who are not actively looking." },
-  { title: "Proven Assessment Method", description: "Structured selection based on competencies, cultural fit and leadership potential." },
-  { title: "Fixed Fee, No Surprises", description: "Transparent pricing with no hidden costs. You know exactly what your investment is upfront." },
-  { title: "Aftercare & Guarantee", description: "6 months of aftercare and a guarantee on every placement. We stand for sustainable hires." },
-  { title: "Personal Partner", description: "A dedicated consultant who truly understands your company, culture and ambitions." },
+  { title: "Candidates you won't find anywhere else", description: "Our network of 7,500+ senior executives who aren't on job boards. We approach them personally." },
+  { title: "No gut feeling — just data", description: "Structured assessment on competencies, leadership style and cultural fit. Every candidate objectively evaluated." },
+  { title: "Fixed fee, no percentages", description: "You pay a fixed amount, not 25-30% of the annual salary. Clear upfront, no surprises after." },
+  { title: "6-month guarantee on every placement", description: "Not the right fit? We find a replacement at no cost. We believe in our matches." },
+  { title: "One partner who truly knows your organisation", description: "No rotating consultants. One dedicated partner who deeply understands your culture, team and ambitions." },
 ];
 
 const steps = [
@@ -103,7 +105,7 @@ const ENHome = () => {
                 className="mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 px-6 py-2.5 backdrop-blur-sm"
               >
                 <span className="text-sm font-medium text-primary-foreground/70">
-                  ✦ Search once, hire yourself from then on
+                  ✦ The new standard in executive recruitment
                 </span>
               </motion.div>
 
@@ -113,18 +115,18 @@ const ENHome = () => {
                 transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                 className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
               >
-                Your subscription for
+                Your next leader isn't
                 <br />
-                <span className="text-accent">unlimited access</span> to talent
+                <span className="text-accent">on a job board</span>
               </motion.h1>
 
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
-                className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg italic"
+                className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                A digital talent pool per vacancy with qualified candidates and up-to-date information such as availability.
+                Traditional search is slow, expensive and opaque. We deliver a shortlist of proven leaders in 18 days — at a fixed fee.
               </motion.p>
 
               <motion.div
@@ -134,10 +136,10 @@ const ENHome = () => {
                 className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
               >
                 <Button asChild size="lg" className="h-13 rounded-full bg-accent px-10 text-[15px] font-semibold text-accent-foreground shadow-lg shadow-accent/25 hover:bg-accent/90 hover:shadow-xl hover:shadow-accent/30 transition-all duration-300">
-                  <Link to="/en/for-employers">I'm an employer</Link>
+                  <Link to="/en/contact">Schedule a call</Link>
                 </Button>
                 <Button asChild size="lg" className="h-13 rounded-full border-2 border-accent/60 bg-transparent px-10 text-[15px] font-semibold text-accent hover:bg-accent/10 hover:border-accent transition-all duration-300">
-                  <Link to="/en/jobs">I have talent</Link>
+                  <Link to="/en/services">See our approach</Link>
                 </Button>
               </motion.div>
 
@@ -149,8 +151,9 @@ const ENHome = () => {
               >
                 <div className="h-px w-8 bg-primary-foreground/15" />
                 <p className="text-sm text-primary-foreground/40">
-                  <span className="font-bold text-primary-foreground/75">+7,500 specialists</span>{" "}
-                  ready for your assignment
+                  <span className="font-bold text-primary-foreground/75">18 days</span>{" "}
+                  average lead time — <span className="font-bold text-primary-foreground/75">fixed fee</span>{" "}
+                  — <span className="font-bold text-primary-foreground/75">6-month guarantee</span>
                 </p>
                 <div className="h-px w-8 bg-primary-foreground/15" />
               </motion.div>
@@ -188,6 +191,9 @@ const ENHome = () => {
           </div>
         </section>
 
+        {/* Problem */}
+        <ProblemSection lang="en" />
+
         {/* Services */}
         <section className="py-24 md:py-32">
           <div className="container">
@@ -211,6 +217,9 @@ const ENHome = () => {
             </StaggerContainer>
           </div>
         </section>
+
+        {/* Comparison */}
+        <ComparisonSection lang="en" />
 
         {/* Why OneTime */}
         <section className="bg-muted/60 py-24 md:py-32">
@@ -326,7 +335,7 @@ const ENHome = () => {
           <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="container relative z-10 text-center">
             <ScrollReveal variant="scale-in">
-              <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">Ready to find the right talent?</h2>
+              <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">Stop searching. Start finding.</h2>
               <p className="mx-auto mt-5 max-w-lg text-lg text-accent-foreground/80">Schedule a no-obligation conversation and discover how we can strengthen your organisation.</p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button asChild size="lg" className="h-13 rounded-full bg-primary px-10 text-[15px] font-semibold text-primary-foreground shadow-lg hover:bg-primary/90 transition-all duration-300">
