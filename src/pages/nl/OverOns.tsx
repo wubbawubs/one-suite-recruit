@@ -26,7 +26,7 @@ const milestones = [
   { year: "Q1 2025", title: "De pijn gevoeld", description: "Gefrustreerd door dure, trage en onpersoonlijke executive search bureaus. Er moest een betere manier zijn." },
   { year: "Q2 2025", title: "OneTime Recruit", description: "Gestart met een missie: executive search met vaste prijzen, snelheid en totale transparantie." },
   { year: "Q3 2025", title: "Software & schaal", description: "Eigen recruitment technologie ontwikkeld. Talent pools per vacature, niet zoeken, maar matchen." },
-  { year: "Q4 2025", title: "OneGroup opgericht", description: "Uitbreiding naar een ecosysteem: OneRooted, OneSource en KlikKlaarSEO onder één dak." },
+  { year: "Q4 2025", title: "OneGroup opgericht", description: "Uitbreiding naar een ecosysteem: One Rooted, OneSource en KlikKlaarSEO onder één dak." },
   { year: "Q1 2026", title: "De markt veranderen", description: "Van disruptor naar de nieuwe standaard. Vaste fees, eigen talent pools en een groeiend netwerk van 7.500+ specialisten." },
 ];
 
@@ -117,7 +117,7 @@ const NLOverOns = () => {
                     Samen bieden we een compleet spectrum aan talent- en organisatieoplossingen.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">
-                    {["OneTime Recruit", "OneRooted", "OneSource", "KlikKlaarSEO"].map((label) => (
+                    {["OneTime Recruit", "One Rooted", "OneSource", "KlikKlaarSEO"].map((label) => (
                       <span key={label} className="rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-muted-foreground">
                         {label}
                       </span>
