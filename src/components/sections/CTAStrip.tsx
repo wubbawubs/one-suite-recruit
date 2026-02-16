@@ -5,7 +5,7 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 export function CTAStrip() {
   return (
-    <section className="relative overflow-hidden bg-accent py-20 md:py-24">
+    <section className="relative overflow-hidden bg-accent py-16 md:py-24">
       <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
       <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
 
