@@ -10,7 +10,7 @@ const cases = [
 
 export function CaseStudiesSection() {
   return (
-    <section className="bg-primary py-24 text-primary-foreground md:py-32">
+    <section className="bg-primary py-16 text-primary-foreground md:py-24">
       <div className="container">
         <ScrollReveal className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Resultaten</span>

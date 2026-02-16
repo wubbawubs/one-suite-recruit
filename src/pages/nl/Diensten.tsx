@@ -110,7 +110,7 @@ const NLDiensten = () => {
         </section>
 
         {/* Services Grid */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <StaggerContainer className="grid gap-8 md:grid-cols-2 lg:grid-cols-3" stagger={0.1}>
               {services.map((s) => (
@@ -173,7 +173,7 @@ const NLDiensten = () => {
         </section>
 
         {/* CTA */}
-        <section className="relative overflow-hidden bg-accent py-20 md:py-24">
+        <section className="relative overflow-hidden bg-accent py-14 md:py-20">
           <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="container relative z-10 text-center">

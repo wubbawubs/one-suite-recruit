@@ -195,7 +195,7 @@ const ENHome = () => {
         <ProblemSection lang="en" />
 
         {/* Services */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Expertise</span>
@@ -222,7 +222,7 @@ const ENHome = () => {
         <ComparisonSection lang="en" />
 
         {/* Why OneTime */}
-        <section className="bg-muted/60 py-24 md:py-32">
+        <section className="bg-muted/60 py-16 md:py-24">
           <div className="container">
             <div className="grid items-start gap-12 lg:grid-cols-5 lg:gap-20">
               <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">
@@ -249,7 +249,7 @@ const ENHome = () => {
         </section>
 
         {/* Process */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Process</span>
@@ -272,7 +272,7 @@ const ENHome = () => {
         </section>
 
         {/* Case Studies */}
-        <section className="bg-primary py-24 text-primary-foreground md:py-32">
+        <section className="bg-primary py-16 text-primary-foreground md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Results</span>
@@ -300,7 +300,7 @@ const ENHome = () => {
         </section>
 
         {/* Insights */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal>
               <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
@@ -330,7 +330,7 @@ const ENHome = () => {
         </section>
 
         {/* CTA */}
-        <section className="relative overflow-hidden bg-accent py-20 md:py-24">
+        <section className="relative overflow-hidden bg-accent py-14 md:py-20">
           <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="absolute -bottom-20 -right-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
           <div className="container relative z-10 text-center">

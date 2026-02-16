@@ -134,7 +134,7 @@ export default function CLevelRecruitment() {
         </section>
 
         {/* Intro content */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-3xl">
               <h2 className="font-display text-2xl font-bold text-foreground md:text-4xl">Waarom C-level recruitment een specialisme is</h2>
@@ -148,7 +148,7 @@ export default function CLevelRecruitment() {
         </section>
 
         {/* Deliverables */}
-        <section className="border-y border-border/50 bg-muted/30 py-24 md:py-32">
+        <section className="border-y border-border/50 bg-muted/30 py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Wat u krijgt</span>
@@ -170,7 +170,7 @@ export default function CLevelRecruitment() {
         </section>
 
         {/* Roles grid */}
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Specialisaties</span>
@@ -193,7 +193,7 @@ export default function CLevelRecruitment() {
         </section>
 
         {/* Triggers */}
-        <section className="border-y border-border/50 bg-muted/30 py-24 md:py-32">
+        <section className="border-y border-border/50 bg-muted/30 py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-3xl">
               <div className="rounded-2xl border border-accent/20 bg-accent/[0.03] p-8 md:p-10">

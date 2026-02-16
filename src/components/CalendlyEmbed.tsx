@@ -15,7 +15,7 @@ export function CalendlyEmbed({
   subtitle = "Kies een moment dat u schikt voor een vrijblijvend kennismakingsgesprek.",
 }: CalendlyEmbedProps) {
   return (
-    <section id="calendly" className="py-24 md:py-32">
+    <section id="calendly" className="py-16 md:py-24">
       <div className="container">
         <ScrollReveal className="mx-auto max-w-2xl text-center">
           <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">

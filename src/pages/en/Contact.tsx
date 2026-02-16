@@ -89,7 +89,7 @@ const ENContact = () => {
           subtitle="Choose a time that works for you for a no-obligation introductory call."
         />
 
-        <section className="py-24 md:py-32">
+        <section className="py-16 md:py-24">
           <div className="container">
             <div className="grid gap-16 lg:grid-cols-5">
               <ScrollReveal variant="slide-left" className="lg:col-span-3">
