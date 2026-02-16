@@ -26,15 +26,15 @@ const services = [
   },
   {
     icon: Settings,
-    title: "Recruitment Operating Model",
-    description: "Wir bauen und optimieren Ihre internen Rekrutierungsprozesse. Von Employer Branding bis Auswahlmethodik.",
-    href: "/de/leistungen",
+    title: "Hiring OS by OneRooted",
+    description: "Wir bauen Ihr eigenes Recruitment Operating Model, damit Sie selbstständig Top-Talente gewinnen können. Powered by OneRooted.",
+    href: "https://onerooted.nl/en/",
   },
 ];
 
 const differentiators = [
   { title: "Kandidaten, die Sie nirgendwo anders finden", description: "Unser Netzwerk von 7.500+ Senior-Führungskräften, die nicht auf Jobportalen sind. Wir sprechen sie persönlich an." },
-  { title: "Kein Bauchgefühl — nur Daten", description: "Strukturiertes Assessment auf Kompetenzen, Führungsstil und Kulturpassung. Jeder Kandidat objektiv bewertet." },
+  { title: "Kein Bauchgefühl, nur Daten", description: "Strukturiertes Assessment auf Kompetenzen, Führungsstil und Kulturpassung. Jeder Kandidat objektiv bewertet." },
   { title: "Festpreis, keine Prozente", description: "Sie zahlen einen festen Betrag, nicht 25-30% des Jahresgehalts. Vorab klar, nachher keine Überraschungen." },
   { title: "6 Monate Garantie auf jede Besetzung", description: "Passt es nicht? Wir finden kostenfrei einen Ersatz. Wir glauben an unsere Matches." },
   { title: "Ein Partner, der Ihr Unternehmen wirklich kennt", description: "Keine wechselnden Berater. Ein dedizierter Partner, der Ihre Kultur, Ihr Team und Ihre Ambitionen versteht." },
@@ -126,7 +126,7 @@ const DEHome = () => {
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
                 className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                Traditionelle Suche ist langsam, teuer und intransparent. Wir liefern eine Shortlist bewährter Führungskräfte in 18 Tagen — zum Festpreis.
+                Traditionelle Suche ist langsam, teuer und intransparent. Wir liefern eine Shortlist bewährter Führungskräfte in 18 Tagen, zum Festpreis.
               </motion.p>
 
               <motion.div
@@ -152,8 +152,8 @@ const DEHome = () => {
                 <div className="h-px w-8 bg-primary-foreground/15" />
                 <p className="text-sm text-primary-foreground/40">
                   <span className="font-bold text-primary-foreground/75">18 Tage</span>{" "}
-                  durchschnittliche Laufzeit — <span className="font-bold text-primary-foreground/75">Festpreis</span>{" "}
-                  — <span className="font-bold text-primary-foreground/75">6 Monate Garantie</span>
+                  durchschnittliche Laufzeit | <span className="font-bold text-primary-foreground/75">Festpreis</span>{" "}
+                  | <span className="font-bold text-primary-foreground/75">6 Monate Garantie</span>
                 </p>
                 <div className="h-px w-8 bg-primary-foreground/15" />
               </motion.div>
@@ -200,7 +200,7 @@ const DEHome = () => {
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Unsere Expertise</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Was wir für Sie tun</h2>
-              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Drei Kernbereiche, in denen wir exzellieren — alle darauf ausgerichtet, außergewöhnliche Talente zu finden und zu binden.</p>
+              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Drei Kernbereiche, in denen wir exzellieren, alle darauf ausgerichtet, außergewöhnliche Talente zu finden und zu binden.</p>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
               {services.map((s) => (

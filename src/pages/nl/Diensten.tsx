@@ -35,10 +35,10 @@ const services = [
   },
   {
     icon: Settings,
-    title: "Recruitment Operating Model",
-    description: "Wij bouwen en optimaliseren uw interne recruitmentprocessen. Van employer branding tot selectiemethodologie, zodat u structureel beter werft.",
+    title: "Hiring OS by OneRooted",
+    description: "Wij bouwen uw eigen recruitment operating model zodat u zelfstandig toptalent kunt werven. Powered by OneRooted.",
     features: ["Proces-audit & optimalisatie", "Employer branding strategie", "ATS implementatie", "Recruiter training"],
-    href: "/nl/diensten",
+    href: "https://onerooted.nl",
     image: sfeerAbonnement,
   },
   {
@@ -103,7 +103,7 @@ const NLDiensten = () => {
                 Traditionele recruitment <span className="text-accent">kost u meer dan u denkt</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Verborgen fees, maandenlange doorlooptijden en nul transparantie. Wij doen het anders — vaste prijs, 18 dagen, en u houdt de regie.
+                Verborgen fees, maandenlange doorlooptijden en nul transparantie. Wij doen het anders, vaste prijs, 18 dagen, en u houdt de regie.
               </p>
             </ScrollReveal>
           </div>

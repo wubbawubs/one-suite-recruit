@@ -21,7 +21,7 @@ const content = {
       {
         icon: Globe,
         title: "Jobboards & LinkedIn",
-        pain: "Verkeerd publiek. De beste executives zitten niet op Indeed. En passief posten levert geen senior leiders op.",
+        pain: "Verkeerd publiek. De beste executives zitten niet op Indeed. Passief posten levert geen senior leiders op.",
       },
     ],
     closing: "Er is een betere manier.",

@@ -43,7 +43,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
           >
-            Traditionele search is traag, duur en ondoorzichtig. Wij leveren een shortlist van bewezen leiders in 18 dagen — tegen een vaste prijs.
+            Traditionele search is traag, duur en ondoorzichtig. Wij leveren een shortlist van bewezen leiders in 18 dagen, tegen een vaste prijs.
           </motion.p>
 
           <motion.div
@@ -69,8 +69,8 @@ export function HeroSection() {
             <div className="h-px w-8 bg-primary-foreground/15" />
             <p className="text-sm text-primary-foreground/40">
               <span className="font-bold text-primary-foreground/75">18 dagen</span>{" "}
-              gemiddelde doorlooptijd — <span className="font-bold text-primary-foreground/75">vaste prijs</span>{" "}
-              — <span className="font-bold text-primary-foreground/75">6 maanden garantie</span>
+              gemiddelde doorlooptijd | <span className="font-bold text-primary-foreground/75">vaste prijs</span>{" "}
+              | <span className="font-bold text-primary-foreground/75">6 maanden garantie</span>
             </p>
             <div className="h-px w-8 bg-primary-foreground/15" />
           </motion.div>

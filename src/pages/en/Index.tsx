@@ -26,15 +26,15 @@ const services = [
   },
   {
     icon: Settings,
-    title: "Recruitment Operating Model",
-    description: "We build and optimise your internal recruitment processes. From employer branding to selection methodology.",
-    href: "/en/services",
+    title: "Hiring OS by OneRooted",
+    description: "We build your own recruitment operating model so you can independently attract top talent. Powered by OneRooted.",
+    href: "https://onerooted.nl/en/",
   },
 ];
 
 const differentiators = [
   { title: "Candidates you won't find anywhere else", description: "Our network of 7,500+ senior executives who aren't on job boards. We approach them personally." },
-  { title: "No gut feeling — just data", description: "Structured assessment on competencies, leadership style and cultural fit. Every candidate objectively evaluated." },
+  { title: "No gut feeling, just data", description: "Structured assessment on competencies, leadership style and cultural fit. Every candidate objectively evaluated." },
   { title: "Fixed fee, no percentages", description: "You pay a fixed amount, not 25-30% of the annual salary. Clear upfront, no surprises after." },
   { title: "6-month guarantee on every placement", description: "Not the right fit? We find a replacement at no cost. We believe in our matches." },
   { title: "One partner who truly knows your organisation", description: "No rotating consultants. One dedicated partner who deeply understands your culture, team and ambitions." },
@@ -126,7 +126,7 @@ const ENHome = () => {
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
                 className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                Traditional search is slow, expensive and opaque. We deliver a shortlist of proven leaders in 18 days — at a fixed fee.
+                Traditional search is slow, expensive and opaque. We deliver a shortlist of proven leaders in 18 days, at a fixed fee.
               </motion.p>
 
               <motion.div
@@ -152,8 +152,8 @@ const ENHome = () => {
                 <div className="h-px w-8 bg-primary-foreground/15" />
                 <p className="text-sm text-primary-foreground/40">
                   <span className="font-bold text-primary-foreground/75">18 days</span>{" "}
-                  average lead time — <span className="font-bold text-primary-foreground/75">fixed fee</span>{" "}
-                  — <span className="font-bold text-primary-foreground/75">6-month guarantee</span>
+                  average lead time | <span className="font-bold text-primary-foreground/75">fixed fee</span>{" "}
+                  | <span className="font-bold text-primary-foreground/75">6-month guarantee</span>
                 </p>
                 <div className="h-px w-8 bg-primary-foreground/15" />
               </motion.div>
@@ -200,7 +200,7 @@ const ENHome = () => {
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Expertise</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">What we do for you</h2>
-              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Three core areas where we excel — all designed to find and retain exceptional talent.</p>
+              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Three core areas where we excel, all designed to find and retain exceptional talent.</p>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
               {services.map((s) => (
