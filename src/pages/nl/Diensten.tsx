@@ -8,12 +8,6 @@ import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 import { PageMeta } from "@/components/PageMeta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
-import sfeerWerving from "@/assets/service-executive-search.jpg";
-import sfeerSelectie from "@/assets/service-leadership-advisory.jpg";
-import sfeerAbonnement from "@/assets/service-hiring-os.jpg";
-import sfeerEigenBeheer from "@/assets/service-interim-management.jpg";
-import sfeerZoekopdracht from "@/assets/service-talent-mapping.jpg";
-import sfeerOverOns from "@/assets/service-onboarding.jpg";
 
 const services = [
   {
@@ -23,8 +17,6 @@ const services = [
     features: ["C-suite & VP-level plaatsingen", "Competentie-based assessment", "Cultuurfit-analyse", "18 dagen gemiddelde doorlooptijd"],
     href: "/nl/executive-search",
     highlight: true,
-    image: sfeerWerving,
-    imagePosition: "center 35%",
   },
   {
     icon: Users,
@@ -32,7 +24,6 @@ const services = [
     description: "Strategisch advies over leiderschap, teamsamenstelling en organisatieontwikkeling op het hoogste niveau. Wij helpen uw leiderschapsteam toekomstbestendig te maken.",
     features: ["Leiderschapsevaluaties", "Succesplanning", "Team-effectiviteitsanalyse", "Board advisory"],
     href: "/nl/contact",
-    image: sfeerSelectie,
   },
   {
     icon: Settings,
@@ -40,7 +31,6 @@ const services = [
     description: "Wij bouwen uw eigen recruitment operating model zodat u zelfstandig toptalent kunt werven. Powered by One Rooted.",
     features: ["Proces-audit & optimalisatie", "Employer branding strategie", "ATS implementatie", "Recruiter training"],
     href: "https://onerooted.nl",
-    image: sfeerAbonnement,
   },
   {
     icon: Target,
@@ -48,7 +38,6 @@ const services = [
     description: "Direct beschikbare interim executives voor kritische posities. Bewezen leiders die binnen dagen kunnen starten en direct impact maken.",
     features: ["Snelle beschikbaarheid", "Ervaren executives", "Flexibele contractvormen", "Naadloze overdracht"],
     href: "/nl/diensten",
-    image: sfeerEigenBeheer,
   },
   {
     icon: BarChart3,
@@ -56,7 +45,6 @@ const services = [
     description: "Strategische inzichten in de talentmarkt. Wij brengen de beschikbaarheid en kwaliteit van talent in uw sector in kaart.",
     features: ["Marktanalyse per sector", "Concurrentie-benchmarking", "Salarisinzichten", "Beschikbaarheidsrapportage"],
     href: "/nl/diensten",
-    image: sfeerZoekopdracht,
   },
   {
     icon: Briefcase,
@@ -64,8 +52,6 @@ const services = [
     description: "Begeleiding van nieuwe leiders tijdens hun eerste 100 dagen. Zodat uw investering in talent zich direct vertaalt naar resultaat.",
     features: ["100-dagen programma", "Stakeholder alignment", "Quick wins identificatie", "Performance monitoring"],
     href: "/nl/diensten",
-    image: sfeerOverOns,
-    imagePosition: "center 45%",
   },
 ];
 
@@ -123,11 +109,6 @@ const NLDiensten = () => {
                       <span className="absolute top-3 right-6 z-10 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">
                         Meest gevraagd
                       </span>
-                    )}
-                    {s.image && (
-                    <div className="h-48 overflow-hidden">
-                        <img src={s.image} alt="" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" style={{ objectPosition: s.imagePosition || 'center 20%' }} />
-                      </div>
                     )}
                     <div className="flex flex-1 flex-col p-8">
                       <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent">
