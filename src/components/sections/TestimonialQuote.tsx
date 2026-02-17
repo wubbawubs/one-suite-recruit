@@ -11,13 +11,13 @@ interface TestimonialQuoteProps {
 export function TestimonialQuote({ quote, author, company, variant = "muted" }: TestimonialQuoteProps) {
   const styles = {
     light: "bg-card border-border",
-    dark: "bg-primary border-primary-foreground/8",
+    dark: "bg-muted border-border/50",
     muted: "bg-muted/60 border-border/50",
   };
 
   const textStyles = {
     light: { quote: "text-foreground", author: "text-foreground", company: "text-accent" },
-    dark: { quote: "text-primary-foreground/80", author: "text-primary-foreground", company: "text-accent" },
+    dark: { quote: "text-primary", author: "text-primary", company: "text-accent" },
     muted: { quote: "text-foreground", author: "text-foreground", company: "text-accent" },
   };
 
