@@ -1,19 +1,14 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Globe, ChevronDown } from "lucide-react";
+import { Menu, X, Globe, ChevronDown, Search, Users, Factory, ClipboardCheck, Settings, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/onetime-logo.webp";
-import serviceExecSearch from "@/assets/service-executive-search.jpg";
-import serviceLeadership from "@/assets/service-leadership-advisory.jpg";
-import serviceHiringOS from "@/assets/service-hiring-os.jpg";
-import serviceInterim from "@/assets/service-interim-management.jpg";
-import serviceTalentMapping from "@/assets/service-talent-mapping.jpg";
-import serviceOnboarding from "@/assets/service-onboarding.jpg";
 
+interface NavChild { label: string; href: string; description?: string; icon?: any }
 interface NavItem {
   label: string;
   href: string;
-  children?: { label: string; href: string; description?: string; image?: string }[];
+  children?: NavChild[];
 }
 
 const navConfigs: Record<string, { items: NavItem[]; ctaLabel: string; ctaHref: string }> = {
@@ -24,12 +19,12 @@ const navConfigs: Record<string, { items: NavItem[]; ctaLabel: string; ctaHref: 
         label: "Diensten",
         href: "/nl/diensten",
         children: [
-          { label: "Executive Search", href: "/nl/executive-search", description: "Onze bewezen search methodiek", image: serviceExecSearch },
-          { label: "C-level & Directie", href: "/nl/c-level-recruitment", description: "CEO, CFO, CTO, CHRO recruitment", image: serviceLeadership },
-          { label: "Industries", href: "/nl/industries", description: "Sectorspecialisatie per industrie", image: serviceHiringOS },
-          { label: "Assessment & Selectie", href: "/nl/assessment-selectie", description: "STAR-interviews & cultuurfit", image: serviceInterim },
-          { label: "Recruitment Model", href: "/nl/recruitment-operating-model", description: "Talent pools & RaaS", image: serviceTalentMapping },
-          { label: "Employer Branding", href: "/nl/employer-branding-retention", description: "Aantrekken & behouden", image: serviceOnboarding },
+          { label: "Executive Search", href: "/nl/executive-search", description: "Onze bewezen search methodiek", icon: Search },
+          { label: "C-level & Directie", href: "/nl/c-level-recruitment", description: "CEO, CFO, CTO, CHRO recruitment", icon: Users },
+          { label: "Industries", href: "/nl/industries", description: "Sectorspecialisatie per industrie", icon: Factory },
+          { label: "Assessment & Selectie", href: "/nl/assessment-selectie", description: "STAR-interviews & cultuurfit", icon: ClipboardCheck },
+          { label: "Recruitment Model", href: "/nl/recruitment-operating-model", description: "Talent pools & RaaS", icon: Settings },
+          { label: "Employer Branding", href: "/nl/employer-branding-retention", description: "Aantrekken & behouden", icon: Heart },
         ],
       },
       { label: "Vacatures", href: "/nl/vacatures" },
@@ -155,26 +150,29 @@ export function Header() {
                 {item.children && desktopDropdown === item.label && (
                   <div className="absolute left-1/2 top-full z-50 w-[520px] -translate-x-1/2 pt-2">
                     <div className="rounded-xl border border-border bg-background p-3 shadow-xl">
-                      <div className="grid grid-cols-2 gap-1">
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.href}
-                            to={child.href}
-                            className="flex items-center gap-3 rounded-lg px-3 py-3 transition-colors hover:bg-muted"
-                          >
-                            {child.image && (
-                              <div className="h-10 w-14 shrink-0 overflow-hidden rounded-md">
-                                <img src={child.image} alt="" className="h-full w-full object-cover" />
-                              </div>
-                            )}
-                            <div>
-                              <span className="block text-sm font-semibold text-foreground">{child.label}</span>
-                              {child.description && (
-                                <span className="mt-0.5 block text-xs text-muted-foreground">{child.description}</span>
+                      <div className="grid grid-cols-2 gap-1.5">
+                        {item.children.map((child) => {
+                          const Icon = child.icon;
+                          return (
+                            <Link
+                              key={child.href}
+                              to={child.href}
+                              className="group/item flex items-center gap-3.5 rounded-lg border border-transparent px-3.5 py-3.5 transition-all hover:border-accent/15 hover:bg-accent/[0.04]"
+                            >
+                              {Icon && (
+                                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/[0.07] text-primary transition-colors group-hover/item:bg-accent/10 group-hover/item:text-accent">
+                                  <Icon className="h-4.5 w-4.5" />
+                                </div>
                               )}
-                            </div>
-                          </Link>
-                        ))}
+                              <div>
+                                <span className="block text-sm font-semibold text-foreground">{child.label}</span>
+                                {child.description && (
+                                  <span className="mt-0.5 block text-[11px] leading-snug text-muted-foreground">{child.description}</span>
+                                )}
+                              </div>
+                            </Link>
+                          );
+                        })}
                       </div>
                     </div>
                   </div>
