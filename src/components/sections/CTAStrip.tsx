@@ -11,7 +11,7 @@ export function CTAStrip() {
 
       <div className="container relative z-10 text-center">
         <ScrollReveal variant="scale-in">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-foreground/60 mb-4">Gemiddeld 18 dagen van intake tot shortlist</p>
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-foreground/60 mb-4">Shortlist binnen 18 dagen</p>
           <h2 className="font-display text-3xl font-bold text-accent-foreground md:text-[2.5rem] leading-tight">
             Stop met zoeken. Start met vinden.
           </h2>

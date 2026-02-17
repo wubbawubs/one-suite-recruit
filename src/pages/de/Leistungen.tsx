@@ -58,14 +58,14 @@ const DELeistungen = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Leistungen — OneTime Recruit"
+        title="Leistungen — One Time Recruit"
         description="Von Executive Search bis Interim Management und Talent Mapping. Entdecken Sie unsere strategischen Rekrutierungsleistungen für Unternehmen."
         locale="de_DE"
         alternates={getAlternates("diensten", ["nl", "de"])}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Service",
-          provider: { "@type": "Organization", name: "OneTime Recruit" },
+          provider: { "@type": "Organization", name: "One Time Recruit" },
           serviceType: "Executive Search",
           areaServed: [{ "@type": "Country", name: "Germany" }, { "@type": "Country", name: "Netherlands" }],
           description: "Strategische Executive Search und Rekrutierungsleistungen für Unternehmen.",

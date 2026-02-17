@@ -23,9 +23,9 @@ const process = [
 ];
 
 const testimonials = [
-  { quote: "OneTime lieferte innerhalb von zwei Wochen drei ausgezeichnete CTO-Kandidaten. Die Qualität der Shortlist war beeindruckend.", author: "HR Director", company: "TechNova" },
+  { quote: "One Time lieferte innerhalb von zwei Wochen drei ausgezeichnete CTO-Kandidaten. Die Qualität der Shortlist war beeindruckend.", author: "HR Director", company: "TechNova" },
   { quote: "Endlich eine Agentur, die wirklich versteht, was wir suchen. Die kulturelle Passung war bei jedem Kandidaten ein Treffer.", author: "COO", company: "Royal Schiphol" },
-  { quote: "Die transparente Preisstruktur und der persönliche Ansatz machen OneTime zu unserem festen Partner für Executive-Besetzungen.", author: "CHRO", company: "KLM Group" },
+  { quote: "Die transparente Preisstruktur und der persönliche Ansatz machen One Time zu unserem festen Partner für Executive-Besetzungen.", author: "CHRO", company: "KLM Group" },
 ];
 
 const packages = [
@@ -56,8 +56,8 @@ const DEFuerArbeitgeber = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Für Arbeitgeber — OneTime Recruit"
-        description="Entdecken Sie, warum 98% unserer Auftraggeber zufrieden sind. Festpreis, 18 Tage Laufzeit und 6 Monate Garantie auf jede Besetzung."
+        title="Für Arbeitgeber — One Time Recruit"
+        description="Entdecken Sie, warum 98% unserer Auftraggeber zufrieden sind. Festpreis, Shortlist innerhalb 18 Tage und 6 Monate Garantie auf jede Besetzung."
         locale="de_DE"
         alternates={getAlternates("opdrachtgevers", ["nl", "de"])}
       />
@@ -95,7 +95,7 @@ const DEFuerArbeitgeber = () => {
         <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Warum OneTime</span>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Warum One Time</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Was Sie von uns erwarten dürfen</h2>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4" stagger={0.1}>

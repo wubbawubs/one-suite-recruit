@@ -32,7 +32,7 @@ export function WhySection() {
         <div className="grid items-start gap-12 lg:grid-cols-5 lg:gap-20">
           <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
-              Waarom OneTime
+              Waarom One Time
             </span>
             <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">
               Niet zomaar een recruitment&shy;bureau
@@ -42,7 +42,7 @@ export function WhySection() {
             </p>
             <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
             <div className="mt-8 overflow-hidden rounded-2xl">
-              <img src={sfeerZoekopdracht} alt="OneTime Recruit team in gesprek" className="h-auto w-full object-cover" />
+              <img src={sfeerZoekopdracht} alt="One Time Recruit team in gesprek" className="h-auto w-full object-cover" />
             </div>
           </ScrollReveal>
 

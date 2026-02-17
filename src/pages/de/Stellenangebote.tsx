@@ -39,7 +39,7 @@ const DEStellenangebote = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Stellenangebote — Executive Positionen | OneTime Recruit"
+        title="Stellenangebote — Executive Positionen | One Time Recruit"
         description="Entdecken Sie exklusive Executive-Vakanzen bei führenden Unternehmen. C-Level-, VP- und Director-Positionen."
         locale="de_DE"
         alternates={getAlternates("vacatures", ["nl", "de"])}

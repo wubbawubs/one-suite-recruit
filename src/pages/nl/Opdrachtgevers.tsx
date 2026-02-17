@@ -10,7 +10,7 @@ import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 
 const benefits = [
   { icon: Shield, title: "Garantie op elke plaatsing", description: "6 maanden volledige garantie. Valt de kandidaat uit? Wij zoeken kosteloos een vervanger." },
-  { icon: Clock, title: "Gemiddeld 18 dagen", description: "Van intake tot shortlist in recordtijd, zonder concessies aan kwaliteit." },
+  { icon: Clock, title: "Shortlist binnen 18 dagen", description: "Van intake tot shortlist in recordtijd, zonder concessies aan kwaliteit." },
   { icon: Star, title: "98% klanttevredenheid", description: "Onze klanten waarderen ons met een 9,4 gemiddeld. Relaties voor de lange termijn." },
   { icon: Zap, title: "Vaste prijs, geen verrassingen", description: "Transparant tarief vooraf. Geen verborgen kosten, geen percentages op jaarsalaris." },
 ];
@@ -23,11 +23,11 @@ const process = [
 ];
 
 const testimonials = [
-  { quote: "OneTime begreep direct welk type leiderschap wij zochten. De shortlist was kwalitatief uitzonderlijk.", author: "Directie", company: "Arvoo" },
+  { quote: "One Time begreep direct welk type leiderschap wij zochten. De shortlist was kwalitatief uitzonderlijk.", author: "Directie", company: "Arvoo" },
   { quote: "Snelle schakeling, persoonlijke aanpak en kandidaten die écht bij onze cultuur passen. Topervaring.", author: "Managing Partner", company: "BGH Accountants" },
-  { quote: "De transparante werkwijze en het scherpe oog voor culturele fit maken OneTime onze vaste recruitment partner.", author: "HR Manager", company: "OOvB Accountants" },
+  { quote: "De transparante werkwijze en het scherpe oog voor culturele fit maken One Time onze vaste recruitment partner.", author: "HR Manager", company: "OOvB Accountants" },
   { quote: "Van intake tot plaatsing liep alles vlekkeloos. De kandidaat draait inmiddels ruim een jaar uitstekend mee.", author: "Directeur", company: "Energiebehoud" },
-  { quote: "OneTime combineert snelheid met kwaliteit. Binnen drie weken hadden wij de juiste kandidaat op gesprek.", author: "HR Director", company: "Thales" },
+  { quote: "One Time combineert snelheid met kwaliteit. Binnen drie weken hadden wij de juiste kandidaat op gesprek.", author: "HR Director", company: "Thales" },
 ];
 
 const packages = [
@@ -58,8 +58,8 @@ const NLOpdrachtgevers = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Voor Opdrachtgevers, OneTime Recruit"
-        description="Ontdek waarom 98% van onze opdrachtgevers tevreden is. Vaste prijs, 18 dagen doorlooptijd en 6 maanden garantie op elke plaatsing."
+        title="Voor Opdrachtgevers, One Time Recruit"
+        description="Ontdek waarom 98% van onze opdrachtgevers tevreden is. Vaste prijs, shortlist binnen 18 dagen en 6 maanden garantie op elke plaatsing."
         locale="nl_NL"
         alternates={getAlternates("opdrachtgevers", ["nl"])}
       />
@@ -97,7 +97,7 @@ const NLOpdrachtgevers = () => {
         <section className="py-16 md:py-24">
           <div className="container">
             <ScrollReveal className="mx-auto max-w-2xl text-center">
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Waarom OneTime</span>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Waarom One Time</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Wat u van ons mag verwachten</h2>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4" stagger={0.1}>

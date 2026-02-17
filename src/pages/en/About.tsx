@@ -23,16 +23,16 @@ const values = [
 
 const milestones = [
   { year: "Q1 2025", title: "Felt the pain", description: "Frustrated by expensive, slow and impersonal executive search agencies. There had to be a better way." },
-  { year: "Q2 2025", title: "OneTime Recruit", description: "Launched with a mission: executive search with fixed pricing, speed and total transparency." },
-  { year: "Q3 2025", title: "Software & scale", description: "Developed proprietary recruitment technology. Talent pools per vacancy — not searching, but matching." },
-  { year: "Q4 2025", title: "OneGroup founded", description: "Expanded into an ecosystem: One Rooted, OneSource and KlikKlaarSEO under one roof." },
+  { year: "Q2 2025", title: "One Time Recruit", description: "Launched with a mission: executive search with fixed pricing, speed and total transparency." },
+  { year: "Q3 2025", title: "Software & scale", description: "Developed proprietary recruitment technology. Talent pools per vacancy, not searching, but matching." },
+  { year: "Q4 2025", title: "One Group founded", description: "Expanded into an ecosystem: One Rooted, One Source and KlikKlaarSEO under one roof." },
   { year: "Q1 2026", title: "Changing the market", description: "From disruptor to the new standard. Fixed fees, proprietary talent pools and a growing network of 7,500+ specialists." },
 ];
 
 const team = [
   { tag: "Creates", name: "Robin Dennie", role: "Founder & CEO", bio: "25 years of agency experience. Recruitment innovator changing how companies hire.", photo: teamRobin, linkedin: "https://www.linkedin.com/in/robindennie024/" },
   { tag: "Advises", name: "Erik Dijkshoorn", role: "Managing Partner", bio: "Extensive experience in multiple C-level roles and general management. Leadership coach and strategic thinker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
-  { tag: "Directs", name: "Juliëtte Welten", role: "COO", bio: "Agency management and BI specialist. The financial and operational conscience of OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
+  { tag: "Directs", name: "Juliëtte Welten", role: "COO", bio: "Agency management and BI specialist. The financial and operational conscience of One Time Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Young, driven tech leader. Passionate about building scalable solutions that make recruitment better.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
   { tag: "Leads", name: "Adriana Antkowiak", role: "Director Germany", bio: "Leads the German market expansion. Bridges the Dutch recruitment approach with the German labour market.", photo: teamAdriana, linkedin: "https://www.linkedin.com/in/adrianna-antkowiak-180096235/" },
   { tag: "Inspires", name: "Roland Boegheim", role: "Partner", bio: "Impactful HR leader with decades of experience. Strategic partner helping organisations get the best out of their people.", photo: teamRoland, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
@@ -42,8 +42,8 @@ const ENAbout = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="About Us — OneTime Recruit"
-        description="Learn more about OneTime Recruit: our mission, values, team and the journey from startup to market leader in executive search."
+        title="About Us — One Time Recruit"
+        description="Learn more about One Time Recruit: our mission, values, team and the journey from startup to market leader in executive search."
         locale="en_US"
         alternates={getAlternates("over-ons", ["nl", "de", "en"])}
       />
@@ -62,7 +62,7 @@ const ENAbout = () => {
                 We believe in <span className="text-accent">leadership</span> that makes the difference
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                OneTime Recruit was founded on the conviction that executive search can be more personal, transparent and effective.
+                One Time Recruit was founded on the conviction that executive search can be more personal, transparent and effective.
               </p>
             </ScrollReveal>
           </div>
@@ -98,12 +98,12 @@ const ENAbout = () => {
               <ScrollReveal variant="slide-right">
                 <div className="rounded-2xl border border-border bg-muted/40 p-6 md:p-10">
                   <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-accent/10"><TrendingUp className="h-8 w-8 text-accent" /></div>
-                  <h3 className="mt-6 font-display text-xl font-bold text-foreground md:text-2xl">Part of OneGroup</h3>
+                  <h3 className="mt-6 font-display text-xl font-bold text-foreground md:text-2xl">Part of One Group</h3>
                   <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
-                    OneTime Recruit is part of OneGroup, an ecosystem of specialised recruitment and HR labels. Together, we offer a complete spectrum of talent and organisational solutions.
+                    One Time Recruit is part of One Group, an ecosystem of specialised recruitment and HR labels. Together, we offer a complete spectrum of talent and organisational solutions.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">
-                    {["OneTime Recruit", "One Rooted", "OneSource", "KlikKlaarSEO"].map((label) => (
+                    {["One Time Recruit", "One Rooted", "One Source", "KlikKlaarSEO"].map((label) => (
                       <span key={label} className="rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-muted-foreground">{label}</span>
                     ))}
                   </div>
@@ -137,9 +137,9 @@ const ENAbout = () => {
           <div className="container">
             <ScrollReveal className="mx-auto max-w-3xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Team</span>
-              <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">The people behind OneTime Recruit</h2>
+              <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">The people behind One Time Recruit</h2>
               <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
-                OneTime Recruit wasn't built by product managers who guessed at recruitment problems. It was built by operators who lived them for years.
+                One Time Recruit wasn't built by product managers who guessed at recruitment problems. It was built by operators who lived them for years.
               </p>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" stagger={0.1}>

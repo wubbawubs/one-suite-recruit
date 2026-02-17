@@ -58,7 +58,7 @@ const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Recruitment Operating Model",
-  provider: { "@type": "Organization", name: "OneTime Recruit", url: "https://onetimerecruit.nl" },
+  provider: { "@type": "Organization", name: "One Time Recruit", url: "https://onetimerecruit.nl" },
   serviceType: "Recruitment Process Outsourcing",
   areaServed: { "@type": "Country", name: "Netherlands" },
   description: "Van ad-hoc search naar structurele recruitment capaciteit. Talent pools, RaaS, abonnementen en hiring governance voor enterprise organisaties.",
@@ -68,7 +68,7 @@ export default function RecruitmentOperatingModel() {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Recruitment Operating Model: De Nieuwe Standaard | OneTime Recruit"
+        title="Recruitment Operating Model: De Nieuwe Standaard | One Time Recruit"
         description="Van ad-hoc search naar structurele recruitment capaciteit. Talent pools, RaaS, abonnementen en hiring governance voor enterprise organisaties."
         locale="nl_NL"
         jsonLd={[faqJsonLd, serviceJsonLd] as unknown as Record<string, unknown>}

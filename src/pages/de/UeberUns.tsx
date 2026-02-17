@@ -23,16 +23,16 @@ const values = [
 
 const milestones = [
   { year: "Q1 2025", title: "Den Schmerz gespürt", description: "Frustriert von teuren, langsamen und unpersönlichen Executive Search Agenturen. Es musste einen besseren Weg geben." },
-  { year: "Q2 2025", title: "OneTime Recruit", description: "Gestartet mit einer Mission: Executive Search mit Festpreisen, Schnelligkeit und totaler Transparenz." },
-  { year: "Q3 2025", title: "Software & Skalierung", description: "Eigene Recruitment-Technologie entwickelt. Talent Pools pro Vakanz — nicht suchen, sondern matchen." },
-  { year: "Q4 2025", title: "OneGroup gegründet", description: "Expansion zu einem Ökosystem: One Rooted, OneSource und KlikKlaarSEO unter einem Dach." },
+  { year: "Q2 2025", title: "One Time Recruit", description: "Gestartet mit einer Mission: Executive Search mit Festpreisen, Schnelligkeit und totaler Transparenz." },
+  { year: "Q3 2025", title: "Software & Skalierung", description: "Eigene Recruitment-Technologie entwickelt. Talent Pools pro Vakanz, nicht suchen, sondern matchen." },
+  { year: "Q4 2025", title: "One Group gegründet", description: "Expansion zu einem Ökosystem: One Rooted, One Source und KlikKlaarSEO unter einem Dach." },
   { year: "Q1 2026", title: "Den Markt verändern", description: "Vom Disruptor zum neuen Standard. Festpreise, eigene Talent Pools und ein wachsendes Netzwerk von 7.500+ Spezialisten." },
 ];
 
 const team = [
   { tag: "Creates", name: "Robin Dennie", role: "Gründer & CEO", bio: "25 Jahre Agentur-Erfahrung. Recruitment-Innovator, der verändert, wie Unternehmen einstellen.", photo: teamRobin, linkedin: "https://www.linkedin.com/in/robindennie024/" },
   { tag: "Advises", name: "Erik Dijkshoorn", role: "Managing Partner", bio: "Umfangreiche Erfahrung in mehreren C-Level-Rollen und General Management. Leadership Coach und strategischer Denker.", photo: teamErik, linkedin: "https://www.linkedin.com/in/erik-dijkshoorn-1a72aa17/" },
-  { tag: "Directs", name: "Juliëtte Welten", role: "COO", bio: "Agenturbetrieb und BI-Spezialistin. Das finanzielle und operative Gewissen von OneTime Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
+  { tag: "Directs", name: "Juliëtte Welten", role: "COO", bio: "Agenturbetrieb und BI-Spezialistin. Das finanzielle und operative Gewissen von One Time Recruit.", photo: teamJuliette, linkedin: "https://www.linkedin.com/in/juliette-welten-ab566061/" },
   { tag: "Builds", name: "Luuk Wubs", role: "CTO", bio: "Junger, engagierter Tech-Leader. Leidenschaftlich beim Aufbau skalierbarer Lösungen, die Recruitment verbessern.", photo: teamLuuk, linkedin: "https://www.linkedin.com/in/luuk-wubs-32a451252/" },
   { tag: "Leads", name: "Adriana Antkowiak", role: "Direktorin Deutschland", bio: "Leitet die Expansion auf dem deutschen Markt. Verbindet den niederländischen Recruitment-Ansatz mit dem deutschen Arbeitsmarkt.", photo: teamAdriana, linkedin: "https://www.linkedin.com/in/adrianna-antkowiak-180096235/" },
   { tag: "Inspires", name: "Roland Boegheim", role: "Partner", bio: "Einflussreicher HR-Leader mit jahrzehntelanger Erfahrung. Strategischer Partner, der Unternehmen hilft, das Beste aus ihren Menschen herauszuholen.", photo: teamRoland, linkedin: "https://www.linkedin.com/in/roland-nederstigt-b06978/" },
@@ -42,8 +42,8 @@ const DEUeberUns = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Über uns — OneTime Recruit"
-        description="Erfahren Sie mehr über OneTime Recruit: unsere Mission, Werte, unser Team und der Weg vom Startup zum Marktführer in Executive Search."
+        title="Über uns — One Time Recruit"
+        description="Erfahren Sie mehr über One Time Recruit: unsere Mission, Werte, unser Team und der Weg vom Startup zum Marktführer in Executive Search."
         locale="de_DE"
         alternates={getAlternates("over-ons", ["nl", "de"])}
       />

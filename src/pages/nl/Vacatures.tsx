@@ -39,7 +39,7 @@ const NLVacatures = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Vacatures, Executive Posities | OneTime Recruit"
+        title="Vacatures, Executive Posities | One Time Recruit"
         description="Bekijk exclusieve executive vacatures bij toonaangevende organisaties. C-level, VP en Director posities in Nederland."
         locale="nl_NL"
         alternates={getAlternates("vacatures", ["nl"])}

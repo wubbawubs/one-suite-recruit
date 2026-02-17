@@ -120,7 +120,7 @@ export function Header() {
           <Link to={`/${locale}`} className="flex items-center gap-3">
             <img src={logo} alt="OneTime Recruit" className="h-11 w-11" />
             <span className="text-lg font-bold tracking-tight text-foreground font-sans">
-              ONE-TIME <span className="font-normal">Recruit</span>
+              ONE TIME <span className="font-normal">Recruit</span>
             </span>
           </Link>
 

@@ -26,7 +26,7 @@ const advantages = [
 const faqs = [
   {
     q: "Waarom is sectorkennis belangrijk bij executive search?",
-    a: "Sectorkennis bepaalt of een search bureau de juiste kandidaten kan identificeren, benaderen en beoordelen. Een recruiter die de EASA-regulering in aviation niet begrijpt, zal de verkeerde kandidaten presenteren. Bij OneTime Recruit investeren wij continu in sectorkennis zodat wij de taal van uw industrie spreken — en de juiste vragen stellen.",
+    a: "Sectorkennis bepaalt of een search bureau de juiste kandidaten kan identificeren, benaderen en beoordelen. Een recruiter die de EASA-regulering in aviation niet begrijpt, zal de verkeerde kandidaten presenteren. Bij One Time Recruit investeren wij continu in sectorkennis zodat wij de taal van uw industrie spreken, en de juiste vragen stellen.",
   },
   {
     q: "In welke sectoren zijn jullie gespecialiseerd?",
@@ -56,7 +56,7 @@ const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Industry-Focused Executive Search",
-  provider: { "@type": "Organization", name: "OneTime Recruit", url: "https://onetimerecruit.nl" },
+  provider: { "@type": "Organization", name: "One Time Recruit", url: "https://onetimerecruit.nl" },
   serviceType: "Executive Search per Sector",
   areaServed: { "@type": "Country", name: "Netherlands" },
   description: "Executive search expertise per sector: Aviation, Defence, SaaS/IT, Finance en Operations. Diepgaande sectorkennis gecombineerd met bewezen methodiek.",
@@ -66,7 +66,7 @@ export default function Industries() {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Industries: Executive Search per Sector | OneTime Recruit"
+        title="Industries: Executive Search per Sector | One Time Recruit"
         description="Executive search expertise per sector. Aviation, Defence, SaaS/IT, Finance en Operations — diepgaande sectorkennis gecombineerd met bewezen methodiek."
         locale="nl_NL"
         jsonLd={[faqJsonLd, serviceJsonLd] as unknown as Record<string, unknown>}
@@ -122,7 +122,7 @@ export default function Industries() {
               <h2 className="font-display text-2xl font-bold text-foreground md:text-4xl">Waarom sectorkennis het verschil maakt</h2>
               <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-muted-foreground">
                 <p>Een executive search bureau dat uw sector niet begrijpt, kan niet de juiste kandidaten identificeren. Het verschil tussen een goede en een uitstekende <Link to="/nl/ceo-recruitment" className="font-medium text-accent hover:underline">CEO</Link> voor een luchtvaartmaatschappij ligt in kennis van EASA-regulering, safety-cultuur en de dynamiek van een gereguleerde industrie.</p>
-                <p>Bij OneTime Recruit investeren wij structureel in sectorkennis. Onze consultants voeren jaarlijks 100+ executive interviews per sector, participeren in branchenetwerken en volgen sectorspecifieke ontwikkelingen op de voet. Dit vertaalt zich in een diepgaand netwerk, relevante marktinzichten en de capaciteit om <Link to="/nl/confidential-search" className="font-medium text-accent hover:underline">confidential searches</Link> uit te voeren in gereguleerde omgevingen.</p>
+                <p>Bij One Time Recruit investeren wij structureel in sectorkennis. Onze consultants voeren jaarlijks 100+ executive interviews per sector, participeren in branchenetwerken en volgen sectorspecifieke ontwikkelingen op de voet. Dit vertaalt zich in een diepgaand netwerk, relevante marktinzichten en de capaciteit om <Link to="/nl/confidential-search" className="font-medium text-accent hover:underline">confidential searches</Link> uit te voeren in gereguleerde omgevingen.</p>
                 <p>Het resultaat: kortere doorlooptijden, relevantere shortlists en kandidaten die niet alleen de juiste competenties hebben, maar ook de nuances van uw industrie begrijpen.</p>
               </div>
               <div className="mt-8 space-y-3">

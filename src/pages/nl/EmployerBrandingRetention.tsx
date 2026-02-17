@@ -58,7 +58,7 @@ const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Employer Branding & Retention voor Senior Talent",
-  provider: { "@type": "Organization", name: "OneTime Recruit", url: "https://onetimerecruit.nl" },
+  provider: { "@type": "Organization", name: "One Time Recruit", url: "https://onetimerecruit.nl" },
   serviceType: "Employer Branding Advisory",
   areaServed: { "@type": "Country", name: "Netherlands" },
   description: "Hoe u toptalent aantrekt én behoudt. Employer branding, executive onboarding, retentiestrategieën en compensatie-analyse voor senior leiders.",
@@ -68,7 +68,7 @@ export default function EmployerBrandingRetention() {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Employer Branding & Retention voor Senior Talent | OneTime Recruit"
+        title="Employer Branding & Retention voor Senior Talent | One Time Recruit"
         description="Hoe u toptalent aantrekt én behoudt. Employer branding, executive onboarding, retentiestrategieën en compensatie-analyse voor senior leiders."
         locale="nl_NL"
         jsonLd={[faqJsonLd, serviceJsonLd] as unknown as Record<string, unknown>}
@@ -124,7 +124,7 @@ export default function EmployerBrandingRetention() {
               <h2 className="font-display text-2xl font-bold text-foreground md:text-4xl">Waarom retentie begint vóór de plaatsing</h2>
               <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-muted-foreground">
                 <p>40% van extern aangetrokken executives vertrekt binnen 18 maanden. De kosten? Gemiddeld 2,5x het jaarsalaris — exclusief de strategische schade, het moraalverlies en de vertraging in executie. De oplossing is niet beter zoeken, maar beter selecteren, beter onboarden en beter behouden.</p>
-                <p>Bij OneTime Recruit begint retentie al bij de <Link to="/nl/assessment-selectie" className="font-medium text-accent hover:underline">assessment-fase</Link>. Onze <Link to="/nl/culture-fit-vs-culture-add" className="font-medium text-accent hover:underline">cultuurfit-analyse</Link> en <Link to="/nl/referentiechecks" className="font-medium text-accent hover:underline">referentiechecks</Link> voorspellen niet alleen of iemand de functie aankan, maar ook of de match duurzaam is. Na plaatsing bieden wij 100-dagen <Link to="/nl/onboarding-executives" className="font-medium text-accent hover:underline">onboarding support</Link> om de kritieke integratiefase te begeleiden.</p>
+                <p>Bij One Time Recruit begint retentie al bij de <Link to="/nl/assessment-selectie" className="font-medium text-accent hover:underline">assessment-fase</Link>. Onze <Link to="/nl/culture-fit-vs-culture-add" className="font-medium text-accent hover:underline">cultuurfit-analyse</Link> en <Link to="/nl/referentiechecks" className="font-medium text-accent hover:underline">referentiechecks</Link> voorspellen niet alleen of iemand de functie aankan, maar ook of de match duurzaam is. Na plaatsing bieden wij 100-dagen <Link to="/nl/onboarding-executives" className="font-medium text-accent hover:underline">onboarding support</Link> om de kritieke integratiefase te begeleiden.</p>
                 <p>Daarnaast adviseren wij over <Link to="/nl/employer-brand-senior-talent" className="font-medium text-accent hover:underline">employer branding</Link> en <Link to="/nl/compensation-benefits-trends" className="font-medium text-accent hover:underline">compensatie-strategie</Link> zodat u niet alleen de juiste leiders aantrekt, maar hen ook op lange termijn aan uw organisatie bindt.</p>
               </div>
             </ScrollReveal>

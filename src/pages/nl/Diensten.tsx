@@ -14,7 +14,7 @@ const services = [
     icon: Search,
     title: "Executive Search",
     description: "Wij vinden de juiste C-level en senior executives voor uw organisatie. Via ons exclusieve netwerk en bewezen assessmentmethode identificeren wij leiders die écht het verschil maken.",
-    features: ["C-suite & VP-level plaatsingen", "Competentie-based assessment", "Cultuurfit-analyse", "18 dagen gemiddelde doorlooptijd"],
+    features: ["C-suite & VP-level plaatsingen", "Competentie-based assessment", "Cultuurfit-analyse", "Shortlist binnen 18 dagen"],
     href: "/nl/executive-search",
     highlight: true,
   },
@@ -59,14 +59,14 @@ const NLDiensten = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Diensten, OneTime Recruit"
+        title="Diensten, One Time Recruit"
         description="Van executive search tot interim management en talent mapping. Ontdek onze strategische recruitment diensten voor enterprise organisaties."
         locale="nl_NL"
         alternates={getAlternates("diensten", ["nl"])}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Service",
-          provider: { "@type": "Organization", name: "OneTime Recruit" },
+          provider: { "@type": "Organization", name: "One Time Recruit" },
           serviceType: "Executive Search",
           areaServed: { "@type": "Country", name: "Netherlands" },
           description: "Strategische executive search en recruitment diensten voor enterprise organisaties in Nederland.",
@@ -90,7 +90,7 @@ const NLDiensten = () => {
                 Traditionele recruitment <span className="text-accent">kost u meer dan u denkt</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Verborgen fees, maandenlange doorlooptijden en nul transparantie. Wij doen het anders, vaste prijs, 18 dagen, en u houdt de regie.
+                Verborgen fees, maandenlange doorlooptijden en nul transparantie. Wij doen het anders, vaste prijs, shortlist binnen 18 dagen, en u houdt de regie.
               </p>
             </ScrollReveal>
           </div>
@@ -136,7 +136,7 @@ const NLDiensten = () => {
         </section>
 
         <TestimonialQuote
-          quote="De transparante werkwijze en het scherpe oog voor culturele fit maken OneTime onze vaste recruitment partner."
+          quote="De transparante werkwijze en het scherpe oog voor culturele fit maken One Time onze vaste recruitment partner."
           author="HR Manager"
           company="OOvB Accountants"
         />
@@ -147,7 +147,7 @@ const NLDiensten = () => {
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center">
               {[
                 { value: "500+", label: "Succesvolle plaatsingen" },
-                { value: "18", label: "Dagen gem. doorlooptijd" },
+                { value: "18", label: "Dagen tot shortlist" },
                 { value: "98%", label: "Klanttevredenheid" },
                 { value: "7.500+", label: "Specialisten in netwerk" },
               ].map((m) => (

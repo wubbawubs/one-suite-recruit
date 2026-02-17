@@ -57,18 +57,18 @@ const NLContact = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Contact, OneTime Recruit"
-        description="Neem contact op met OneTime Recruit voor een vrijblijvend gesprek over executive search. Bereikbaar op werkdagen van 08:30 tot 18:00."
+        title="Contact, One Time Recruit"
+        description="Neem contact op met One Time Recruit voor een vrijblijvend gesprek over executive search. Bereikbaar op werkdagen van 08:30 tot 18:00."
         locale="nl_NL"
         alternates={getAlternates("contact", ["nl"])}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "ContactPage",
-          name: "Contact OneTime Recruit",
-          description: "Neem contact op met OneTime Recruit.",
+          name: "Contact One Time Recruit",
+          description: "Neem contact op met One Time Recruit.",
           mainEntity: {
             "@type": "Organization",
-            name: "OneTime Recruit",
+            name: "One Time Recruit",
             telephone: "+31617226186",
             email: "info@onetimerecruit.nl",
             address: { "@type": "PostalAddress", addressLocality: "Amsterdam", addressCountry: "NL" },
@@ -93,7 +93,7 @@ const NLContact = () => {
                 Laten we <span className="text-accent">kennismaken</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Benieuwd wat OneTime Recruit voor uw organisatie kan betekenen? Neem contact op voor een vrijblijvend gesprek.
+                Benieuwd wat One Time Recruit voor uw organisatie kan betekenen? Neem contact op voor een vrijblijvend gesprek.
               </p>
             </ScrollReveal>
           </div>
