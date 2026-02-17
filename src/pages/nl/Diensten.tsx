@@ -8,12 +8,12 @@ import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 import { PageMeta } from "@/components/PageMeta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
-import sfeerWerving from "@/assets/sfeer-werving.jpg";
-import sfeerSelectie from "@/assets/sfeer-selectie.jpg";
-import sfeerAbonnement from "@/assets/sfeer-abonnement.jpg";
-import sfeerEigenBeheer from "@/assets/sfeer-eigen-beheer.jpg";
-import sfeerZoekopdracht from "@/assets/sfeer-zoekopdracht.jpg";
-import sfeerOverOns from "@/assets/sfeer-over-ons.jpg";
+import sfeerWerving from "@/assets/service-executive-search.jpg";
+import sfeerSelectie from "@/assets/service-leadership-advisory.jpg";
+import sfeerAbonnement from "@/assets/service-hiring-os.jpg";
+import sfeerEigenBeheer from "@/assets/service-interim-management.jpg";
+import sfeerZoekopdracht from "@/assets/service-talent-mapping.jpg";
+import sfeerOverOns from "@/assets/service-onboarding.jpg";
 
 const services = [
   {
