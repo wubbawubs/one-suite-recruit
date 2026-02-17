@@ -67,10 +67,10 @@ const clients = ["Arvoo", "BGH Accountants", "OOvB Accountants", "Energiebehoud"
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "OneTime Recruit",
+  name: "One Time Recruit",
   url: "https://onetimerecruit.nl",
   logo: "https://onetimerecruit.nl/logo.png",
-  description: "OneTime Recruit ist Ihr Spezialist für Executive Search und Personalvermittlung von Führungskräften in Deutschland und den Niederlanden.",
+  description: "One Time Recruit ist Ihr Spezialist für Executive Search und Personalvermittlung von Führungskräften in Deutschland und den Niederlanden.",
   contactPoint: { "@type": "ContactPoint", telephone: "+31-6-17226186", contactType: "sales", availableLanguage: ["German", "Dutch", "English"] },
 };
 
@@ -78,8 +78,8 @@ const DEHome = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="OneTime Recruit — Executive Search & Personalvermittlung"
-        description="OneTime Recruit ist Ihr Spezialist für Executive Search. Wir finden C-Level- und Senior-Führungskräfte für Ihr Unternehmen."
+        title="One Time Recruit — Executive Search & Personalvermittlung"
+        description="One Time Recruit ist Ihr Spezialist für Executive Search. Wir finden C-Level- und Senior-Führungskräfte für Ihr Unternehmen."
         jsonLd={orgJsonLd}
         locale="de_DE"
         alternates={getAlternates("home", ["nl", "de"])}
@@ -220,7 +220,7 @@ const DEHome = () => {
         </section>
 
         <TestimonialQuote
-          quote="OneTime verstand sofort, welche Art von Führung wir suchten. Die Shortlist war qualitativ außergewöhnlich."
+          quote="One Time verstand sofort, welche Art von Führung wir suchten. Die Shortlist war qualitativ außergewöhnlich."
           author="Geschäftsführung"
           company="Arvoo"
         />
@@ -228,12 +228,12 @@ const DEHome = () => {
         {/* Comparison */}
         <ComparisonSection lang="de" />
 
-        {/* Why OneTime */}
+        {/* Why One Time */}
         <section className="bg-muted/60 py-16 md:py-24">
           <div className="container">
             <div className="grid items-start gap-12 lg:grid-cols-5 lg:gap-20">
               <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">
-                <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Warum OneTime</span>
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Warum One Time</span>
                 <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Nicht einfach eine Personalvermittlung</h2>
                 <p className="mt-5 text-lg leading-relaxed text-muted-foreground">Wir sind Ihr strategischer Partner bei der Suche nach Führungskräften, die den Unterschied machen.</p>
                 <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />

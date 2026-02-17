@@ -35,7 +35,7 @@ const triggers = [
 const faqs = [
   {
     q: "Wat maakt C-level recruitment anders dan reguliere werving?",
-    a: "C-level recruitment vereist een fundamenteel andere aanpak dan reguliere werving. De kandidatenpool is kleiner, discretie is essentieel, en de impact van een verkeerde keuze is enorm. Bij OneTime Recruit combineren wij executive search methodiek met diepgaande assessment om bestuurders te vinden die niet alleen de juiste competenties hebben, maar ook passen bij uw organisatiecultuur en strategische ambities.",
+    a: "C-level recruitment vereist een fundamenteel andere aanpak dan reguliere werving. De kandidatenpool is kleiner, discretie is essentieel, en de impact van een verkeerde keuze is enorm. Bij One Time Recruit combineren wij executive search methodiek met diepgaande assessment om bestuurders te vinden die niet alleen de juiste competenties hebben, maar ook passen bij uw organisatiecultuur en strategische ambities.",
   },
   {
     q: "Hoe lang duurt een C-level search traject?",
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: "Hoe waarborgen jullie discretie bij confidential search?",
-    a: "Confidential search is een kerncompetentie van OneTime Recruit. Wij werken met NDA's, anonieme functieprofielen en persoonlijke, telefonische benadering van kandidaten. De identiteit van uw organisatie wordt pas onthuld na schriftelijke toestemming van alle betrokken partijen.",
+    a: "Confidential search is een kerncompetentie van One Time Recruit. Wij werken met NDA's, anonieme functieprofielen en persoonlijke, telefonische benadering van kandidaten. De identiteit van uw organisatie wordt pas onthuld na schriftelijke toestemming van alle betrokken partijen.",
   },
   {
     q: "Wat als de geplaatste bestuurder niet past?",
@@ -69,7 +69,7 @@ const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "C-level & Directie Recruitment",
-  provider: { "@type": "Organization", name: "OneTime Recruit", url: "https://onetimerecruit.nl" },
+  provider: { "@type": "Organization", name: "One Time Recruit", url: "https://onetimerecruit.nl" },
   serviceType: "Executive Recruitment",
   areaServed: { "@type": "Country", name: "Netherlands" },
   description: "Gespecialiseerde recruitment voor C-level en directieposities in Nederland. CEO, CFO, CTO, CHRO en board search met bewezen assessment methodiek en vaste tarieven.",
@@ -79,7 +79,7 @@ export default function CLevelRecruitment() {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="C-level & Directie Recruitment Nederland | OneTime Recruit"
+        title="C-level & Directie Recruitment Nederland | One Time Recruit"
         description="Gespecialiseerde recruitment voor C-level en directieposities. CEO, CFO, CTO, CHRO en board search met bewezen assessment methodiek en vaste tarieven."
         locale="nl_NL"
         jsonLd={[faqJsonLd, serviceJsonLd] as unknown as Record<string, unknown>}
@@ -100,7 +100,7 @@ export default function CLevelRecruitment() {
                 De juiste <span className="text-accent">C-level leider</span> voor uw organisatie
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/60">
-                Van CEO tot CHRO — wij vinden bestuurders en directieleden die strategische impact maken. Met bewezen assessment, vaste tarieven en een gemiddelde doorlooptijd van 18 dagen.
+                Van CEO tot CHRO, wij vinden bestuurders en directieleden die strategische impact maken. Met bewezen assessment, vaste tarieven en een shortlist binnen gemiddeld 18 dagen.
               </p>
               <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <Button asChild size="lg" className="h-13 rounded-full bg-accent px-10 text-[15px] font-semibold text-accent-foreground shadow-lg hover:bg-accent/90 transition-all duration-300">
@@ -121,7 +121,7 @@ export default function CLevelRecruitment() {
               {[
                 { value: "200+", label: "C-level plaatsingen" },
                 { value: "95%", label: "Retentie na 12 maanden" },
-                { value: "18", label: "Dagen gem. doorlooptijd" },
+                { value: "18", label: "Dagen tot shortlist" },
                 { value: "50+", label: "Sectoren bediend" },
               ].map((m) => (
                 <div key={m.label}>
@@ -141,7 +141,7 @@ export default function CLevelRecruitment() {
               <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-muted-foreground">
                 <p>De keuze voor een nieuwe bestuurder of directielid is een van de meest impactvolle beslissingen die een organisatie neemt. Een verkeerde C-level hire kost gemiddeld 2,5x het jaarsalaris — en dat is exclusief de strategische schade, het moraalverlies en de vertraging in executie.</p>
                 <p>C-level recruitment vraagt om een fundamenteel andere aanpak dan reguliere werving. De kandidatenpool is klein en exclusief. De beste leiders zijn zelden actief op zoek. Discretie is essentieel — zowel voor uw organisatie als voor de kandidaat. En de assessment moet verder gaan dan cv en competenties: het gaat om <Link to="/nl/culture-fit-vs-culture-add" className="font-medium text-accent hover:underline">cultuurfit</Link>, strategisch denkvermogen en de capaciteit om op het hoogste niveau impact te maken.</p>
-                <p>Bij OneTime Recruit combineren wij de diepgang van boutique executive search met de snelheid en transparantie die moderne organisaties verwachten. Geen procentuele fees, geen verborgen kosten — <Link to="/nl/kosten-executive-search" className="font-medium text-accent hover:underline">vaste tarieven</Link> voor elke C-level search.</p>
+                <p>Bij One Time Recruit combineren wij de diepgang van boutique executive search met de snelheid en transparantie die moderne organisaties verwachten. Geen procentuele fees, geen verborgen kosten, <Link to="/nl/kosten-executive-search" className="font-medium text-accent hover:underline">vaste tarieven</Link> voor elke C-level search.</p>
               </div>
             </ScrollReveal>
           </div>

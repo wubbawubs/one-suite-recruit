@@ -4,42 +4,42 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 const content = {
   nl: {
     label: "Waarom anders",
-    headline: "Traditioneel vs. OneTime",
+    headline: "Traditioneel vs. One Time",
     rows: [
-      { label: "Doorlooptijd", old: "8–12 weken", new: "18 dagen" },
+      { label: "Shortlist", old: "8–12 weken", new: "Binnen 18 dagen" },
       { label: "Kosten", old: "25–30% jaarsalaris", new: "Vaste prijs" },
       { label: "Garantie", old: "Geen of beperkt", new: "6 maanden" },
       { label: "Transparantie", old: "Black box", new: "Realtime updates" },
       { label: "Talent pool", old: "Eenmalige lijst", new: "Blijvend toegang" },
     ],
     colOld: "Traditioneel",
-    colNew: "OneTime",
+    colNew: "One Time",
   },
   en: {
     label: "Why different",
-    headline: "Traditional vs. OneTime",
+    headline: "Traditional vs. One Time",
     rows: [
-      { label: "Lead time", old: "8–12 weeks", new: "18 days" },
+      { label: "Shortlist", old: "8–12 weeks", new: "Within 18 days" },
       { label: "Cost", old: "25–30% salary", new: "Fixed fee" },
       { label: "Guarantee", old: "None or limited", new: "6 months" },
       { label: "Transparency", old: "Black box", new: "Real-time updates" },
       { label: "Talent pool", old: "One-time list", new: "Ongoing access" },
     ],
     colOld: "Traditional",
-    colNew: "OneTime",
+    colNew: "One Time",
   },
   de: {
     label: "Warum anders",
-    headline: "Traditionell vs. OneTime",
+    headline: "Traditionell vs. One Time",
     rows: [
-      { label: "Laufzeit", old: "8–12 Wochen", new: "18 Tage" },
+      { label: "Shortlist", old: "8–12 Wochen", new: "Innerhalb 18 Tage" },
       { label: "Kosten", old: "25–30% Gehalt", new: "Festpreis" },
       { label: "Garantie", old: "Keine / begrenzt", new: "6 Monate" },
       { label: "Transparenz", old: "Black Box", new: "Echtzeit-Updates" },
       { label: "Talentpool", old: "Einmalige Liste", new: "Dauerhaft" },
     ],
     colOld: "Traditionell",
-    colNew: "OneTime",
+    colNew: "One Time",
   },
 };
 

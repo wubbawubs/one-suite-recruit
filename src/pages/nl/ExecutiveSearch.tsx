@@ -12,7 +12,7 @@ import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 const deliverables = [
   { icon: Users, title: "Dedicated talent pool", description: "Een exclusieve shortlist van gekwalificeerde kandidaten, samengesteld specifiek voor uw vacature." },
   { icon: BarChart3, title: "Executive assessment", description: "Competentie-based evaluatie met STAR-methodiek, cultuurfit-analyse en leiderschapspotentieel." },
-  { icon: Clock, title: "Snelle doorlooptijd", description: "Gemiddeld 18 werkdagen van intake tot shortlist — zonder concessies aan kwaliteit." },
+  { icon: Clock, title: "Snelle shortlist", description: "Gemiddeld 18 werkdagen van intake tot shortlist, zonder concessies aan kwaliteit." },
   { icon: Shield, title: "Garantieregeling", description: "Plaatsingsgarantie met kosteloze herstart als de match niet blijkt te werken." },
   { icon: Target, title: "Wekelijkse rapportage", description: "Transparante updates over voortgang, pipeline en marktinzichten gedurende het hele proces." },
   { icon: Award, title: "Onboarding support", description: "100-dagen begeleiding na plaatsing om een succesvolle start te waarborgen." },
@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     q: "Wat is het verschil tussen executive search en een headhunter?",
-    a: "Een headhunter werkt vaak reactief en op commissiebasis per plaatsing. Executive search is een strategisch, methodisch proces met uitgebreide assessment, exclusieve search en garantieregeling. Bij OneTime Recruit werken wij met een vast tarief of abonnement — geen verborgen kosten.",
+    a: "Een headhunter werkt vaak reactief en op commissiebasis per plaatsing. Executive search is een strategisch, methodisch proces met uitgebreide assessment, exclusieve search en garantieregeling. Bij One Time Recruit werken wij met een vast tarief of abonnement, geen verborgen kosten.",
   },
   {
     q: "Wat kost executive search?",
-    a: "Traditionele executive search bureaus rekenen 25-35% van het jaarsalaris. OneTime Recruit werkt met transparante vaste tarieven of een abonnementsmodel. Dit betekent voorspelbare kosten, ongeacht het salarisniveau van de kandidaat. Neem contact op voor een offerte op maat.",
+    a: "Traditionele executive search bureaus rekenen 25-35% van het jaarsalaris. One Time Recruit werkt met transparante vaste tarieven of een abonnementsmodel. Dit betekent voorspelbare kosten, ongeacht het salarisniveau van de kandidaat. Neem contact op voor een offerte op maat.",
   },
   {
     q: "Hoe lang duurt een executive search traject?",
@@ -61,8 +61,8 @@ const faqs = [
     a: "Wij bieden een garantieregeling op al onze plaatsingen. Als de match binnen de garantieperiode niet blijkt te werken, starten wij kosteloos een nieuwe search. Ons retentiepercentage na 12 maanden is 95%, mede dankzij onze grondige assessmentmethode.",
   },
   {
-    q: "Wat maakt OneTime Recruit anders dan andere executive search bureaus?",
-    a: "Drie dingen: (1) vaste tarieven in plaats van procentuele fees, (2) een dedicated talent pool per vacature die u behoudt, en (3) een gemiddelde doorlooptijd van 18 dagen. Wij combineren boutique-aandacht met enterprise-grade delivery.",
+    q: "Wat maakt One Time Recruit anders dan andere executive search bureaus?",
+    a: "Drie dingen: (1) vaste tarieven in plaats van procentuele fees, (2) een dedicated talent pool per vacature die u behoudt, en (3) een shortlist binnen gemiddeld 18 dagen. Wij combineren boutique-aandacht met enterprise-grade delivery.",
   },
 ];
 
@@ -85,12 +85,12 @@ const serviceJsonLd = {
   name: "Executive Search Nederland",
   provider: {
     "@type": "Organization",
-    name: "OneTime Recruit",
+    name: "One Time Recruit",
     url: "https://onetimerecruit.nl",
   },
   serviceType: "Executive Search",
   areaServed: { "@type": "Country", name: "Netherlands" },
-  description: "Gespecialiseerde executive search voor C-level, directie en VP-posities in Nederland. Vaste tarieven, 18 dagen gemiddelde doorlooptijd, dedicated talent pool per vacature.",
+  description: "Gespecialiseerde executive search voor C-level, directie en VP-posities in Nederland. Vaste tarieven, shortlist binnen 18 dagen, dedicated talent pool per vacature.",
   offers: {
     "@type": "Offer",
     priceCurrency: "EUR",
@@ -104,8 +104,8 @@ const NLExecutiveSearch = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Executive Search Nederland — C-level & Directie | OneTime Recruit"
-        description="Gespecialiseerde executive search voor C-level, directie en VP-posities. Vaste tarieven, 18 dagen doorlooptijd, dedicated talent pool. Ontdek onze bewezen methodiek."
+        title="Executive Search Nederland — C-level & Directie | One Time Recruit"
+        description="Gespecialiseerde executive search voor C-level, directie en VP-posities. Vaste tarieven, shortlist binnen 18 dagen, dedicated talent pool. Ontdek onze bewezen methodiek."
         locale="nl_NL"
         alternates={getAlternates("executive-search", ["nl"])}
         jsonLd={combinedJsonLd as unknown as Record<string, unknown>}
@@ -131,7 +131,7 @@ const NLExecutiveSearch = () => {
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/60">
                 Gespecialiseerde executive search voor C-level, directie en VP-posities. 
-                Vast tarief, gemiddeld 18 dagen doorlooptijd, een dedicated talent pool die u behoudt.
+                Vast tarief, shortlist binnen gemiddeld 18 dagen, een dedicated talent pool die u behoudt.
               </p>
               <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <Button asChild size="lg" className="h-13 rounded-full bg-accent px-10 text-[15px] font-semibold text-accent-foreground shadow-lg hover:bg-accent/90 transition-all duration-300">
@@ -153,7 +153,7 @@ const NLExecutiveSearch = () => {
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center">
               {[
                 { value: "500+", label: "Executive plaatsingen" },
-                { value: "18", label: "Dagen gem. doorlooptijd" },
+                { value: "18", label: "Dagen tot shortlist" },
                 { value: "95%", label: "Retentie na 12 maanden" },
                 { value: "7.500+", label: "Executives in netwerk" },
               ].map((m) => (
@@ -250,7 +250,7 @@ const NLExecutiveSearch = () => {
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Ons proces</span>
               <h2 className="mt-4 font-display text-2xl font-bold text-foreground md:text-4xl">
-                Van intake tot plaatsing in 18 dagen
+                Van intake tot shortlist in 18 dagen
               </h2>
               <p className="mt-4 text-muted-foreground">
                 Een gestructureerd, transparant proces met wekelijkse rapportage en duidelijke mijlpalen.
@@ -379,7 +379,7 @@ const NLExecutiveSearch = () => {
               <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 {[
                   { label: "Alle diensten bekijken", href: "/nl/diensten" },
-                  { label: "Over OneTime Recruit", href: "/nl/over-ons" },
+                  { label: "Over One Time Recruit", href: "/nl/over-ons" },
                   { label: "Informatie voor opdrachtgevers", href: "/nl/opdrachtgevers" },
                   { label: "Neem contact op", href: "/nl/contact" },
                 ].map((link) => (

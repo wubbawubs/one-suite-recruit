@@ -20,7 +20,7 @@ const orgJsonLd = {
   name: "OneTime Recruit",
   url: "https://onetimerecruit.nl",
   logo: "https://onetimerecruit.nl/logo.png",
-  description: "OneTime Recruit is dé specialist in executive search en leiderschap voor enterprise organisaties in Nederland.",
+  description: "One Time Recruit is dé specialist in executive search en leiderschap voor enterprise organisaties in Nederland.",
   address: { "@type": "PostalAddress", addressLocality: "Amsterdam", addressCountry: "NL" },
   contactPoint: { "@type": "ContactPoint", telephone: "+31-6-17226186", contactType: "sales", availableLanguage: "Dutch" },
   sameAs: ["https://www.linkedin.com/company/onetimerecruit/"],
@@ -30,8 +30,8 @@ const NLHome = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="OneTime Recruit — Executive Search & Leiderschap"
-        description="OneTime Recruit is dé specialist in executive search. Wij vinden C-level en senior leiders voor enterprise organisaties in Nederland."
+        title="One Time Recruit — Executive Search & Leiderschap"
+        description="One Time Recruit is dé specialist in executive search. Wij vinden C-level en senior leiders voor enterprise organisaties in Nederland."
         jsonLd={orgJsonLd}
         locale="nl_NL"
         alternates={getAlternates("home", ["nl"])}
@@ -43,7 +43,7 @@ const NLHome = () => {
         <ProblemSection lang="nl" />
         <ServicesSection />
         <TestimonialQuote
-          quote="OneTime begreep direct welk type leiderschap wij zochten. De shortlist was kwalitatief uitzonderlijk."
+          quote="One Time begreep direct welk type leiderschap wij zochten. De shortlist was kwalitatief uitzonderlijk."
           author="Directie"
           company="Arvoo"
         />

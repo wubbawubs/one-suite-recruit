@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "Wat is het verschil tussen culture fit en culture add?",
-    a: "Culture fit meet of een kandidaat past bij uw bestaande organisatiecultuur. Culture add evalueert of een kandidaat waardevolle nieuwe perspectieven en competenties toevoegt. Bij OneTime Recruit adviseren wij bewust over wanneer u fit zoekt (stabiliteit) en wanneer add (transformatie).",
+    a: "Culture fit meet of een kandidaat past bij uw bestaande organisatiecultuur. Culture add evalueert of een kandidaat waardevolle nieuwe perspectieven en competenties toevoegt. Bij One Time Recruit adviseren wij bewust over wanneer u fit zoekt (stabiliteit) en wanneer add (transformatie).",
   },
   {
     q: "Hoe waarborgen jullie objectiviteit in het assessmentproces?",
@@ -59,7 +59,7 @@ const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: "Assessment & Selectie voor Executive Recruitment",
-  provider: { "@type": "Organization", name: "OneTime Recruit", url: "https://onetimerecruit.nl" },
+  provider: { "@type": "Organization", name: "One Time Recruit", url: "https://onetimerecruit.nl" },
   serviceType: "Executive Assessment",
   areaServed: { "@type": "Country", name: "Netherlands" },
   description: "Bewezen assessment- en selectiemethoden voor executive recruitment. STAR-interviews, cultuurfit-analyse, referentiechecks en leiderschapspotentieel-evaluatie.",
@@ -69,7 +69,7 @@ export default function AssessmentSelectie() {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Assessment & Selectie voor Executive Recruitment | OneTime Recruit"
+        title="Assessment & Selectie voor Executive Recruitment | One Time Recruit"
         description="Bewezen assessment- en selectiemethoden voor executive recruitment. STAR-interviews, cultuurfit-analyse, referentiechecks en leiderschapspotentieel-evaluatie."
         locale="nl_NL"
         jsonLd={[faqJsonLd, serviceJsonLd] as unknown as Record<string, unknown>}
@@ -125,7 +125,7 @@ export default function AssessmentSelectie() {
               <h2 className="font-display text-2xl font-bold text-foreground md:text-4xl">Waarom assessment het verschil maakt</h2>
               <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-muted-foreground">
                 <p>De meeste executive mis-hires ontstaan niet door een gebrek aan competenties, maar door een mismatch in cultuur, leiderschapsstijl of strategische visie. Traditionele selectie op basis van cv en ongestructureerde interviews voorspelt slechts 14% van de werkprestaties. Gestructureerde assessment verhoogt dit naar 26-36%.</p>
-                <p>Bij OneTime Recruit is assessment geen bijproduct — het is de kern van ons <Link to="/nl/executive-search" className="font-medium text-accent hover:underline">executive search</Link> proces. Elke kandidaat doorloopt een gestandaardiseerd, multi-source assessment dat competenties, <Link to="/nl/culture-fit-vs-culture-add" className="font-medium text-accent hover:underline">cultuurfit</Link>, leiderschapspotentieel en referenties combineert tot één integraal beeld.</p>
+                <p>Bij One Time Recruit is assessment geen bijproduct, het is de kern van ons <Link to="/nl/executive-search" className="font-medium text-accent hover:underline">executive search</Link> proces. Elke kandidaat doorloopt een gestandaardiseerd, multi-source assessment dat competenties, <Link to="/nl/culture-fit-vs-culture-add" className="font-medium text-accent hover:underline">cultuurfit</Link>, leiderschapspotentieel en referenties combineert tot één integraal beeld.</p>
                 <p>Het resultaat: plaatsingen die niet alleen op papier kloppen, maar ook in de praktijk succesvol zijn. Ons retentiepercentage van 95% na 12 maanden bewijst dat kwaliteit voorkomt dat u opnieuw moet zoeken.</p>
               </div>
             </ScrollReveal>

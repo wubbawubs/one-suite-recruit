@@ -39,9 +39,9 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="OneTime Recruit" className="h-12 w-12" />
+               <img src={logo} alt="One Time Recruit" className="h-12 w-12" />
               <span className="text-xl font-bold font-sans">
-                ONE-TIME <span className="font-normal">Recruit</span>
+                ONE TIME <span className="font-normal">Recruit</span>
               </span>
             </div>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-primary-foreground/55">
@@ -83,7 +83,7 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-primary-foreground/8 pt-8 md:flex-row">
           <p className="text-xs text-primary-foreground/30">
-            © {new Date().getFullYear()} OneTime Recruit, Onderdeel van OneGroup
+            © {new Date().getFullYear()} One Time Recruit, Onderdeel van One Group
           </p>
           <div className="flex gap-6">
             <Link to="#" className="text-xs text-primary-foreground/30 hover:text-primary-foreground/55">
