@@ -9,6 +9,7 @@ import { PageMeta } from "@/components/PageMeta";
 import { getAlternates } from "@/lib/seo";
 import { ProblemSection } from "@/components/sections/ProblemSection";
 import { ComparisonSection } from "@/components/sections/ComparisonSection";
+import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 
 const services = [
   {
@@ -218,6 +219,12 @@ const DEHome = () => {
           </div>
         </section>
 
+        <TestimonialQuote
+          quote="OneTime verstand sofort, welche Art von Führung wir suchten. Die Shortlist war qualitativ außergewöhnlich."
+          author="Geschäftsführung"
+          company="Arvoo"
+        />
+
         {/* Comparison */}
         <ComparisonSection lang="de" />
 
@@ -270,6 +277,13 @@ const DEHome = () => {
             </StaggerContainer>
           </div>
         </section>
+
+        <TestimonialQuote
+          quote="Schnelle Kommunikation, persönlicher Ansatz und Kandidaten, die wirklich zu unserer Kultur passen. Top-Erfahrung."
+          author="Managing Partner"
+          company="BGH Accountants"
+          variant="dark"
+        />
 
         {/* Case Studies */}
         <section className="bg-primary py-16 text-primary-foreground md:py-24">

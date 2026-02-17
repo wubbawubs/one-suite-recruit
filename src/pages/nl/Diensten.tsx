@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Search, Users, Settings, Target, BarChart3, Briefcase, ArrowRight, CheckCircle, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 import { PageMeta } from "@/components/PageMeta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
@@ -152,6 +153,12 @@ const NLDiensten = () => {
             </StaggerContainer>
           </div>
         </section>
+
+        <TestimonialQuote
+          quote="De transparante werkwijze en het scherpe oog voor culturele fit maken OneTime onze vaste recruitment partner."
+          author="HR Manager"
+          company="OOvB Accountants"
+        />
 
         {/* Social proof strip */}
         <section className="border-y border-border/50 bg-muted/40 py-14">

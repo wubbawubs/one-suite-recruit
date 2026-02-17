@@ -9,6 +9,7 @@ import { PageMeta } from "@/components/PageMeta";
 import { getAlternates } from "@/lib/seo";
 import { ProblemSection } from "@/components/sections/ProblemSection";
 import { ComparisonSection } from "@/components/sections/ComparisonSection";
+import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 
 const services = [
   {
@@ -218,6 +219,12 @@ const ENHome = () => {
           </div>
         </section>
 
+        <TestimonialQuote
+          quote="OneTime immediately understood what type of leadership we were looking for. The shortlist was exceptionally strong."
+          author="Board of Directors"
+          company="Arvoo"
+        />
+
         {/* Comparison */}
         <ComparisonSection lang="en" />
 
@@ -270,6 +277,13 @@ const ENHome = () => {
             </StaggerContainer>
           </div>
         </section>
+
+        <TestimonialQuote
+          quote="From intake to placement, everything ran flawlessly. The candidate has been performing excellently for over a year now."
+          author="Director"
+          company="Energiebehoud"
+          variant="dark"
+        />
 
         {/* Case Studies */}
         <section className="bg-primary py-16 text-primary-foreground md:py-24">
