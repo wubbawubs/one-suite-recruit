@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 import { PageMeta } from "@/components/PageMeta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
@@ -152,6 +153,12 @@ const NLOverOns = () => {
             </StaggerContainer>
           </div>
         </section>
+
+        <TestimonialQuote
+          quote="OneTime combineert snelheid met kwaliteit. Binnen drie weken hadden wij de juiste kandidaat op gesprek."
+          author="HR Director"
+          company="Thales"
+        />
 
         {/* Team */}
         <section className="py-16 md:py-24">

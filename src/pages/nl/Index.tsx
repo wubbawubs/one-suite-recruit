@@ -10,6 +10,7 @@ import { ProcessSection } from "@/components/sections/ProcessSection";
 import { CaseStudiesSection } from "@/components/sections/CaseStudiesSection";
 import { InsightsSection } from "@/components/sections/InsightsSection";
 import { CTAStrip } from "@/components/sections/CTAStrip";
+import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 import { PageMeta } from "@/components/PageMeta";
 import { getAlternates, nlBreadcrumbs } from "@/lib/seo";
 
@@ -41,9 +42,20 @@ const NLHome = () => {
         <TrustBar />
         <ProblemSection lang="nl" />
         <ServicesSection />
+        <TestimonialQuote
+          quote="OneTime begreep direct welk type leiderschap wij zochten. De shortlist was kwalitatief uitzonderlijk."
+          author="Directie"
+          company="Arvoo"
+        />
         <ComparisonSection lang="nl" />
         <WhySection />
         <ProcessSection />
+        <TestimonialQuote
+          quote="Van intake tot plaatsing liep alles vlekkeloos. De kandidaat draait inmiddels ruim een jaar uitstekend mee."
+          author="Directeur"
+          company="Energiebehoud"
+          variant="dark"
+        />
         <CaseStudiesSection />
         <InsightsSection />
         <CTAStrip />
