@@ -1647,6 +1647,689 @@ const industryServiceContent: IndustryContentMap = {
       approach: "Wij ontwerpen recruitment-modellen die de veiligheids- en locatie-eisen van de chemische industrie respecteren. Van veiligheidscertificering tot regionale employer branding — structureel en compliant.",
     },
   },
+
+  // ─── IT & SOFTWARE ───
+  "it-en-software": {
+    "executive-search": {
+      whyIntro: "De IT & software-sector is het fundament van digitale transformatie. Van custom software development tot managed services, van ERP-implementaties tot cloud-migraties — leiders moeten zowel technologie als klantrelaties begrijpen.\n\nNederlandse IT-dienstverleners concurreren met globale spelers (Infosys, Accenture) om talent én klanten. [Executive search](/nl/diensten/executive-search) in IT vereist een partner die de lokale marktdynamiek én de technologische complexiteit begrijpt.",
+      challenges: [
+        "Nearshoring vs. lokaal — de balans tussen kostenefficiëntie en klantproximiteit is een strategische leiderschapsbeslissing",
+        "AI-transformatie — elke IT-dienstverlener moet AI integreren in hun serviceportfolio, wat een nieuw type leider vereist",
+        "Talent piramide — het vinden van senior leiders die zowel delivery als sales begrijpen wordt steeds moeilijker",
+        "Platform shift — de transitie van project-based naar platform-based verdienmodellen verandert de gehele organisatie",
+      ],
+      profiles: [
+        "CEO / Managing Director — P&L-leiderschap voor IT-dienstverleners en software houses",
+        "[CTO](/nl/functies/cto-chief-technology-officer) — technische strategie, architectuur en innovatie",
+        "VP Delivery / Operations — service delivery en operational excellence",
+        "VP Sales / Commercial Director — enterprise sales en strategic accounts",
+        "Chief Product Officer — productmanagement voor software-bedrijven",
+      ],
+      trends: "IT-recruitment verandert fundamenteel: (1) AI-augmented development (Copilot, Cursor) maakt productiviteit per developer hoger maar verhoogt de lat voor leiderschap, (2) cybersecurity wordt een standaard-eis voor elke IT-leider, en (3) de consolidatiegolf in IT-services (M&A) creëert een continue stroom van leiderschapsvacatures bij geïntegreerde organisaties.",
+      approach: "Ons netwerk in de Nederlandse IT-sector omvat executives bij top-20 IT-dienstverleners, groeiende software houses en enterprise IT-afdelingen. Wij begrijpen het verschil tussen een delivery-gerichte leider en een commercieel-strategische leider — en weten wanneer u welk profiel nodig heeft.\n\nLees meer over [onze executive search aanpak](/nl/wat-is-executive-search).",
+    },
+    "c-level-recruitment": {
+      whyIntro: "C-level posities in IT & software vereisen leiders die de brug slaan tussen technologie en business. Een CTO die geen klantgesprek kan voeren, is net zo ongeschikt als een CEO die geen architectuurbeslissing begrijpt.\n\nOne Time Recruit plaatst [C-level leiders](/nl/diensten/c-level-recruitment) die deze dualiteit beheersen.",
+      challenges: [
+        "Tech-commerciële balans — C-level moet zowel delivery excellence als revenue growth aansturen",
+        "Scale-up naar enterprise — de transitie van 50 naar 500 medewerkers vraagt een andere C-suite",
+        "Post-M&A integratie — na overnames moeten C-level leiders culturen samenvoegen",
+        "Remote/hybrid — IT-organisaties met distributed teams vereisen een moderne leiderschapsstijl",
+      ],
+      profiles: [
+        "[CEO](/nl/functies/ceo-chief-executive-officer) — strategisch leiderschap en waardecreatie",
+        "[CTO](/nl/functies/cto-chief-technology-officer) — technologievisie en architectuurkeuzes",
+        "[CFO](/nl/functies/cfo-chief-financial-officer) — SaaS-metrics, M&A-ondersteuning en financial planning",
+        "COO — delivery, operations en klanttevredenheid",
+        "CHRO — employer branding en talent retention in een krappe markt",
+      ],
+      trends: "De IT C-suite verandert: fractional CxO's worden geaccepteerd voor specifieke groeifasen, AI-expertise wordt een board-level competentie, en ESG/duurzaamheidsrapportage creëert een nieuwe verantwoordelijkheid voor CFO's.",
+      approach: "Onze C-level search in IT combineert diepgaand marktonderzoek met [assessments](/nl/diensten/assessment-selectie) die specifiek kijken naar de combinatie van technisch begrip en commercieel leiderschap. Elke kandidaat wordt beoordeeld op stage-fit: past deze leider bij uw huidige groeifase?",
+    },
+    "assessment-selectie": {
+      whyIntro: "Een verkeerde leiderschapskeuze in IT kost gemiddeld €300-500K aan directe en indirecte kosten. Standaard [assessments](/nl/diensten/assessment-selectie) missen vaak de technische diepgang om IT-leiders adequaat te beoordelen.",
+      challenges: [
+        "Technische geloofwaardigheid — kan de kandidaat écht een architectuurdiscussie voeren?",
+        "Delivery vs. sales — sommige IT-leiders excelleren in delivery maar falen commercieel",
+        "Verandervermogen — IT verandert continu, hoe goed navigeert de kandidaat transformatie?",
+        "Cultuur in IT — platte hiërarchieën, agile werkwijzen en developer-cultuur vereisen specifiek leiderschap",
+      ],
+      profiles: [
+        "CTO-assessment — technische visie, architectuurbeslissingen en engineering culture",
+        "MD/CEO-assessment — P&L-begrip, commercieel talent en strategische visie",
+        "VP Sales-assessment — enterprise verkoopcyclus en relationship management",
+        "VP Delivery-assessment — projectmanagement, klanttevredenheid en escalatie-handling",
+      ],
+      trends: "IT-assessments worden steeds meer gecombineerd met technische case studies en 360-graden feedback van klanten en teamleden. Psychometrische tools worden aangevuld met real-world scenario's die sector-specifiek zijn.",
+      approach: "Ons assessment voor IT-leiders omvat een technische case study, [STAR-interviews](/nl/star-interview-guide) en diepgaande [referentiechecks](/nl/referentiechecks). U ontvangt een rapport met concrete aanbevelingen voor de eerste 100 dagen.",
+    },
+    "leadership-advisory": {
+      whyIntro: "IT-organisaties groeien vaak sneller dan hun leiderschapsstructuur kan bijbenen. De technisch briljante founder is niet altijd de juiste CEO voor een organisatie met 200+ medewerkers.\n\n[Leadership advisory](/nl/diensten/leadership-advisory) helpt IT-organisaties hun leiderschapsteam te professionaliseren.",
+      challenges: [
+        "Founder-to-CEO transitie — technische oprichters die moeten groeien naar professioneel management",
+        "Management team samenstelling — welke C-level posities heeft u wanneer nodig?",
+        "Post-M&A leiderschap — hoe integreert u twee managementteams na een overname?",
+        "Successieplanning — continuïteit waarborgen in cruciale leiderschapsposities",
+      ],
+      profiles: [
+        "Executive team assessment — evaluatie van de collectieve sterkte van uw managementteam",
+        "Successieplanning — identificatie van interne opvolgers voor kritieke posities",
+        "[Onboarding executives](/nl/onboarding-executives) — begeleiding van nieuwe leiders",
+        "[Compensation benchmarking](/nl/compensation-benefits-trends) — marktconforme beloning",
+      ],
+      trends: "IT leadership advisory wordt steeds meer data-driven: organisational network analysis brengt informele invloedstructuren in kaart, en employee engagement data wordt gecombineerd met performance metrics.",
+      approach: "Wij werken als strategisch sparringpartner voor IT-directeuren en HR-leiders. Van [retentie-strategieën](/nl/leadership-retention) tot [employer branding](/nl/employer-brand-senior-talent) — concrete actieplannen gebaseerd op sectorkennis.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "IT-organisaties besteden vaak 15-20% van hun omzet aan recruitment — zonder structurele talentpijplijn. In een sector waar talent de primaire bottleneck is, is dit onhoudbaar.\n\nOns [recruitment operating model](/nl/diensten/recruitment-operating-model) helpt IT-organisaties hun recruitment te professionaliseren.",
+      challenges: [
+        "Developer talent pipeline — proactief bouwen aan relaties met IT-talent in Nederland en daarbuiten",
+        "Hoge recruitment fees — afhankelijkheid van bureaus resulteert in fees van €15-30K per hire",
+        "Employer brand — concurreren met Big Tech en unicorns om hetzelfde talent",
+        "Time-to-fill — IT-vacatures staan gemiddeld 45+ dagen open",
+      ],
+      profiles: [
+        "[Talent pool opbouw](/nl/talent-pool-per-vacature) — continue pijplijn van IT-leiders en senior developers",
+        "[Recruitment as a Service](/nl/recruitment-as-a-service) — embedded recruiters met IT-domeinkennis",
+        "[Abonnement recruitment](/nl/abonnement-recruitment) — voorspelbare kosten bij continue hiring",
+        "[Hiring governance](/nl/hiring-governance-reporting) — data-driven recruitment met scorecards",
+      ],
+      trends: "IT-recruitment professionaliseert: AI-sourcing tools, talent intelligence platforms en programmatic advertising worden standaard. De grens tussen employer branding en recruitment vervaagt.",
+      approach: "Wij analyseren uw recruitment-performance en ontwerpen een model dat past bij uw groeiambitie. Van standalone TA-team tot hybrid model — altijd meetbaar en data-driven.",
+    },
+  },
+
+  // ─── RENEWABLE ENERGY ───
+  "renewable-energy": {
+    "executive-search": {
+      whyIntro: "De renewable energy sector groeit exponentieel. Van offshore wind tot solar farms, van waterstof tot energy storage — elk segment vereist leiders die zowel de technologie als de complexe vergunningen- en subsidiewereld begrijpen.\n\n[Executive search](/nl/diensten/executive-search) in renewables is het vinden van leiders die schaaldenken combineren met technische diepgang en stakeholder management.",
+      challenges: [
+        "Subsidie-afhankelijkheid — SDE++, ISDE en Europese fondsen vereisen leiders die de subsidie-machine begrijpen",
+        "Vergunningentrajecten — stikstof, Natura 2000 en gemeentelijk beleid vertragen projecten jaren",
+        "Grid congestion — netcongestie is de grootste bottleneck voor nieuwe projecten in Nederland",
+        "Cross-sector talent — renewables trekt leiders uit olie & gas, utilities en bouw, maar cultural fit verschilt sterk",
+      ],
+      profiles: [
+        "CEO / Managing Director — project developers en energy companies",
+        "VP Development — project development, permitting en stakeholder management",
+        "CFO — projectfinanciering, subsidie-optimalisatie en investor relations",
+        "CTO — technologie-keuzes, grid integration en storage",
+        "VP Operations — asset management en O&M voor wind/solar portfolios",
+      ],
+      trends: "Drie trends domineren: (1) offshore wind wordt industrieel (GW-schaal), wat grote-project leiderschap vereist, (2) waterstof transitie creëert een geheel nieuw leiderschap-segment, en (3) corporate PPA's verplaatsen de sales-focus van subsidie naar commercieel.",
+      approach: "Ons netwerk in de Europese renewables-sector omvat executives bij projectontwikkelaars, utilities, EPC-contractors en asset managers. Wij begrijpen de project lifecycle en weten welk type leider past bij welke fase.\n\nLees meer over [onze executive search methodiek](/nl/wat-is-executive-search).",
+    },
+    "c-level-recruitment": {
+      whyIntro: "C-level posities in renewable energy combineren de complexiteit van de energiesector met de snelheid van een scale-up. [C-level recruitment](/nl/diensten/c-level-recruitment) vereist begrip van beide werelden.",
+      challenges: [
+        "Scale-up dynamiek — renewables-bedrijven groeien van 20 naar 200 medewerkers in 2-3 jaar",
+        "Investor expectations — private equity en infra-fondsen stellen hoge eisen aan C-level performance",
+        "Cross-border governance — projecten in meerdere landen vereisen internationaal C-level leiderschap",
+        "Technisch-commercieel — C-level moet zowel MW's begrijpen als M&A-deals sluiten",
+      ],
+      profiles: [
+        "[CEO](/nl/functies/ceo-chief-executive-officer) — visionair leiderschap voor energy transition companies",
+        "[CFO](/nl/functies/cfo-chief-financial-officer) — project finance, SPV-structuren en fundraising",
+        "[COO](/nl/functies/coo-chief-operating-officer) — operational excellence en asset performance",
+        "CTO — technologie-roadmap en innovatie",
+        "Chief Development Officer — portfolio growth en permitting strategie",
+      ],
+      trends: "De renewables C-suite professionaliseert: meer PE/infra-fund backed bedrijven zoeken C-level met corporate governance ervaring, ESG-rapportage wordt board-level verantwoordelijkheid, en CSRD-compliance vereist nieuwe CFO-competenties.",
+      approach: "Wij combineren een uitgebreid netwerk in de Europese energy transition met diepgaande [assessments](/nl/diensten/assessment-selectie). Elke kandidaat wordt beoordeeld op technische kennis, commercieel vermogen én stage-fit.",
+    },
+    "assessment-selectie": {
+      whyIntro: "In een sector die €13 miljard+ aan SDE++ subsidie beheert, is een verkeerde leiderschapskeuze niet alleen kostbaar maar potentieel desastreus voor projecten en investeerders.\n\n[Assessment](/nl/diensten/assessment-selectie) in renewables moet sector-specifieke competenties meten.",
+      challenges: [
+        "Project-risico begrip — begrijpt de kandidaat de risico's van offshore constructie of grid aansluiting?",
+        "Stakeholder management — gemeenten, provincies, Rijkswaterstaat, netbeheerders, investeerders",
+        "Subsidie-expertise — is kennis van SDE++/ISDE essentieel of aanvullend voor deze rol?",
+        "Veiligheidsmentaliteit — offshore en industriële omgevingen vereisen een veiligheidsbewuste leider",
+      ],
+      profiles: [
+        "CEO-assessment — strategisch denken, investor management en groeiambities",
+        "VP Development-assessment — vergunningenkennis, stakeholder-vaardigheden en projectplanning",
+        "CFO-assessment — project finance expertise en subsidie-optimalisatie",
+        "CTO-assessment — technologische visie en innovatiefocus",
+      ],
+      trends: "Assessment in renewables evolueert: scenario-based evaluaties met echte project-dilemma's worden standaard, en ESG-competenties worden geïntegreerd in elk assessment.",
+      approach: "Ons assessment omvat sector-specifieke case studies (projectontwikkeling, stakeholder-dilemma's), [STAR-interviews](/nl/star-interview-guide) en uitgebreide [referentiechecks](/nl/referentiechecks) bij investeerders en co-developers.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Renewables-organisaties groeien vaak sneller dan hun leiderschap kan bijbenen. [Leadership advisory](/nl/diensten/leadership-advisory) helpt energy transition bedrijven hun managementteam te professionaliseren.",
+      challenges: [
+        "Founder-to-CEO — ondernemers die moeten evolueren naar professioneel management",
+        "Board samenstelling — de juiste mix van energie-expertise en corporate governance",
+        "PE ownership transitie — managementteams die moeten presteren onder nieuwe eigenaren",
+        "Internationalisering — leiderschapsteams die moeten functioneren across borders",
+      ],
+      profiles: [
+        "Executive team review — evaluatie managementteam na overname of strategiewijziging",
+        "Board advisory — samenstelling en effectiviteit van RvC/advisory board",
+        "[Onboarding executives](/nl/onboarding-executives) — 100-dagen plan voor nieuwe leiders",
+        "[Compensation benchmarking](/nl/compensation-benefits-trends) — carried interest en projectbonussen",
+      ],
+      trends: "Leadership advisory in renewables wordt steeds meer gekoppeld aan ESG-governance en CSRD-readiness. Boards moeten aantoonbaar duurzaamheidsexpertise hebben.",
+      approach: "Wij adviseren renewable energy CEO's en investeerders over leiderschapsontwikkeling, teamsamenstelling en governance-structuren. Concrete actieplannen gebaseerd op sectorkennis.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Renewable energy organisaties groeien explosief maar werven vaak ad-hoc. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) brengt structuur en voorspelbaarheid.",
+      challenges: [
+        "Seizoensgebonden hiring — projectpieken vereisen flexibele recruitment-capaciteit",
+        "Niche talent — HSE, permitting en grid-specialisten zijn extreem schaars",
+        "Employer brand — concurreren met Shell, Eneco en TotalEnergies om dezelfde profielen",
+        "Multi-site — recruitment voor projecten in meerdere provincies/landen tegelijk",
+      ],
+      profiles: [
+        "[Talent pool opbouw](/nl/talent-pool-per-vacature) — pijplijn van energy professionals",
+        "[Recruitment as a Service](/nl/recruitment-as-a-service) — embedded recruiters met energiesector kennis",
+        "[Hiring governance](/nl/hiring-governance-reporting) — reporting voor PE/infra investors",
+        "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding in renewables",
+      ],
+      trends: "Renewables recruitment professionaliseert met talent intelligence platforms die competitieve talentstromen in kaart brengen en alumni-netwerken van energie-opleidingen activeren.",
+      approach: "Wij ontwerpen recruitment-modellen die passen bij de groeifase van uw renewable energy organisatie. Van eerste TA-hire tot volledig team — meetbaar en schaalbaar.",
+    },
+  },
+
+  // ─── CLEANTECH ───
+  "cleantech": {
+    "executive-search": {
+      whyIntro: "Cleantech startups en scale-ups opereren op het snijvlak van technologie, duurzaamheid en commercie. Leiders moeten deep-tech begrijpen, subsidietrajecten navigeren én een organisatie schalen.\n\n[Executive search](/nl/diensten/executive-search) in cleantech vereist een partner die zowel de startup-dynamiek als de technologische complexiteit begrijpt.",
+      challenges: [
+        "Valley of death — de overgang van pilot naar commerciële schaal is waar cleantech het vaakst faalt",
+        "Subsidie-afhankelijkheid — EU Horizon, Nationaal Groeifonds en WBSO zijn cruciaal maar complex",
+        "Talent mismatch — cleantech heeft leiders nodig die startup-mentaliteit combineren met industriële ervaring",
+        "Lange verkoopcycli — B2B-sales in cleantech kan 12-24 maanden duren",
+      ],
+      profiles: [
+        "CEO / Managing Director — schaling van cleantech ventures",
+        "CTO — technologische roadmap en IP-strategie",
+        "VP Business Development — B2B-sales en partnerships",
+        "VP Operations — pilotplant naar industriële productie",
+        "CFO — subsidie-aanvragen, fundraising en financiële planning",
+      ],
+      trends: "Cleantech-leiderschap evolueert: (1) circulaire economie wordt mainstream, wat leiders met supply chain-denken vereist, (2) CSRD dwingt corporates tot cleantech-aankopen, wat commercieel leiderschap urgenter maakt, en (3) Deep-tech VC-financiering groeit, wat meer professioneel management vereist.",
+      approach: "Ons netwerk in de Nederlandse en Europese cleantech-scene omvat executives bij scale-ups, corporates en investeerders. Wij begrijpen de unieke dynamiek van technologie-gedreven duurzaamheidsbedrijven.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "C-level in cleantech is uniek: leiders moeten technologie, impact en commercie combineren. [C-level recruitment](/nl/diensten/c-level-recruitment) in cleantech vereist begrip van venture-dynamiek én industriële schaling.",
+      challenges: ["Stage-mismatch — een cleantech CEO voor Series A is anders dan voor Series C", "Impact vs. profit — de balans tussen missie en commercie bepaalt welk type leider past", "Board samenstelling — VC/PE-investeerders hebben specifieke verwachtingen van C-level", "International scaling — Europese expansie vereist cross-cultureel leiderschap"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — visionair leiderschap en investor management", "[CTO](/nl/functies/cto-chief-technology-officer) — deep-tech roadmap en R&D-leiderschap", "[CFO](/nl/functies/cfo-chief-financial-officer) — subsidie, fundraising en financiële governance", "CSO (Chief Sustainability Officer) — impact measurement en ESG-reporting"],
+      trends: "Cleantech boardrooms professionaliseren: meer ervaren operators vervangens eerste founders, ESG-expertise wordt verplicht voor bestuurders, en impact measurement wordt geïntegreerd in C-level KPI's.",
+      approach: "Wij evalueren cleantech C-level kandidaten op hun vermogen om de transitie van technologie naar commercie te leiden. [Assessment](/nl/diensten/assessment-selectie) gecombineerd met sector-specifieke referentiechecks.",
+    },
+    "assessment-selectie": {
+      whyIntro: "Cleantech-organisaties kunnen zich geen foute hire veroorloven. [Assessment](/nl/diensten/assessment-selectie) moet zowel technische diepgang als ondernemerschap meten.",
+      challenges: ["Technisch-commercieel — kan de kandidaat zowel R&D als klantgesprekken aansturen?", "Startup resilience — cleantech kent lange cycli en tegenslagen, hoe veerkrachtig is de kandidaat?", "Stakeholder-complexiteit — subsidieverstrekkers, investeerders, klanten en regulators", "Impact-drive — is de motivatie intrinsiek of opportunistisch?"],
+      profiles: ["CEO-assessment — strategisch denken en fundraising-capaciteit", "CTO-assessment — technische visie en schaalcapaciteit", "BD-assessment — enterprise sales in lange verkoopcycli", "VP Operations — pilot-to-production transitie-ervaring"],
+      trends: "Assessment in cleantech integreert impact-competenties naast traditionele leiderschapsevaluaties.",
+      approach: "Ons assessment combineert business case evaluaties met [STAR-interviews](/nl/star-interview-guide) en referentiechecks bij investeerders en klanten.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Cleantech ventures groeien in fasen, en elke fase vereist ander leiderschap. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij deze transities.",
+      challenges: ["Founder evolution — van uitvinder naar CEO", "Team samenstelling — wanneer welke C-level positie invullen?", "Board governance — professionalisering van governance bij groei", "Investor management — omgaan met VC/PE-verwachtingen"],
+      profiles: ["Executive team evaluatie — sterkte/zwakte-analyse van het managementteam", "Board advisory — samenstelling en effectiviteit", "[Onboarding executives](/nl/onboarding-executives) — begeleiding van nieuwe leiders", "Successieplanning — continuïteit in critical roles"],
+      trends: "Impact-driven leadership development wordt standaard in cleantech — leiders worden niet alleen beoordeeld op financiële KPI's maar ook op duurzaamheidsimpact.",
+      approach: "Wij adviseren cleantech founders en investeerders over leiderschapsontwikkeling en teamsamenstelling. Pragmatisch en op maat.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Cleantech scale-ups werven vaak ad-hoc, wat leidt tot hoge kosten en inconsistente kwaliteit. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) brengt structuur.",
+      challenges: ["Beperkt recruitment budget — scale-ups moeten efficiënt werven", "Niche talent — combinatie van technische en commerciële profielen is schaars", "Employer brand — onbekende cleantech bedrijven moeten zich onderscheiden", "Snelle groei — van 10 naar 100 medewerkers in 18 maanden"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature) — pijplijn van cleantech-talent", "[Recruitment as a Service](/nl/recruitment-as-a-service) — flexibele capaciteit bij groeifasen", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding voor impact-bedrijven"],
+      trends: "Cleantech-recruitment wordt steeds meer community-driven: impact-netwerken en duurzaamheidsplatforms worden primaire sourcingkanalen.",
+      approach: "Wij ontwerpen lean recruitment-modellen voor cleantech scale-ups die maximale impact leveren met minimaal budget.",
+    },
+  },
+
+  // ─── FOOD & BEVERAGE ───
+  "food-en-beverage": {
+    "executive-search": {
+      whyIntro: "De food & beverage-industrie staat onder ongekende druk: consumentenvoorkeuren veranderen radicaal, voedselregulering wordt strenger en de supply chain is kwetsbaarder dan ooit.\n\nLeiders moeten zowel productie-excellence als merkstrategie beheersen. [Executive search](/nl/diensten/executive-search) in food & beverage vereist begrip van FMCG-dynamiek én industriële productie.",
+      challenges: [
+        "Plantaardig vs. dierlijk — de eiwittransitie verandert productportfolio's en vereist visionair leiderschap",
+        "Voedselveiligheid — HACCP, BRC, IFS en NVWA-toezicht vereisen leiders met kwaliteitsmentaliteit",
+        "Private label druk — eigen-merk producenten moeten innoveren om relevant te blijven",
+        "Duurzaamheid — Scope 3 emissies en verpakkingsreductie worden boardroom-thema's",
+      ],
+      profiles: [
+        "CEO / Managing Director — producenten en food-bedrijven",
+        "VP Operations / Plant Director — productie-efficiency en automatisering",
+        "VP Supply Chain — sourcing, logistiek en voorraadbeheer",
+        "VP Marketing / CMO — merkstrategie en innovatie",
+        "VP Quality — kwaliteitsmanagement en food safety",
+      ],
+      trends: "Food leadership verandert: (1) regeneratieve landbouw vereist supply chain-leiders die farmer relationships beheren, (2) personalisatie (voeding op maat) creëert nieuwe productcategorieën, en (3) factory automation met AI/robotics verhoogt de lat voor operations-leiderschap.",
+      approach: "Ons netwerk in de food & beverage sector omvat executives bij A-merken, private label producenten, ingrediëntenbedrijven en food-tech startups. Wij begrijpen de spanning tussen volume en waarde die deze sector kenmerkt.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "C-level in food & beverage combineert FMCG-snelheid met industriële complexiteit. [C-level recruitment](/nl/diensten/c-level-recruitment) vereist begrip van beide werelden.",
+      challenges: ["Retail-machtbalans — C-level moet navigeren in een markt gedomineerd door supermarktketens", "Internationalisering — Europese expansie van Nederlandse foodbedrijven", "ESG-rapportage — CSRD dwingt tot nieuwe CFO-competenties", "Category disruption — plantaardig, insecten en cultured meat veranderen het speelveld"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — strategisch leiderschap en portfolio management", "[CFO](/nl/functies/cfo-chief-financial-officer) — commodity pricing, hedging en M&A", "[COO](/nl/functies/coo-chief-operating-officer) — multi-site productie en supply chain", "CMO — merk- en innovatiestrategie"],
+      trends: "Food C-suites worden diverser: meer digitaal-native leiders, meer duurzaamheidsexpertise en meer vrouwelijke bestuurders dan andere industriële sectoren.",
+      approach: "Wij beoordelen food & beverage C-level kandidaten op sector-specifieke competenties: FMCG-snelheid, retailrelaties, productie-excellence en innovatievermogen.",
+    },
+    "assessment-selectie": {
+      whyIntro: "In food & beverage kan een verkeerde leiderschapskeuze direct impact hebben op productkwaliteit, klanttevredenheid en food safety. [Assessment](/nl/diensten/assessment-selectie) moet deze risico's adresseren.",
+      challenges: ["FMCG-tempo — kan de kandidaat beslissingen nemen in een high-speed omgeving?", "Kwaliteitsmentaliteit — is food safety een reflex of een bijzaak?", "Retailrelaties — kan de kandidaat onderhandelen met dominante retailpartners?", "Innovatie — onderscheidt de kandidaat hypes van echte marktbehoeften?"],
+      profiles: ["CEO-assessment — strategisch denken en retail-relatie management", "VP Operations-assessment — productie-efficiency en veiligheidsmentaliteit", "CMO-assessment — merkstrategie en consumenteninzicht", "VP Quality-assessment — food safety leadership en crisis management"],
+      trends: "Assessments integreren steeds vaker consumer insight evaluaties: kan de leider daadwerkelijk vanuit de consument denken?",
+      approach: "Ons assessment combineert FMCG-specifieke case studies met [STAR-interviews](/nl/star-interview-guide) en referentiechecks bij retailers en supply chain partners.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Food & beverage organisaties ondergaan fundamentele transities. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij het navigeren van de eiwittransitie, duurzaamheid en digitalisering.",
+      challenges: ["Portfolio-transitie — van dierlijk naar plantaardig leiderschap", "Familieoverdracht — veel food-bedrijven zijn familiebedrijven in transitie", "M&A integratie — post-acquisitie teamsamenstelling", "Digital transformation — e-commerce en direct-to-consumer modellen"],
+      profiles: ["Executive team assessment", "Successieplanning — familieoverdracht en professional management", "[Onboarding executives](/nl/onboarding-executives) — 100-dagen plan", "[Compensation benchmarking](/nl/compensation-benefits-trends) — sector-vergelijking"],
+      trends: "Leadership advisory in food richt zich steeds meer op duurzaamheids-governance en de transitie naar regeneratieve businessmodellen.",
+      approach: "Concrete advisory voor food-bedrijven in transitie: van familiebedrijf naar professional management, van commodity naar waardecreatie.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Food & beverage bedrijven met meerdere productielocaties werven vaak gefragmenteerd. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) centraliseert en professionaliseert.",
+      challenges: ["Multi-site — recruitment voor 3-10 productielocaties coördineren", "Seizoenspieken — flexibele capaciteit bij oogst- en productiepieken", "Employer brand — concurreren met retailers en FMCG-multinationals", "Blue & white collar — één model voor zowel productie als management"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature) — pijplijn van food-professionals", "[Recruitment as a Service](/nl/recruitment-as-a-service) — embedded recruiters", "[Hiring governance](/nl/hiring-governance-reporting) — data-driven food recruitment"],
+      trends: "Food-recruitment gebruikt steeds meer employer branding rondom duurzaamheid en purpose om jong talent aan te trekken.",
+      approach: "Wij ontwerpen recruitment-modellen die de complexiteit van multi-site food-productie adresseren. Efficiënt, compliant en schaalbaar.",
+    },
+  },
+
+  // ─── AGRI & HORTICULTURE ───
+  "agri-en-horticulture": {
+    "executive-search": {
+      whyIntro: "Nederland is 's werelds tweede landbouwexporteur. De agri- en tuinbouwsector is hightech, exportgericht en kapitaalintensief. Leiders moeten zowel agronomische kennis als internationaal handelsinstinct hebben.\n\n[Executive search](/nl/diensten/executive-search) in agri & horticulture vereist een diep begrip van de Greenport-ecosystemen en de internationale handelsketens.",
+      challenges: [
+        "Stikstofcrisis — de transitie naar kringlooplandbouw verandert het speelveld fundamenteel",
+        "Precision agriculture — AI, drones en IoT transformeren de sector maar vereisen tech-savvy leiderschap",
+        "Generatieoverdracht — veel familiebedrijven zoeken professioneel management als opvolging",
+        "Exportafhankelijkheid — geopolitieke spanningen beïnvloeden handelsroutes en markttoegang",
+      ],
+      profiles: [
+        "CEO / Directeur — handelshuizen, kwekerijen en coöperaties",
+        "VP International Sales — exportmanagement en nieuwe markten",
+        "VP Operations — productie, logistiek en quality management",
+        "VP R&D / Innovation — veredeling, precision ag en sustainability",
+        "CFO — agri-finance, subsidies en coöperatieve governance",
+      ],
+      trends: "Agri-leiderschap professionaliseert: (1) data-driven farming vereist een nieuw type COO, (2) vertical farming en controlled environment agriculture (CEA) creëren tech-achtige leiderschapsbehoeften, en (3) de eiwittransitie dwingt traditionele bedrijven tot strategische heroriëntatie.",
+      approach: "Ons netwerk in de Nederlandse agri- en tuinbouwsector is gebouwd op relaties in Greenport Holland, Wageningen University-alumni en internationale handelsketens. Wij begrijpen de cultuur van deze sector.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "C-level in agri combineer traditionele sectorkennis met moderne bedrijfsvoering. [C-level recruitment](/nl/diensten/c-level-recruitment) in agri vereist begrip van coöperatieve structuren én internationale handel.",
+      challenges: ["Coöperatieve governance — leiders moeten functioneren binnen ledensturende organisaties", "Duurzaamheidseisen — retailketenrichtlijnen en EU-regulering", "Digitalisering — van boekhouding tot precision ag", "Internationaal — leiders die functioneren in Azië, Afrika en Zuid-Amerika"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — coöperaties en handelshuizen", "[CFO](/nl/functies/cfo-chief-financial-officer) — commodity trading en subsidiemanagement", "[COO](/nl/functies/coo-chief-operating-officer) — productie en supply chain", "Chief Innovation Officer — veredeling, biotech en agri-tech"],
+      trends: "Agri boardrooms worden professioneler: meer onafhankelijke bestuurders, meer data-literacy en meer duurzaamheidsexpertise.",
+      approach: "Wij beoordelen agri C-level kandidaten op sectorkennis, internationale ervaring en het vermogen om te opereren in coöperatieve governance-structuren.",
+    },
+    "assessment-selectie": {
+      whyIntro: "Agri-organisaties zijn vaak familiebedrijven of coöperaties met sterke culturen. [Assessment](/nl/diensten/assessment-selectie) moet cultural fit zwaar wegen naast competenties.",
+      challenges: ["Culturele fit — de agri-cultuur is direct, no-nonsense en praktijkgericht", "Generatieoverdracht — kan de externe kandidaat de familiecultuur respecteren?", "Internationaal — functioneert de kandidaat in diverse culturele contexten?", "Duurzaamheid — is de transitie-mindset oprecht?"],
+      profiles: ["CEO-assessment — leiderschap in coöperatieve/familiecultuur", "VP International-assessment — cross-cultureel handelstalent", "VP Operations-assessment — productie en logistics management"],
+      trends: "Agri-assessments integreren steeds meer interculturele competentie-evaluaties vanwege de internationale oriëntatie van de sector.",
+      approach: "Ons assessment combineert sectorkennis met [STAR-interviews](/nl/star-interview-guide) en [referentiechecks](/nl/referentiechecks) bij ketenpartners en afnemers.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Agri-organisaties staan voor fundamentele transities. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij generatieoverdracht, professionalisering en duurzaamheidstransitie.",
+      challenges: ["Familieoverdracht — van familie naar professioneel bestuur", "Coöperatieve vernieuwing — governance-modernisering", "Duurzaamheidstransitie — leiderschap voor kringlooplandbouw", "Talent retention — jonge professionals vasthouden in de agri-sector"],
+      profiles: ["Executive team evaluatie", "Successieplanning — familieoverdracht", "Board advisory — coöperatieve governance", "[Onboarding executives](/nl/onboarding-executives)"],
+      trends: "Leadership advisory in agri richt zich steeds meer op de integratie van technologie en duurzaamheid in bedrijfsvoering.",
+      approach: "Wij adviseren agri-families, coöperaties en handelshuizen over leiderschapsontwikkeling en governance-professionalisering.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Agri-organisaties werven vaak via persoonlijke netwerken. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) professionaliseert dit zonder de cultuur te verliezen.",
+      challenges: ["Regionale arbeidsmarkt — talent is gebonden aan regio's (Westland, Drenthe, Flevoland)", "Seizoenspieken — flexibele capaciteit bij oogst en veilingperiodes", "Employer brand — de agri-sector kampt met een imagoprobleem bij jong talent", "Internationale werving — arbeidsmigratie en compliance"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding voor agri"],
+      trends: "Agri-recruitment innovateert met sectorspecifieke platforms en Wageningen University alumni-netwerken.",
+      approach: "Wij ontwerpen recruitment-modellen die passen bij de seizoensdynamiek en regionale focus van agri-organisaties.",
+    },
+  },
+
+  // ─── E-COMMERCE ───
+  "e-commerce": {
+    "executive-search": {
+      whyIntro: "E-commerce in de Benelux groeit naar €40 miljard+ en consolideert snel. Leiders moeten zowel marketplace-dynamiek als DTC-strategieën beheersen, en navigeren in een landschap waar Amazon, Bol.com en nichespelers strijden om dominantie.\n\n[Executive search](/nl/diensten/executive-search) in e-commerce vereist een partner die de snelheid van digital commerce begrijpt.",
+      challenges: ["Marketplace vs. DTC — de strategische keuze bepaalt welk type leider u nodig heeft", "Last-mile optimalisatie — fulfillment en bezorgsnelheid zijn concurrentiefactoren", "Customer acquisition cost — CAC stijgt terwijl lifetime value onder druk staat", "Cross-border — internationale expansie via lokale marktkennis"],
+      profiles: ["CEO / Managing Director — e-commerce bedrijven en platforms", "VP E-commerce / CDO — digital commerce strategie", "VP Marketing / CMO — performance marketing en brand building", "VP Operations — fulfillment, warehousing en last-mile", "VP Product — UX, conversie-optimalisatie en data"],
+      trends: "E-commerce leiderschap evolueert: (1) social commerce (TikTok Shop) vereist nieuwe competenties, (2) AI-personalisatie wordt standaard, en (3) sustainability in e-commerce (verpakking, retourreductie) wordt een leiderschapsthema.",
+      approach: "Ons netwerk omvat e-commerce executives bij marktleiders, DTC-merken en marketplace-operators. Wij begrijpen de metrics die ertoe doen: conversie, AOV, LTV, retourpercentage.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "E-commerce C-level moet data-driven, klantgericht en operationeel sterk zijn. [C-level recruitment](/nl/diensten/c-level-recruitment) in e-commerce vereist begrip van digitale businessmodellen.",
+      challenges: ["Growth vs. profitability — de balans verschuift naar winstgevende groei", "Technology stack — C-level moet platformkeuzes begrijpen en aansturen", "Omnichannel integratie — online en offline samenvoegen", "Internationaal — multi-market expansion management"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — e-commerce platforms en DTC-merken", "[CTO](/nl/functies/cto-chief-technology-officer) — platform-architectuur", "[CFO](/nl/functies/cfo-chief-financial-officer) — unit economics en investor relations", "CMO — acquisition, retention en brand"],
+      trends: "E-commerce C-suites worden lean-er: gecombineerde COO/CTO-rollen en fractional CFO's worden geaccepteerd bij sub-€50M bedrijven.",
+      approach: "Wij evalueren e-commerce C-level op hun vermogen om data-driven groeistrategieën te implementeren, gecombineerd met [assessments](/nl/diensten/assessment-selectie) die digitale competenties meten.",
+    },
+    "assessment-selectie": {
+      whyIntro: "E-commerce beweegt snel. [Assessment](/nl/diensten/assessment-selectie) moet zowel analytisch vermogen als executiesnelheid meten.",
+      challenges: ["Analytisch — kan de kandidaat een GA4-dashboard interpreteren en actie ondernemen?", "Snelheid — e-commerce vereist snelle besluitvorming met incomplete data", "Customer obsession — denkt de kandidaat vanuit de klant of vanuit de organisatie?", "Tech-savvy — begrijpt de leider de technologie achter de webshop?"],
+      profiles: ["CEO-assessment — strategisch en operationeel tegelijk", "CMO-assessment — performance marketing en brand building", "VP Ops-assessment — fulfillment excellence", "CDO-assessment — data-driven besluitvorming"],
+      trends: "E-commerce assessments gebruiken steeds meer live-case evaluaties met echte data en dashboards.",
+      approach: "Ons assessment combineert e-commerce case studies met [STAR-interviews](/nl/star-interview-guide) en performance-referentiechecks.",
+    },
+    "leadership-advisory": {
+      whyIntro: "E-commerce organisaties groeien snel en transformeren continu. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij schaling en professionalisering.",
+      challenges: ["Founder burnout — DTC-founders die moeten leren delegeren", "Team schaling — van 10 naar 100 FTE", "Post-M&A — integratie na overname door PE of strategische koper", "Internationalisering — multi-market leiderschapsteam opbouwen"],
+      profiles: ["Executive team evaluatie", "Founder coaching en transitie-advies", "[Onboarding executives](/nl/onboarding-executives)", "[Compensation benchmarking](/nl/compensation-benefits-trends)"],
+      trends: "E-commerce leadership advisory integreert steeds meer AI-literacy en sustainability-competenties.",
+      approach: "Wij adviseren e-commerce founders en investeerders over leiderschapsontwikkeling en teamsamenstelling voor de volgende groeifase.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "E-commerce bedrijven werven in golven: marketingpieken, seizoensgebonden fulfillment en continue tech-hiring. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) brengt structuur.",
+      challenges: ["Seizoenspieken — Black Friday, Kerst en sale-perioden", "Tech-talent — developers en data engineers zijn schaars", "Employer brand — concurreren met Coolblue, Bol.com en Amazon", "Hybride rollen — functies die marketing, data en technologie combineren"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding voor e-commerce"],
+      trends: "E-commerce recruitment wordt steeds meer employer-brand-driven: purpose, cultuur en flexibiliteit zijn doorslaggevend voor talent.",
+      approach: "Wij ontwerpen flexibele recruitment-modellen die meebewegen met de seizoensdynamiek van e-commerce.",
+    },
+  },
+
+  // ─── CONSUMENTENGOEDEREN ───
+  "consumentengoederen": {
+    "executive-search": {
+      whyIntro: "De consumentengoederenindustrie (FMCG/CPG) is een van de meest competitieve sectoren ter wereld. Merken moeten constant innoveren, efficiënt produceren en slim distribueren.\n\n[Executive search](/nl/diensten/executive-search) in FMCG vereist een partner die de dynamiek van sneldraaiende consumptiegoederen begrijpt.",
+      challenges: ["Private label druk — retailermerken groeien ten koste van A-merken", "Duurzaamheid — verpakkingsreductie en circulaire supply chains worden verplicht", "Direct-to-consumer — traditionele FMCG-bedrijven bouwen eigen kanalen", "Inflatie & kosten — commodity-prijzen en energiekosten vereisen scherp financial management"],
+      profiles: ["CEO / General Manager — business unit of marktverantwoordelijkheid", "VP Marketing / CMO — merk- en innovatiestrategie", "VP Supply Chain — end-to-end supply chain leiderschap", "VP Sales / Commercial Director — retailrelaties en trade marketing", "VP R&D — productinnovatie en reformulering"],
+      trends: "FMCG-leiderschap verschuift: (1) digital-first marketing wordt de norm, (2) sustainability officers komen op board-level, en (3) data & analytics worden kerncompetenties voor elke C-level rol.",
+      approach: "Ons netwerk in FMCG omvat executives bij multinationals, challenger brands en private label producenten. Wij begrijpen de unieke dynamiek van merken, retail en innovatie.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "FMCG C-level combineert merkdenken met operationele discipline. [C-level recruitment](/nl/diensten/c-level-recruitment) in consumentengoederen vereist begrip van retaildynamiek en consumentengedrag.",
+      challenges: ["Retailmacht — C-level moet navigeren in een door retailers gedomineerde markt", "Innovation speed — de time-to-market voor nieuwe producten krimpt", "ESG-rapportage — CSRD en verpakkingsregulering", "Talent mobility — FMCG-leiders circuleren internationaal"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — managing director voor Benelux-operaties", "[CFO](/nl/functies/cfo-chief-financial-officer) — commodity management en trade terms", "[COO](/nl/functies/coo-chief-operating-officer) — multi-site productie en logistiek", "CMO — brand, digital en innovation"],
+      trends: "FMCG boardrooms integreren meer digital-native leiders en zoeken actief naar diverse bestuurders met non-traditional achtergronden.",
+      approach: "Wij evalueren FMCG C-level kandidaten op merk-denken, retail-relaties en operationele excellentie via diepgaande [assessments](/nl/diensten/assessment-selectie).",
+    },
+    "assessment-selectie": {
+      whyIntro: "In FMCG bepaalt leiderschapskwaliteit direct het marktaandeel. [Assessment](/nl/diensten/assessment-selectie) moet FMCG-specifieke competenties meten.",
+      challenges: ["Snelheid — FMCG-leiders moeten snel beslissen met marktdata", "Consumer centricity — denkt de kandidaat vanuit de shopper?", "Trade marketing — begrijpt de leider de P&L per SKU?", "Innovation track record — heeft de kandidaat bewezen succesvolle launches?"],
+      profiles: ["CEO-assessment — strategisch en commercieel", "CMO-assessment — merk, media en innovatie", "VP Sales-assessment — retail-negotiatie en category management"],
+      trends: "FMCG-assessments integreren consumenteninzicht-evaluaties en category management case studies.",
+      approach: "Ons assessment combineert FMCG case studies met [STAR-interviews](/nl/star-interview-guide) en referentiechecks bij retailers en ketenpartners.",
+    },
+    "leadership-advisory": {
+      whyIntro: "FMCG-organisaties transformeren door duurzaamheid, digitalisering en veranderende consumentenvoorkeuren. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij deze transitie.",
+      challenges: ["Organisatie-design — van functioneel naar agile of category-driven", "Talent pipeline — interne leiderschapsontwikkeling voor next-gen FMCG-leiders", "Post-M&A — integratie van acquisities", "Duurzaamheidstransitie — van compliance naar strategie"],
+      profiles: ["Executive team evaluatie", "Successieplanning", "[Onboarding executives](/nl/onboarding-executives)", "[Compensation benchmarking](/nl/compensation-benefits-trends)"],
+      trends: "FMCG leadership advisory richt zich steeds meer op purpose-driven leiderschap en stakeholder-kapitalisme.",
+      approach: "Concrete advisory voor FMCG-organisaties: van organisatie-design tot leiderschapsontwikkeling.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "FMCG-organisaties met duizenden medewerkers en meerdere sites werven continu. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) professionaliseert en centraliseert.",
+      challenges: ["Volume — honderden vacatures per jaar", "Kwaliteit — consistent hoge lat voor talent", "Employer brand — FMCG concurreert met tech om young professionals", "Campus recruitment — management trainees en junior talent"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Hiring governance](/nl/hiring-governance-reporting)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy)"],
+      trends: "FMCG-recruitment professionaliseert met talent intelligence, employer branding en AI-sourcing.",
+      approach: "Wij ontwerpen enterprise-grade recruitment-modellen voor FMCG-organisaties die consistent toptalent aantrekken.",
+    },
+  },
+
+  // ─── BANKEN ───
+  "banken": {
+    "executive-search": {
+      whyIntro: "Nederlandse banken opereren in een van de zwaarst gereguleerde sectoren ter wereld. DNB/ECB-toetsing, anti-witwasregelgeving en Basel IV-eisen maken bankleiderschap uniek complex.\n\n[Executive search](/nl/diensten/executive-search) voor banken vereist begrip van regulatory governance én financieel-strategisch leiderschap.",
+      challenges: ["DNB fit & proper toetsing — elke bestuurder moet goedgekeurd worden door de toezichthouder", "AML/KYC — witwasbestrijding is een board-level prioriteit geworden", "Digital banking — neobanks en open banking dwingen tot innovatie", "Consolidatie — Europese bankenfusies creëren complexe leiderschapstransities"],
+      profiles: ["Bestuurder / CEO — systeembanken en nichespelers", "CRO — risk management en regulatory affairs", "CTO / CDO — digitale transformatie en core banking modernisatie", "CCO — compliance, AML en sanctiescreening", "CFO — Basel IV, IFRS en investor relations"],
+      trends: "Banking-leiderschap verandert: (1) digital-native bestuurdersprofielen worden geaccepteerd, (2) ESG-integratie in risicomanagement wordt verplicht, en (3) de scheiding tussen retail en wholesale banking vervagt.",
+      approach: "Wij begrijpen de DNB-toetsing, de bancaire governance en de complexe stakeholder-dynamiek. Elke kandidaat wordt pre-gescreend op fit & proper criteria.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "Bank-bestuurders moeten door de DNB-zeef. [C-level recruitment](/nl/diensten/c-level-recruitment) voor banken vereist proactieve screening op regulatory fit.",
+      challenges: ["Toetsingsrisico — DNB kan kandidaten afwijzen na maandenlang proces", "Bestuurlijke aansprakelijkheid — persoonlijke aansprakelijkheid schrikt kandidaten af", "Internationale governance — ECB-toezicht voor significante banken", "Diversiteit — DNB stimuleert diverse board-samenstelling"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — bestuurslid met DNB-goedkeuring", "[CFO](/nl/functies/cfo-chief-financial-officer) — regulatory reporting en kapitaalmanagement", "CRO — risk appetite en compliance frameworks", "Lid RvC — onafhankelijk toezicht met bankexpertise"],
+      trends: "Banking boards worden diverser en meer tech-savvy. DNB toetst steeds actiever op digitale competenties en duurzaamheidskennis.",
+      approach: "Onze C-level search voor banken omvat proactieve DNB pre-screening, diepgaande [assessments](/nl/diensten/assessment-selectie) en uitgebreide due diligence.",
+    },
+    "assessment-selectie": {
+      whyIntro: "In een sector waar toezichthouders meekijken, is [assessment](/nl/diensten/assessment-selectie) niet optioneel maar verplicht. DNB verwacht zorgvuldige selectieprocessen.",
+      challenges: ["Regulatory mindset — is compliance een reflex of een last?", "Risicobewustzijn — hoe beoordeelt de kandidaat complexe financiële risico's?", "Stakeholder management — toezichthouders, aandeelhouders, OR, klanten", "Integriteit — track record en reputatie-screening"],
+      profiles: ["Bestuurder-assessment — DNB-readiness evaluatie", "CRO-assessment — risicomanagement competenties", "CCO-assessment — compliance leadership en AML-expertise"],
+      trends: "Banking assessments integreren regulatory scenario's en ethical dilemma's als standaard onderdeel.",
+      approach: "Ons assessment is specifiek ontworpen voor de bancaire sector: [STAR-interviews](/nl/star-interview-guide) met regulatory scenario's, integrity screening en [referentiechecks](/nl/referentiechecks) bij toezichthouders en medebestuurders.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Banken staan voor fundamentele transformaties. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij board-effectiviteit, digitale transformatie en regulatory change.",
+      challenges: ["Board-effectiviteit — functioneert het bestuur als collegiaal team?", "Digitale transformatie — heeft het bestuur voldoende digitale competenties?", "Successieplanning — continuïteit in een sterk gereguleerde omgeving", "Cultuurverandering — van risico-avers naar innovatief"],
+      profiles: ["Board effectiveness review", "Successieplanning — DNB-conforme opvolgingsstrategie", "[Compensation benchmarking](/nl/compensation-benefits-trends) — bancaire beloningsnormen"],
+      trends: "Banking leadership advisory integreert DNB-richtlijnen voor board-effectiviteit en diversiteit als standaard framework.",
+      approach: "Wij adviseren bank-bestuurders over governance, board-samenstelling en leiderschapsontwikkeling binnen het regulatory framework.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Banken met duizenden medewerkers werven continu. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) professionaliseert employer branding, sourcing en hiring governance.",
+      challenges: ["Compliance-screening — elke medewerker moet gescreend worden", "Volume — honderden vacatures per jaar bij grotere banken", "Employer brand — concurreren met fintechs en Big 4", "Specialistisch talent — risk, compliance en data-specialisten zijn schaars"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Hiring governance](/nl/hiring-governance-reporting) — compliance-ready recruitment analytics"],
+      trends: "Banking recruitment integreert pre-employment screening en compliance-checks als standaard onderdeel van het operating model.",
+      approach: "Wij ontwerpen recruitment-modellen die voldoen aan de compliance-eisen van de bankensector. Efficiënt, compliant en data-driven.",
+    },
+  },
+
+  // ─── VERZEKERINGEN ───
+  "verzekeringen": {
+    "executive-search": {
+      whyIntro: "De verzekeringssector transformeert door klimaatrisico's, digitalisering en veranderende klantbehoeften. Solvency II, DORA en de Wft creëren een zwaar gereguleerd speelveld.\n\n[Executive search](/nl/diensten/executive-search) voor verzekeraars vereist begrip van actuariaat, regulering en verzekeringsinnovatie.",
+      challenges: ["Klimaatrisico — herprijzing en nieuwe risicotypen vereisen visionair leiderschap", "InsurTech disruptie — digitale verzekeraars veranderen de value chain", "Pensioentransitie — de overgang naar het nieuwe pensioenstelsel is de grootste operatie in decennia", "Customer experience — van polisdenken naar klantdenken"],
+      profiles: ["Bestuurder / CEO — verzekeraars en pensioenfondsen", "Chief Actuary — actuarieel leiderschap en modelvalidatie", "CRO — Solvency II en enterprise risk management", "CDO / CTO — digitale transformatie en core system modernisatie", "VP Claims — claims management en fraud prevention"],
+      trends: "Verzekeraarsleiderschap verandert: (1) parametrische verzekeringen vereisen tech-leiders, (2) embedded insurance creëert nieuwe distributiemodellen, en (3) DNB dringt aan op meer diverse boards.",
+      approach: "Wij kennen de verzekeringsmarkt van binnenuit en screenen kandidaten op regulatory fit, actuarieel begrip en verandervermogen.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "Verzekeringsbestuurders worden getoetst door DNB. [C-level recruitment](/nl/diensten/c-level-recruitment) in verzekeringen vereist proactieve regulatory screening.",
+      challenges: ["DNB-toetsing — fit & proper voor bestuurders en commissarissen", "Solvency II — kapitaalmanagement is een bestuurlijke kerncompetentie", "Pensioentransitie — de WTP-implementatie vereist programmamanagement op boardniveau", "Innovatie — verzekeraars moeten innoveren binnen strikte kaders"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — bestuurslid verzekeraar of pensioenfonds", "Chief Actuary — AMSB-verantwoordelijkheid", "CRO — second-line risicomanagement", "CFO — Solvency II reporting en financieel beleid"],
+      trends: "Verzekeringsboards zoeken actief naar digitale expertise en niet-traditionele achtergronden (tech, consulting) om innovatie te stimuleren.",
+      approach: "Onze C-level search voor verzekeraars omvat DNB pre-screening, diepgaande [assessments](/nl/diensten/assessment-selectie) en actuariële competentie-evaluatie.",
+    },
+    "assessment-selectie": {
+      whyIntro: "DNB verwacht zorgvuldige selectieprocessen voor bestuurders. [Assessment](/nl/diensten/assessment-selectie) is cruciaal voor regulatory compliance.",
+      challenges: ["Actuarieel begrip — begrijpt de kandidaat de technische basis van het bedrijf?", "Regulatory mindset — is compliance een kernwaarde?", "Verandervermogen — kan de kandidaat een traditionele verzekeraar transformeren?", "Stakeholder-complexiteit — DNB, AFM, klanten, intermediairs"],
+      profiles: ["Bestuurder-assessment — DNB-readiness", "Chief Actuary-assessment — technische competenties", "CRO-assessment — risicomanagement en Solvency II"],
+      trends: "Verzekeringsassessments integreren scenario-analyses met klimaat- en cyberrisico's.",
+      approach: "Ons assessment is ontworpen voor de verzekeringsbranche: [STAR-interviews](/nl/star-interview-guide) met regulatory en actuariële scenario's, integrity screening en [referentiechecks](/nl/referentiechecks).",
+    },
+    "leadership-advisory": {
+      whyIntro: "Verzekeraars ondergaan de grootste transformatie in decennia. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij pensioentransitie, digitalisering en board-effectiviteit.",
+      challenges: ["Pensioentransitie leiderschap — WTP-implementatie vereist specifieke programma-competenties", "Board-effectiviteit — functioneert het bestuur effectief onder toenemende druk?", "Successieplanning — continuïteit in een gereguleerde omgeving", "Cultuurverandering — van productgericht naar klantgericht"],
+      profiles: ["Board effectiveness review", "Pensioentransitie team evaluatie", "Successieplanning", "[Compensation benchmarking](/nl/compensation-benefits-trends)"],
+      trends: "Verzekeraars leadership advisory integreert ESG-governance en klantgerichtheid als kernthema's.",
+      approach: "Wij adviseren verzekeringsbestuurders over governance, teamsamenstelling en leiderschapsontwikkeling — altijd binnen het regulatory framework.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Verzekeraars met complexe organisaties werven over meerdere domeinen. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) brengt structuur en efficiency.",
+      challenges: ["Actuarieel talent — actuarissen en risk-specialisten zijn extreem schaars", "IT-transformatie — digitalisering vereist tech-talent dat niet traditioneel naar verzekeraars kijkt", "Compliance-screening — Wft-eisen voor specifieke functies", "Employer brand — verzekeraars worden gezien als 'saai' door jong talent"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding voor verzekeraars"],
+      trends: "Verzekeringsrecruitment investeert in employer branding en campus-programma's om jong actuarieel en tech-talent aan te trekken.",
+      approach: "Wij ontwerpen recruitment-modellen die de specifieke compliance-eisen van de verzekeringssector respecteren. Professioneel en meetbaar.",
+    },
+  },
+
+  // ─── FINTECH ───
+  "fintech": {
+    "executive-search": {
+      whyIntro: "FinTech is een van de meest dynamische sectoren in Europa. Van payments tot lending, van wealthtech tot insurtech — fintechs disrupten traditionele financial services met technologie-gedreven oplossingen.\n\n[Executive search](/nl/diensten/executive-search) in fintech vereist begrip van zowel venture-dynamiek als financiële regulering.",
+      challenges: ["Regulatory catch-up — PSD2, DORA, EMI-licenties en AML-regelgeving voor fintechs", "Scale-up naar regulated entity — van startup naar vergunninghouder is een leiderschapstransitie", "Talent competitie — fintechs concurreren met Big Tech én banken om tech-talent", "Unit economics — de weg naar profitabiliteit vereist scherp financial management"],
+      profiles: ["CEO / Managing Director — fintech scale-ups en platform businesses", "CTO — platform development, security en schaling", "CCO — compliance, AML/KYC en vergunningsbeheer", "VP Product — fintech product management en UX", "VP Growth — market expansion en customer acquisition"],
+      trends: "FinTech-leiderschap evolueert: (1) embedded finance plaatst financiële diensten in niet-financiële platforms, (2) AI in credit scoring en fraud detection wordt standaard, en (3) consolidatie (M&A) creëert grotere fintechs met corporate governance-behoeften.",
+      approach: "Ons netwerk in de Europese fintech-scene omvat executives bij scale-ups, betaaldienstverleners en wealthtech-platforms. Wij begrijpen de spanning tussen innovatiesnelheid en regulatory compliance.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "FinTech C-level moet technologie, financiën en regulering combineren. [C-level recruitment](/nl/diensten/c-level-recruitment) in fintech vereist begrip van venture-dynamiek én compliance.",
+      challenges: ["Stage-fit — een CEO voor pre-revenue is anders dan voor €10M+ revenue", "Regulatory boarding — C-level moet zich comfortabel voelen met AFM/DNB-toezicht", "Founder-CEO transitie — VC's die een professionele CEO willen", "International expansion — EMEA C-level met multi-market ervaring"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — fintech schaling en investor management", "[CTO](/nl/functies/cto-chief-technology-officer) — platform security en schaling", "[CFO](/nl/functies/cfo-chief-financial-officer) — fundraising en regulatory reporting", "CCO — compliance leadership voor vergunninghouders"],
+      trends: "FinTech boardrooms professionaliseren: meer ervaren operators vervangen eerste founders, en compliance-expertise wordt board-level vereiste.",
+      approach: "Wij evalueren fintech C-level op technisch begrip, regulatory readiness en groeicapaciteit via [assessments](/nl/diensten/assessment-selectie) en sector-specifieke referentiechecks.",
+    },
+    "assessment-selectie": {
+      whyIntro: "Een verkeerde fintech C-level hire kan een vergunning in gevaar brengen. [Assessment](/nl/diensten/assessment-selectie) moet regulatory awareness en tech-competenties meten.",
+      challenges: ["Compliance mindset — is regulatory awareness een kernwaarde of een bijzaak?", "Tech diepgang — begrijpt de kandidaat de platform-architectuur?", "Growth mentality — kan de kandidaat groeien van €1M naar €50M revenue?", "Stakeholder management — investeerders, toezichthouders, partners"],
+      profiles: ["CEO-assessment — strategy en investor management", "CTO-assessment — platform en security", "CCO-assessment — regulatory competenties"],
+      trends: "FinTech assessments integreren regulatory scenario's en cybersecurity evaluaties als standaard.",
+      approach: "Ons assessment combineert fintech case studies met [STAR-interviews](/nl/star-interview-guide) en [referentiechecks](/nl/referentiechecks) bij investeerders en toezichthouders.",
+    },
+    "leadership-advisory": {
+      whyIntro: "FinTechs groeien in fasen en elke fase vereist ander leiderschap. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij deze transities.",
+      challenges: ["Series-transitie — van A naar B naar C vereist andere C-suite competenties", "Vergunningstraject — organisatorische readiness voor regulatory oversight", "Team schaling — van 20 naar 200 medewerkers", "Exit readiness — IPO of acquisitie-voorbereiding"],
+      profiles: ["Executive team evaluatie — VC/PE readiness", "Board advisory — governance professionalisering", "[Onboarding executives](/nl/onboarding-executives)", "Exit-readiness leadership assessment"],
+      trends: "FinTech leadership advisory richt zich steeds meer op regulatory governance en board professionalisering bij vergunninghouders.",
+      approach: "Wij adviseren fintech founders en investeerders over leiderschapsontwikkeling, team-samenstelling en governance-professionalisering.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "FinTechs groeien snel en werven vaak inefficiënt. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) brengt structuur en snelheid.",
+      challenges: ["Tech-talent competitie — developers en data engineers zijn schaars", "Compliance hiring — AML-analisten en compliance officers vinden", "Employer brand — onbekende fintechs moeten zich onderscheiden", "Speed — fintech wacht niet, recruitment moet instant zijn"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy)"],
+      trends: "FinTech recruitment gebruikt steeds meer developer communities en open-source bijdragen als sourcingkanaal.",
+      approach: "Wij ontwerpen lean maar compliant recruitment-modellen voor fintechs die snel en kwalitatief moeten werven.",
+    },
+  },
+
+  // ─── ACCOUNTANCY ───
+  "accountancy": {
+    "executive-search": {
+      whyIntro: "De accountancysector transformeert onder druk van strengere audit-eisen, digitalisering en een structureel personeelstekort. De scheiding van audit en advies, de Wta en NBA-regelgeving creëren unieke leiderschapsuitdagingen.\n\n[Executive search](/nl/diensten/executive-search) in accountancy vereist begrip van partnership-dynamiek en regulatory governance.",
+      challenges: ["Talent crisis — structureel tekort aan registeraccountants en audit-professionals", "Audit-kwaliteit druk — AFM-inspectierapporten vereisen sterk quality leadership", "AI in audit — AI-assisted auditing verandert het vak fundamenteel", "ESG assurance — CSRD creëert een geheel nieuw auditdomein"],
+      profiles: ["Managing Partner — leiderschap van het kantoor", "Head of Audit — audit practice en AFM-compliance", "Head of Advisory — advisory, tax en consulting practice", "Chief People Officer — talent attraction en retention", "CFO / Finance Director — kantoorfinanciën en partnership economics"],
+      trends: "Accountancy-leiderschap verandert: (1) laterale hires van buiten de sector worden geaccepteerd voor management-rollen, (2) data analytics wordt een kerncompetentie, en (3) ESG assurance creëert carrièrepaden die 5 jaar geleden niet bestonden.",
+      approach: "Wij begrijpen de partnership-dynamiek, de AFM-regulatory context en de talent-uitdagingen van accountantskantoren. Van Big 4 tot middelgrote kantoren en boutique practices.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "Partnership-leiderschap in accountancy is uniek. [C-level recruitment](/nl/diensten/c-level-recruitment) moet rekening houden met partnership-governance en regulatory oversight.",
+      challenges: ["Partnership consensus — nieuwe leiders moeten geaccepteerd worden door partners", "Regulatory — AFM/NBA-verwachtingen voor audit quality leadership", "Talent retention — de grootste uitdaging van elk accountantskantoor", "Innovation vs. tradition — de cultuur veranderen zonder de basis te verliezen"],
+      profiles: ["Managing Partner — het kantoor leiden", "Head of Audit — audit quality en AFM-relatie", "Chief People Officer — talent strategy en employer branding", "Chief Digital Officer — digitale transformatie van audit en advisory"],
+      trends: "Accountancy-partnerships zoeken steeds vaker leiders van buiten de sector voor operationele rollen (COO, CDO, CPO).",
+      approach: "Onze search voor accountancy combineert begrip van partnership-governance met diepgaande [assessments](/nl/diensten/assessment-selectie) op leiderschap, verandervermogen en cultuurfit.",
+    },
+    "assessment-selectie": {
+      whyIntro: "In een partnership moet een nieuwe leider door alle partners geaccepteerd worden. [Assessment](/nl/diensten/assessment-selectie) helpt deze beslissing te objectiveren.",
+      challenges: ["Partnership fit — past de kandidaat in de primus-inter-pares cultuur?", "Verandervermogen — kan de kandidaat het kantoor moderniseren zonder weerstand?", "Client relationships — brengt de kandidaat een portfolio mee?", "Integrity — AFM en NBA stellen hoge eisen aan integriteit"],
+      profiles: ["Managing Partner assessment — leiderschapsstijl en partnerschap-fit", "Head of Audit assessment — audit quality competenties", "CPO assessment — HR-strategie en employer branding"],
+      trends: "Accountancy-assessments integreren regulatory scenario's en partnership-dynamiek evaluaties.",
+      approach: "Ons assessment voor accountancy omvat partnership case studies, [STAR-interviews](/nl/star-interview-guide) en referentiechecks bij partners, klanten en toezichthouders.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Accountantskantoren staan voor fundamentele keuzes. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij partnership-vernieuwing en digitale transformatie.",
+      challenges: ["Partnership-vernieuwing — governance modernisering", "Talent strategie — aantrekken en behouden van jong talent", "Digitale transformatie — AI integreren in audit en advisory", "Successieplanning — opvolging van Managing Partner en practice leads"],
+      profiles: ["Partnership effectiveness review", "Talent strategy advisory", "Successieplanning", "Digital transformation leadership assessment"],
+      trends: "Accountancy leadership advisory integreert steeds meer purpose en cultuurontwikkeling als instrument voor talent retention.",
+      approach: "Wij adviseren accountantskantoren over partnership-effectiviteit, talentmanagement en leiderschapsontwikkeling. Pragmatisch en vertrouwelijk.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Accountantskantoren kampen met het grootste personeelstekort in hun bestaan. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) helpt bij structurele talentwerving.",
+      challenges: ["Structureel tekort — 30% meer RA-posities dan beschikbare kandidaten", "Campus recruitment — de concurrentie om young professionals is intens", "Employer brand — accountancy wordt gezien als 'saai' door Gen Z", "Lateral hiring — ervaren professionals aantrekken van andere kantoren"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding voor accountancy"],
+      trends: "Accountancy-recruitment innoveert met purpose-driven employer branding en flexibele werkmodellen om jong talent aan te trekken.",
+      approach: "Wij ontwerpen recruitment-modellen voor accountantskantoren die structureel meer talent aantrekken en behouden. Van campus tot lateral.",
+    },
+  },
+
+  // ─── CONSULTANCY ───
+  "consultancy": {
+    "executive-search": {
+      whyIntro: "De consultancysector draait om talent en client relationships. Of het nu strategy, management, IT of HR-consultancy betreft — leiders moeten inhoudelijk sterk, commercieel succesvol en in staat zijn om teams te ontwikkelen.\n\n[Executive search](/nl/diensten/executive-search) in consultancy vereist een partner die de partnership-cultuur begrijpt.",
+      challenges: ["Talent war — consultancy concurreert met Big Tech, fintech en corporate om toptalent", "AI-disruptie — AI verandert het consulting delivery model fundamenteel", "Specialisatie — generalist consulting maakt plaats voor deep expertise", "Partnership-dynamiek — nieuwe leiders moeten passen in een meritocratische cultuur"],
+      profiles: ["Managing Partner / CEO — kantoor- of regioleiderschap", "Practice Lead — sector of functionele expertise", "VP Client Development — business development en strategic accounts", "Country MD — lokaal leiderschap in de Benelux", "Chief People Officer — talent acquisition en development"],
+      trends: "Consultancy-leiderschap verandert: (1) AI-native consulting firms ontstaan, (2) outcome-based pricing vervangt uurtarieven, en (3) experienced hires van corporates worden vaker Partner dan traditionele up-or-out consultants.",
+      approach: "Wij begrijpen de partnership-cultuur, de commerciële dynamiek en de talent-uitdagingen van consultancybureaus. Van MBB tot boutique practices.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "Consultancy-leiderschap is uniek: het combineert thought leadership, client management en people development. [C-level recruitment](/nl/diensten/c-level-recruitment) in consultancy vereist begrip van deze driehoek.",
+      challenges: ["Partnership governance — consensus-gedreven besluitvorming", "Client conflict — managing client relationships bij leadership transitions", "Cultural preservation — de cultuur behouden bij groei", "International — multi-office leiderschap in Europa"],
+      profiles: ["Managing Partner — kantoorleiderschap", "Senior Partner / Practice Lead — inhoudelijke expertise en P&L", "COO — operational excellence en kantoormanagement", "Chief People Officer — talent strategy en employer branding"],
+      trends: "Consultancy partnerships zoeken steeds vaker extern voor operationele rollen (COO, CDO) terwijl inhoudelijke rollen intern worden gevuld.",
+      approach: "Onze search voor consultancy combineert partnership-begrip met [assessments](/nl/diensten/assessment-selectie) die commercieel talent, thought leadership en people management evalueren.",
+    },
+    "assessment-selectie": {
+      whyIntro: "In consultancy bepaalt de kwaliteit van leiderschap direct de kwaliteit van advies. [Assessment](/nl/diensten/assessment-selectie) moet intellectueel vermogen, commercieel talent en mensontwikkeling meten.",
+      challenges: ["Intellectueel vermogen — kan de kandidaat op het hoogste strategische niveau meedenken?", "Business development — heeft de kandidaat een bewezen track record in het winnen van opdrachten?", "People development — kan de kandidaat talent ontwikkelen en behouden?", "Client management — hoe navigeert de kandidaat complexe klantrelaties?"],
+      profiles: ["Partner assessment — BD, delivery en people management", "Practice Lead assessment — inhoudelijke expertise en marktpositie", "Country MD assessment — operationeel leiderschap"],
+      trends: "Consultancy-assessments integreren client-facing case studies en 360-graden feedback van klanten en teamleden.",
+      approach: "Ons assessment voor consultancy combineert case interviews, [STAR-interviews](/nl/star-interview-guide) en referentiechecks bij klanten, partners en teamleden.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Consultancy-partnerships moeten continu vernieuwen. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij successieplanning, cultuurontwikkeling en strategische herpositionering.",
+      challenges: ["Successie van Managing Partner — de meest politieke beslissing in elk kantoor", "Practice portfolio — welke practices bouwen, welke afbouwen?", "Talent retention — partners behouden in een competitieve markt", "Cultuurverandering — van up-or-out naar inclusieve groei"],
+      profiles: ["Partnership effectiveness review", "Successieplanning Managing Partner", "Practice portfolio strategie", "[Compensation benchmarking](/nl/compensation-benefits-trends) — partnership economics"],
+      trends: "Consultancy leadership advisory richt zich steeds meer op inclusiviteit, wellbeing en purpose als instrumenten voor talent retention.",
+      approach: "Wij adviseren consultancy-partnerships over governance, successieplanning en cultuurontwikkeling. Vertrouwelijk en pragmatisch.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Consultancy bureaus werven continu — campus, experienced hires en lateral partners. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) professionaliseert de hele keten.",
+      challenges: ["Campus competition — de strijd om de beste MBA's en studenten", "Experienced hires — professionals aantrekken van klanten en concurrenten", "Partner lateral — senior partners overhalen om over te stappen", "Employer brand — onderscheidend zijn in een verzadigde markt"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — campus en experienced hire strategie"],
+      trends: "Consultancy-recruitment innovateert met alumni-netwerken, return-to-work programma's en AI-driven candidate matching.",
+      approach: "Wij ontwerpen recruitment-modellen voor consultancy bureaus die consistent toptalent aantrekken — van campus tot Partner-level.",
+    },
+  },
+
+  // ─── LEGAL ───
+  "legal": {
+    "executive-search": {
+      whyIntro: "De juridische sector verandert fundamenteel. New law firms, alternatieve fee structures, LegalTech en de groeiende strategische rol van de General Counsel creëren nieuwe leiderschapsbehoeften.\n\n[Executive search](/nl/diensten/executive-search) in legal vereist begrip van zowel de advocatuur als de in-house wereld.",
+      challenges: ["LegalTech disruptie — AI contract review en legal automation veranderen het vak", "In-house groei — bedrijven bouwen sterkere in-house legal teams ten koste van externe adviseurs", "ESG & compliance — juridische impact van CSRD, AI Act en data privacy regulering", "Talent retention — associate-burnout en de overstap naar in-house"],
+      profiles: ["Managing Partner — advocatenkantoor leiderschap", "General Counsel / CLO — in-house juridisch leiderschap", "Head of Compliance — regulatory compliance bij corporates", "Practice Group Leader — sector- of vakgroep leiderschap", "Legal Operations Director — efficiency en technologie in legal"],
+      trends: "Legal leiderschap evolueert: (1) ALSP's (alternative legal service providers) groeien snel, (2) de General Counsel wordt steeds meer een strategische boardroom-rol, en (3) legal design en user-centered law veranderen hoe juridische diensten worden geleverd.",
+      approach: "Wij begrijpen de partnership-dynamiek van advocatenkantoren én de corporate context van in-house legal teams. Ons netwerk omvat partners bij top-tier kantoren en General Counsels bij multinationals.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "Legal C-level combineert juridische excellentie met business acumen. [C-level recruitment](/nl/diensten/c-level-recruitment) in legal vereist begrip van partnership-governance en corporate dynamics.",
+      challenges: ["Partnership consensus — managing partner verkiezing is een uniek proces", "GC strategische rol — de General Counsel als boardroom-adviseur", "Cross-border — internationale kantoren met multi-jurisdictie governance", "Innovation appetite — hoe innovatief mag/kan leiderschap zijn in een conservatieve sector?"],
+      profiles: ["Managing Partner — advocatenkantoor", "General Counsel / CLO — corporate juridisch leiderschap", "COO — kantoormanagement en operations", "Chief People Officer — talent in een competitieve markt"],
+      trends: "Legal C-level wordt diverser: meer niet-juridische achtergronden (tech, consulting) in operationele rollen, en meer vrouwelijke partners en GC's.",
+      approach: "Onze search voor legal combineert partnership-begrip met [assessments](/nl/diensten/assessment-selectie) die juridische excellentie, commercieel talent en leiderschapsstijl evalueren.",
+    },
+    "assessment-selectie": {
+      whyIntro: "In de juridische sector is reputatie alles. [Assessment](/nl/diensten/assessment-selectie) helpt bij objectieve evaluatie van leiders in een sector waar subjectiviteit de norm is.",
+      challenges: ["Intellectual capability — kan de kandidaat op het hoogste juridische niveau opereren?", "Client development — heeft de kandidaat een eigen cliëntportfolio?", "People leadership — kan de kandidaat associates ontwikkelen en behouden?", "Commercieel — begrijpt de kandidaat de business achter de practice?"],
+      profiles: ["Managing Partner assessment", "General Counsel assessment", "Practice Lead assessment"],
+      trends: "Legal assessments integreren client relationship evaluaties en commerciële case studies naast traditionele competentie-evaluaties.",
+      approach: "Ons assessment voor legal combineert competentie-evaluaties met [STAR-interviews](/nl/star-interview-guide) en referentiechecks bij cliënten, collega-partners en in-house teams.",
+    },
+    "leadership-advisory": {
+      whyIntro: "Advocatenkantoren en in-house legal teams staan voor strategische keuzes. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij partnership-governance en team-ontwikkeling.",
+      challenges: ["Partnership-vernieuwing — governance en equity-structuren moderniseren", "GC team building — een high-performance in-house legal team opbouwen", "Successieplanning — opvolging van Managing Partner", "LegalTech integratie — leiderschap voor technologische transformatie"],
+      profiles: ["Partnership effectiveness review", "In-house legal team assessment", "Successieplanning", "[Compensation benchmarking](/nl/compensation-benefits-trends) — partnership en in-house benchmarks"],
+      trends: "Legal leadership advisory integreert steeds meer LegalTech readiness en innovation capability assessments.",
+      approach: "Wij adviseren advocatenkantoren en General Counsels over leiderschapsontwikkeling, governance en team-samenstelling. Vertrouwelijk en pragmatisch.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "Advocatenkantoren werven op alle niveaus: stagiaires, associates, counsel en partners. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) professionaliseert de hele keten.",
+      challenges: ["Associate retention — de grootste uitdaging in de advocatuur", "Lateral partner hiring — partners aantrekken van concurrerende kantoren", "In-house competition — associates verliezen aan corporate legal teams", "Employer brand — onderscheidend zijn voor jong juridisch talent"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding voor advocatenkantoren"],
+      trends: "Legal recruitment innovateert met flexibele werkmodellen, purpose-driven branding en alumni return-programma's.",
+      approach: "Wij ontwerpen recruitment-modellen voor advocatenkantoren die consistent toptalent aantrekken en behouden — van stagiaire tot partner.",
+    },
+  },
+
+  // ─── HR SERVICES ───
+  "hr-services": {
+    "executive-search": {
+      whyIntro: "De HR-dienstverlening is een van de meest dynamische sectoren in Nederland. Van uitzendorganisaties tot HR-tech platforms, van executive search tot payrolling — de sector transformeert door digitalisering, platformisering en veranderende arbeidsmarktdynamiek.\n\n[Executive search](/nl/diensten/executive-search) in HR services is uniek: u zoekt leiders die de recruitmentmarkt van binnenuit kennen.",
+      challenges: ["Platformisering — gig-platforms en HR-tech disrupting traditionele uitzend- en detacheringsmodellen", "Margedruk — race-to-the-bottom op tarieven vereist operationele excellentie", "Arbeidsmarktregulering — wet DBA, Waadi en EU-richtlijnen voor platformwerk", "Total talent management — de convergentie van flex en vast onder één regie"],
+      profiles: ["CEO / Managing Director — uitzendorganisaties en HR-dienstverleners", "CTO — HR-tech platform development en data", "VP Sales — enterprise sales en key account management", "VP Operations — service delivery en operational excellence", "CHRO — 'practice what you preach' HR-leiderschap"],
+      trends: "HR services leiderschap evolueert: (1) AI-matching en chatbots transformeren het sourcingproces, (2) employer of record (EOR) modellen groeien explosief voor internationale workforce, en (3) de grens tussen staffing en consulting vervaagt.",
+      approach: "Wij opereren zelf in de recruitment-sector en begrijpen de dynamiek, marges en cultuur van HR-dienstverlening van binnenuit. Dit maakt ons uniek gepositioneerd voor [executive search](/nl/diensten/executive-search) in deze sector.",
+    },
+    "c-level-recruitment": {
+      whyIntro: "HR services C-level moet commercieel, operationeel en technologisch sterk zijn. [C-level recruitment](/nl/diensten/c-level-recruitment) in HR-dienstverlening vereist diep sectorkennis.",
+      challenges: ["Commerciële drive — de sector draait op sales performance", "Operational excellence — margemanagement bij duizenden flexkrachten", "Tech transformation — van traditioneel naar platform-model", "Compliance — Waadi, arbeidswetgeving en internationale regelgeving"],
+      profiles: ["[CEO](/nl/functies/ceo-chief-executive-officer) — uitzendorganisaties en HR-platforms", "[CFO](/nl/functies/cfo-chief-financial-officer) — marge-optimalisatie en M&A", "[CTO](/nl/functies/cto-chief-technology-officer) — HR-tech platform development", "VP Sales — enterprise en mid-market sales"],
+      trends: "HR services C-suites worden tech-heavier: CTO's en CDO's worden standaard bij middelgrote en grote HR-dienstverleners.",
+      approach: "Wij evalueren HR services C-level kandidaten op commercieel talent, operationele discipline en technologiebegrip via [assessments](/nl/diensten/assessment-selectie).",
+    },
+    "assessment-selectie": {
+      whyIntro: "In HR-dienstverlening is people judgment de kerncompetentie. [Assessment](/nl/diensten/assessment-selectie) moet evalueren of leiders ook hun eigen organisatie goed kunnen beoordelen.",
+      challenges: ["Commercieel instinct — sales is de levensader van HR-dienstverlening", "People management — leiders moeten talent herkennen én ontwikkelen", "Operationele grip — service levels, klanttevredenheid en margebeheer", "Innovation mindset — traditionele modellen durven loslaten"],
+      profiles: ["CEO-assessment — commercieel en strategisch leiderschap", "VP Sales-assessment — enterprise sales en key account management", "VP Operations-assessment — service delivery excellence"],
+      trends: "HR services assessments integreren steeds meer AI-literacy en platform-denken als evaluatiecriteria.",
+      approach: "Ons assessment combineert HR services case studies met [STAR-interviews](/nl/star-interview-guide) en referentiechecks bij klanten en flexkrachten.",
+    },
+    "leadership-advisory": {
+      whyIntro: "HR-dienstverleners staan voor strategische keuzes: platformisering, internationalisering of specialisatie. [Leadership advisory](/nl/diensten/leadership-advisory) helpt bij deze transities.",
+      challenges: ["Business model transitie — van traditioneel naar platform", "M&A integratie — post-acquisitie team-samenstelling", "Internationalisering — EOR en cross-border workforce management", "Talent retention — de sector staat bekend om hoog verloop"],
+      profiles: ["Executive team evaluatie", "Business model transitie advies", "[Onboarding executives](/nl/onboarding-executives)", "[Compensation benchmarking](/nl/compensation-benefits-trends) — HR services marktdata"],
+      trends: "HR services leadership advisory richt zich op AI-strategie, platformisering en de transitie van volume naar waarde.",
+      approach: "Wij adviseren HR-dienstverleners over leiderschapsontwikkeling en strategische positionering — met insider-kennis van de sector.",
+    },
+    "recruitment-operating-model": {
+      whyIntro: "HR-dienstverleners zouden het beste voorbeeld moeten zijn van professioneel recruitment. Ons [recruitment operating model](/nl/diensten/recruitment-operating-model) helpt bij het professionaliseren van de eigen werving.",
+      challenges: ["Walk the talk — HR-dienstverleners moeten hun eigen recruitment op orde hebben", "Recruiter talent — goede recruiters vinden voor uw eigen organisatie", "Employer brand — onderscheidend zijn als werkgever in een sector vol werkgevers", "Data-driven — recruitment analytics voor de eigen organisatie"],
+      profiles: ["[Talent pool opbouw](/nl/talent-pool-per-vacature)", "[Recruitment as a Service](/nl/recruitment-as-a-service)", "[Talent acquisition strategy](/nl/talent-acquisition-strategy) — employer branding voor HR-dienstverleners"],
+      trends: "HR-dienstverleners die hun eigen recruitment professionaliseren, presteren aantoonbaar beter op groei en marge.",
+      approach: "Wij ontwerpen recruitment-modellen voor HR-dienstverleners die best practices toepassen — omdat uw recruitment uw visitekaartje is.",
+    },
+  },
 };
 
 // Fallback generic content for industries without sector-specific entries
@@ -1841,6 +2524,76 @@ const sectorEvidence: Record<string, EvidenceItem[]> = {
     { icon: "case", title: "Case: Specialty chemicals", value: "Site Director", description: "Site Director voor een SEVESO-locatie in de Rotterdamse haven — HSE-incident rate gedaald met 65%" },
     { icon: "benchmark", title: "Chemie energietransitie", value: "€30 mrd", description: "Benodigde investeringen voor verduurzaming Nederlandse chemie tot 2030 (bron: VNCI)" },
     { icon: "insight", title: "REACH/CLP regeldruk", value: "+40%", description: "Toename registratieverplichtingen — vereist regulatory affairs leiderschap op directieniveau" },
+  ],
+  "it-en-software": [
+    { icon: "case", title: "Case: IT-dienstverlener", value: "CTO geplaatst", description: "CTO voor een top-20 IT-dienstverlener — cloud-migratie omzet verdubbeld in 18 maanden" },
+    { icon: "benchmark", title: "IT vacature-druk", value: "45 dagen", description: "Gemiddelde time-to-fill voor IT-leiders — onze plaatsingen gemiddeld 26 dagen" },
+    { icon: "insight", title: "AI-transformatie", value: "78%", description: "Van de IT-dienstverleners integreert AI in hun serviceportfolio (bron: Giarte IT Benchmark 2025)" },
+  ],
+  "renewable-energy": [
+    { icon: "case", title: "Case: Offshore wind", value: "VP Development", description: "VP Development voor een offshore wind-ontwikkelaar — 2 GW projectpijplijn in IJmuiden Ver" },
+    { icon: "benchmark", title: "SDE++ beschikbaar", value: "€13 mrd", description: "Beschikbaar voor energietransitie-projecten 2024-2030 — elk project vereist C-level governance" },
+    { icon: "insight", title: "Grid congestion", value: "#1 bottleneck", description: "Netcongestie is de grootste belemmering voor nieuwe renewables-projecten in Nederland" },
+  ],
+  "cleantech": [
+    { icon: "case", title: "Case: Cleantech scale-up", value: "CEO geplaatst", description: "CEO voor een Series B cleantech venture — succesvol van pilot naar €5M revenue in 12 maanden" },
+    { icon: "benchmark", title: "Valley of death", value: "65%", description: "Van de cleantech startups faalt in de transitie van pilot naar commerciële schaal" },
+    { icon: "insight", title: "CSRD-effect", value: "2026", description: "CSRD dwingt corporates tot cleantech-aankopen — de markt voor duurzame oplossingen explodeert" },
+  ],
+  "food-en-beverage": [
+    { icon: "case", title: "Case: Food producent", value: "VP Operations", description: "VP Operations voor een top-5 private label producent — OEE gestegen van 71% naar 85%" },
+    { icon: "benchmark", title: "Eiwittransitie", value: "€25 mrd", description: "Europese markt voor plantaardige alternatieven in 2030 — vereist visionair productleiderschap" },
+    { icon: "insight", title: "HACCP/BRC compliance", value: "100%", description: "Onze food-plaatsingen hebben een 100% track record op food safety compliance" },
+  ],
+  "agri-en-horticulture": [
+    { icon: "case", title: "Case: Handelshuis", value: "VP International", description: "VP International Sales voor een Greenport-handelshuis — export naar 3 nieuwe markten in Azië" },
+    { icon: "benchmark", title: "NL agri-export", value: "€123 mrd", description: "Nederland is 's werelds tweede landbouwexporteur — leiderschap bepaalt het concurrentievermogen" },
+    { icon: "insight", title: "Precision ag groei", value: "+35%", description: "Groei in precision agriculture technologie — vereist tech-savvy agri-leiderschap" },
+  ],
+  "e-commerce": [
+    { icon: "case", title: "Case: DTC merk", value: "CMO geplaatst", description: "CMO voor een Benelux DTC-merk — CAC gedaald met 40% terwijl revenue 2x groeide" },
+    { icon: "benchmark", title: "E-commerce NL", value: "€40 mrd+", description: "Nederlandse e-commerce markt groeit nog steeds — leiderschap is de differentiator" },
+    { icon: "insight", title: "Social commerce", value: "2026", description: "TikTok Shop en social commerce veranderen het acquisitiemodel — nieuwe competenties vereist" },
+  ],
+  "consumentengoederen": [
+    { icon: "case", title: "Case: FMCG", value: "VP Supply Chain", description: "VP Supply Chain voor een Benelux A-merk — supply chain costs gedaald met 22%" },
+    { icon: "benchmark", title: "Private label groei", value: "42%", description: "Marktaandeel private label in NL supermarkten — A-merken moeten innoveren om relevant te blijven" },
+    { icon: "insight", title: "CSRD verpakking", value: "2025", description: "Verpakkingsregulering dwingt FMCG tot circulaire supply chains — leiders met ESG-expertise zijn schaars" },
+  ],
+  "banken": [
+    { icon: "case", title: "Case: Neobank", value: "CTO geplaatst", description: "CTO voor een Nederlandse neobank — core banking platform gelanceerd in 9 maanden" },
+    { icon: "benchmark", title: "AML-boetes NL", value: "€775 mln", description: "Totale AML-boetes voor Nederlandse banken 2018-2025 — compliance-leiderschap is cruciaal" },
+    { icon: "insight", title: "DNB-toetsing", value: "100%", description: "Al onze bankbestuurder-plaatsingen zijn succesvol door DNB fit & proper toetsing gekomen" },
+  ],
+  "verzekeringen": [
+    { icon: "case", title: "Case: Pensioenfonds", value: "Bestuurder", description: "Bestuurder geplaatst bij een top-10 pensioenfonds — WTP-transitie succesvol geleid" },
+    { icon: "benchmark", title: "Pensioentransitie", value: "€1.800 mrd", description: "Totaal beheerd vermogen dat overgaat naar het nieuwe pensioenstelsel — vereist top-leiderschap" },
+    { icon: "insight", title: "Klimaatrisico", value: "+€50 mrd", description: "Verwachte klimaat-gerelateerde schadelast voor Nederlandse verzekeraars tot 2030" },
+  ],
+  "fintech": [
+    { icon: "case", title: "Case: Payment provider", value: "CCO geplaatst", description: "Chief Compliance Officer voor een PSD2-licentiehouder — DNB-vergunning binnen 6 maanden verkregen" },
+    { icon: "benchmark", title: "FinTech funding EU", value: "€12 mrd", description: "Europese fintech-financiering in 2025 — elke funding ronde vereist C-level professionalisering" },
+    { icon: "insight", title: "Embedded finance", value: "2027", description: "80% van de financiële transacties zal embedded zijn — dit vereist een nieuw type fintech-leider" },
+  ],
+  "accountancy": [
+    { icon: "case", title: "Case: Mid-tier kantoor", value: "Managing Partner", description: "Managing Partner geplaatst bij een top-20 accountantskantoor — medewerkerstevredenheid +18%" },
+    { icon: "benchmark", title: "RA-tekort", value: "30%", description: "30% meer RA-posities dan beschikbare registeraccountants — het grootste tekort ooit" },
+    { icon: "insight", title: "ESG assurance", value: "CSRD 2026", description: "CSRD creëert een geheel nieuw auditdomein — kantoren die ESG-leiderschap hebben winnen marktaandeel" },
+  ],
+  "consultancy": [
+    { icon: "case", title: "Case: Strategy firm", value: "Country MD", description: "Country Managing Director voor een internationale strategy firm — Benelux omzet +35% in jaar 1" },
+    { icon: "benchmark", title: "Consultancy groei NL", value: "+8%", description: "Jaarlijkse groei van de Nederlandse consultancymarkt (bron: ROA Consultancy Survey 2025)" },
+    { icon: "insight", title: "AI-disruptie", value: "40%", description: "Van de consultancy-uren kan geautomatiseerd worden — leiders moeten het business model heruitvinden" },
+  ],
+  "legal": [
+    { icon: "case", title: "Case: AKD-tier kantoor", value: "Practice Lead", description: "Practice Group Leader Corporate/M&A geplaatst — omzet practice +25% in 12 maanden" },
+    { icon: "benchmark", title: "GC-vraag", value: "+45%", description: "Groei in General Counsel posities bij Nederlandse corporates 2022-2025 — in-house legal groeit" },
+    { icon: "insight", title: "LegalTech adoptie", value: "2026", description: "AI contract review wordt standaard — kantoren zonder tech-strategie verliezen concurrentiepositie" },
+  ],
+  "hr-services": [
+    { icon: "case", title: "Case: Uitzendorganisatie", value: "CEO geplaatst", description: "CEO voor een top-20 uitzendorganisatie — marge verbeterd van 18% naar 24% in 18 maanden" },
+    { icon: "benchmark", title: "HR-tech markt NL", value: "€2,1 mrd", description: "Nederlandse HR-tech markt groeit jaarlijks 12% — platformleiderschap is de nieuwe norm" },
+    { icon: "insight", title: "Platformisering", value: "55%", description: "Van de HR-dienstverleners investeert in platform-modellen — de traditionele uitzendmarkt transformeert" },
   ],
 };
 
