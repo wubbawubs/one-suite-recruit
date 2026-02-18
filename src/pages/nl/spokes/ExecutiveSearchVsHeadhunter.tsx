@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Wat is het verschil tussen executive search, een headhunter en werving & selectie? Vergelijk kosten, methode en resultaten in deze complete gids.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Executive Search", href: "/nl/executive-search" },
+    { label: "Executive Search", href: "/nl/diensten/executive-search" },
     { label: "Executive Search vs Headhunter" },
   ],
   heroLabel: "Vergelijking",
@@ -53,12 +53,12 @@ const data: SpokePageData = {
     { q: "Wat kost executive search vergeleken met een headhunter?", a: "Traditionele headhunters rekenen 20-30% van het jaarsalaris. Executive search bureaus hanteren vergelijkbare of hogere tarieven, maar OneTime Recruit werkt met vaste tarieven of een abonnementsmodel — ongeacht het salarisniveau." },
     { q: "Kan ik werving & selectie gebruiken voor directieposities?", a: "Dat kan, maar het is minder effectief. Voor directieposities is proactieve marktbenadering cruciaal, omdat de beste kandidaten niet actief solliciteren. Executive search biedt de diepgang en het netwerk die nodig zijn." },
   ],
-  pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
+  pillarLink: { label: "Terug naar Executive Search", href: "/nl/diensten/executive-search" },
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
     { label: "Headhunter Nederland", href: "/nl/headhunter-nederland" },
     { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },
-    { label: "C-level recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level recruitment", href: "/nl/diensten/c-level-recruitment" },
   ],
 };
 

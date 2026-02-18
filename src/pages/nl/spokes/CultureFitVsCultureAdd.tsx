@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Culture fit vs culture add: wanneer kiest u voor aansluiting en wanneer voor vernieuwing? Een enterprise perspectief op culturele match in recruitment.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Assessment & Selectie", href: "/nl/assessment-selectie" },
+    { label: "Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
     { label: "Culture Fit vs Culture Add" },
   ],
   heroLabel: "Assessment & Selectie",
@@ -52,7 +52,7 @@ const data: SpokePageData = {
     { q: "Hoe meet je culture add?", a: "Door expliciet te definiëren welke perspectieven, vaardigheden of ervaringen uw team mist. Culture add is geen vaag concept — het is een gerichte zoektocht naar specifieke aanvullende kwaliteiten." },
     { q: "Kan een nieuwe leider de cultuur veranderen?", a: "Ja, maar alleen met mandaat, ondersteuning en geduld. Een culture-add leider zonder board-support en veranderruimte zal frustratie ervaren en mogelijk snel vertrekken." },
   ],
-  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/assessment-selectie" },
+  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
   relatedLinks: [
     { label: "STAR interview guide", href: "/nl/star-interview-guide" },
     { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },

@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Wat is executive search precies? Leer alles over de definitie, het proces, de methode en wanneer u executive search inzet voor uw organisatie.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Executive Search", href: "/nl/executive-search" },
+    { label: "Executive Search", href: "/nl/diensten/executive-search" },
     { label: "Wat is Executive Search?" },
   ],
   heroLabel: "Executive Search",
@@ -15,7 +15,7 @@ const data: SpokePageData = {
   sections: [
     {
       title: "Definitie van executive search",
-      content: "Executive search is een gespecialiseerde vorm van [werving en selectie](/nl/werving-en-selectie) die zich richt op het identificeren, benaderen en plaatsen van senior leiders en bestuurders. Anders dan traditionele recruitment — waarbij vacatures worden gepubliceerd en gewacht wordt op sollicitanten — is executive search een proactief, doelgericht proces.\n\nDe term 'executive search' verwijst naar het actief zoeken naar executives: [C-level bestuurders](/nl/c-level-recruitment), directieleden, VP's en andere senior leiderschapsposities. Het wordt ook wel 'retained search' genoemd, omdat de opdrachtgever een exclusieve overeenkomst aangaat met het searchbureau.",
+      content: "Executive search is een gespecialiseerde vorm van [werving en selectie](/nl/werving-en-selectie) die zich richt op het identificeren, benaderen en plaatsen van senior leiders en bestuurders. Anders dan traditionele recruitment — waarbij vacatures worden gepubliceerd en gewacht wordt op sollicitanten — is executive search een proactief, doelgericht proces.\n\nDe term 'executive search' verwijst naar het actief zoeken naar executives: [C-level bestuurders](/nl/diensten/c-level-recruitment), directieleden, VP's en andere senior leiderschapsposities. Het wordt ook wel 'retained search' genoemd, omdat de opdrachtgever een exclusieve overeenkomst aangaat met het searchbureau.",
     },
     {
       title: "Hoe werkt het executive search proces?",
@@ -49,7 +49,7 @@ const data: SpokePageData = {
     { q: "Is executive search alleen voor grote bedrijven?", a: "Nee. Executive search is waardevol voor elke organisatie die een strategische leiderschapspositie wil invullen. Ook scale-ups en middelgrote bedrijven maken steeds vaker gebruik van executive search, vooral bij groei of transformatie." },
     { q: "Hoe lang duurt een executive search traject?", a: "Bij OneTime Recruit is de gemiddelde doorlooptijd 18 werkdagen van intake tot shortlist. De totale plaatsingstijd inclusief selectie is doorgaans 4-8 weken." },
   ],
-  pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
+  pillarLink: { label: "Terug naar Executive Search", href: "/nl/diensten/executive-search" },
   relatedLinks: [
     { label: "Executive search vs headhunter", href: "/nl/executive-search-vs-headhunter" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },

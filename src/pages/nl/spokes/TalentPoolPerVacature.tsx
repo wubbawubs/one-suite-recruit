@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Wat is een dedicated talent pool per vacature? Ontdek hoe deze aanpak recruitment efficiënter, goedkoper en effectiever maakt.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+    { label: "Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
     { label: "Talent Pool per Vacature" },
   ],
   heroLabel: "Recruitment Model",
@@ -47,7 +47,7 @@ const data: SpokePageData = {
     { q: "Wat gebeurt er met de talent pool na plaatsing?", a: "U behoudt de volledige talent pool. Bij toekomstige vacatures kunt u direct putten uit deze reeds gescreende kandidaten, wat de doorlooptijd en kosten significant verlaagt." },
     { q: "Hoe lang blijft een talent pool actueel?", a: "Wij adviseren om de pool jaarlijks te actualiseren. Kandidaten die na 12 maanden nog relevant zijn, worden opnieuw benaderd voor een statusupdate." },
   ],
-  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
   relatedLinks: [
     { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
     { label: "Abonnement recruitment", href: "/nl/abonnement-recruitment" },

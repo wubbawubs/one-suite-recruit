@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Confidential executive search voor vertrouwelijke leiderschapswisselingen. Leer hoe discreet leadership hiring werkt en wanneer u het inzet.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Executive Search", href: "/nl/executive-search" },
+    { label: "Executive Search", href: "/nl/diensten/executive-search" },
     { label: "Confidential Search" },
   ],
   heroLabel: "Vertrouwelijk",
@@ -54,7 +54,7 @@ const data: SpokePageData = {
     { q: "Kunnen kandidaten achterhalen wie de opdrachtgever is?", a: "Bij een correct uitgevoerde confidential search is de kans hierop zeer klein. Het searchbureau gebruikt anonieme profielen en deelt pas bedrijfsinformatie na ondertekening van een NDA." },
     { q: "Is confidential search duurder?", a: "Bij OneTime Recruit hanteren wij hetzelfde vaste tarief. De extra inspanning voor discretie is inbegrepen in onze standaard dienstverlening." },
   ],
-  pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
+  pillarLink: { label: "Terug naar Executive Search", href: "/nl/diensten/executive-search" },
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },

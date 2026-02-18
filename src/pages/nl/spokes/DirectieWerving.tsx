@@ -5,7 +5,7 @@ const data = {
   metaDescription: "Directie werving en recruitment voor managing directors, directeuren en senior management. Bewezen methodiek, vaste tarieven, gemiddeld 18 dagen doorlooptijd.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
     { label: "Directie Werving" },
   ],
   heroLabel: "Directie Recruitment",
@@ -39,7 +39,7 @@ const data = {
     { q: "Hoe lang duurt directie werving gemiddeld?", a: "Gemiddeld 18 werkdagen van intake tot shortlist. De totale doorlooptijd inclusief selectie en plaatsing is doorgaans 4-8 weken." },
     { q: "Bieden jullie ook interim directieleden?", a: "Ja. Wij kunnen parallel aan een permanente search een interim directeur presenteren die direct start. Beide trajecten onder één aanspreekpunt." },
   ],
-  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
+  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
   relatedLinks: [
     { label: "CEO Recruitment", href: "/nl/ceo-recruitment" },
     { label: "Interim Management", href: "/nl/interim-management" },

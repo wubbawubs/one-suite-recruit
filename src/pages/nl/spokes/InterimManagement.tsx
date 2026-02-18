@@ -5,7 +5,7 @@ const data = {
   metaDescription: "Interim management voor C-level en directieposities. Snel de juiste interim executive vinden voor transformatie, turnaround of overbrugging.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
     { label: "Interim Management" },
   ],
   heroLabel: "Interim Leadership",
@@ -38,7 +38,7 @@ const data = {
     { q: "Wat kost interim management?", a: "Wij werken met transparante dagtarieven die vooraf worden afgesproken. Geen verborgen kosten of management fees bovenop het tarief van de interim executive." },
     { q: "Hoe lang duurt een interim opdracht gemiddeld?", a: "De gemiddelde interim opdracht op executive niveau duurt 6-12 maanden, afhankelijk van het mandaat. Kortere opdrachten (3 maanden) en langere trajecten (12-18 maanden) komen ook voor." },
   ],
-  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
+  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
   relatedLinks: [
     { label: "CEO Recruitment", href: "/nl/ceo-recruitment" },
     { label: "CFO Recruitment", href: "/nl/cfo-recruitment" },

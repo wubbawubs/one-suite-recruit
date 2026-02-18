@@ -22,7 +22,7 @@ const services = [
     title: "Executive Search",
     description:
       "C-level en senior executives die écht het verschil maken. Via onze exclusieve search methodiek en bewezen assessmentaanpak.",
-    href: "/nl/executive-search",
+    href: "/nl/diensten/executive-search",
     highlight: true,
     image: sfeerSelectie,
   },
@@ -39,7 +39,7 @@ const services = [
     title: "Assessment",
     description:
       "Objectieve evaluatie van kandidaten en leiders. Competentie-based assessments en cultuurfit-analyses.",
-    href: "/nl/assessment-selectie",
+    href: "/nl/diensten/assessment-selectie",
     image: sfeerAbonnement,
   },
   {
@@ -47,7 +47,7 @@ const services = [
     title: "Leadership",
     description:
       "Strategisch advies over leiderschap, succesplanning en organisatieontwikkeling op het hoogste niveau.",
-    href: "/nl/diensten",
+    href: "/nl/diensten/leadership-advisory",
     image: sfeerOverOns,
   },
 ];

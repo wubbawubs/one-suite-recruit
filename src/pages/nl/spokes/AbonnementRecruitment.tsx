@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Werkt abonnement-based recruitment? Ontdek de voor- en nadelen, wanneer het slim is en wanneer traditionele search beter past.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+    { label: "Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
     { label: "Abonnement Recruitment" },
   ],
   heroLabel: "Recruitment Model",
@@ -48,7 +48,7 @@ const data: SpokePageData = {
     { q: "Kan ik het abonnement pauzeren?", a: "Wij bieden flexibele contractvormen. Bespreek uw specifieke behoeften met ons team voor een op maat gemaakte oplossing." },
     { q: "Hoeveel bespaar ik met een abonnement?", a: "Gemiddeld 20-40% ten opzichte van traditionele per-placement fees, afhankelijk van het volume en de complexiteit van de posities." },
   ],
-  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
   relatedLinks: [
     { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
     { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },

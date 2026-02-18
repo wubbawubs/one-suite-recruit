@@ -107,7 +107,7 @@ export default function CLevelRecruitment() {
                   <Link to="/nl/contact">Plan een kennismaking <ArrowRight className="ml-2 h-4 w-4" /></Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="h-13 rounded-full border-primary-foreground/20 px-8 text-[15px] font-semibold text-primary-foreground hover:bg-primary-foreground/10">
-                  <Link to="/nl/executive-search">Executive search methodiek</Link>
+                  <Link to="/nl/diensten/executive-search">Executive search methodiek</Link>
                 </Button>
               </div>
             </ScrollReveal>

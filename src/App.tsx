@@ -12,6 +12,7 @@ import NLContact from "./pages/nl/Contact";
 import NLVacatures from "./pages/nl/Vacatures";
 import NLOpdrachtgevers from "./pages/nl/Opdrachtgevers";
 import NLCLevelRecruitment from "./pages/nl/CLevelRecruitment";
+import NLLeadershipAdvisory from "./pages/nl/LeadershipAdvisory";
 // DE pages
 import DEHome from "./pages/de/Index";
 import DELeistungen from "./pages/de/Leistungen";
@@ -87,17 +88,26 @@ const App = () => (
           {/* Dutch (NL) routes */}
           <Route path="/nl" element={<NLHome />} />
           <Route path="/nl/diensten" element={<NLDiensten />} />
-          <Route path="/nl/executive-search" element={<NLExecutiveSearch />} />
           <Route path="/nl/over-ons" element={<NLOverOns />} />
           <Route path="/nl/contact" element={<NLContact />} />
           <Route path="/nl/vacatures" element={<NLVacatures />} />
           <Route path="/nl/opdrachtgevers" element={<NLOpdrachtgevers />} />
 
-          {/* NL Pillar/Hub pages */}
-          <Route path="/nl/c-level-recruitment" element={<NLCLevelRecruitment />} />
-          <Route path="/nl/assessment-selectie" element={<NLAssessmentSelectie />} />
+          {/* NL P1 Money Pages — /nl/diensten/... */}
+          <Route path="/nl/diensten/executive-search" element={<NLExecutiveSearch />} />
+          <Route path="/nl/diensten/c-level-recruitment" element={<NLCLevelRecruitment />} />
+          <Route path="/nl/diensten/leadership-advisory" element={<NLLeadershipAdvisory />} />
+          <Route path="/nl/diensten/recruitment-operating-model" element={<NLRecruitmentOperatingModel />} />
+          <Route path="/nl/diensten/assessment-selectie" element={<NLAssessmentSelectie />} />
+
+          {/* Redirects from old URLs */}
+          <Route path="/nl/executive-search" element={<Navigate to="/nl/diensten/executive-search" replace />} />
+          <Route path="/nl/c-level-recruitment" element={<Navigate to="/nl/diensten/c-level-recruitment" replace />} />
+          <Route path="/nl/recruitment-operating-model" element={<Navigate to="/nl/diensten/recruitment-operating-model" replace />} />
+          <Route path="/nl/assessment-selectie" element={<Navigate to="/nl/diensten/assessment-selectie" replace />} />
+
+          {/* NL other hubs */}
           <Route path="/nl/industries" element={<NLIndustries />} />
-          <Route path="/nl/recruitment-operating-model" element={<NLRecruitmentOperatingModel />} />
           <Route path="/nl/employer-branding-retention" element={<NLEmployerBrandingRetention />} />
 
           {/* Executive Search spokes */}

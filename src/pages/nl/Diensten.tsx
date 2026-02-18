@@ -22,7 +22,7 @@ const services = [
     title: "Executive Search",
     description: "Wij vinden de juiste C-level en senior executives voor uw organisatie. Via ons exclusieve netwerk en bewezen assessmentmethode identificeren wij leiders die écht het verschil maken.",
     features: ["C-suite & VP-level plaatsingen", "Competentie-based assessment", "Exclusief netwerk van 7.500+ executives", "Shortlist binnen 18 dagen"],
-    href: "/nl/executive-search",
+    href: "/nl/diensten/executive-search",
     highlight: true,
   },
   {
@@ -37,7 +37,7 @@ const services = [
     title: "Assessment",
     description: "Objectieve evaluatie van kandidaten en leiders. Van competentie-based assessments tot cultuurfit-analyses en leiderschapsevaluaties.",
     features: ["STAR-interviews", "Cultuurfit-analyse", "Competentie-assessments", "Leiderschapsevaluaties"],
-    href: "/nl/assessment-selectie",
+    href: "/nl/diensten/assessment-selectie",
   },
   {
     icon: Briefcase,

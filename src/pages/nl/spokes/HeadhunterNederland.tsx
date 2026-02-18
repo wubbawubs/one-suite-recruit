@@ -5,7 +5,7 @@ const data = {
   metaDescription: "Op zoek naar een headhunter in Nederland? OneTime Recruit is uw executive search partner voor C-level en directieposities. Vaste tarieven, 18 dagen doorlooptijd.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Executive Search", href: "/nl/executive-search" },
+    { label: "Executive Search", href: "/nl/diensten/executive-search" },
     { label: "Headhunter Nederland" },
   ],
   heroLabel: "Executive Headhunting",
@@ -38,7 +38,7 @@ const data = {
     { q: "Hoe lang duurt headhunting gemiddeld?", a: "Het branchegemiddelde is 6-12 weken. Bij OneTime Recruit leveren wij gemiddeld binnen 18 werkdagen een shortlist van 3-5 gekwalificeerde kandidaten." },
     { q: "Voor welke sectoren werken jullie als headhunter?", a: "Onze kernspecialisaties zijn Aviation, Defence & High-Tech, SaaS/IT, Finance en Operations. Daarnaast bedienen wij diverse andere sectoren op executive niveau." },
   ],
-  pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
+  pillarLink: { label: "Terug naar Executive Search", href: "/nl/diensten/executive-search" },
   relatedLinks: [
     { label: "Executive Search vs. Headhunter", href: "/nl/executive-search-vs-headhunter" },
     { label: "Kosten Executive Search", href: "/nl/kosten-executive-search" },

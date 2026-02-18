@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Wat kost executive search in Nederland? Vergelijk retained fee, vaste prijs en abonnementsmodellen. Transparante uitleg zonder verborgen kosten.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Executive Search", href: "/nl/executive-search" },
+    { label: "Executive Search", href: "/nl/diensten/executive-search" },
     { label: "Kosten Executive Search" },
   ],
   heroLabel: "Kosten & tarieven",
@@ -53,7 +53,7 @@ const data: SpokePageData = {
     { q: "Wat is de ROI van executive search?", a: "De kosten van een mis-hire op directieniveau worden geschat op 3-5x het jaarsalaris. Een goede executive search investering voorkomt deze kosten en levert strategische waarde op." },
     { q: "Zijn er verborgen kosten bij OneTime Recruit?", a: "Nee. Ons vaste tarief is all-inclusive: research, assessment, kandidaatbenadering, referentiechecks en onboarding support zijn inbegrepen." },
   ],
-  pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
+  pillarLink: { label: "Terug naar Executive Search", href: "/nl/diensten/executive-search" },
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
     { label: "Hoe lang duurt executive search?", href: "/nl/hoe-lang-duurt-executive-search" },

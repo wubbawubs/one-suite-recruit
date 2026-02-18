@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Referentiechecks bij executive search: best practices, valkuilen en effectieve vragen. Hoe u waardevolle informatie krijgt van referenten.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Assessment & Selectie", href: "/nl/assessment-selectie" },
+    { label: "Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
     { label: "Referentiechecks" },
   ],
   heroLabel: "Assessment & Selectie",
@@ -57,7 +57,7 @@ const data: SpokePageData = {
     { q: "Mag ik referenten benaderen zonder toestemming van de kandidaat?", a: "In principe niet. Informeer de kandidaat altijd vooraf welke referenten u wilt benaderen. Bij confidential search worden referentiechecks uitgesteld tot een later stadium." },
     { q: "Wat als een referent negatief is?", a: "Eén negatieve referentie is een signaal, geen oordeel. Kijk naar patronen: als meerdere referenten hetzelfde punt benoemen, is dat een belangrijk datapunt in uw besluitvorming." },
   ],
-  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/assessment-selectie" },
+  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
   relatedLinks: [
     { label: "STAR interview guide", href: "/nl/star-interview-guide" },
     { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },

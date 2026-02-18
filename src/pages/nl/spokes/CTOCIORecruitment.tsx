@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "CTO en CIO recruitment: hoe u de juiste tech leider vindt. Evaluatiecriteria voor technologisch leiderschap, innovatie en digitale transformatie.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
     { label: "CTO/CIO Recruitment" },
   ],
   heroLabel: "C-level Recruitment",
@@ -48,7 +48,7 @@ const data: SpokePageData = {
     { q: "Hoe voorkom je een mismatch bij tech leadership?", a: "Door grondig te analyseren of de kandidaat past bij uw organisatiefase, cultuur en technologische ambities. Een product-CTO uit een scale-up past niet automatisch in een corporate governance-omgeving." },
     { q: "Wat is het salarisniveau voor CTO/CIO in Nederland?", a: "Afhankelijk van organisatieomvang en sector varieert het tussen €120.000 en €300.000+ inclusief variabele beloning. Bij OneTime Recruit werken wij met vaste tarieven, ongeacht het salarisniveau." },
   ],
-  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
+  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "CFO recruitment", href: "/nl/cfo-recruitment" },

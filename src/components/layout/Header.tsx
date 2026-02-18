@@ -20,10 +20,10 @@ const navConfigs: Record<string, { items: NavItem[]; ctaLabel: string; ctaHref: 
         href: "/nl/diensten",
         children: [
           { label: "Werving & Selectie", href: "/nl/diensten", description: "Gericht de juiste professionals vinden", icon: Users },
-          { label: "Executive Search", href: "/nl/executive-search", description: "C-level & senior executives", icon: Search },
+          { label: "Executive Search", href: "/nl/diensten/executive-search", description: "C-level & senior executives", icon: Search },
           { label: "Interim Search", href: "/nl/diensten", description: "Direct beschikbare interim professionals", icon: Factory },
-          { label: "Assessment", href: "/nl/assessment-selectie", description: "Objectieve evaluatie & cultuurfit", icon: ClipboardCheck },
-          { label: "Leadership", href: "/nl/diensten", description: "Strategisch leiderschapsadvies", icon: Settings },
+          { label: "Assessment", href: "/nl/diensten/assessment-selectie", description: "Objectieve evaluatie & cultuurfit", icon: ClipboardCheck },
+          { label: "Leadership", href: "/nl/diensten/leadership-advisory", description: "Strategisch leiderschapsadvies", icon: Settings },
         ],
       },
       { label: "Vacatures", href: "/nl/vacatures" },

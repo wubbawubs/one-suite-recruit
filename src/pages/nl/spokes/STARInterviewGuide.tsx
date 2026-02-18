@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "De complete STAR interview guide voor hiring managers. Leer hoe u gestructureerde competentie-interviews afneemt voor betere hiring decisions.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Assessment & Selectie", href: "/nl/assessment-selectie" },
+    { label: "Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
     { label: "STAR Interview Guide" },
   ],
   heroLabel: "Assessment & Selectie",
@@ -67,7 +67,7 @@ const data: SpokePageData = {
     { q: "Hoeveel STAR-vragen moet ik stellen per interview?", a: "Voor een 60-minuten interview zijn 4-6 diepgaande STAR-vragen optimaal. Kwaliteit gaat boven kwantiteit." },
     { q: "Kan een kandidaat zich voorbereiden op STAR-vragen?", a: "Ja, en dat is positief. Een goed voorbereide kandidaat geeft concretere antwoorden. De kracht van STAR zit in het doorvragen naar specifieke details die niet 'verzonnen' kunnen worden." },
   ],
-  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/assessment-selectie" },
+  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
   relatedLinks: [
     { label: "Assessment inzetten", href: "/nl/assessment-inzetten" },
     { label: "Referentiechecks", href: "/nl/referentiechecks" },

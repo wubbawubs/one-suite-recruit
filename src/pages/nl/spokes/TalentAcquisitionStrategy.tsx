@@ -5,7 +5,7 @@ const data = {
   metaDescription: "Bouw een schaalbare talent acquisition strategy voor executive en senior management posities. Van ad-hoc search naar structurele recruitment capaciteit.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+    { label: "Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
     { label: "Talent Acquisition Strategy" },
   ],
   heroLabel: "Strategie & Planning",
@@ -38,7 +38,7 @@ const data = {
     { q: "Voor welke organisaties is een talent acquisition strategy relevant?", a: "Voor elke organisatie met 3+ executive vacatures per jaar, organisaties in snelle groei of transformatie, en enterprise organisaties die hun executive recruitment willen professionaliseren." },
     { q: "Hoe lang duurt het om een strategy te implementeren?", a: "Het ontwerp duurt 2-4 weken. De implementatie hangt af van de scope: een basismodel is operationeel binnen 6 weken, een volledig operating model binnen 3 maanden." },
   ],
-  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
   relatedLinks: [
     { label: "Talent Pool per Vacature", href: "/nl/talent-pool-per-vacature" },
     { label: "Recruitment-as-a-Service", href: "/nl/recruitment-as-a-service" },
