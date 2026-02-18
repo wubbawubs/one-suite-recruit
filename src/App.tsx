@@ -28,7 +28,8 @@ import ENAbout from "./pages/en/About";
 import ENJobs from "./pages/en/Jobs";
 import ENForEmployers from "./pages/en/ForEmployers";
 import NLAssessmentSelectie from "./pages/nl/AssessmentSelectie";
-import NLIndustries from "./pages/nl/Industries";
+import NLIndustriesHub from "./pages/nl/IndustriesHub";
+import NLIndustryPage from "./pages/nl/IndustryPage";
 import NLRecruitmentOperatingModel from "./pages/nl/RecruitmentOperatingModel";
 import NLEmployerBrandingRetention from "./pages/nl/EmployerBrandingRetention";
 // Executive Search spokes
@@ -53,12 +54,7 @@ import TalentPoolPerVacature from "./pages/nl/spokes/TalentPoolPerVacature";
 import RecruitmentAsAService from "./pages/nl/spokes/RecruitmentAsAService";
 import AbonnementRecruitment from "./pages/nl/spokes/AbonnementRecruitment";
 import HiringGovernanceReporting from "./pages/nl/spokes/HiringGovernanceReporting";
-// Industry spokes
-import AviationRecruitment from "./pages/nl/spokes/AviationRecruitment";
-import DefenceHightechRecruitment from "./pages/nl/spokes/DefenceHightechRecruitment";
-import SaaSITLeadership from "./pages/nl/spokes/SaaSITLeadership";
-import FinanceRiskCompliance from "./pages/nl/spokes/FinanceRiskCompliance";
-import OperationsSupplyChain from "./pages/nl/spokes/OperationsSupplyChain";
+// (Old industry spokes now served by dynamic /nl/industries/:slug route)
 // Employer branding spokes
 import LeadershipRetention from "./pages/nl/spokes/LeadershipRetention";
 import OnboardingExecutives from "./pages/nl/spokes/OnboardingExecutives";
@@ -107,8 +103,16 @@ const App = () => (
           <Route path="/nl/assessment-selectie" element={<Navigate to="/nl/diensten/assessment-selectie" replace />} />
 
           {/* NL other hubs */}
-          <Route path="/nl/industries" element={<NLIndustries />} />
+          <Route path="/nl/industries" element={<NLIndustriesHub />} />
+          <Route path="/nl/industries/:slug" element={<NLIndustryPage />} />
           <Route path="/nl/employer-branding-retention" element={<NLEmployerBrandingRetention />} />
+
+          {/* Redirects from old industry URLs to new /nl/industries/... */}
+          <Route path="/nl/aviation-recruitment" element={<Navigate to="/nl/industries/aviation" replace />} />
+          <Route path="/nl/defence-hightech-recruitment" element={<Navigate to="/nl/industries/defence-en-security" replace />} />
+          <Route path="/nl/saas-it-leadership" element={<Navigate to="/nl/industries/saas" replace />} />
+          <Route path="/nl/finance-risk-compliance" element={<Navigate to="/nl/industries/financiele-dienstverlening" replace />} />
+          <Route path="/nl/operations-supply-chain" element={<Navigate to="/nl/industries/supply-chain" replace />} />
 
           {/* Executive Search spokes */}
           <Route path="/nl/wat-is-executive-search" element={<WatIsExecutiveSearch />} />
@@ -136,12 +140,7 @@ const App = () => (
           <Route path="/nl/abonnement-recruitment" element={<AbonnementRecruitment />} />
           <Route path="/nl/hiring-governance-reporting" element={<HiringGovernanceReporting />} />
 
-          {/* Industry spokes */}
-          <Route path="/nl/aviation-recruitment" element={<AviationRecruitment />} />
-          <Route path="/nl/defence-hightech-recruitment" element={<DefenceHightechRecruitment />} />
-          <Route path="/nl/saas-it-leadership" element={<SaaSITLeadership />} />
-          <Route path="/nl/finance-risk-compliance" element={<FinanceRiskCompliance />} />
-          <Route path="/nl/operations-supply-chain" element={<OperationsSupplyChain />} />
+          {/* Old industry spokes now redirect via routes above */}
 
           {/* Employer branding spokes */}
           <Route path="/nl/leadership-retention" element={<LeadershipRetention />} />
