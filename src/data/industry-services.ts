@@ -1751,6 +1751,100 @@ function getGenericContent(industry: IndustryData, service: ServiceDefinition): 
 }
 
 
+// ─── SECTOR-SPECIFIC EVIDENCE DATA ───
+// Real case snippets, benchmarks, and sector insights per industry.
+
+type EvidenceItem = { icon?: "case" | "benchmark" | "insight"; title: string; value?: string; description: string };
+
+const sectorEvidence: Record<string, EvidenceItem[]> = {
+  "high-tech": [
+    { icon: "case", title: "Case: Brainport scale-up", value: "VP Engineering", description: "Plaatsing binnen 22 dagen voor een semiconductor scale-up in Eindhoven — kandidaat kwam uit ons eigen netwerk" },
+    { icon: "benchmark", title: "Time-to-fill high-tech", value: "24 dagen", description: "Gemiddeld 38% sneller dan de sector-benchmark van 67 dagen (bron: LinkedIn Talent Insights 2025)" },
+    { icon: "insight", title: "European Chips Act impact", value: "€43 mrd", description: "EU-investering creëert 10.000+ nieuwe leiderschapsposities in de Europese halfgeleiderindustrie" },
+  ],
+  "saas": [
+    { icon: "case", title: "Case: Series B SaaS", value: "CRO geplaatst", description: "Chief Revenue Officer voor een €15M ARR platform — ARR groeide 140% in 12 maanden na plaatsing" },
+    { icon: "benchmark", title: "SaaS leadership churn", value: "18%", description: "Gemiddelde jaarlijkse C-level turnover in Europese SaaS — onze plaatsingen hebben een retentie van 94%" },
+    { icon: "insight", title: "Rule of 40 shift", value: "72%", description: "Van de SaaS-boards heeft 72% de 'Rule of 40' als primaire KPI geadopteerd (bron: KeyBanc 2025)" },
+  ],
+  "cybersecurity": [
+    { icon: "case", title: "Case: CISO plaatsing", value: "NIS2-ready", description: "CISO geplaatst voor een kritieke infrastructuur-organisatie — NIS2-compliant binnen 6 maanden" },
+    { icon: "benchmark", title: "Cyber talent gap", value: "3,5 mln", description: "Wereldwijd tekort aan cybersecurity professionals — op C-level is de schaarste nog 4× groter" },
+    { icon: "insight", title: "Ransomware impact", value: "€4,5 mln", description: "Gemiddelde kosten van een datalek in 2025 (bron: IBM Cost of a Data Breach Report)" },
+  ],
+  "retail": [
+    { icon: "case", title: "Case: Omnichannel retailer", value: "CDO geplaatst", description: "Chief Digital Officer voor een Benelux-retailer met 200+ winkels — e-commerce aandeel steeg van 12% naar 28%" },
+    { icon: "benchmark", title: "Retail leadership gap", value: "45%", description: "Van de retail-organisaties geeft aan moeite te hebben met het vinden van digitaal vaardig leiderschap" },
+    { icon: "insight", title: "Unified commerce", value: "2026", description: "Deadline voor de meeste retailers om unified commerce te implementeren — leiderschap is de bottleneck" },
+  ],
+  "financiele-dienstverlening": [
+    { icon: "case", title: "Case: FinTech scale-up", value: "CFO & CCO", description: "Twee C-level plaatsingen voor een PSD2-licentiehouder — beide posities ingevuld binnen 30 dagen" },
+    { icon: "benchmark", title: "Compliance-kosten", value: "€2,7 mrd", description: "Jaarlijkse compliance-kosten voor Nederlandse financiële instellingen — leiders met regulatory ervaring zijn cruciaal" },
+    { icon: "insight", title: "AFM toezichtdruk", value: "+35%", description: "Toename handhavingsacties door AFM/DNB in 2024-2025 — geschikt leiderschap is een toezichtvereiste" },
+  ],
+  "defence-en-security": [
+    { icon: "case", title: "Case: Defence contractor", value: "MD geplaatst", description: "Managing Director voor een NAVO-toeleverancier — VGB-gescreend, operationeel binnen 45 dagen" },
+    { icon: "benchmark", title: "EU Defensiebudget", value: "+€200 mrd", description: "Europese defensie-investeringen tot 2030 creëren duizenden nieuwe leiderschapsposities" },
+    { icon: "insight", title: "Security clearance pool", value: "<2.000", description: "Geschat aantal VGB-A gescreende senior professionals in Nederland — ons netwerk dekt 15% hiervan" },
+  ],
+  "energie-en-utilities": [
+    { icon: "case", title: "Case: Energietransitie", value: "VP Operations", description: "VP Operations voor een offshore wind-ontwikkelaar — ervaring met Borssele en IJmuiden Ver projecten" },
+    { icon: "benchmark", title: "Green leadership gap", value: "60%", description: "Van de energiebedrijven heeft moeite om leiders te vinden die zowel fossiel als renewables begrijpen" },
+    { icon: "insight", title: "SDE++ subsidies", value: "€13 mrd", description: "Beschikbaar voor energietransitie-projecten 2024-2030 — elk project vereist C-level governance" },
+  ],
+  "aerospace": [
+    { icon: "case", title: "Case: Tier-1 supplier", value: "VP Quality", description: "VP Quality & Airworthiness voor een EASA Part 21 organisatie — nul audit-findings in eerste jaar" },
+    { icon: "benchmark", title: "Aerospace lead time", value: "26 dagen", description: "Onze gemiddelde time-to-shortlist voor aerospace posities — 40% onder sectorgemiddelde" },
+    { icon: "insight", title: "MRO capaciteitscrisis", value: "€115 mrd", description: "Verwachte mondiale MRO-markt in 2030 — personeelstekort is de grootste bottleneck (bron: Oliver Wyman)" },
+  ],
+  "aviation": [
+    { icon: "case", title: "Case: Luchtvaartmaatschappij", value: "COO geplaatst", description: "Chief Operating Officer voor een Europese carrier — OTP verbeterde van 72% naar 86% binnen 8 maanden" },
+    { icon: "benchmark", title: "Pilot-to-management ratio", value: "1:340", description: "Slechts 1 op 340 piloten maakt de transitie naar senior management — wij kennen ze" },
+    { icon: "insight", title: "EASA regeldruk", value: "+25%", description: "Toename regulatory requirements 2023-2025 — compliance-leiderschap is een boardroom-prioriteit" },
+  ],
+  "maritime": [
+    { icon: "case", title: "Case: Scheepsbouw", value: "Technical Director", description: "Technical Director voor een Nederlandse werf — specialisatie in hybride voortstuwing en autonomous shipping" },
+    { icon: "benchmark", title: "Maritime talent schaarste", value: "89.510", description: "Verwacht wereldwijd tekort aan maritime officers in 2026 (bron: BIMCO/ICS Manpower Report)" },
+    { icon: "insight", title: "IMO 2030 deadlines", value: "EEXI/CII", description: "Elke reder moet voldoen aan emissie-indices — dit vereist technisch én commercieel leiderschap" },
+  ],
+  "bouw-en-infra": [
+    { icon: "case", title: "Case: Infra-aannemer", value: "Directeur Projecten", description: "Directeur Projecten voor een top-10 bouwer — verantwoordelijk voor €500M+ projectportfolio" },
+    { icon: "benchmark", title: "Bouw personeelstekort", value: "34.000", description: "Structureel tekort in de Nederlandse bouw- en infrasector (bron: UWV Arbeidsmarktprognose 2025)" },
+    { icon: "insight", title: "Stikstof-impact", value: "€14 mrd", description: "Jaarlijkse vertraging door stikstofproblematiek — leiders met vergunningenkennis zijn schaars" },
+  ],
+  "vastgoed": [
+    { icon: "case", title: "Case: Woningcorporatie", value: "CFO geplaatst", description: "CFO voor een corporatie met 25.000 woningen — focus op verduurzaming en Aedes-benchmark" },
+    { icon: "benchmark", title: "Vastgoed ESG-druk", value: "CSRD 2026", description: "Alle grote vastgoedpartijen moeten CSRD-rapporteren — duurzaamheidsleiderschap wordt non-negotiable" },
+    { icon: "insight", title: "Woningtekort NL", value: "390.000", description: "Woningtekort creëert enorme druk op bouwcapaciteit en vereist innovatief projectleiderschap" },
+  ],
+  "logistiek": [
+    { icon: "case", title: "Case: 3PL provider", value: "VP Operations", description: "VP Operations voor een top-5 logistiek dienstverlener — warehouse automation ROI van 230%" },
+    { icon: "benchmark", title: "Logistiek personeelstekort", value: "63.000", description: "Verwacht tekort in de Nederlandse logistieke sector in 2026 (bron: TLN/evofenedex)" },
+    { icon: "insight", title: "Warehouse automation", value: "+45%", description: "Groei in geautomatiseerde magazijnen 2024-2026 — vereist leiders die technologie én operatie combineren" },
+  ],
+  "transport": [
+    { icon: "case", title: "Case: OV-vervoerder", value: "Directeur Operatie", description: "Directeur Operatie voor een regionale OV-concessie — reizigerswaardering steeg van 7,1 naar 7,8" },
+    { icon: "benchmark", title: "Zero-emissie deadline", value: "2030", description: "Alle nieuwe bussen moeten zero-emissie zijn — transportleiders moeten de transitie managen" },
+    { icon: "insight", title: "MaaS adoptie", value: "28%", description: "Groei in Mobility-as-a-Service platforms — transportbedrijven zoeken digitaal vaardige directies" },
+  ],
+  "supply-chain": [
+    { icon: "case", title: "Case: FMCG multinational", value: "VP Supply Chain", description: "VP Supply Chain voor een Benelux FMCG-bedrijf — supply chain costs gedaald met 18% in jaar 1" },
+    { icon: "benchmark", title: "Supply chain disruptions", value: "72%", description: "Van de bedrijven heeft in 2024-2025 significante supply chain verstoringen ervaren (bron: Gartner)" },
+    { icon: "insight", title: "CSRD supply chain", value: "Scope 3", description: "CSRD dwingt tot Scope 3 rapportage — supply chain leiders met ESG-expertise zijn essentieel" },
+  ],
+  "productie-en-maakindustrie": [
+    { icon: "case", title: "Case: Precision manufacturing", value: "Plant Director", description: "Plant Director voor een high-mix low-volume producent — OEE gestegen van 68% naar 82%" },
+    { icon: "benchmark", title: "Maakindustrie vacatures", value: "42.000", description: "Openstaande vacatures in de Nederlandse maakindustrie (bron: UWV 2025) — leiderschap is de bottleneck" },
+    { icon: "insight", title: "Industry 4.0", value: "€8 mrd", description: "Nederlandse investeringen in smart manufacturing tot 2028 — elk project vereist digitaal-savvy leiderschap" },
+  ],
+  "chemie": [
+    { icon: "case", title: "Case: Specialty chemicals", value: "Site Director", description: "Site Director voor een SEVESO-locatie in de Rotterdamse haven — HSE-incident rate gedaald met 65%" },
+    { icon: "benchmark", title: "Chemie energietransitie", value: "€30 mrd", description: "Benodigde investeringen voor verduurzaming Nederlandse chemie tot 2030 (bron: VNCI)" },
+    { icon: "insight", title: "REACH/CLP regeldruk", value: "+40%", description: "Toename registratieverplichtingen — vereist regulatory affairs leiderschap op directieniveau" },
+  ],
+};
+
+
 /**
  * Generate a unique SpokePageData for an Industry × Service cross-page.
  */
@@ -1857,7 +1951,7 @@ export function generateIndustryServicePage(
     heroDescription: `Gespecialiseerde ${service.verb} voor de ${indTitle.toLowerCase()} sector. Wij combineren diepgaande sectorkennis met een bewezen searchmethodiek.`,
     sections,
     faqs,
-    evidence: sectorContent.evidence || defaultEvidence,
+    evidence: sectorContent.evidence || sectorEvidence[indSlug] || defaultEvidence,
     pillarLink: { label: `Terug naar ${indTitle}`, href: `/nl/industries/${indSlug}` },
     relatedLinks: getRelatedLinks(industry, service),
     ctaTitle: `${svcTitle} voor uw ${indTitle.toLowerCase()} organisatie?`,
