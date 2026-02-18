@@ -7,6 +7,7 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { PageMeta } from "@/components/PageMeta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { calculateScore } from "@/lib/seo-scorecard";
 import React from "react";
 
 /** Parse [text](/url) markdown links in a string into React elements */
@@ -75,32 +76,16 @@ export interface SpokePageData {
   noindex?: boolean;
 }
 
-/** Auto-check: does this page meet the index-ready quality bar? */
-function isIndexReady(data: SpokePageData): boolean {
-  if (data.noindex) return false;
-  // Must have ≥3 FAQs
-  if (data.faqs.length < 3) return false;
-  // Must have ≥3 content sections
-  if (data.sections.length < 3) return false;
-  // Must have ≥4 related links (internal linking)
-  if (data.relatedLinks.length < 4) return false;
-  // Content must be substantial (rough word count across sections)
-  const totalWords = data.sections.reduce((sum, s) => {
-    const words = s.content.split(/\s+/).length + (s.items?.join(" ").split(/\s+/).length || 0);
-    return sum + words;
-  }, 0);
-  if (totalWords < 200) return false;
-  return true;
-}
-
 const evidenceIcons = {
   case: CheckCircle,
   benchmark: BarChart3,
   insight: TrendingUp,
 };
 
+const isDev = import.meta.env.DEV;
+
 export function SpokePage({ data }: { data: SpokePageData }) {
-  const indexReady = isIndexReady(data);
+  const scorecard = calculateScore(data);
 
   const faqJsonLd = data.faqs.length > 0 ? {
     "@context": "https://schema.org",
@@ -119,12 +104,38 @@ export function SpokePage({ data }: { data: SpokePageData }) {
         description={data.metaDescription}
         locale="nl_NL"
         jsonLd={faqJsonLd as unknown as Record<string, unknown>}
-        noindex={!indexReady}
+        noindex={!scorecard.indexReady}
       />
       <Header />
       <div className="container">
         <Breadcrumbs items={data.breadcrumbs} />
       </div>
+
+      {/* DEV-only: SEO Scorecard overlay */}
+      {isDev && (
+        <div className="fixed bottom-4 right-4 z-50 w-80 rounded-xl border border-border bg-card p-4 shadow-xl text-xs">
+          <div className="flex items-center justify-between mb-2">
+            <span className="font-bold text-card-foreground">SEO Score</span>
+            <span className={`font-display text-2xl font-bold ${scorecard.indexReady ? "text-green-600" : "text-red-500"}`}>
+              {scorecard.total}/100
+            </span>
+          </div>
+          <div className={`mb-2 rounded px-2 py-1 text-center font-semibold ${scorecard.indexReady ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"}`}>
+            {scorecard.indexReady ? "✓ INDEX-READY" : "✗ NOINDEX"}
+          </div>
+          {Object.entries(scorecard.categories).map(([key, cat]) => (
+            <div key={key} className="mt-2">
+              <div className="flex justify-between font-semibold text-muted-foreground">
+                <span>{key === "uniqueValue" ? "A. Unieke Waarde" : key === "intentDepth" ? "B. Intent & Diepte" : key === "internalLinking" ? "C. Interne Links" : "D. Technische SEO"}</span>
+                <span>{cat.score}/{cat.max}</span>
+              </div>
+              {cat.details.map((d, i) => (
+                <p key={i} className="text-muted-foreground/70 pl-2">{d}</p>
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
 
       <main>
         {/* Hero */}
