@@ -19,6 +19,8 @@ interface PageMetaProps {
   locale?: string;
   /** Hreflang alternates for multilingual SEO */
   alternates?: HreflangAlternate[];
+  /** If true, add noindex,nofollow robots meta */
+  noindex?: boolean;
 }
 
 const BASE_URL = "https://onetimerecruit.nl";
@@ -42,6 +44,7 @@ export const PageMeta = ({
   canonical,
   locale = "nl_NL",
   alternates,
+  noindex = false,
 }: PageMetaProps) => {
   const { pathname } = useLocation();
   const fullCanonical = canonical || `${BASE_URL}${pathname}`;
@@ -63,6 +66,15 @@ export const PageMeta = ({
       }
       el.setAttribute("content", content);
     };
+
+    // Robots (noindex)
+    if (noindex) {
+      setMeta("name", "robots", "noindex,nofollow");
+    } else {
+      // Remove noindex if previously set
+      const robotsMeta = document.querySelector('meta[name="robots"]');
+      if (robotsMeta) robotsMeta.remove();
+    }
 
     // Standard meta
     setMeta("name", "description", description);
@@ -138,7 +150,7 @@ export const PageMeta = ({
       if (s) s.remove();
       document.querySelectorAll('link[data-hreflang]').forEach((el) => el.remove());
     };
-  }, [title, description, finalOgTitle, finalOgDescription, finalOgImage, ogType, fullCanonical, locale, alternates, jsonLd]);
+  }, [title, description, finalOgTitle, finalOgDescription, finalOgImage, ogType, fullCanonical, locale, alternates, jsonLd, noindex]);
 
   return null;
 };

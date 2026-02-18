@@ -38,6 +38,7 @@ interface SectorContent {
   trends: string;
   whyIntro: string;
   approach: string;
+  evidence?: { icon?: "case" | "benchmark" | "insight"; title: string; value?: string; description: string }[];
 }
 
 type ServiceContentMap = Record<string, SectorContent>;
@@ -1820,6 +1821,25 @@ export function generateIndustryServicePage(
       q: `Hoe snel kunnen jullie starten met een ${svcTitle.toLowerCase()} opdracht in ${indTitle.toLowerCase()}?`,
       a: `Wij kunnen doorgaans binnen 48 uur starten na akkoord. Een shortlist ontvangt u gemiddeld binnen 18 werkdagen.`,
     },
+    {
+      q: `Welke garantie bieden jullie bij ${svcTitle.toLowerCase()} in ${indTitle.toLowerCase()}?`,
+      a: `Wij bieden een garantieperiode van minimaal 6 maanden. Mocht de geplaatste kandidaat binnen deze periode vertrekken, dan herstarten wij de search kosteloos.`,
+    },
+    {
+      q: `Werken jullie ook internationaal voor de ${indTitle.toLowerCase()} sector?`,
+      a: `Ja, ons netwerk strekt zich uit over de Benelux, DACH-regio en het Verenigd Koninkrijk. Voor de ${indTitle.toLowerCase()} sector hebben wij specifieke ervaring met cross-border plaatsingen.`,
+    },
+    {
+      q: `Hoe verschilt jullie aanpak van een traditioneel recruitmentbureau?`,
+      a: `Wij combineren diepgaande sectorkennis met een data-driven methodiek. Waar traditionele bureaus breed werven, focussen wij op kwaliteit: een selecte shortlist van bewezen leiders die passen bij uw specifieke context in ${indTitle.toLowerCase()}.`,
+    },
+  ];
+
+  // Default evidence for all cross-pages
+  const defaultEvidence: SpokePageData["evidence"] = [
+    { icon: "benchmark", title: "Gemiddelde time-to-fill", value: "18 dagen", description: `Shortlist binnen 18 werkdagen voor ${indTitle.toLowerCase()} posities` },
+    { icon: "case", title: "Plaatsingsgarantie", value: "6 mnd", description: "Kosteloos herstarten bij vertrek binnen garantieperiode" },
+    { icon: "insight", title: "Sector-netwerk", value: "500+", description: `Actieve relaties met ${indTitle.toLowerCase()} professionals in de Benelux en DACH` },
   ];
 
   return {
@@ -1837,6 +1857,7 @@ export function generateIndustryServicePage(
     heroDescription: `Gespecialiseerde ${service.verb} voor de ${indTitle.toLowerCase()} sector. Wij combineren diepgaande sectorkennis met een bewezen searchmethodiek.`,
     sections,
     faqs,
+    evidence: sectorContent.evidence || defaultEvidence,
     pillarLink: { label: `Terug naar ${indTitle}`, href: `/nl/industries/${indSlug}` },
     relatedLinks: getRelatedLinks(industry, service),
     ctaTitle: `${svcTitle} voor uw ${indTitle.toLowerCase()} organisatie?`,

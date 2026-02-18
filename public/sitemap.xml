@@ -5,8 +5,7 @@
   <!-- NL Home -->
   <url>
     <loc>https://onetimerecruit.nl/nl</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-02-18</lastmod>
     <xhtml:link rel="alternate" hreflang="nl" href="https://onetimerecruit.nl/nl"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://onetimerecruit.nl/de"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://onetimerecruit.nl/en"/>
@@ -14,300 +13,97 @@
   </url>
 
   <!-- NL Hoofdpagina's -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/diensten</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/executive-search</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/over-ons</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/vacatures</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/opdrachtgevers</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/diensten</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/over-ons</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/contact</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/vacatures</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/opdrachtgevers</loc><lastmod>2026-02-18</lastmod></url>
 
-  <!-- NL Pillar/Hub pages -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/c-level-recruitment</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/assessment-selectie</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/industries</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/recruitment-operating-model</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/employer-branding-retention</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  <!-- NL Pillar pages (diensten) -->
+  <url><loc>https://onetimerecruit.nl/nl/diensten/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/diensten/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/diensten/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/diensten/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/diensten/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/diensten/employer-branding-retention</loc><lastmod>2026-02-18</lastmod></url>
+
+  <!-- NL Hub pages -->
+  <url><loc>https://onetimerecruit.nl/nl/industries</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- Executive Search spokes -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/wat-is-executive-search</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/executive-search-vs-headhunter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/kosten-executive-search</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/hoe-lang-duurt-executive-search</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/confidential-search</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/wat-is-executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/executive-search-vs-headhunter</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/kosten-executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/hoe-lang-duurt-executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/confidential-search</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- C-level spokes -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/ceo-recruitment</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/cfo-recruitment</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/cto-cio-recruitment</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/chro-recruitment</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/board-commissarissen-search</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/ceo-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/cfo-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/cto-cio-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/chro-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/board-commissarissen-search</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- Assessment spokes -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/star-interview-guide</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/assessment-inzetten</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/referentiechecks</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/culture-fit-vs-culture-add</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/star-interview-guide</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/assessment-inzetten</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/referentiechecks</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/culture-fit-vs-culture-add</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- Recruitment model spokes -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/talent-pool-per-vacature</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/recruitment-as-a-service</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/abonnement-recruitment</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/hiring-governance-reporting</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/talent-pool-per-vacature</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/recruitment-as-a-service</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/abonnement-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/hiring-governance-reporting</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- Industry spokes -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/aviation-recruitment</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/defence-hightech-recruitment</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/saas-it-leadership</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/finance-risk-compliance</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/operations-supply-chain</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/aviation-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/defence-hightech-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/saas-it-leadership</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/finance-risk-compliance</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/operations-supply-chain</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- Employer branding spokes -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/leadership-retention</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/onboarding-executives</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/employer-brand-senior-talent</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/compensation-benefits-trends</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/leadership-retention</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/onboarding-executives</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/employer-brand-senior-talent</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/compensation-benefits-trends</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- High-volume spokes -->
-  <url>
-    <loc>https://onetimerecruit.nl/nl/werving-en-selectie</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/headhunter-nederland</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/interim-management</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/directie-werving</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/nl/talent-acquisition-strategy</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/nl/werving-en-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/headhunter-nederland</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/interim-management</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/directie-werving</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/talent-acquisition-strategy</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- DE pages -->
   <url>
     <loc>https://onetimerecruit.nl/de</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-02-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://onetimerecruit.nl/nl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://onetimerecruit.nl/de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onetimerecruit.nl/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onetimerecruit.nl/nl"/>
   </url>
-  <url>
-    <loc>https://onetimerecruit.nl/de/leistungen</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/de/kontakt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/de/ueber-uns</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/de/stellenangebote</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/de/fuer-arbeitgeber</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/de/leistungen</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/kontakt</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/ueber-uns</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/stellenangebote</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/fuer-arbeitgeber</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- EN pages -->
   <url>
     <loc>https://onetimerecruit.nl/en</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-02-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://onetimerecruit.nl/nl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://onetimerecruit.nl/de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://onetimerecruit.nl/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://onetimerecruit.nl/nl"/>
   </url>
-  <url>
-    <loc>https://onetimerecruit.nl/en/services</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/en/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/en/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/en/jobs</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://onetimerecruit.nl/en/for-employers</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  <url><loc>https://onetimerecruit.nl/en/services</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/contact</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/about</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/jobs</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/for-employers</loc><lastmod>2026-02-18</lastmod></url>
 
 </urlset>

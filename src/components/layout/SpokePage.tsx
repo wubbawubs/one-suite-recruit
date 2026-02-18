@@ -1,7 +1,7 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowLeft } from "lucide-react";
+import { ArrowRight, ArrowLeft, CheckCircle, TrendingUp, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -47,6 +47,14 @@ interface BreadcrumbItem {
   href?: string;
 }
 
+/** Evidence module — case snippets, benchmarks, sector insights */
+export interface EvidenceItem {
+  icon?: "case" | "benchmark" | "insight";
+  title: string;
+  value?: string;
+  description: string;
+}
+
 export interface SpokePageData {
   metaTitle: string;
   metaDescription: string;
@@ -61,9 +69,39 @@ export interface SpokePageData {
   relatedLinks: RelatedLink[];
   ctaTitle?: string;
   ctaDescription?: string;
+  /** Evidence module — shows case snippets, benchmarks, sector insights */
+  evidence?: EvidenceItem[];
+  /** If true, force noindex (overrides auto-check) */
+  noindex?: boolean;
 }
 
+/** Auto-check: does this page meet the index-ready quality bar? */
+function isIndexReady(data: SpokePageData): boolean {
+  if (data.noindex) return false;
+  // Must have ≥3 FAQs
+  if (data.faqs.length < 3) return false;
+  // Must have ≥3 content sections
+  if (data.sections.length < 3) return false;
+  // Must have ≥4 related links (internal linking)
+  if (data.relatedLinks.length < 4) return false;
+  // Content must be substantial (rough word count across sections)
+  const totalWords = data.sections.reduce((sum, s) => {
+    const words = s.content.split(/\s+/).length + (s.items?.join(" ").split(/\s+/).length || 0);
+    return sum + words;
+  }, 0);
+  if (totalWords < 200) return false;
+  return true;
+}
+
+const evidenceIcons = {
+  case: CheckCircle,
+  benchmark: BarChart3,
+  insight: TrendingUp,
+};
+
 export function SpokePage({ data }: { data: SpokePageData }) {
+  const indexReady = isIndexReady(data);
+
   const faqJsonLd = data.faqs.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -81,6 +119,7 @@ export function SpokePage({ data }: { data: SpokePageData }) {
         description={data.metaDescription}
         locale="nl_NL"
         jsonLd={faqJsonLd as unknown as Record<string, unknown>}
+        noindex={!indexReady}
       />
       <Header />
       <div className="container">
@@ -115,6 +154,39 @@ export function SpokePage({ data }: { data: SpokePageData }) {
             {data.pillarLink.label}
           </Link>
         </div>
+
+        {/* Evidence module */}
+        {data.evidence && data.evidence.length > 0 && (
+          <section className="border-y border-border/50 bg-muted/20 py-12 md:py-16">
+            <div className="container">
+              <ScrollReveal className="mx-auto max-w-4xl">
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Bewezen resultaten</span>
+                <h2 className="mt-3 font-display text-xl font-bold text-foreground md:text-2xl">Cijfers & inzichten</h2>
+                <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {data.evidence.map((item, i) => {
+                    const IconComp = evidenceIcons[item.icon || "insight"];
+                    return (
+                      <div key={i} className="rounded-xl border border-border bg-card p-5 transition-all hover:border-accent/30 hover:shadow-sm">
+                        <div className="flex items-start gap-3">
+                          <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent/10">
+                            <IconComp className="h-4 w-4 text-accent" />
+                          </div>
+                          <div>
+                            <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">{item.title}</p>
+                            {item.value && (
+                              <p className="mt-1 font-display text-2xl font-bold text-foreground">{item.value}</p>
+                            )}
+                            <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{item.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </ScrollReveal>
+            </div>
+          </section>
+        )}
 
         {/* Content sections */}
         {data.sections.map((section, i) => (
