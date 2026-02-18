@@ -6,17 +6,17 @@ const footerNav = [
   {
     title: "Diensten",
     links: [
-      { label: "Executive Search", href: "/nl/executive-search" },
-      { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
-      { label: "Industries", href: "/nl/industries" },
+      { label: "Executive Search", href: "/nl/diensten/executive-search" },
+      { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
+      { label: "Leadership Advisory", href: "/nl/diensten/leadership-advisory" },
       { label: "Alle diensten", href: "/nl/diensten" },
     ],
   },
   {
     title: "Kennis",
     links: [
-      { label: "Assessment & Selectie", href: "/nl/assessment-selectie" },
-      { label: "Recruitment Model", href: "/nl/recruitment-operating-model" },
+      { label: "Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
+      { label: "Recruitment Model", href: "/nl/diensten/recruitment-operating-model" },
       { label: "Employer Branding", href: "/nl/employer-branding-retention" },
       { label: "Kosten Executive Search", href: "/nl/kosten-executive-search" },
     ],

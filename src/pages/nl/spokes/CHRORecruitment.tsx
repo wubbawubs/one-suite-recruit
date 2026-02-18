@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "CHRO recruitment: hoe u de juiste HR leider vindt voor organisatietransformatie. Assessment criteria, trends en best practices.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
     { label: "CHRO Recruitment" },
   ],
   heroLabel: "C-level Recruitment",
@@ -50,7 +50,7 @@ const data: SpokePageData = {
     { q: "Moet een CHRO HR-achtergrond hebben?", a: "Doorgaans wel, maar steeds vaker komen CHRO's uit aangrenzende disciplines zoals organisatieadvies, change management of zelfs operationeel management. De sleutel is strategisch vermogen en people-focus." },
     { q: "Hoe lang duurt CHRO recruitment?", a: "Gemiddeld 4-8 weken. De shortlist is bij OneTime Recruit doorgaans na 18 werkdagen gereed." },
   ],
-  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
+  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "Board & commissarissen search", href: "/nl/board-commissarissen-search" },

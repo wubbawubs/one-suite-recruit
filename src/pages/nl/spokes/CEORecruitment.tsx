@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "CEO recruitment: wanneer, hoe en waarom executive search inzetten voor uw nieuwe CEO. Inclusief assessment criteria, valkuilen en best practices.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
     { label: "CEO Recruitment" },
   ],
   heroLabel: "C-level Recruitment",
@@ -62,7 +62,7 @@ const data: SpokePageData = {
     { q: "Moet de nieuwe CEO altijd extern geworven worden?", a: "Niet noodzakelijk. Een goede CEO search omvat ook evaluatie van interne kandidaten. Soms is de beste kandidaat al binnen de organisatie, maar is externe benchmarking nodig om dit te valideren." },
     { q: "Wat kost CEO recruitment?", a: "Traditioneel rekenen bureaus 30-35% van het jaarsalaris. Bij OneTime Recruit werken wij met vaste tarieven, ongeacht het salarisniveau." },
   ],
-  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
+  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
   relatedLinks: [
     { label: "CFO recruitment", href: "/nl/cfo-recruitment" },
     { label: "Board & commissarissen search", href: "/nl/board-commissarissen-search" },

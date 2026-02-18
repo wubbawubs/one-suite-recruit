@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Hoe lang duurt een executive search traject? Ontdek de gemiddelde doorlooptijd per fase, van intake tot plaatsing. Inclusief tips om het proces te versnellen.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Executive Search", href: "/nl/executive-search" },
+    { label: "Executive Search", href: "/nl/diensten/executive-search" },
     { label: "Timeline Executive Search" },
   ],
   heroLabel: "Doorlooptijd",
@@ -51,7 +51,7 @@ const data: SpokePageData = {
     { q: "Waarom duurt executive search langer dan reguliere werving?", a: "Omdat executive search zich richt op passieve kandidaten die niet actief zoeken. Het benaderen, evalueren en overtuigen van deze kandidaten kost meer tijd, maar levert significant betere matches op." },
     { q: "Wat vertraagt een executive search traject het meest?", a: "De meest voorkomende vertraging is langzame besluitvorming aan de opdrachtgeverszijde: uitgestelde interviews, wijzigende profieleisen of onbereikbare stakeholders." },
   ],
-  pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
+  pillarLink: { label: "Terug naar Executive Search", href: "/nl/diensten/executive-search" },
   relatedLinks: [
     { label: "Wat is executive search?", href: "/nl/wat-is-executive-search" },
     { label: "Kosten executive search", href: "/nl/kosten-executive-search" },

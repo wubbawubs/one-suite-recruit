@@ -15,11 +15,12 @@ interface HreflangAlternate {
 const pageAlternatesMap: Record<string, Record<string, string>> = {
   home: { nl: "/nl", de: "/de", en: "/en" },
   diensten: { nl: "/nl/diensten", de: "/de/leistungen", en: "/en/services" },
+  "leadership-advisory": { nl: "/nl/diensten/leadership-advisory" },
   contact: { nl: "/nl/contact", de: "/de/kontakt", en: "/en/contact" },
   "over-ons": { nl: "/nl/over-ons", de: "/de/ueber-uns", en: "/en/about" },
   vacatures: { nl: "/nl/vacatures", de: "/de/stellenangebote", en: "/en/jobs" },
   opdrachtgevers: { nl: "/nl/opdrachtgevers", de: "/de/fuer-arbeitgeber", en: "/en/for-employers" },
-  "executive-search": { nl: "/nl/executive-search", de: "/de/executive-search", en: "/en/executive-search" },
+  "executive-search": { nl: "/nl/diensten/executive-search", de: "/de/executive-search", en: "/en/executive-search" },
 };
 
 /**
@@ -76,5 +77,25 @@ export const nlBreadcrumbs = {
     { label: "Home", href: "/nl" },
     { label: "Diensten", href: "/nl/diensten" },
     { label: "Executive Search" },
+  ],
+  "c-level-recruitment": [
+    { label: "Home", href: "/nl" },
+    { label: "Diensten", href: "/nl/diensten" },
+    { label: "C-level Recruitment" },
+  ],
+  "leadership-advisory": [
+    { label: "Home", href: "/nl" },
+    { label: "Diensten", href: "/nl/diensten" },
+    { label: "Leadership Advisory" },
+  ],
+  "recruitment-operating-model": [
+    { label: "Home", href: "/nl" },
+    { label: "Diensten", href: "/nl/diensten" },
+    { label: "Recruitment Operating Model" },
+  ],
+  "assessment-selectie": [
+    { label: "Home", href: "/nl" },
+    { label: "Diensten", href: "/nl/diensten" },
+    { label: "Assessment & Selectie" },
   ],
 };

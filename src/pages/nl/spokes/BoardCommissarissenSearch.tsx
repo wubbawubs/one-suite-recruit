@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Board search en commissarissen werving: hoe u de juiste toezichthouders en non-executive directors vindt. Governance, diversiteit en assessment.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
     { label: "Board & Commissarissen Search" },
   ],
   heroLabel: "C-level Recruitment",
@@ -49,7 +49,7 @@ const data: SpokePageData = {
     { q: "Hoe lang duurt board search?", a: "Board search duurt gemiddeld 6-10 weken, mede omdat kandidaten vaak langere opzegtermijnen en meer due diligence vereisen." },
     { q: "Wat kost commissarissen werving?", a: "Bij OneTime Recruit werken wij met vaste tarieven voor board search, vergelijkbaar met onze executive search tarieven." },
   ],
-  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
+  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "Confidential search", href: "/nl/confidential-search" },

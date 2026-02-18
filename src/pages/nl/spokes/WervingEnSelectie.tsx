@@ -5,7 +5,7 @@ const data = {
   metaDescription: "Werving en selectie voor executive en senior management posities. Ontdek hoe OneTime Recruit de juiste leiders vindt met bewezen methodiek en vaste tarieven.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Executive Search", href: "/nl/executive-search" },
+    { label: "Executive Search", href: "/nl/diensten/executive-search" },
     { label: "Werving en Selectie" },
   ],
   heroLabel: "Executive Werving",
@@ -15,7 +15,7 @@ const data = {
   sections: [
     {
       title: "Wat is executive werving en selectie?",
-      content: "Werving en selectie op executive niveau verschilt fundamenteel van reguliere recruitment. Het gaat niet om het plaatsen van vacatures en wachten op sollicitaties — het gaat om het proactief identificeren, benaderen en beoordelen van leiders die het verschil maken.\n\nBij OneTime Recruit combineren wij de snelheid van modern recruitment met de diepgang van [executive search](/nl/wat-is-executive-search). Onze consultants hebben gemiddeld 15+ jaar ervaring in het vinden van [C-level](/nl/c-level-recruitment), [directie](/nl/directie-werving) en VP-posities in Nederland.",
+      content: "Werving en selectie op executive niveau verschilt fundamenteel van reguliere recruitment. Het gaat niet om het plaatsen van vacatures en wachten op sollicitaties — het gaat om het proactief identificeren, benaderen en beoordelen van leiders die het verschil maken.\n\nBij OneTime Recruit combineren wij de snelheid van modern recruitment met de diepgang van [executive search](/nl/wat-is-executive-search). Onze consultants hebben gemiddeld 15+ jaar ervaring in het vinden van [C-level](/nl/diensten/c-level-recruitment), [directie](/nl/directie-werving) en VP-posities in Nederland.",
       items: [
         "Proactieve search in ons netwerk van 7.500+ executives",
         "Gestructureerde STAR-interviews voor objectieve beoordeling",
@@ -44,7 +44,7 @@ const data = {
     { q: "Voor welke functies is jullie werving en selectie geschikt?", a: "Wij specialiseren in C-level, directie, VP en senior management posities. Zowel vaste aanstellingen als interim opdrachten in alle sectoren." },
     { q: "Hoe snel kunnen jullie een shortlist leveren?", a: "Gemiddeld 18 werkdagen van intake tot shortlist. Bij urgente vacatures kunnen wij het proces versnellen tot 10 werkdagen." },
   ],
-  pillarLink: { label: "Terug naar Executive Search", href: "/nl/executive-search" },
+  pillarLink: { label: "Terug naar Executive Search", href: "/nl/diensten/executive-search" },
   relatedLinks: [
     { label: "Executive Search vs. Headhunter", href: "/nl/executive-search-vs-headhunter" },
     { label: "Kosten Executive Search", href: "/nl/kosten-executive-search" },

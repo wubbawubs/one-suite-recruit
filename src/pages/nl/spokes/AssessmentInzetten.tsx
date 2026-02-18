@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Wanneer zet u een assessment in bij recruitment? Ontdek de voor- en nadelen, de juiste timing en welke assessmenttypen het meest effectief zijn.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Assessment & Selectie", href: "/nl/assessment-selectie" },
+    { label: "Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
     { label: "Assessment Inzetten" },
   ],
   heroLabel: "Assessment & Selectie",
@@ -56,7 +56,7 @@ const data: SpokePageData = {
     { q: "Wat kost een assessment?", a: "De kosten variëren van €500 voor een eenvoudig online assessment tot €3.000-€5.000 voor een volledig assessment center. Bij OneTime Recruit is assessment inbegrepen in ons vaste tarief." },
     { q: "Mag een kandidaat een assessment weigeren?", a: "Ja. Het is raadzaam om het assessment als optioneel maar sterk aanbevolen te positioneren. Transparante communicatie over het doel verkleint de kans op weigeringen." },
   ],
-  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/assessment-selectie" },
+  pillarLink: { label: "Terug naar Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
   relatedLinks: [
     { label: "STAR interview guide", href: "/nl/star-interview-guide" },
     { label: "Referentiechecks", href: "/nl/referentiechecks" },

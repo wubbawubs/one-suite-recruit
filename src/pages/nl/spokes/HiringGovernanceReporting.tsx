@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Hiring governance en reporting voor enterprise organisaties. Hoe u controle houdt over uw recruitment proces met data-gedreven inzichten.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+    { label: "Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
     { label: "Hiring Governance & Reporting" },
   ],
   heroLabel: "Recruitment Model",
@@ -52,7 +52,7 @@ const data: SpokePageData = {
     { q: "Is hiring governance alleen voor grote organisaties?", a: "Nee. Elke organisatie die meer dan 3-4 executive posities per jaar invult, profiteert van een gestructureerd governance framework. De complexiteit schaalt mee met de organisatieomvang." },
     { q: "Hoe meet ik quality of hire?", a: "De meest betrouwbare indicatoren zijn retentie na 12 maanden, performance ratings na 6 en 12 maanden, en 360-graden feedback na het eerste jaar." },
   ],
-  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
   relatedLinks: [
     { label: "Recruitment-as-a-service", href: "/nl/recruitment-as-a-service" },
     { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },

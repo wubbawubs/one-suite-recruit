@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "Recruitment-as-a-service (RaaS) voor executives: hoe een abonnementsmodel uw executive recruitment structureel verbetert en goedkoper maakt.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+    { label: "Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
     { label: "Recruitment-as-a-Service" },
   ],
   heroLabel: "Recruitment Model",
@@ -57,7 +57,7 @@ const data: SpokePageData = {
     { q: "Hoe lang duurt een RaaS-contract?", a: "Ons standaard RaaS-abonnement loopt per jaar met maandelijkse facturatie. We bieden ook kortere pilotperiodes aan voor organisaties die het model willen testen." },
     { q: "Kan ik RaaS combineren met losse search-opdrachten?", a: "Ja. Sommige klanten gebruiken RaaS voor hun reguliere executive search en schakelen ons aanvullend in voor specifieke, complexe opdrachten zoals board search of confidential search." },
   ],
-  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/recruitment-operating-model" },
+  pillarLink: { label: "Terug naar Recruitment Operating Model", href: "/nl/diensten/recruitment-operating-model" },
   relatedLinks: [
     { label: "Abonnement recruitment", href: "/nl/abonnement-recruitment" },
     { label: "Talent pool per vacature", href: "/nl/talent-pool-per-vacature" },

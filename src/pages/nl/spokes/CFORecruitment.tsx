@@ -5,7 +5,7 @@ const data: SpokePageData = {
   metaDescription: "CFO recruitment: hoe u de juiste financieel leider vindt. Assessment criteria, veelgemaakte fouten en best practices voor CFO search.",
   breadcrumbs: [
     { label: "Home", href: "/nl" },
-    { label: "C-level Recruitment", href: "/nl/c-level-recruitment" },
+    { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
     { label: "CFO Recruitment" },
   ],
   heroLabel: "C-level Recruitment",
@@ -56,7 +56,7 @@ const data: SpokePageData = {
     { q: "Hoe lang duurt CFO recruitment?", a: "Gemiddeld 4-8 weken. Bij OneTime Recruit is de shortlist doorgaans na 18 werkdagen gereed." },
     { q: "Moet een CFO branche-ervaring hebben?", a: "Het is wenselijk maar niet altijd noodzakelijk. Financiële expertise en strategisch vermogen zijn vaak belangrijker dan specifieke sectorkennis. Dit hangt af van de complexiteit van uw sector." },
   ],
-  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/c-level-recruitment" },
+  pillarLink: { label: "Terug naar C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
   relatedLinks: [
     { label: "CEO recruitment", href: "/nl/ceo-recruitment" },
     { label: "CTO/CIO recruitment", href: "/nl/cto-cio-recruitment" },
