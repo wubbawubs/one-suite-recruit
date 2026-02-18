@@ -1,6 +1,8 @@
-import { useParams, Navigate } from "react-router-dom";
+import { useParams, Navigate, Link } from "react-router-dom";
 import { SpokePage } from "@/components/layout/SpokePage";
 import { getIndustryBySlug } from "@/data/industries";
+import { serviceDefinitions } from "@/data/industry-services";
+import { ArrowRight } from "lucide-react";
 
 export default function IndustryPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -10,5 +12,19 @@ export default function IndustryPage() {
     return <Navigate to="/nl/industries" replace />;
   }
 
-  return <SpokePage data={industry.pageData} />;
+  // Inject service cross-links into relatedLinks
+  const serviceLinks = serviceDefinitions.map((s) => ({
+    label: `${s.shortTitle} in ${industry.title.toLowerCase()}`,
+    href: `/nl/industries/${industry.slug}/${s.slug}`,
+  }));
+
+  const enhancedData = {
+    ...industry.pageData,
+    relatedLinks: [
+      ...serviceLinks,
+      ...industry.pageData.relatedLinks,
+    ],
+  };
+
+  return <SpokePage data={enhancedData} />;
 }
