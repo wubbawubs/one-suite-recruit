@@ -1,36 +1,54 @@
-import { Search, Users, Settings, ArrowRight } from "lucide-react";
+import { Search, Users, UserSearch, ClipboardCheck, Crown, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import sfeerWerving from "@/assets/sfeer-werving.jpg";
 import sfeerSelectie from "@/assets/sfeer-selectie.jpg";
 import sfeerAbonnement from "@/assets/sfeer-abonnement.jpg";
+import sfeerZoekopdracht from "@/assets/sfeer-zoekopdracht.jpg";
+import sfeerOverOns from "@/assets/sfeer-over-ons.jpg";
 
 const services = [
   {
-    icon: Search,
-    title: "Executive Search",
+    icon: Users,
+    title: "Werving & Selectie",
     description:
-      "Wij vinden de juiste C-level en senior executives voor uw organisatie. Met een exclusief netwerk en bewezen assessmentmethode.",
+      "Het vinden van de juiste professionals voor uw organisatie. Gericht, snel en met oog voor cultuurfit.",
     href: "/nl/diensten",
-    highlight: true,
     image: sfeerWerving,
     imagePosition: "center 35%",
   },
   {
-    icon: Users,
-    title: "Leadership Advisory",
+    icon: Search,
+    title: "Executive Search",
     description:
-      "Strategisch advies over leiderschap, teamsamenstelling en organisatieontwikkeling op het hoogste niveau.",
-    href: "/nl/diensten",
+      "C-level en senior executives die écht het verschil maken. Via onze exclusieve search methodiek en bewezen assessmentaanpak.",
+    href: "/nl/executive-search",
+    highlight: true,
     image: sfeerSelectie,
   },
   {
-    icon: Settings,
-    title: "Hiring OS by One Rooted",
+    icon: UserSearch,
+    title: "Interim Search",
     description:
-      "Wij bouwen uw eigen recruitment operating model zodat u zelfstandig toptalent kunt werven. Powered by One Rooted.",
-    href: "https://onerooted.nl",
+      "Direct beschikbare interim professionals voor kritische posities. Bewezen leiders die binnen dagen kunnen starten.",
+    href: "/nl/diensten",
+    image: sfeerZoekopdracht,
+  },
+  {
+    icon: ClipboardCheck,
+    title: "Assessment",
+    description:
+      "Objectieve evaluatie van kandidaten en leiders. Competentie-based assessments en cultuurfit-analyses.",
+    href: "/nl/assessment-selectie",
     image: sfeerAbonnement,
+  },
+  {
+    icon: Crown,
+    title: "Leadership",
+    description:
+      "Strategisch advies over leiderschap, succesplanning en organisatieontwikkeling op het hoogste niveau.",
+    href: "/nl/diensten",
+    image: sfeerOverOns,
   },
 ];
 
@@ -46,11 +64,11 @@ export function ServicesSection() {
             Wat wij voor u doen
           </h2>
           <p className="mt-4 text-base md:text-lg text-muted-foreground leading-relaxed">
-            Drie kerngebieden waarin we excelleren, allemaal gericht op het vinden en behouden van uitzonderlijk talent.
+            Vijf kerngebieden waarin we excelleren — van werving tot leiderschap.
           </p>
         </ScrollReveal>
 
-        <StaggerContainer className="mt-10 md:mt-16 grid gap-4 md:gap-6 md:grid-cols-3" stagger={0.12}>
+        <StaggerContainer className="mt-10 md:mt-16 grid gap-4 md:gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5" stagger={0.08}>
           {services.map((s) => (
             <StaggerItem key={s.title} variant="fade-up">
               <Link
