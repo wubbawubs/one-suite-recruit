@@ -16,7 +16,7 @@ import { toast } from "sonner";
 const contactInfo = [
   { icon: Phone, label: "Telefoon", value: "+31 6 17 22 61 86", href: "tel:+31617226186" },
   { icon: Mail, label: "E-mail", value: "info@onetimerecruit.nl", href: "mailto:info@onetimerecruit.nl" },
-  { icon: MapPin, label: "Locatie", value: "Amsterdam, Nederland", href: "#" },
+  { icon: MapPin, label: "Locatie", value: "Nijmegen, Nederland", href: "#" },
   { icon: Clock, label: "Bereikbaar", value: "Ma-Vr 08:30-18:00", href: "#" },
 ];
 
@@ -71,7 +71,7 @@ const NLContact = () => {
             name: "One Time Recruit",
             telephone: "+31617226186",
             email: "info@onetimerecruit.nl",
-            address: { "@type": "PostalAddress", addressLocality: "Amsterdam", addressCountry: "NL" },
+            address: { "@type": "PostalAddress", addressLocality: "Nijmegen", addressCountry: "NL" },
           },
         }}
       />
