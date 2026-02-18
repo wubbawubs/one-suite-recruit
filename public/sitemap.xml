@@ -25,10 +25,12 @@
   <url><loc>https://onetimerecruit.nl/nl/diensten/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/nl/diensten/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/nl/diensten/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
-  <url><loc>https://onetimerecruit.nl/nl/diensten/employer-branding-retention</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/employer-branding-retention</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/dienst</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- NL Hub pages -->
   <url><loc>https://onetimerecruit.nl/nl/industries</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- Executive Search spokes -->
   <url><loc>https://onetimerecruit.nl/nl/wat-is-executive-search</loc><lastmod>2026-02-18</lastmod></url>
@@ -56,13 +58,6 @@
   <url><loc>https://onetimerecruit.nl/nl/abonnement-recruitment</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/nl/hiring-governance-reporting</loc><lastmod>2026-02-18</lastmod></url>
 
-  <!-- Industry spokes -->
-  <url><loc>https://onetimerecruit.nl/nl/aviation-recruitment</loc><lastmod>2026-02-18</lastmod></url>
-  <url><loc>https://onetimerecruit.nl/nl/defence-hightech-recruitment</loc><lastmod>2026-02-18</lastmod></url>
-  <url><loc>https://onetimerecruit.nl/nl/saas-it-leadership</loc><lastmod>2026-02-18</lastmod></url>
-  <url><loc>https://onetimerecruit.nl/nl/finance-risk-compliance</loc><lastmod>2026-02-18</lastmod></url>
-  <url><loc>https://onetimerecruit.nl/nl/operations-supply-chain</loc><lastmod>2026-02-18</lastmod></url>
-
   <!-- Employer branding spokes -->
   <url><loc>https://onetimerecruit.nl/nl/leadership-retention</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/nl/onboarding-executives</loc><lastmod>2026-02-18</lastmod></url>
@@ -75,6 +70,249 @@
   <url><loc>https://onetimerecruit.nl/nl/interim-management</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/nl/directie-werving</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/nl/talent-acquisition-strategy</loc><lastmod>2026-02-18</lastmod></url>
+
+  <!-- ═══ INDUSTRY PAGES (31) ═══ -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/high-tech</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/it-en-software</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/saas</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cybersecurity</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/defence-en-security</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aerospace</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aviation</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/maritime</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/energie-en-utilities</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/renewable-energy</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cleantech</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/bouw-en-infra</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/vastgoed</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/logistiek</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/transport</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/supply-chain</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/productie-en-maakindustrie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/chemie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/food-en-beverage</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/agri-en-tuinbouw</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/retail</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/e-commerce</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consumentengoederen</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/financiele-dienstverlening</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/banken</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/verzekeringen</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/fintech</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/accountancy</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consultancy</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/legal</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/hr-services</loc><lastmod>2026-02-18</lastmod></url>
+
+  <!-- ═══ INDUSTRY × SERVICE CROSS-PAGES (155) ═══ -->
+  <!-- High-Tech -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/high-tech/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/high-tech/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/high-tech/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/high-tech/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/high-tech/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- IT & Software -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/it-en-software/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/it-en-software/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/it-en-software/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/it-en-software/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/it-en-software/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- SaaS -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/saas/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/saas/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/saas/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/saas/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/saas/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Cybersecurity -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/cybersecurity/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cybersecurity/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cybersecurity/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cybersecurity/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cybersecurity/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Defence & Security -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/defence-en-security/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/defence-en-security/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/defence-en-security/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/defence-en-security/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/defence-en-security/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Aerospace -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/aerospace/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aerospace/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aerospace/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aerospace/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aerospace/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Aviation -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/aviation/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aviation/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aviation/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aviation/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/aviation/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Maritime -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/maritime/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/maritime/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/maritime/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/maritime/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/maritime/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Energie & Utilities -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/energie-en-utilities/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/energie-en-utilities/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/energie-en-utilities/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/energie-en-utilities/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/energie-en-utilities/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Renewable Energy -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/renewable-energy/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/renewable-energy/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/renewable-energy/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/renewable-energy/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/renewable-energy/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Cleantech -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/cleantech/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cleantech/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cleantech/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cleantech/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/cleantech/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Bouw & Infra -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/bouw-en-infra/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/bouw-en-infra/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/bouw-en-infra/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/bouw-en-infra/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/bouw-en-infra/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Vastgoed -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/vastgoed/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/vastgoed/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/vastgoed/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/vastgoed/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/vastgoed/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Logistiek -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/logistiek/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/logistiek/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/logistiek/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/logistiek/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/logistiek/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Transport -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/transport/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/transport/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/transport/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/transport/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/transport/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Supply Chain -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/supply-chain/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/supply-chain/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/supply-chain/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/supply-chain/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/supply-chain/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Productie & Maakindustrie -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/productie-en-maakindustrie/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/productie-en-maakindustrie/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/productie-en-maakindustrie/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/productie-en-maakindustrie/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/productie-en-maakindustrie/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Chemie -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/chemie/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/chemie/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/chemie/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/chemie/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/chemie/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Food & Beverage -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/food-en-beverage/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/food-en-beverage/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/food-en-beverage/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/food-en-beverage/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/food-en-beverage/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Agri & Tuinbouw -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/agri-en-tuinbouw/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/agri-en-tuinbouw/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/agri-en-tuinbouw/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/agri-en-tuinbouw/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/agri-en-tuinbouw/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Retail -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/retail/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/retail/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/retail/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/retail/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/retail/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- E-commerce -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/e-commerce/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/e-commerce/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/e-commerce/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/e-commerce/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/e-commerce/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Consumentengoederen -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/consumentengoederen/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consumentengoederen/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consumentengoederen/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consumentengoederen/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consumentengoederen/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Financiële Dienstverlening -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/financiele-dienstverlening/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/financiele-dienstverlening/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/financiele-dienstverlening/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/financiele-dienstverlening/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/financiele-dienstverlening/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Banken -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/banken/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/banken/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/banken/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/banken/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/banken/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Verzekeringen -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/verzekeringen/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/verzekeringen/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/verzekeringen/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/verzekeringen/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/verzekeringen/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Fintech -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/fintech/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/fintech/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/fintech/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/fintech/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/fintech/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Accountancy -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/accountancy/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/accountancy/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/accountancy/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/accountancy/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/accountancy/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Consultancy -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/consultancy/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consultancy/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consultancy/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consultancy/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/consultancy/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- Legal -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/legal/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/legal/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/legal/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/legal/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/legal/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+  <!-- HR Services -->
+  <url><loc>https://onetimerecruit.nl/nl/industries/hr-services/executive-search</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/hr-services/c-level-recruitment</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/hr-services/assessment-selectie</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/hr-services/leadership-advisory</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/industries/hr-services/recruitment-operating-model</loc><lastmod>2026-02-18</lastmod></url>
+
+  <!-- ═══ ROLE PAGES (20) ═══ -->
+  <url><loc>https://onetimerecruit.nl/nl/functies/ceo-chief-executive-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cfo-chief-financial-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/coo-chief-operating-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cto-chief-technology-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cio-chief-information-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/ciso-chief-information-security-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cdo-chief-digital-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/chief-data-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cmo-chief-marketing-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/chro-chief-hr-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cpo-chief-product-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cso-chief-strategy-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/cro-chief-revenue-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/chief-compliance-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/chief-risk-officer</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/managing-director</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/country-manager</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/general-manager</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/business-unit-director</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/nl/functies/operations-director</loc><lastmod>2026-02-18</lastmod></url>
 
   <!-- DE pages -->
   <url>
