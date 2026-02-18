@@ -1,7 +1,7 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowLeft, CheckCircle, TrendingUp, BarChart3 } from "lucide-react";
+import { ArrowRight, ArrowLeft, CheckCircle, TrendingUp, BarChart3, AlertTriangle, Briefcase, Target, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -248,6 +248,73 @@ export function SpokePage({ data }: { data: SpokePageData }) {
           </section>
         )}
 
+        {/* Role Snapshot */}
+        {data.roleSnapshot && (
+          <section className="py-12 md:py-16">
+            <div className="container">
+              <ScrollReveal className="mx-auto max-w-3xl">
+                <div className="flex items-center gap-2 mb-4">
+                  <Briefcase className="h-5 w-5 text-accent" />
+                  <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Rolprofiel</span>
+                </div>
+                <h2 className="font-display text-xl font-bold text-foreground md:text-2xl">Scope & verantwoordelijkheden</h2>
+                <p className="mt-3 text-sm text-muted-foreground">{data.roleSnapshot.scope}</p>
+                <p className="mt-1 text-sm text-muted-foreground">Rapporteert aan: <span className="font-medium text-foreground">{data.roleSnapshot.reportingLines}</span></p>
+                <ul className="mt-6 space-y-3">
+                  {data.roleSnapshot.responsibilities.map((r, i) => (
+                    <li key={i} className="flex items-start gap-3 text-[15px] text-muted-foreground">
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+                      {r}
+                    </li>
+                  ))}
+                </ul>
+              </ScrollReveal>
+            </div>
+          </section>
+        )}
+
+        {/* Hiring Signals & Risks */}
+        {data.hiringSignals && (
+          <section className="border-y border-border/50 bg-muted/30 py-12 md:py-16">
+            <div className="container">
+              <ScrollReveal className="mx-auto max-w-4xl">
+                <div className="grid gap-8 md:grid-cols-2">
+                  <div>
+                    <div className="flex items-center gap-2 mb-4">
+                      <Target className="h-5 w-5 text-accent" />
+                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Hiring signals</span>
+                    </div>
+                    <h3 className="font-display text-lg font-bold text-foreground">Wanneer u deze rol nodig heeft</h3>
+                    <ul className="mt-4 space-y-3">
+                      {data.hiringSignals.signals.map((s, i) => (
+                        <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
+                          <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                          {parseInlineLinks(s)}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 mb-4">
+                      <AlertTriangle className="h-5 w-5 text-destructive" />
+                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-destructive">Faalrisico's</span>
+                    </div>
+                    <h3 className="font-display text-lg font-bold text-foreground">Veelvoorkomende valkuilen</h3>
+                    <ul className="mt-4 space-y-3">
+                      {data.hiringSignals.risks.map((r, i) => (
+                        <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
+                          <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-destructive/60" />
+                          {parseInlineLinks(r)}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </ScrollReveal>
+            </div>
+          </section>
+        )}
+
         {/* Content sections */}
         {data.sections.map((section, i) => (
           <section key={i} className={`py-16 md:py-20 ${i % 2 === 1 ? "bg-muted/30" : ""}`}>
@@ -273,6 +340,76 @@ export function SpokePage({ data }: { data: SpokePageData }) {
             </div>
           </section>
         ))}
+
+        {/* SERP-fit: Intent bullets */}
+        {data.serpFit?.intentBullets && data.serpFit.intentBullets.length > 0 && (
+          <section className="py-16 md:py-20">
+            <div className="container">
+              <ScrollReveal className="mx-auto max-w-3xl">
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Wat mensen willen weten</span>
+                <h2 className="mt-3 font-display text-2xl font-bold text-foreground md:text-3xl">Veelgezochte vragen</h2>
+                <div className="mt-8 space-y-4">
+                  {data.serpFit.intentBullets.map((bullet, i) => {
+                    const [question, ...rest] = bullet.split(" — ");
+                    const answer = rest.join(" — ");
+                    return (
+                      <div key={i} className="rounded-xl border border-border bg-card p-5">
+                        <p className="font-display text-sm font-semibold text-card-foreground">{question}</p>
+                        {answer && <p className="mt-1 text-sm text-muted-foreground">{parseInlineLinks(answer)}</p>}
+                      </div>
+                    );
+                  })}
+                </div>
+              </ScrollReveal>
+            </div>
+          </section>
+        )}
+
+        {/* SERP-fit: Comparison table */}
+        {data.serpFit?.comparison && data.serpFit.comparison.length > 0 && (
+          <section className="border-y border-border/50 bg-muted/30 py-16 md:py-20">
+            <div className="container">
+              <ScrollReveal className="mx-auto max-w-3xl">
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Vergelijking</span>
+                <h2 className="mt-3 font-display text-2xl font-bold text-foreground md:text-3xl">Onze aanpak vs. standaard bureau</h2>
+                <div className="mt-8 overflow-hidden rounded-xl border border-border">
+                  <div className="grid grid-cols-3 bg-muted/50 px-5 py-3 text-xs font-bold uppercase tracking-wider text-muted-foreground">
+                    <span>Aspect</span>
+                    <span>Standaard</span>
+                    <span className="text-accent">One Time Recruit</span>
+                  </div>
+                  {data.serpFit.comparison.map((row, i) => (
+                    <div key={i} className={`grid grid-cols-3 px-5 py-4 text-sm ${i % 2 === 0 ? "bg-card" : "bg-muted/20"}`}>
+                      <span className="font-medium text-card-foreground">{row.label}</span>
+                      <span className="text-muted-foreground">{parseInlineLinks(row.standard)}</span>
+                      <span className="font-medium text-foreground">{parseInlineLinks(row.otr)}</span>
+                    </div>
+                  ))}
+                </div>
+              </ScrollReveal>
+            </div>
+          </section>
+        )}
+
+        {/* SERP-fit: Decision checklist */}
+        {data.serpFit?.checklist && data.serpFit.checklist.length > 0 && (
+          <section className="py-16 md:py-20">
+            <div className="container">
+              <ScrollReveal className="mx-auto max-w-3xl">
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Checklist</span>
+                <h2 className="mt-3 font-display text-2xl font-bold text-foreground md:text-3xl">Decision criteria</h2>
+                <div className="mt-8 grid gap-3 sm:grid-cols-2">
+                  {data.serpFit.checklist.map((item, i) => (
+                    <div key={i} className="flex items-start gap-3 rounded-xl border border-border bg-card p-4">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                      <span className="text-sm text-card-foreground">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </ScrollReveal>
+            </div>
+          </section>
+        )}
 
         {/* FAQ */}
         {data.faqs.length > 0 && (
