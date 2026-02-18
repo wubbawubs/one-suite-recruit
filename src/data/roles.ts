@@ -2,7 +2,8 @@ import type { SpokePageData } from "@/components/layout/SpokePage";
 import {
   Crown, Coins, Settings, Cpu, Monitor, Megaphone, Users, Package, Target,
   TrendingUp, ShieldCheck, Smartphone, Database, Scale, AlertTriangle,
-  Briefcase, Globe, Building2, BarChart3, Factory
+  Briefcase, Globe, Building2, BarChart3, Factory, Landmark, Gavel,
+  ShoppingCart, Wrench, Code, Presentation, CircuitBoard
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -385,6 +386,195 @@ const roles: RoleData[] = [
       faqs: [{ q: "Wat is het verschil met een COO?", a: "De Operations Director is doorgaans meer hands-on en rapporteert aan de COO of CEO, terwijl de COO een C-level positie is." }],
       pillarLink: { label: "Alle functies", href: "/nl/functies" },
       relatedLinks: [{ label: "COO", href: "/nl/functies/coo-chief-operating-officer" }, { label: "Supply chain", href: "/nl/industries/supply-chain" }, { label: "Productie", href: "/nl/industries/productie-en-maakindustrie" }],
+    },
+  },
+  // ─── DIRECTORS (continued) ───
+  {
+    slug: "finance-director", title: "Finance Director", shortTitle: "Finance Director", description: "Financieel management, reporting en business partnering.", icon: Coins, cluster: "directors",
+    pageData: {
+      metaTitle: "Finance Director Recruitment | One Time Recruit", metaDescription: "Executive search voor Finance Directors. Rolprofiel, interviewvragen en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "Finance Director" }],
+      heroLabel: "Functies", heroTitle: "Finance Director:", heroHighlight: "financieel fundament", heroDescription: "De Finance Director waarborgt financiële gezondheid en levert strategisch inzicht aan het managementteam.",
+      sections: [
+        { title: "Rolprofiel: Finance Director", content: "De Finance Director is verantwoordelijk voor de volledige financiële functie van de organisatie. Anders dan de CFO, die strategisch op board-niveau opereert, is de Finance Director vaak meer hands-on betrokken bij de dagelijkse financiële operatie.\n\nDe ideale Finance Director combineert technische financiële expertise met het vermogen om als business partner te fungeren voor het managementteam." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden van de Finance Director:", items: ["Financiële rapportage, budgettering en forecasting", "Management van het finance-team (controllers, accountants, treasury)", "Business partnering — financiële inzichten vertalen naar strategische beslissingen", "Audit, compliance en interne controle", "Cash management en werkkapitaaloptimalisatie", "ERP-implementatie en financiële digitalisering"] },
+        { title: "Interviewvragen", content: "Aanbevolen interviewvragen voor Finance Director-kandidaten:", items: ["Hoe heeft u de financiële rapportage verbeterd of geautomatiseerd?", "Beschrijf een situatie waarin uw financiële analyse een strategische beslissing heeft beïnvloed.", "Hoe balanceert u de rol van financieel bewaker met die van business partner?", "Wat is uw ervaring met ERP-migraties of financiële transformatieprojecten?", "Hoe bouwt u een high-performing finance team?"] },
+        { title: "Succes-KPI's en salarisbenchmark", content: "KPI's: forecast accuracy, days to close, working capital ratio, cost-to-revenue ratio, audit resultaten.\n\nSalarisbenchmark Nederland: €100.000 – €180.000 base salary, afhankelijk van organisatieomvang en complexiteit." },
+      ],
+      faqs: [
+        { q: "Wat is het verschil tussen een Finance Director en een CFO?", a: "De CFO is een C-level strategische positie met board-verantwoordelijkheid. De Finance Director is meer operationeel en rapporteert doorgaans aan de CFO of CEO." },
+        { q: "Is RA/RC-registratie vereist?", a: "Niet altijd verplicht, maar in de praktijk wel sterk gewaardeerd. Steeds meer organisaties zoeken Finance Directors met een combinatie van RA en MBA." },
+      ],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "CFO", href: "/nl/functies/cfo-chief-financial-officer" }, { label: "CEO", href: "/nl/functies/ceo-chief-executive-officer" }, { label: "Accountancy sector", href: "/nl/industries/accountancy" }],
+    },
+  },
+  {
+    slug: "hr-director", title: "HR Director", shortTitle: "HR Director", description: "HR-strategie, talent management en organisatieontwikkeling.", icon: Users, cluster: "directors",
+    pageData: {
+      metaTitle: "HR Director Recruitment | One Time Recruit", metaDescription: "Executive search voor HR Directors. Rolprofiel, verantwoordelijkheden en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "HR Director" }],
+      heroLabel: "Functies", heroTitle: "HR Director:", heroHighlight: "people strategie", heroDescription: "De HR Director bouwt de organisatie van morgen via talent, cultuur en organisatieontwikkeling.",
+      sections: [
+        { title: "Rolprofiel: HR Director", content: "De HR Director is verantwoordelijk voor de HR-strategie en de volledige employee lifecycle. In de huidige arbeidsmarkt is de HR Director een cruciale strategische partner die direct bijdraagt aan bedrijfsresultaten via talent acquisition, retentie en organisatieontwikkeling.\n\nDe rol verschilt van de CHRO door een meer operationele focus en directe aansturing van het HR-team." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["HR-strategie en workforce planning", "Talent acquisition en [employer branding](/nl/employer-brand-senior-talent)", "Performance management en talentontwikkeling", "Compensation & benefits en job grading", "Organisatieontwikkeling en change management", "HR-systemen (HRIS) en people analytics"] },
+        { title: "Interviewvragen", content: "Aanbevolen vragen:", items: ["Hoe heeft u employer branding ingezet om schaars talent aan te trekken?", "Beschrijf een organisatieverandering die u heeft begeleid.", "Hoe meet u de effectiviteit van HR-initiatieven?", "Wat is uw visie op de toekomst van werk (hybride, AI, skills-based)?", "Hoe bouwt u een data-driven HR-functie?"] },
+        { title: "Salarisbenchmark", content: "KPI's: employee engagement score, time-to-fill, voluntary turnover rate, eNPS, diversity metrics.\n\nSalarisbenchmark: €100.000 – €170.000 base salary." },
+      ],
+      faqs: [
+        { q: "Wat is het verschil met een CHRO?", a: "De CHRO is een C-level boardroom-positie. De HR Director is meer operationeel en rapporteert aan de CHRO, CEO of Managing Director." },
+        { q: "Is HR-certificering vereist?", a: "Niet verplicht, maar SHRM, CIPD of vergelijkbare certificeringen worden gewaardeerd." },
+      ],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "CHRO", href: "/nl/functies/chro-chief-hr-officer" }, { label: "HR Services sector", href: "/nl/industries/hr-services" }, { label: "Leadership retention", href: "/nl/leadership-retention" }],
+    },
+  },
+  {
+    slug: "vp-sales", title: "VP Sales", shortTitle: "VP Sales", description: "Sales strategie, team leiderschap en revenue groei.", icon: TrendingUp, cluster: "commercial",
+    pageData: {
+      metaTitle: "VP Sales Recruitment via Executive Search | One Time Recruit", metaDescription: "Executive search voor VP Sales. Rolprofiel, interviewvragen en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "VP Sales" }],
+      heroLabel: "Functies", heroTitle: "VP Sales:", heroHighlight: "revenue engine", heroDescription: "De VP Sales bouwt en leidt het salesteam dat de omzetdoelstellingen realiseert.",
+      sections: [
+        { title: "Rolprofiel: VP Sales", content: "De VP Sales is verantwoordelijk voor de volledige sales-organisatie en -strategie. Van het bouwen van het salesteam tot het ontwerpen van de go-to-market strategie — de VP Sales is de drijvende kracht achter omzetgroei.\n\nIn B2B en SaaS-omgevingen wordt de VP Sales steeds meer beoordeeld op metrics als pipeline velocity, win rate en sales efficiency naast pure omzetcijfers." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["Sales strategie en go-to-market planning", "Team building, coaching en performance management", "Pipeline management en revenue forecasting", "Key account management en enterprise sales", "Sales operations, enablement en tooling", "Samenwerking met marketing (demand generation) en customer success"] },
+        { title: "Interviewvragen", content: "Aanbevolen vragen:", items: ["Hoe heeft u een sales-organisatie opgebouwd of geschaald?", "Beschrijf uw aanpak voor het opzetten van een sales playbook.", "Hoe gaat u om met een underperformend salesteam?", "Wat is uw ervaring met enterprise sales cycles van 6+ maanden?", "Hoe balanceert u new business met account expansion?"] },
+        { title: "Salarisbenchmark", content: "KPI's: ARR/omzetgroei, pipeline coverage, win rate, average deal size, sales cycle length, quota attainment.\n\nSalarisbenchmark: €120.000 – €200.000 base salary + significante variabele beloning (OTE €180.000 – €350.000+)." },
+      ],
+      faqs: [
+        { q: "Wanneer heb ik een VP Sales nodig vs. een Sales Director?", a: "Een VP Sales opereert op strategisch niveau en rapporteert aan de CEO/CRO. Een Sales Director is meer tactisch en hands-on in het dagelijkse saleswerk." },
+        { q: "Is sectorervaring cruciaal?", a: "Het hangt af van de complexiteit van uw product. Bij enterprise B2B en SaaS is domeinkennis vaak essentieel voor geloofwaardigheid." },
+      ],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "CRO", href: "/nl/functies/cro-chief-revenue-officer" }, { label: "CMO", href: "/nl/functies/cmo-chief-marketing-officer" }, { label: "SaaS sector", href: "/nl/industries/saas" }],
+    },
+  },
+  {
+    slug: "vp-marketing", title: "VP Marketing", shortTitle: "VP Marketing", description: "Marketing strategie, brand building en demand generation.", icon: Megaphone, cluster: "commercial",
+    pageData: {
+      metaTitle: "VP Marketing Recruitment via Executive Search | One Time Recruit", metaDescription: "Executive search voor VP Marketing. Rolprofiel en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "VP Marketing" }],
+      heroLabel: "Functies", heroTitle: "VP Marketing:", heroHighlight: "merk & groei", heroDescription: "De VP Marketing bouwt het merk, genereert demand en vertaalt marketing naar meetbare bedrijfsresultaten.",
+      sections: [
+        { title: "Rolprofiel: VP Marketing", content: "De VP Marketing leidt de marketingfunctie en is verantwoordelijk voor merkstrategie, demand generation, content en marketing operations. In moderne organisaties is de VP Marketing een data-driven leider die marketing direct koppelt aan pipeline en omzet.\n\nDe rol is met name cruciaal bij B2B-bedrijven en SaaS-organisaties waar marketing steeds vaker wordt afgerekend op pipeline contribution." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["Brand strategy en positionering", "Demand generation en lead nurturing", "Content strategy en thought leadership", "Marketing operations en MarTech stack", "Analytics, attribution en ROI-rapportage", "Alignment met sales (smarketing)"] },
+        { title: "Interviewvragen", content: "Vragen:", items: ["Hoe meet u de ROI van marketing en hoe rapporteert u aan de board?", "Beschrijf een succesvolle demand generation campagne die u heeft opgezet.", "Hoe bouwt u een MarTech stack op?", "Wat is uw visie op AI in marketing?"] },
+        { title: "Salarisbenchmark", content: "KPI's: MQL/SQL volume, pipeline contribution, CAC, brand awareness, website traffic growth.\n\nSalarisbenchmark: €110.000 – €180.000 base salary." },
+      ],
+      faqs: [{ q: "Wat is het verschil met een CMO?", a: "De CMO is een C-level boardroom-positie met bredere strategische scope. De VP Marketing is meer executie-gericht en rapporteert aan de CMO of CEO." }],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "CMO", href: "/nl/functies/cmo-chief-marketing-officer" }, { label: "VP Sales", href: "/nl/functies/vp-sales" }, { label: "E-commerce sector", href: "/nl/industries/e-commerce" }],
+    },
+  },
+  {
+    slug: "vp-engineering", title: "VP Engineering", shortTitle: "VP Engineering", description: "Engineering leiderschap, team schaling en delivery excellence.", icon: Code, cluster: "digital",
+    pageData: {
+      metaTitle: "VP Engineering Recruitment via Executive Search | One Time Recruit", metaDescription: "Executive search voor VP Engineering. Rolprofiel, interviewvragen en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "VP Engineering" }],
+      heroLabel: "Functies", heroTitle: "VP Engineering:", heroHighlight: "engineering excellence", heroDescription: "De VP Engineering bouwt en leidt het engineering-team dat uw product realiseert.",
+      sections: [
+        { title: "Rolprofiel: VP Engineering", content: "De VP Engineering is verantwoordelijk voor het engineering-team, de development-processen en de delivery van het product. Terwijl de CTO zich richt op technologische visie en architectuur, focust de VP Engineering op people management, teamschaling en execution.\n\nDit is een cruciale rol bij scale-ups die groeien van 10 naar 100+ engineers — het verschil tussen chaos en excellentie." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["Engineering team management en schaling", "Agile/Scrum processen en delivery cadence", "Technische kwaliteit, code reviews en engineering standards", "Recruitment en retentie van engineers", "Samenwerking met product (roadmap delivery)", "Engineering culture en developer experience"] },
+        { title: "Interviewvragen", content: "Vragen:", items: ["Hoe heeft u een engineering-organisatie geschaald van X naar Y engineers?", "Hoe balanceert u technische schuld met feature delivery?", "Beschrijf hoe u engineering-productiviteit meet.", "Hoe gaat u om met underperformance in het team?", "Wat is uw aanpak voor remote/hybrid engineering teams?"] },
+        { title: "Salarisbenchmark", content: "KPI's: deployment frequency, lead time, engineering velocity, MTTR, developer satisfaction.\n\nSalarisbenchmark: €120.000 – €220.000 base salary, vaak met equity bij scale-ups." },
+      ],
+      faqs: [
+        { q: "Wat is het verschil met een CTO?", a: "De CTO focust op technologische strategie en architectuur. De VP Engineering focust op het team, processen en delivery. Bij grotere organisaties zijn het twee aparte rollen." },
+        { q: "Is hands-on coding ervaring vereist?", a: "Een sterke technische achtergrond is essentieel voor geloofwaardigheid. De VP Engineering hoeft niet dagelijks te coderen, maar moet technische discussies op architectuurniveau kunnen voeren." },
+      ],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "CTO", href: "/nl/functies/cto-chief-technology-officer" }, { label: "VP Product", href: "/nl/functies/vp-product" }, { label: "IT & Software", href: "/nl/industries/it-en-software" }],
+    },
+  },
+  {
+    slug: "vp-product", title: "VP Product", shortTitle: "VP Product", description: "Productmanagement, roadmap en product-market fit.", icon: Package, cluster: "commercial",
+    pageData: {
+      metaTitle: "VP Product Recruitment via Executive Search | One Time Recruit", metaDescription: "Executive search voor VP Product. Rolprofiel en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "VP Product" }],
+      heroLabel: "Functies", heroTitle: "VP Product:", heroHighlight: "product leiderschap", heroDescription: "De VP Product bepaalt wat er gebouwd wordt, waarom, en zorgt dat het product waarde levert voor klanten en business.",
+      sections: [
+        { title: "Rolprofiel: VP Product", content: "De VP Product leidt het productmanagement-team en is verantwoordelijk voor de productstrategie, roadmap-prioritering en het waarborgen van product-market fit. In SaaS en tech-bedrijven is dit een van de meest impactvolle rollen.\n\nDe VP Product opereert op het snijvlak van klant, business en technologie — en moet alle drie domeinen begrijpen om de juiste trade-offs te maken." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["Productstrategie en -visie", "Roadmap-prioritering (impact vs. effort)", "User research en klantvalidatie", "Cross-functionele samenwerking (engineering, sales, marketing)", "Product analytics en KPI-management", "Product team building en mentoring"] },
+        { title: "Interviewvragen", content: "Vragen:", items: ["Hoe prioriteert u features wanneer alles urgent lijkt?", "Beschrijf hoe u product-market fit heeft gevonden of verbeterd.", "Hoe gaat u om met conflicterende input van sales, engineering en klanten?", "Wat is uw aanpak voor product discovery?"] },
+        { title: "Salarisbenchmark", content: "KPI's: feature adoption rate, NPS, time-to-value, retention/churn impact, revenue per feature.\n\nSalarisbenchmark: €110.000 – €200.000 base salary, vaak met equity." },
+      ],
+      faqs: [{ q: "Wat is het verschil met een CPO?", a: "De CPO is de C-level versie met bredere strategische scope en board-verantwoordelijkheid. De VP Product is meer executie-gericht." }],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "CPO", href: "/nl/functies/cpo-chief-product-officer" }, { label: "VP Engineering", href: "/nl/functies/vp-engineering" }, { label: "SaaS sector", href: "/nl/industries/saas" }],
+    },
+  },
+  {
+    slug: "vp-operations", title: "VP Operations", shortTitle: "VP Operations", description: "Operationeel leiderschap, procesoptimalisatie en schaalbare organisaties.", icon: Settings, cluster: "directors",
+    pageData: {
+      metaTitle: "VP Operations Recruitment via Executive Search | One Time Recruit", metaDescription: "Executive search voor VP Operations. Rolprofiel en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "VP Operations" }],
+      heroLabel: "Functies", heroTitle: "VP Operations:", heroHighlight: "operationele schaling", heroDescription: "De VP Operations bouwt schaalbare operaties en zorgt dat de organisatie efficiënt groeit.",
+      sections: [
+        { title: "Rolprofiel: VP Operations", content: "De VP Operations is verantwoordelijk voor het ontwerpen, optimaliseren en schalen van bedrijfsoperaties. Deze rol is cruciaal bij snelgroeiende organisaties waar processen moeten meegroeien met de business.\n\nDe VP Operations combineert strategisch denken met hands-on execution — van supply chain tot customer operations, van quality management tot continuous improvement." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["Operationele strategie en procesoptimalisatie", "Supply chain management en leveranciersbeheer", "Kwaliteitsmanagement en compliance", "Capacity planning en resource allocation", "Lean/Six Sigma en continuous improvement", "Cross-functionele samenwerking en operationele KPI's"] },
+        { title: "Interviewvragen", content: "Vragen:", items: ["Hoe heeft u operaties geschaald bij snelle groei?", "Beschrijf een procesverbetering die u heeft geïmplementeerd en het meetbare resultaat.", "Hoe balanceert u kosten, kwaliteit en snelheid?", "Wat is uw ervaring met lean of Six Sigma methodologieën?"] },
+        { title: "Salarisbenchmark", content: "KPI's: operational efficiency, OTD (on-time delivery), cost reduction, quality metrics, customer satisfaction.\n\nSalarisbenchmark: €110.000 – €190.000 base salary." },
+      ],
+      faqs: [{ q: "Wat is het verschil met een COO?", a: "De COO is een C-level boardroom-positie. De VP Operations is meer executie-gericht en rapporteert aan de COO of CEO." }],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "COO", href: "/nl/functies/coo-chief-operating-officer" }, { label: "Operations Director", href: "/nl/functies/operations-director" }, { label: "Supply chain sector", href: "/nl/industries/supply-chain" }],
+    },
+  },
+  {
+    slug: "head-of-legal", title: "Head of Legal", shortTitle: "Head of Legal", description: "Juridische strategie, compliance en contractmanagement.", icon: Gavel, cluster: "governance",
+    pageData: {
+      metaTitle: "Head of Legal Recruitment | One Time Recruit", metaDescription: "Executive search voor Head of Legal. Rolprofiel, verantwoordelijkheden en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "Head of Legal" }],
+      heroLabel: "Functies", heroTitle: "Head of Legal:", heroHighlight: "juridisch leiderschap", heroDescription: "De Head of Legal beschermt de organisatie en maakt complexe transacties mogelijk.",
+      sections: [
+        { title: "Rolprofiel: Head of Legal", content: "De Head of Legal (of General Counsel) is verantwoordelijk voor alle juridische aangelegenheden van de organisatie. Van contractmanagement tot M&A-ondersteuning, van compliance tot intellectual property — de Head of Legal is zowel beschermer als enabler.\n\nIn een wereld van toenemende regulering (AVG, AI Act, ESG-wetgeving) wordt deze rol steeds strategischer." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["Juridische strategie en risk management", "Contractmanagement en commercial law", "M&A due diligence en deal-structurering", "Compliance (AVG, sectorspecifieke regelgeving)", "Intellectual property en data governance", "Aansturen van extern juridisch counsel", "Corporate governance en board support"] },
+        { title: "Interviewvragen", content: "Vragen:", items: ["Hoe balanceert u juridische risico's met commerciële snelheid?", "Beschrijf een complex M&A- of compliance-traject dat u heeft geleid.", "Hoe maakt u juridisch advies toegankelijk voor niet-juristen?", "Wat is uw ervaring met AI-gerelateerde regulering?"] },
+        { title: "Salarisbenchmark", content: "KPI's: contract turnaround time, compliance score, litigation costs, legal spend management.\n\nSalarisbenchmark: €110.000 – €200.000 base salary, hoger bij internationale organisaties." },
+      ],
+      faqs: [
+        { q: "Moet een Head of Legal advocaat zijn?", a: "Een juridische achtergrond is essentieel. De meeste Head of Legals zijn advocaat of bedrijfsjurist met relevante praktijkervaring." },
+        { q: "In welke sectoren is deze rol het meest kritisch?", a: "In zwaar gereguleerde sectoren (finance, pharma, tech) en bij M&A-intensieve organisaties is de Head of Legal een cruciale strategische functie." },
+      ],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "Chief Compliance Officer", href: "/nl/functies/chief-compliance-officer" }, { label: "Chief Risk Officer", href: "/nl/functies/chief-risk-officer" }, { label: "Legal sector", href: "/nl/industries/legal" }],
+    },
+  },
+  {
+    slug: "head-of-procurement", title: "Head of Procurement", shortTitle: "Head of Procurement", description: "Inkoopstrategie, leveranciersmanagement en cost optimization.", icon: ShoppingCart, cluster: "directors",
+    pageData: {
+      metaTitle: "Head of Procurement Recruitment | One Time Recruit", metaDescription: "Executive search voor Head of Procurement. Rolprofiel en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "Head of Procurement" }],
+      heroLabel: "Functies", heroTitle: "Head of Procurement:", heroHighlight: "strategisch inkopen", heroDescription: "De Head of Procurement transformeert inkoop van kostenpost naar strategische waardecreatie.",
+      sections: [
+        { title: "Rolprofiel: Head of Procurement", content: "De Head of Procurement (of CPO — Chief Procurement Officer) is verantwoordelijk voor de inkoopstrategie, leveranciersrelaties en cost optimization. In een wereld van supply chain disrupties, ESG-eisen en geopolitieke risico's is strategisch inkopen crucialer dan ooit.\n\nDe moderne procurement-leider gaat verder dan kostenreductie: supplier innovation, sustainability en risk management zijn kernverantwoordelijkheden." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["Inkoopstrategie en category management", "Leveranciersselectie, -beoordeling en -ontwikkeling", "Contract-onderhandelingen en TCO-optimalisatie", "Supply chain risk management en dual sourcing", "Sustainable procurement en ESG-compliance", "Procurement digitalisering (P2P, e-procurement)"] },
+        { title: "Interviewvragen", content: "Vragen:", items: ["Hoe heeft u significante kostenbesparingen gerealiseerd zonder kwaliteitsverlies?", "Beschrijf hoe u leveranciersrisico's heeft gemanaged tijdens supply chain disrupties.", "Wat is uw aanpak voor sustainable procurement?", "Hoe digitaliseert u het inkoopproces?"] },
+        { title: "Salarisbenchmark", content: "KPI's: cost savings %, supplier performance score, contract compliance, sustainable sourcing %.\n\nSalarisbenchmark: €100.000 – €170.000 base salary." },
+      ],
+      faqs: [{ q: "Is procurement-ervaring in mijn sector vereist?", a: "Sectorkennis is een plus, maar de beste procurement-leiders brengen best practices mee uit andere sectoren. Category-specifieke ervaring is belangrijker dan sectorervaring." }],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "VP Operations", href: "/nl/functies/vp-operations" }, { label: "COO", href: "/nl/functies/coo-chief-operating-officer" }, { label: "Supply chain sector", href: "/nl/industries/supply-chain" }, { label: "Productie sector", href: "/nl/industries/productie-en-maakindustrie" }],
+    },
+  },
+  {
+    slug: "head-of-it", title: "Head of IT", shortTitle: "Head of IT", description: "IT-management, infrastructuur en digitale dienstverlening.", icon: CircuitBoard, cluster: "digital",
+    pageData: {
+      metaTitle: "Head of IT Recruitment | One Time Recruit", metaDescription: "Executive search voor Head of IT. Rolprofiel, verantwoordelijkheden en salarisbenchmark.",
+      breadcrumbs: [{ label: "Home", href: "/nl" }, { label: "Functies", href: "/nl/functies" }, { label: "Head of IT" }],
+      heroLabel: "Functies", heroTitle: "Head of IT:", heroHighlight: "digitale ruggengraat", heroDescription: "De Head of IT zorgt dat de technologische infrastructuur de business ondersteunt en beschermt.",
+      sections: [
+        { title: "Rolprofiel: Head of IT", content: "De Head of IT is verantwoordelijk voor de IT-infrastructuur, applicaties, servicedesk en informatiebeveiliging van de organisatie. Anders dan de CIO, die strategisch op boardroom-niveau opereert, is de Head of IT meer hands-on betrokken bij de dagelijkse IT-operatie.\n\nMet toenemende cyberdreigingen, cloud-migraties en AI-integratie wordt deze rol steeds complexer en strategischer." },
+        { title: "Verantwoordelijkheden", content: "Kernverantwoordelijkheden:", items: ["IT-infrastructuur en cloud management", "Applicatiebeheer en ERP/CRM-systemen", "Cybersecurity en informatiebeveiliging", "IT-servicedesk en end-user support", "IT-budget en vendor management", "Digitale transformatie-projecten en AI-integratie"] },
+        { title: "Interviewvragen", content: "Vragen:", items: ["Hoe heeft u een cloud-migratie geleid?", "Beschrijf uw aanpak voor cybersecurity in een organisatie zonder dedicated CISO.", "Hoe prioriteert u IT-investeringen met beperkt budget?", "Wat is uw ervaring met het managen van IT-vendors en outsourcing?", "Hoe zorgt u voor adoption van nieuwe systemen?"] },
+        { title: "Salarisbenchmark", content: "KPI's: system uptime, incident response time, user satisfaction score, security incidents, project on-time delivery.\n\nSalarisbenchmark: €90.000 – €150.000 base salary." },
+      ],
+      faqs: [
+        { q: "Wat is het verschil met een CIO?", a: "De CIO is een C-level strategische positie. De Head of IT is meer operationeel en rapporteert aan de CIO, CFO of CEO." },
+        { q: "Is technische achtergrond vereist?", a: "Ja, een sterke technische basis is essentieel. Maar de Head of IT moet ook people management en business partnering beheersen." },
+      ],
+      pillarLink: { label: "Alle functies", href: "/nl/functies" },
+      relatedLinks: [{ label: "CIO", href: "/nl/functies/cio-chief-information-officer" }, { label: "CISO", href: "/nl/functies/ciso-chief-information-security-officer" }, { label: "IT & Software sector", href: "/nl/industries/it-en-software" }],
     },
   },
 ];
