@@ -31,6 +31,7 @@ import ENForEmployers from "./pages/en/ForEmployers";
 import NLAssessmentSelectie from "./pages/nl/AssessmentSelectie";
 import NLIndustriesHub from "./pages/nl/IndustriesHub";
 import NLIndustryPage from "./pages/nl/IndustryPage";
+import NLIndustryServicePage from "./pages/nl/IndustryServicePage";
 import NLRolesHub from "./pages/nl/RolesHub";
 import NLRolePage from "./pages/nl/RolePage";
 import NLRecruitmentOperatingModel from "./pages/nl/RecruitmentOperatingModel";
@@ -109,6 +110,7 @@ const App = () => (
           {/* NL other hubs */}
           <Route path="/nl/industries" element={<NLIndustriesHub />} />
           <Route path="/nl/industries/:slug" element={<NLIndustryPage />} />
+          <Route path="/nl/industries/:slug/:service" element={<NLIndustryServicePage />} />
           <Route path="/nl/functies" element={<NLRolesHub />} />
           <Route path="/nl/functies/:slug" element={<NLRolePage />} />
           <Route path="/nl/employer-branding-retention" element={<NLEmployerBrandingRetention />} />
