@@ -56,6 +56,32 @@ export interface EvidenceItem {
   description: string;
 }
 
+/** Page type determines index-ready threshold */
+export type SpokePageType = "pillar" | "hub" | "spoke" | "functie" | "industry" | "cross";
+
+/** SERP-fit module — intent bullets + comparison + checklist */
+export interface SerpFitModule {
+  /** "Wat mensen echt willen weten" — 3-5 intent bullets */
+  intentBullets?: string[];
+  /** "Onze aanpak vs. standaard bureau" — comparison points */
+  comparison?: { label: string; standard: string; otr: string }[];
+  /** "Decision criteria checklist" — for featured snippets */
+  checklist?: string[];
+}
+
+/** Role-specific snapshot (for functiepagina's) */
+export interface RoleSnapshot {
+  responsibilities: string[];
+  scope: string;
+  reportingLines: string;
+}
+
+/** Hiring signals & risks (for functiepagina's) */
+export interface HiringSignals {
+  signals: string[];
+  risks: string[];
+}
+
 export interface SpokePageData {
   metaTitle: string;
   metaDescription: string;
@@ -74,6 +100,14 @@ export interface SpokePageData {
   evidence?: EvidenceItem[];
   /** If true, force noindex (overrides auto-check) */
   noindex?: boolean;
+  /** Page type — determines index-ready threshold (default: "spoke") */
+  pageType?: SpokePageType;
+  /** SERP-fit module — intent matching for #1 rankings */
+  serpFit?: SerpFitModule;
+  /** Role snapshot (functiepagina's only) */
+  roleSnapshot?: RoleSnapshot;
+  /** Hiring signals & risks (functiepagina's only) */
+  hiringSignals?: HiringSignals;
 }
 
 const evidenceIcons = {
@@ -111,29 +145,44 @@ export function SpokePage({ data }: { data: SpokePageData }) {
         <Breadcrumbs items={data.breadcrumbs} />
       </div>
 
-      {/* DEV-only: SEO Scorecard overlay */}
+      {/* DEV-only: SEO Scorecard v2 overlay */}
       {isDev && (
-        <div className="fixed bottom-4 right-4 z-50 w-80 rounded-xl border border-border bg-card p-4 shadow-xl text-xs">
+        <div className="fixed bottom-4 right-4 z-50 w-96 max-h-[80vh] overflow-y-auto rounded-xl border border-border bg-card p-4 shadow-xl text-xs">
           <div className="flex items-center justify-between mb-2">
-            <span className="font-bold text-card-foreground">SEO Score</span>
+            <div>
+              <span className="font-bold text-card-foreground">SEO Score v2</span>
+              <span className="ml-2 rounded bg-muted px-1.5 py-0.5 text-[10px] text-muted-foreground">{scorecard.pageType}</span>
+            </div>
             <span className={`font-display text-2xl font-bold ${scorecard.indexReady ? "text-green-600" : "text-red-500"}`}>
               {scorecard.total}/100
             </span>
           </div>
           <div className={`mb-2 rounded px-2 py-1 text-center font-semibold ${scorecard.indexReady ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"}`}>
-            {scorecard.indexReady ? "✓ INDEX-READY" : "✗ NOINDEX"}
+            {scorecard.indexReady ? "✓ INDEX-READY" : `✗ NOINDEX (drempel: ${scorecard.threshold})`}
           </div>
-          {Object.entries(scorecard.categories).map(([key, cat]) => (
-            <div key={key} className="mt-2">
-              <div className="flex justify-between font-semibold text-muted-foreground">
-                <span>{key === "uniqueValue" ? "A. Unieke Waarde" : key === "intentDepth" ? "B. Intent & Diepte" : key === "internalLinking" ? "C. Interne Links" : "D. Technische SEO"}</span>
-                <span>{cat.score}/{cat.max}</span>
+          {Object.entries(scorecard.categories).map(([key, cat]) => {
+            const labels: Record<string, string> = {
+              uniqueIntro: "1. Unieke Intro",
+              proofClaims: "2. Bewijs & Claims",
+              evidence: "3. Evidence Module",
+              faqQuality: "4. FAQ Kwaliteit",
+              internalLinks: "5. Interne Links",
+              serpFit: "6. SERP-fit",
+              structuredData: "7. Structured Data",
+              contentDepth: "8. Content Diepte",
+            };
+            return (
+              <div key={key} className="mt-2">
+                <div className="flex justify-between font-semibold text-muted-foreground">
+                  <span>{labels[key] || key}</span>
+                  <span className={cat.score >= cat.max * 0.7 ? "text-green-600" : cat.score >= cat.max * 0.4 ? "text-yellow-600" : "text-red-500"}>{cat.score}/{cat.max}</span>
+                </div>
+                {cat.details.map((d: string, i: number) => (
+                  <p key={i} className="text-muted-foreground/70 pl-2">{d}</p>
+                ))}
               </div>
-              {cat.details.map((d, i) => (
-                <p key={i} className="text-muted-foreground/70 pl-2">{d}</p>
-              ))}
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
 
