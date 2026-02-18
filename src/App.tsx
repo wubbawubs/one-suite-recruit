@@ -30,6 +30,8 @@ import ENForEmployers from "./pages/en/ForEmployers";
 import NLAssessmentSelectie from "./pages/nl/AssessmentSelectie";
 import NLIndustriesHub from "./pages/nl/IndustriesHub";
 import NLIndustryPage from "./pages/nl/IndustryPage";
+import NLRolesHub from "./pages/nl/RolesHub";
+import NLRolePage from "./pages/nl/RolePage";
 import NLRecruitmentOperatingModel from "./pages/nl/RecruitmentOperatingModel";
 import NLEmployerBrandingRetention from "./pages/nl/EmployerBrandingRetention";
 // Executive Search spokes
@@ -105,6 +107,8 @@ const App = () => (
           {/* NL other hubs */}
           <Route path="/nl/industries" element={<NLIndustriesHub />} />
           <Route path="/nl/industries/:slug" element={<NLIndustryPage />} />
+          <Route path="/nl/functies" element={<NLRolesHub />} />
+          <Route path="/nl/functies/:slug" element={<NLRolePage />} />
           <Route path="/nl/employer-branding-retention" element={<NLEmployerBrandingRetention />} />
 
           {/* Redirects from old industry URLs to new /nl/industries/... */}
