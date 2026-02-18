@@ -10,46 +10,39 @@ import { getAlternates } from "@/lib/seo";
 
 const services = [
   {
+    icon: Users,
+    title: "Recruitment & Selection",
+    description: "Finding the right professionals for your organisation. Targeted, fast and with an eye for cultural fit and long-term match.",
+    features: ["Mid- to senior-level placements", "Shortlist within 18 days", "Cultural fit analysis", "Fixed fee, no surprises"],
+    href: "/en/services",
+  },
+  {
     icon: Search,
     title: "Executive Search",
-    description: "We find the right C-level and senior executives for your organisation. Through our exclusive network and proven assessment methodology, we identify leaders who truly make the difference.",
-    features: ["C-suite & VP-level placements", "Competency-based assessment", "Cultural fit analysis", "18-day average turnaround"],
+    description: "We find the right C-level and senior executives for your organisation. Through our exclusive network and proven assessment methodology.",
+    features: ["C-suite & VP-level placements", "Competency-based assessment", "Exclusive network of 7,500+ executives", "Shortlist within 18 days"],
     href: "/en/services",
     highlight: true,
   },
   {
-    icon: Users,
-    title: "Leadership Advisory",
-    description: "Strategic advice on leadership, team composition and organisational development at the highest level. We help future-proof your leadership team.",
-    features: ["Leadership evaluations", "Succession planning", "Team effectiveness analysis", "Board advisory"],
-    href: "/en/contact",
-  },
-  {
-    icon: Settings,
-    title: "Hiring OS by One Rooted",
-    description: "We build your own recruitment operating model so you can independently attract top talent. Powered by One Rooted.",
-    features: ["Process audit & optimisation", "Employer branding strategy", "ATS implementation", "Recruiter training"],
-    href: "https://onerooted.nl/en/",
-  },
-  {
     icon: Target,
-    title: "Interim Management",
-    description: "Immediately available interim executives for critical positions. Proven leaders who can start within days and make an immediate impact.",
-    features: ["Rapid availability", "Experienced executives", "Flexible contract forms", "Seamless handover"],
+    title: "Interim Search",
+    description: "Immediately available interim professionals for critical positions. Proven leaders who can start within days and make an immediate impact.",
+    features: ["Rapid availability", "Experienced professionals", "Flexible contract forms", "Seamless handover"],
     href: "/en/services",
   },
   {
     icon: BarChart3,
-    title: "Talent Mapping",
-    description: "Strategic insights into the talent market. We map the availability and quality of talent in your sector.",
-    features: ["Market analysis per sector", "Competitive benchmarking", "Salary insights", "Availability reporting"],
+    title: "Assessment",
+    description: "Objective evaluation of candidates and leaders. From competency-based assessments to cultural fit analyses and leadership evaluations.",
+    features: ["STAR interviews", "Cultural fit analysis", "Competency assessments", "Leadership evaluations"],
     href: "/en/services",
   },
   {
     icon: Briefcase,
-    title: "Onboarding Support",
-    description: "Guidance for new leaders during their first 100 days. So your investment in talent immediately translates into results.",
-    features: ["100-day programme", "Stakeholder alignment", "Quick wins identification", "Performance monitoring"],
+    title: "Leadership",
+    description: "Strategic advice on leadership, team composition and organisational development at the highest level. Future-proofing your leadership team.",
+    features: ["Succession planning", "Team effectiveness analysis", "Board advisory", "Organisational development"],
     href: "/en/services",
   },
 ];
@@ -58,14 +51,14 @@ const ENServices = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Services — OneTime Recruit"
+        title="Services — One Time Recruit"
         description="From executive search to interim management and talent mapping. Discover our strategic recruitment services for enterprise organisations."
         locale="en_US"
         alternates={getAlternates("diensten", ["nl", "de", "en"])}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Service",
-          provider: { "@type": "Organization", name: "OneTime Recruit" },
+          provider: { "@type": "Organization", name: "One Time Recruit" },
           serviceType: "Executive Search",
           areaServed: [{ "@type": "Country", name: "Netherlands" }, { "@type": "Country", name: "Germany" }],
           description: "Strategic executive search and recruitment services for enterprise organisations.",
@@ -86,7 +79,7 @@ const ENServices = () => {
                 Traditional recruitment <span className="text-accent">costs more than you think</span>
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/55">
-                Hidden fees, months-long timelines and zero transparency. We do it differently, fixed fee, 18 days, and you stay in control.
+                Hidden fees, months-long timelines and zero transparency. We do it differently — fixed fee, shortlist in 18 days, and you stay in control.
               </p>
             </ScrollReveal>
           </div>
@@ -124,7 +117,7 @@ const ENServices = () => {
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center">
               {[
                 { value: "500+", label: "Successful placements" },
-                { value: "18", label: "Days avg. turnaround" },
+                { value: "18", label: "Days to shortlist" },
                 { value: "98%", label: "Client satisfaction" },
                 { value: "7,500+", label: "Specialists in network" },
               ].map((m) => (
