@@ -333,7 +333,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://onetimerecruit.nl/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://onetimerecruit.nl/nl"/>
   </url>
-  <url><loc>https://onetimerecruit.nl/de/leistungen</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/leistungen</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/leistungen/personalvermittlung</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/leistungen/executive-search</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/leistungen/interim-search</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/leistungen/assessment</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/de/leistungen/leadership</loc><lastmod>2026-02-22</lastmod></url>
   <url><loc>https://onetimerecruit.nl/de/kontakt</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/de/ueber-uns</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/de/stellenangebote</loc><lastmod>2026-02-18</lastmod></url>
@@ -348,7 +353,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://onetimerecruit.nl/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://onetimerecruit.nl/nl"/>
   </url>
-  <url><loc>https://onetimerecruit.nl/en/services</loc><lastmod>2026-02-18</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/services</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/services/recruitment-selection</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/services/executive-search</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/services/interim-search</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/services/assessment</loc><lastmod>2026-02-22</lastmod></url>
+  <url><loc>https://onetimerecruit.nl/en/services/leadership</loc><lastmod>2026-02-22</lastmod></url>
   <url><loc>https://onetimerecruit.nl/en/contact</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/en/about</loc><lastmod>2026-02-18</lastmod></url>
   <url><loc>https://onetimerecruit.nl/en/jobs</loc><lastmod>2026-02-18</lastmod></url>
