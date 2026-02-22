@@ -61,7 +61,7 @@ export default function DELeadership() {
                 <Button asChild size="lg" className="h-13 rounded-full bg-accent px-10 text-[15px] font-semibold text-accent-foreground shadow-lg hover:bg-accent/90">
                   <Link to="/de/kontakt">Gespräch vereinbaren <ArrowRight className="ml-2 h-4 w-4" /></Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="h-13 rounded-full border-primary-foreground/20 px-8 text-[15px] font-semibold text-primary-foreground hover:bg-primary-foreground/10">
+                <Button asChild variant="outline" size="lg" className="h-13 rounded-full border-2 border-primary-foreground/30 px-8 text-[15px] font-semibold text-primary-foreground hover:bg-primary-foreground/10">
                   <Link to="/de/leistungen">Alle Leistungen</Link>
                 </Button>
               </div>
