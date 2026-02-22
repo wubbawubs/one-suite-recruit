@@ -14,14 +14,14 @@ const services = [
     title: "Personalvermittlung",
     description: "Die richtigen Fachkräfte für Ihr Unternehmen finden. Zielgerichtet, schnell und mit Blick auf kulturelle Passung und langfristigen Erfolg.",
     features: ["Mid- bis Senior-Level Besetzungen", "Shortlist in 18 Tagen", "Kulturpassungs-Analyse", "Festpreis, keine Überraschungen"],
-    href: "/de/leistungen",
+    href: "/de/leistungen/personalvermittlung",
   },
   {
     icon: Search,
     title: "Executive Search",
     description: "Wir finden die richtigen C-Level- und Senior-Führungskräfte für Ihr Unternehmen. Über unser exklusives Netzwerk und bewährte Assessment-Methoden.",
     features: ["C-Suite & VP-Level Besetzungen", "Kompetenzbasiertes Assessment", "Exklusives Netzwerk mit 7.500+ Executives", "Shortlist in 18 Tagen"],
-    href: "/de/leistungen",
+    href: "/de/leistungen/executive-search",
     highlight: true,
   },
   {
@@ -29,21 +29,21 @@ const services = [
     title: "Interim Search",
     description: "Sofort verfügbare Interim-Fachkräfte für kritische Positionen. Bewährte Führungspersönlichkeiten, die innerhalb von Tagen starten.",
     features: ["Schnelle Verfügbarkeit", "Erfahrene Fachkräfte", "Flexible Vertragsformen", "Nahtlose Übergabe"],
-    href: "/de/leistungen",
+    href: "/de/leistungen/interim-search",
   },
   {
     icon: BarChart3,
     title: "Assessment",
     description: "Objektive Bewertung von Kandidaten und Führungskräften. Von kompetenzbasierten Assessments bis hin zu Kulturpassungs-Analysen.",
     features: ["STAR-Interviews", "Kulturpassungs-Analyse", "Kompetenz-Assessments", "Führungsevaluierungen"],
-    href: "/de/leistungen",
+    href: "/de/leistungen/assessment",
   },
   {
     icon: Briefcase,
     title: "Leadership",
     description: "Strategische Beratung zu Führung, Teamzusammensetzung und Organisationsentwicklung auf höchster Ebene.",
     features: ["Nachfolgeplanung", "Team-Effektivitätsanalyse", "Board Advisory", "Organisationsentwicklung"],
-    href: "/de/leistungen",
+    href: "/de/leistungen/leadership",
   },
 ];
 
