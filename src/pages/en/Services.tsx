@@ -14,14 +14,14 @@ const services = [
     title: "Recruitment & Selection",
     description: "Finding the right professionals for your organisation. Targeted, fast and with an eye for cultural fit and long-term match.",
     features: ["Mid- to senior-level placements", "Shortlist within 18 days", "Cultural fit analysis", "Fixed fee, no surprises"],
-    href: "/en/services",
+    href: "/en/services/recruitment-selection",
   },
   {
     icon: Search,
     title: "Executive Search",
     description: "We find the right C-level and senior executives for your organisation. Through our exclusive network and proven assessment methodology.",
     features: ["C-suite & VP-level placements", "Competency-based assessment", "Exclusive network of 7,500+ executives", "Shortlist within 18 days"],
-    href: "/en/services",
+    href: "/en/services/executive-search",
     highlight: true,
   },
   {
@@ -29,21 +29,21 @@ const services = [
     title: "Interim Search",
     description: "Immediately available interim professionals for critical positions. Proven leaders who can start within days and make an immediate impact.",
     features: ["Rapid availability", "Experienced professionals", "Flexible contract forms", "Seamless handover"],
-    href: "/en/services",
+    href: "/en/services/interim-search",
   },
   {
     icon: BarChart3,
     title: "Assessment",
     description: "Objective evaluation of candidates and leaders. From competency-based assessments to cultural fit analyses and leadership evaluations.",
     features: ["STAR interviews", "Cultural fit analysis", "Competency assessments", "Leadership evaluations"],
-    href: "/en/services",
+    href: "/en/services/assessment",
   },
   {
     icon: Briefcase,
     title: "Leadership",
     description: "Strategic advice on leadership, team composition and organisational development at the highest level. Future-proofing your leadership team.",
     features: ["Succession planning", "Team effectiveness analysis", "Board advisory", "Organisational development"],
-    href: "/en/services",
+    href: "/en/services/leadership",
   },
 ];
 

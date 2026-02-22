@@ -17,6 +17,11 @@ import NLLeadershipAdvisory from "./pages/nl/LeadershipAdvisory";
 // DE pages
 import DEHome from "./pages/de/Index";
 import DELeistungen from "./pages/de/Leistungen";
+import DEPersonalvermittlung from "./pages/de/leistungen/Personalvermittlung";
+import DEExecutiveSearch from "./pages/de/leistungen/ExecutiveSearch";
+import DEInterimSearch from "./pages/de/leistungen/InterimSearch";
+import DEAssessment from "./pages/de/leistungen/Assessment";
+import DELeadership from "./pages/de/leistungen/Leadership";
 import DEKontakt from "./pages/de/Kontakt";
 import DEUeberUns from "./pages/de/UeberUns";
 import DEStellenangebote from "./pages/de/Stellenangebote";
@@ -24,6 +29,11 @@ import DEFuerArbeitgeber from "./pages/de/FuerArbeitgeber";
 // EN pages
 import ENHome from "./pages/en/Index";
 import ENServices from "./pages/en/Services";
+import ENRecruitmentSelection from "./pages/en/services/RecruitmentSelection";
+import ENExecutiveSearch from "./pages/en/services/ExecutiveSearch";
+import ENInterimSearch from "./pages/en/services/InterimSearch";
+import ENAssessment from "./pages/en/services/Assessment";
+import ENLeadership from "./pages/en/services/Leadership";
 import ENContact from "./pages/en/Contact";
 import ENAbout from "./pages/en/About";
 import ENJobs from "./pages/en/Jobs";
@@ -166,6 +176,11 @@ const App = () => (
           {/* German (DE) routes */}
           <Route path="/de" element={<DEHome />} />
           <Route path="/de/leistungen" element={<DELeistungen />} />
+          <Route path="/de/leistungen/personalvermittlung" element={<DEPersonalvermittlung />} />
+          <Route path="/de/leistungen/executive-search" element={<DEExecutiveSearch />} />
+          <Route path="/de/leistungen/interim-search" element={<DEInterimSearch />} />
+          <Route path="/de/leistungen/assessment" element={<DEAssessment />} />
+          <Route path="/de/leistungen/leadership" element={<DELeadership />} />
           <Route path="/de/kontakt" element={<DEKontakt />} />
           <Route path="/de/ueber-uns" element={<DEUeberUns />} />
           <Route path="/de/stellenangebote" element={<DEStellenangebote />} />
@@ -174,6 +189,11 @@ const App = () => (
           {/* English (EN) routes */}
           <Route path="/en" element={<ENHome />} />
           <Route path="/en/services" element={<ENServices />} />
+          <Route path="/en/services/recruitment-selection" element={<ENRecruitmentSelection />} />
+          <Route path="/en/services/executive-search" element={<ENExecutiveSearch />} />
+          <Route path="/en/services/interim-search" element={<ENInterimSearch />} />
+          <Route path="/en/services/assessment" element={<ENAssessment />} />
+          <Route path="/en/services/leadership" element={<ENLeadership />} />
           <Route path="/en/contact" element={<ENContact />} />
           <Route path="/en/about" element={<ENAbout />} />
           <Route path="/en/jobs" element={<ENJobs />} />
