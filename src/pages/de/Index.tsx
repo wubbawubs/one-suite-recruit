@@ -201,7 +201,7 @@ const DEHome = () => {
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Unsere Expertise</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Was wir für Sie tun</h2>
-              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Drei Kernbereiche, in denen wir exzellieren, alle darauf ausgerichtet, außergewöhnliche Talente zu finden und zu binden.</p>
+              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Fünf Kernbereiche, in denen wir exzellieren, alle darauf ausgerichtet, außergewöhnliche Talente zu finden und zu binden.</p>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
               {services.map((s) => (
