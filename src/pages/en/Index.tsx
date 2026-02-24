@@ -78,8 +78,8 @@ const ENHome = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="OneTime Recruit — Executive Search & Leadership"
-        description="OneTime Recruit is your specialist in executive search. We find C-level and senior leaders for enterprise organisations."
+        title="OneTime Recruit — Recruitment & Selection"
+        description="OneTime Recruit is your specialist in recruitment and selection. We find the right professionals for your organisation."
         jsonLd={orgJsonLd}
         locale="en_US"
         alternates={getAlternates("home", ["nl", "de", "en"])}
