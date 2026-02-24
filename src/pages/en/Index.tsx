@@ -13,16 +13,16 @@ import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 
 const services = [
   {
-    icon: Search,
-    title: "Executive Search",
-    description: "We find the right C-level and senior leaders for your organisation. With an exclusive network and proven assessment methodology.",
+    icon: Users,
+    title: "Recruitment & Selection",
+    description: "Finding the right professionals for your organisation. Targeted, fast and with an eye for cultural fit and long-term match.",
     href: "/en/services",
     highlight: true,
   },
   {
-    icon: Users,
-    title: "Leadership Advisory",
-    description: "Strategic advice on leadership, team composition and organisational development at the highest level.",
+    icon: Search,
+    title: "Executive Search",
+    description: "We find the right senior professionals and directors for your organisation. With an exclusive network and proven assessment methodology.",
     href: "/en/services",
   },
   {
