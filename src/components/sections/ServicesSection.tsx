@@ -14,6 +14,7 @@ const services = [
     description:
       "Het vinden van de juiste professionals voor uw organisatie. Gericht, snel en met oog voor cultuurfit.",
     href: "/nl/diensten",
+    highlight: true,
     image: sfeerWerving,
     imagePosition: "center 35%",
   },
