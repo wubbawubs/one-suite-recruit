@@ -5,7 +5,7 @@ import sfeerZoekopdracht from "@/assets/sfeer-zoekopdracht.jpg";
 const differentiators = [
   {
     title: "Kandidaten die u nergens anders vindt",
-    description: "Ons netwerk bestaat uit 7.500+ senior executives die niet op jobboards zitten. Wij benaderen ze persoonlijk.",
+    description: "Ons netwerk bestaat uit 7.500+ professionals die niet op jobboards zitten. Wij benaderen ze persoonlijk.",
   },
   {
     title: "Geen onderbuikgevoel, maar data",
