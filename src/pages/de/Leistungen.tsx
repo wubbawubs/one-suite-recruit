@@ -51,8 +51,8 @@ const DELeistungen = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Leistungen — One Time Recruit"
-        description="Von Executive Search bis Interim Management und Talent Mapping. Entdecken Sie unsere strategischen Rekrutierungsleistungen für Unternehmen."
+        title="Leistungen — Personalvermittlung | One Time Recruit"
+        description="Von Personalvermittlung bis Executive Search und Interim Management. Entdecken Sie unsere Rekrutierungsleistungen für Unternehmen."
         locale="de_DE"
         alternates={getAlternates("diensten", ["nl", "de"])}
         jsonLd={{
