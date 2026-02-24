@@ -3,8 +3,8 @@ import { ArrowRight, Clock } from "lucide-react";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 
 const articles = [
-  { title: "De toekomst van executive search in Nederland", excerpt: "Hoe veranderende markten en technologie de manier waarop we leiderschap vinden fundamenteel transformeren.", readTime: "5 min", category: "Trends" },
-  { title: "5 signalen dat uw organisatie een nieuw C-level nodig heeft", excerpt: "Wanneer is het tijd om te investeren in nieuw leiderschap? Deze indicatoren helpen u de juiste beslissing te nemen.", readTime: "4 min", category: "Leiderschap" },
+  { title: "De toekomst van werving & selectie in Nederland", excerpt: "Hoe veranderende markten en technologie de manier waarop we talent vinden fundamenteel transformeren.", readTime: "5 min", category: "Trends" },
+  { title: "5 signalen dat uw organisatie versterking nodig heeft", excerpt: "Wanneer is het tijd om te investeren in nieuw talent? Deze indicatoren helpen u de juiste beslissing te nemen.", readTime: "4 min", category: "Talent" },
   { title: "Waarom cultuurfit belangrijker is dan CV", excerpt: "Onderzoek toont aan dat culturele aansluiting een betere voorspeller is van succes dan ervaring alleen.", readTime: "6 min", category: "Assessment" },
 ];
 
