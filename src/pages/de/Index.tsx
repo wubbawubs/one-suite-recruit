@@ -13,16 +13,16 @@ import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 
 const services = [
   {
-    icon: Search,
-    title: "Executive Search",
-    description: "Wir finden die richtigen C-Level- und Senior-Führungskräfte für Ihr Unternehmen. Mit einem exklusiven Netzwerk und bewährter Assessment-Methode.",
+    icon: Users,
+    title: "Personalvermittlung",
+    description: "Die richtigen Fachkräfte für Ihr Unternehmen finden. Zielgerichtet, schnell und mit Blick auf kulturelle Passung.",
     href: "/de/leistungen",
     highlight: true,
   },
   {
-    icon: Users,
-    title: "Leadership Advisory",
-    description: "Strategische Beratung zu Führung, Teamzusammensetzung und Organisationsentwicklung auf höchster Ebene.",
+    icon: Search,
+    title: "Executive Search",
+    description: "Wir finden die richtigen Senior-Fachkräfte und Führungspersönlichkeiten für Ihr Unternehmen. Mit einem exklusiven Netzwerk und bewährter Assessment-Methode.",
     href: "/de/leistungen",
   },
   {
