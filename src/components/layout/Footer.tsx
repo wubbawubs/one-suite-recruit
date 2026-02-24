@@ -6,9 +6,9 @@ const footerNav = [
   {
     title: "Diensten",
     links: [
+      { label: "Werving & Selectie", href: "/nl/diensten" },
       { label: "Executive Search", href: "/nl/diensten/executive-search" },
-      { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
-      { label: "Leadership Advisory", href: "/nl/diensten/leadership-advisory" },
+      { label: "Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
       { label: "Alle diensten", href: "/nl/diensten" },
     ],
   },
