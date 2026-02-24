@@ -116,7 +116,7 @@ const DEHome = () => {
                 transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                 className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
               >
-                Ihre nächste Führungskraft ist
+                Ihr nächstes Talent ist
                 <br />
                 <span className="text-accent">nicht auf einem Jobportal</span>
               </motion.h1>
