@@ -13,8 +13,9 @@ const services = [
     icon: Users,
     title: "Werving & Selectie",
     description: "Het vinden van de juiste professionals voor uw organisatie. Gericht, snel en met oog voor culturele fit en langetermijnmatch.",
-    features: ["Mid- tot senior-level plaatsingen", "Shortlist binnen 18 dagen", "Culturele fit-analyse", "Vast tarief, geen verrassingen"],
+    features: ["Van mid-level tot directie", "Shortlist binnen 18 dagen", "Culturele fit-analyse", "Vast tarief, geen verrassingen"],
     href: "/nl/werving-en-selectie",
+    highlight: true,
   },
   {
     icon: Search,
