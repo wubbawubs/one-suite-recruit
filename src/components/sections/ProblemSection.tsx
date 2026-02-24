@@ -40,12 +40,12 @@ const content = {
       {
         icon: UserX,
         title: "Internal HR department",
-        pain: "No network for C-level talent, no time for a thorough search, and insufficient assessment expertise.",
+        pain: "No network for scarce talent, no time for a thorough search, and insufficient assessment expertise.",
       },
       {
         icon: Globe,
         title: "Job boards & LinkedIn",
-        pain: "Wrong audience. The best executives aren't on Indeed. And passive posting doesn't attract senior leaders.",
+        pain: "Wrong audience. The best professionals aren't on Indeed. And passive posting doesn't attract the right candidates.",
       },
     ],
     closing: "There's a better way.",
