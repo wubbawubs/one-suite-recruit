@@ -321,7 +321,7 @@ const ENHome = () => {
                 <div>
                   <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Knowledge Base</span>
                   <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Insights</h2>
-                  <p className="mt-3 text-lg text-muted-foreground">Knowledge and perspectives on leadership and executive search.</p>
+                  <p className="mt-3 text-lg text-muted-foreground">Knowledge and perspectives on recruitment and talent.</p>
                 </div>
                 <span className="hidden items-center gap-2 text-sm font-semibold text-muted-foreground md:inline-flex">More articles coming soon</span>
               </div>
