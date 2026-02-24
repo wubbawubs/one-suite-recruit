@@ -19,10 +19,9 @@ const services = [
   {
     icon: Search,
     title: "Executive Search",
-    description: "Wij vinden de juiste C-level en senior executives voor uw organisatie. Via ons exclusieve netwerk en bewezen assessmentmethodiek.",
-    features: ["C-suite & VP-level plaatsingen", "Competentiegericht assessment", "Exclusief netwerk van 7.500+ executives", "Shortlist binnen 18 dagen"],
+    description: "Wij vinden de juiste senior professionals en directieleden voor uw organisatie. Via ons exclusieve netwerk en bewezen assessmentmethodiek.",
+    features: ["Senior & directie-level plaatsingen", "Competentiegericht assessment", "Exclusief netwerk van 7.500+ professionals", "Shortlist binnen 18 dagen"],
     href: "/nl/diensten/executive-search",
-    highlight: true,
   },
   {
     icon: Target,
