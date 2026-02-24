@@ -91,7 +91,7 @@ const DELeistungen = () => {
               {services.map((s) => (
                 <StaggerItem key={s.title} variant="fade-up">
                   <div className={`group relative flex h-full flex-col rounded-2xl border p-8 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${s.highlight ? "border-accent/20 bg-accent/[0.03]" : "border-border bg-card"} hover:border-accent/30`}>
-                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Am meisten gefragt</span>}
+                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Am meisten gewählt</span>}
                     <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent"><s.icon className="h-6 w-6" /></div>
                     <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">{s.title}</h3>
                     <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{s.description}</p>

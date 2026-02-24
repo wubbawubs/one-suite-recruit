@@ -321,7 +321,7 @@ const DEHome = () => {
                 <div>
                   <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Wissensbank</span>
                   <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Einblicke</h2>
-                  <p className="mt-3 text-lg text-muted-foreground">Wissen und Perspektiven zu Führung und Executive Search.</p>
+                  <p className="mt-3 text-lg text-muted-foreground">Wissen und Perspektiven zu Recruitment und Talent.</p>
                 </div>
                 <span className="hidden items-center gap-2 text-sm font-semibold text-muted-foreground md:inline-flex">Bald weitere Artikel</span>
               </div>
