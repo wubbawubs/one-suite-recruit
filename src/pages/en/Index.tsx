@@ -13,16 +13,16 @@ import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 
 const services = [
   {
-    icon: Search,
-    title: "Executive Search",
-    description: "We find the right C-level and senior leaders for your organisation. With an exclusive network and proven assessment methodology.",
+    icon: Users,
+    title: "Recruitment & Selection",
+    description: "Finding the right professionals for your organisation. Targeted, fast and with an eye for cultural fit and long-term match.",
     href: "/en/services",
     highlight: true,
   },
   {
-    icon: Users,
-    title: "Leadership Advisory",
-    description: "Strategic advice on leadership, team composition and organisational development at the highest level.",
+    icon: Search,
+    title: "Executive Search",
+    description: "We find the right senior professionals and directors for your organisation. With an exclusive network and proven assessment methodology.",
     href: "/en/services",
   },
   {
@@ -34,7 +34,7 @@ const services = [
 ];
 
 const differentiators = [
-  { title: "Candidates you won't find anywhere else", description: "Our network of 7,500+ senior executives who aren't on job boards. We approach them personally." },
+  { title: "Candidates you won't find anywhere else", description: "Our network of 7,500+ professionals who aren't on job boards. We approach them personally." },
   { title: "No gut feeling, just data", description: "Structured assessment on competencies, leadership style and cultural fit. Every candidate objectively evaluated." },
   { title: "Fixed fee, no percentages", description: "You pay a fixed amount, not 25-30% of the annual salary. Clear upfront, no surprises after." },
   { title: "6-month guarantee on every placement", description: "Not the right fit? We find a replacement at no cost. We believe in our matches." },
@@ -57,8 +57,8 @@ const cases = [
 ];
 
 const articles = [
-  { title: "The Future of Executive Recruitment", excerpt: "How changing markets and technology are fundamentally transforming the way we find leaders.", readTime: "5 min", category: "Trends" },
-  { title: "5 Signs Your Organisation Needs New C-Level Leadership", excerpt: "When is it time to invest in new leadership? These indicators help you make the right decision.", readTime: "4 min", category: "Leadership" },
+  { title: "The Future of Recruitment in the Netherlands", excerpt: "How changing markets and technology are fundamentally transforming the way we find talent.", readTime: "5 min", category: "Trends" },
+  { title: "5 Signs Your Organisation Needs New Talent", excerpt: "When is it time to invest in new hires? These indicators help you make the right decision.", readTime: "4 min", category: "Talent" },
   { title: "Why Cultural Fit Matters More Than the CV", excerpt: "Research shows that cultural alignment is a better predictor of success than experience alone.", readTime: "6 min", category: "Assessment" },
 ];
 
@@ -70,7 +70,7 @@ const orgJsonLd = {
   name: "OneTime Recruit",
   url: "https://onetimerecruit.nl",
   logo: "https://onetimerecruit.nl/logo.png",
-  description: "OneTime Recruit is your specialist in executive search and leadership recruitment in the Netherlands and Europe.",
+  description: "OneTime Recruit is your specialist in recruitment and selection in the Netherlands and Europe.",
   contactPoint: { "@type": "ContactPoint", telephone: "+31-6-17226186", contactType: "sales", availableLanguage: ["English", "Dutch", "German"] },
 };
 
@@ -78,8 +78,8 @@ const ENHome = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="OneTime Recruit — Executive Search & Leadership"
-        description="OneTime Recruit is your specialist in executive search. We find C-level and senior leaders for enterprise organisations."
+        title="OneTime Recruit — Recruitment & Selection"
+        description="OneTime Recruit is your specialist in recruitment and selection. We find the right professionals for your organisation."
         jsonLd={orgJsonLd}
         locale="en_US"
         alternates={getAlternates("home", ["nl", "de", "en"])}
@@ -105,8 +105,8 @@ const ENHome = () => {
                 transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
                 className="mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 px-6 py-2.5 backdrop-blur-sm"
               >
-                <span className="text-sm font-medium text-primary-foreground/70">
-                  ✦ The new standard in executive recruitment
+                 <span className="text-sm font-medium text-primary-foreground/70">
+                   ✦ The new standard in recruitment
                 </span>
               </motion.div>
 
@@ -116,7 +116,7 @@ const ENHome = () => {
                 transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                 className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
               >
-                Your next leader isn't
+                Your next hire isn't
                 <br />
                 <span className="text-accent">on a job board</span>
               </motion.h1>
@@ -127,7 +127,7 @@ const ENHome = () => {
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
                 className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                Traditional search is slow, expensive and opaque. We deliver a shortlist of proven leaders in 18 days, at a fixed fee.
+                Traditional recruitment is slow, expensive and opaque. We deliver a shortlist of proven professionals in 18 days, at a fixed fee.
               </motion.p>
 
               <motion.div
@@ -201,13 +201,13 @@ const ENHome = () => {
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Expertise</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">What we do for you</h2>
-              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Three core areas where we excel, all designed to find and retain exceptional talent.</p>
+              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Five core areas where we excel, all designed to find and retain exceptional talent.</p>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
               {services.map((s) => (
                 <StaggerItem key={s.title} variant="fade-up">
                   <Link to={s.href} className={`group relative flex h-full flex-col rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${s.highlight ? "border-accent/20 bg-accent/[0.03]" : "border-border bg-card"} hover:border-accent/30`}>
-                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Popular</span>}
+                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Most chosen</span>}
                     <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent"><s.icon className="h-6 w-6" /></div>
                     <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">{s.title}</h3>
                     <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted-foreground">{s.description}</p>
@@ -235,7 +235,7 @@ const ENHome = () => {
               <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">
                 <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Why OneTime</span>
                 <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Not just another recruitment agency</h2>
-                <p className="mt-5 text-lg leading-relaxed text-muted-foreground">We are your strategic partner in finding leaders who make the difference.</p>
+                <p className="mt-5 text-lg leading-relaxed text-muted-foreground">We are your strategic partner in finding talent that makes the difference.</p>
                 <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
               </ScrollReveal>
               <StaggerContainer className="space-y-4 lg:col-span-3" stagger={0.08}>
@@ -321,7 +321,7 @@ const ENHome = () => {
                 <div>
                   <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Knowledge Base</span>
                   <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Insights</h2>
-                  <p className="mt-3 text-lg text-muted-foreground">Knowledge and perspectives on leadership and executive search.</p>
+                  <p className="mt-3 text-lg text-muted-foreground">Knowledge and perspectives on recruitment and talent.</p>
                 </div>
                 <span className="hidden items-center gap-2 text-sm font-semibold text-muted-foreground md:inline-flex">More articles coming soon</span>
               </div>

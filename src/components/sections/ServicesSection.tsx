@@ -14,6 +14,7 @@ const services = [
     description:
       "Het vinden van de juiste professionals voor uw organisatie. Gericht, snel en met oog voor cultuurfit.",
     href: "/nl/diensten",
+    highlight: true,
     image: sfeerWerving,
     imagePosition: "center 35%",
   },
@@ -21,16 +22,15 @@ const services = [
     icon: Search,
     title: "Executive Search",
     description:
-      "C-level en senior executives die écht het verschil maken. Via onze exclusieve search methodiek en bewezen assessmentaanpak.",
+      "Senior professionals en directieleden die écht het verschil maken. Via onze exclusieve search methodiek en bewezen assessmentaanpak.",
     href: "/nl/diensten/executive-search",
-    highlight: true,
     image: sfeerSelectie,
   },
   {
     icon: UserSearch,
     title: "Interim Search",
     description:
-      "Direct beschikbare interim professionals voor kritische posities. Bewezen leiders die binnen dagen kunnen starten.",
+      "Direct beschikbare interim professionals voor kritische posities. Ervaren krachten die binnen dagen kunnen starten.",
     href: "/nl/diensten",
     image: sfeerZoekopdracht,
   },
@@ -38,7 +38,7 @@ const services = [
     icon: ClipboardCheck,
     title: "Assessment",
     description:
-      "Objectieve evaluatie van kandidaten en leiders. Competentie-based assessments en cultuurfit-analyses.",
+      "Objectieve evaluatie van kandidaten. Competentie-based assessments en cultuurfit-analyses.",
     href: "/nl/diensten/assessment-selectie",
     image: sfeerAbonnement,
   },

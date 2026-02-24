@@ -13,16 +13,16 @@ import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
 
 const services = [
   {
-    icon: Search,
-    title: "Executive Search",
-    description: "Wir finden die richtigen C-Level- und Senior-Führungskräfte für Ihr Unternehmen. Mit einem exklusiven Netzwerk und bewährter Assessment-Methode.",
+    icon: Users,
+    title: "Personalvermittlung",
+    description: "Die richtigen Fachkräfte für Ihr Unternehmen finden. Zielgerichtet, schnell und mit Blick auf kulturelle Passung.",
     href: "/de/leistungen",
     highlight: true,
   },
   {
-    icon: Users,
-    title: "Leadership Advisory",
-    description: "Strategische Beratung zu Führung, Teamzusammensetzung und Organisationsentwicklung auf höchster Ebene.",
+    icon: Search,
+    title: "Executive Search",
+    description: "Wir finden die richtigen Senior-Fachkräfte und Führungspersönlichkeiten für Ihr Unternehmen. Mit einem exklusiven Netzwerk und bewährter Assessment-Methode.",
     href: "/de/leistungen",
   },
   {
@@ -34,7 +34,7 @@ const services = [
 ];
 
 const differentiators = [
-  { title: "Kandidaten, die Sie nirgendwo anders finden", description: "Unser Netzwerk von 7.500+ Senior-Führungskräften, die nicht auf Jobportalen sind. Wir sprechen sie persönlich an." },
+  { title: "Kandidaten, die Sie nirgendwo anders finden", description: "Unser Netzwerk von 7.500+ Fachkräften, die nicht auf Jobportalen sind. Wir sprechen sie persönlich an." },
   { title: "Kein Bauchgefühl, nur Daten", description: "Strukturiertes Assessment auf Kompetenzen, Führungsstil und Kulturpassung. Jeder Kandidat objektiv bewertet." },
   { title: "Festpreis, keine Prozente", description: "Sie zahlen einen festen Betrag, nicht 25-30% des Jahresgehalts. Vorab klar, nachher keine Überraschungen." },
   { title: "6 Monate Garantie auf jede Besetzung", description: "Passt es nicht? Wir finden kostenfrei einen Ersatz. Wir glauben an unsere Matches." },
@@ -57,8 +57,8 @@ const cases = [
 ];
 
 const articles = [
-  { title: "Die Zukunft der Personalvermittlung in Deutschland", excerpt: "Wie sich verändernde Märkte und Technologie die Art und Weise, wie wir Führungskräfte finden, grundlegend verändern.", readTime: "5 Min.", category: "Trends" },
-  { title: "5 Zeichen, dass Ihr Unternehmen neue C-Level-Führung braucht", excerpt: "Wann ist es Zeit, in neue Führung zu investieren? Diese Indikatoren helfen Ihnen bei der richtigen Entscheidung.", readTime: "4 Min.", category: "Führung" },
+  { title: "Die Zukunft der Personalvermittlung in Deutschland", excerpt: "Wie sich verändernde Märkte und Technologie die Art und Weise, wie wir Talent finden, grundlegend verändern.", readTime: "5 Min.", category: "Trends" },
+  { title: "5 Zeichen, dass Ihr Unternehmen Verstärkung braucht", excerpt: "Wann ist es Zeit, in neue Mitarbeiter zu investieren? Diese Indikatoren helfen Ihnen bei der richtigen Entscheidung.", readTime: "4 Min.", category: "Talent" },
   { title: "Warum Kulturpassung wichtiger ist als der Lebenslauf", excerpt: "Forschung zeigt, dass kulturelle Übereinstimmung ein besserer Erfolgsindikator ist als Erfahrung allein.", readTime: "6 Min.", category: "Assessment" },
 ];
 
@@ -70,7 +70,7 @@ const orgJsonLd = {
   name: "One Time Recruit",
   url: "https://onetimerecruit.nl",
   logo: "https://onetimerecruit.nl/logo.png",
-  description: "One Time Recruit ist Ihr Spezialist für Executive Search und Personalvermittlung von Führungskräften in Deutschland und den Niederlanden.",
+  description: "One Time Recruit ist Ihr Spezialist für Personalvermittlung und Recruitment in Deutschland und den Niederlanden.",
   contactPoint: { "@type": "ContactPoint", telephone: "+31-6-17226186", contactType: "sales", availableLanguage: ["German", "Dutch", "English"] },
 };
 
@@ -78,8 +78,8 @@ const DEHome = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="One Time Recruit — Executive Search & Personalvermittlung"
-        description="One Time Recruit ist Ihr Spezialist für Executive Search. Wir finden C-Level- und Senior-Führungskräfte für Ihr Unternehmen."
+        title="One Time Recruit — Personalvermittlung & Recruitment"
+        description="One Time Recruit ist Ihr Spezialist für Personalvermittlung. Wir finden die richtigen Fachkräfte für Ihr Unternehmen."
         jsonLd={orgJsonLd}
         locale="de_DE"
         alternates={getAlternates("home", ["nl", "de"])}
@@ -106,7 +106,7 @@ const DEHome = () => {
                 className="mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 px-6 py-2.5 backdrop-blur-sm"
               >
                 <span className="text-sm font-medium text-primary-foreground/70">
-                  ✦ Der neue Standard im Executive Recruitment
+                   ✦ Der neue Standard im Recruitment
                 </span>
               </motion.div>
 
@@ -116,7 +116,7 @@ const DEHome = () => {
                 transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                 className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
               >
-                Ihre nächste Führungskraft ist
+                Ihr nächstes Talent ist
                 <br />
                 <span className="text-accent">nicht auf einem Jobportal</span>
               </motion.h1>
@@ -127,7 +127,7 @@ const DEHome = () => {
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
                 className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                Traditionelle Suche ist langsam, teuer und intransparent. Wir liefern eine Shortlist bewährter Führungskräfte in 18 Tagen, zum Festpreis.
+                Traditionelles Recruitment ist langsam, teuer und intransparent. Wir liefern eine Shortlist bewährter Fachkräfte in 18 Tagen, zum Festpreis.
               </motion.p>
 
               <motion.div
@@ -201,13 +201,13 @@ const DEHome = () => {
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Unsere Expertise</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Was wir für Sie tun</h2>
-              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Drei Kernbereiche, in denen wir exzellieren, alle darauf ausgerichtet, außergewöhnliche Talente zu finden und zu binden.</p>
+              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Fünf Kernbereiche, in denen wir exzellieren, alle darauf ausgerichtet, außergewöhnliche Talente zu finden und zu binden.</p>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
               {services.map((s) => (
                 <StaggerItem key={s.title} variant="fade-up">
                   <Link to={s.href} className={`group relative flex h-full flex-col rounded-2xl border p-8 md:p-10 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${s.highlight ? "border-accent/20 bg-accent/[0.03]" : "border-border bg-card"} hover:border-accent/30`}>
-                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Beliebt</span>}
+                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Am meisten gewählt</span>}
                     <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent"><s.icon className="h-6 w-6" /></div>
                     <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">{s.title}</h3>
                     <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted-foreground">{s.description}</p>
@@ -235,7 +235,7 @@ const DEHome = () => {
               <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">
                 <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Warum One Time</span>
                 <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Nicht einfach eine Personalvermittlung</h2>
-                <p className="mt-5 text-lg leading-relaxed text-muted-foreground">Wir sind Ihr strategischer Partner bei der Suche nach Führungskräften, die den Unterschied machen.</p>
+                <p className="mt-5 text-lg leading-relaxed text-muted-foreground">Wir sind Ihr strategischer Partner bei der Suche nach Talenten, die den Unterschied machen.</p>
                 <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
               </ScrollReveal>
               <StaggerContainer className="space-y-4 lg:col-span-3" stagger={0.08}>
@@ -321,7 +321,7 @@ const DEHome = () => {
                 <div>
                   <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Wissensbank</span>
                   <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Einblicke</h2>
-                  <p className="mt-3 text-lg text-muted-foreground">Wissen und Perspektiven zu Führung und Executive Search.</p>
+                  <p className="mt-3 text-lg text-muted-foreground">Wissen und Perspektiven zu Recruitment und Talent.</p>
                 </div>
                 <span className="hidden items-center gap-2 text-sm font-semibold text-muted-foreground md:inline-flex">Bald weitere Artikel</span>
               </div>

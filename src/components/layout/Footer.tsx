@@ -6,9 +6,9 @@ const footerNav = [
   {
     title: "Diensten",
     links: [
+      { label: "Werving & Selectie", href: "/nl/diensten" },
       { label: "Executive Search", href: "/nl/diensten/executive-search" },
-      { label: "C-level Recruitment", href: "/nl/diensten/c-level-recruitment" },
-      { label: "Leadership Advisory", href: "/nl/diensten/leadership-advisory" },
+      { label: "Assessment & Selectie", href: "/nl/diensten/assessment-selectie" },
       { label: "Alle diensten", href: "/nl/diensten" },
     ],
   },
@@ -45,7 +45,7 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-primary-foreground/55">
-              DE nieuwe standaard voor recruitment. Wij vinden het juiste talent voor uw organisatie.
+              Dé specialist in werving & selectie. Wij vinden het juiste talent voor uw organisatie.
             </p>
             <div className="mt-6 flex items-center gap-4">
               <a href="https://www.linkedin.com/company/onetimerecruit/" target="_blank" rel="noopener noreferrer" className="rounded-full border border-primary-foreground/15 p-2.5 text-primary-foreground/50 transition-colors hover:border-accent hover:text-accent">

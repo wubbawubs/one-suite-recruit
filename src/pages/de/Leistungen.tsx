@@ -13,16 +13,16 @@ const services = [
     icon: Users,
     title: "Personalvermittlung",
     description: "Die richtigen Fachkräfte für Ihr Unternehmen finden. Zielgerichtet, schnell und mit Blick auf kulturelle Passung und langfristigen Erfolg.",
-    features: ["Mid- bis Senior-Level Besetzungen", "Shortlist in 18 Tagen", "Kulturpassungs-Analyse", "Festpreis, keine Überraschungen"],
+    features: ["Von Mid-Level bis Direktion", "Shortlist in 18 Tagen", "Kulturpassungs-Analyse", "Festpreis, keine Überraschungen"],
     href: "/de/leistungen/personalvermittlung",
+    highlight: true,
   },
   {
     icon: Search,
     title: "Executive Search",
-    description: "Wir finden die richtigen C-Level- und Senior-Führungskräfte für Ihr Unternehmen. Über unser exklusives Netzwerk und bewährte Assessment-Methoden.",
-    features: ["C-Suite & VP-Level Besetzungen", "Kompetenzbasiertes Assessment", "Exklusives Netzwerk mit 7.500+ Executives", "Shortlist in 18 Tagen"],
+    description: "Wir finden die richtigen Senior-Fachkräfte und Führungspersönlichkeiten für Ihr Unternehmen. Über unser exklusives Netzwerk und bewährte Assessment-Methoden.",
+    features: ["Senior & Direktionsebene", "Kompetenzbasiertes Assessment", "Exklusives Netzwerk mit 7.500+ Fachkräften", "Shortlist in 18 Tagen"],
     href: "/de/leistungen/executive-search",
-    highlight: true,
   },
   {
     icon: Target,
@@ -51,17 +51,17 @@ const DELeistungen = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Leistungen — One Time Recruit"
-        description="Von Executive Search bis Interim Management und Talent Mapping. Entdecken Sie unsere strategischen Rekrutierungsleistungen für Unternehmen."
+        title="Leistungen — Personalvermittlung | One Time Recruit"
+        description="Von Personalvermittlung bis Executive Search und Interim Management. Entdecken Sie unsere Rekrutierungsleistungen für Unternehmen."
         locale="de_DE"
         alternates={getAlternates("diensten", ["nl", "de"])}
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "Service",
           provider: { "@type": "Organization", name: "One Time Recruit" },
-          serviceType: "Executive Search",
+          serviceType: "Personalvermittlung",
           areaServed: [{ "@type": "Country", name: "Germany" }, { "@type": "Country", name: "Netherlands" }],
-          description: "Strategische Executive Search und Rekrutierungsleistungen für Unternehmen.",
+          description: "Personalvermittlung, Executive Search und Rekrutierungsleistungen für Unternehmen.",
         }}
       />
       <Header />
@@ -91,7 +91,7 @@ const DELeistungen = () => {
               {services.map((s) => (
                 <StaggerItem key={s.title} variant="fade-up">
                   <div className={`group relative flex h-full flex-col rounded-2xl border p-8 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 ${s.highlight ? "border-accent/20 bg-accent/[0.03]" : "border-border bg-card"} hover:border-accent/30`}>
-                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Am meisten gefragt</span>}
+                    {s.highlight && <span className="absolute -top-3 right-6 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground">Am meisten gewählt</span>}
                     <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10 text-accent"><s.icon className="h-6 w-6" /></div>
                     <h3 className="mt-6 font-display text-xl font-bold text-card-foreground">{s.title}</h3>
                     <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{s.description}</p>

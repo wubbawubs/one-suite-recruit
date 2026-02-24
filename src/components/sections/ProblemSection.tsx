@@ -16,12 +16,12 @@ const content = {
       {
         icon: UserX,
         title: "Interne HR-afdeling",
-        pain: "Geen netwerk voor C-level talent, geen tijd voor een gedegen search, en onvoldoende assessmentexpertise.",
+        pain: "Geen netwerk voor schaars talent, geen tijd voor een gedegen search, en onvoldoende assessmentexpertise.",
       },
       {
         icon: Globe,
         title: "Jobboards & LinkedIn",
-        pain: "Verkeerd publiek. De beste executives zitten niet op Indeed. Passief posten levert geen senior leiders op.",
+        pain: "Verkeerd publiek. De beste professionals zitten niet op Indeed. Passief posten levert geen goede kandidaten op.",
       },
     ],
     closing: "Er is een betere manier.",
@@ -40,12 +40,12 @@ const content = {
       {
         icon: UserX,
         title: "Internal HR department",
-        pain: "No network for C-level talent, no time for a thorough search, and insufficient assessment expertise.",
+        pain: "No network for scarce talent, no time for a thorough search, and insufficient assessment expertise.",
       },
       {
         icon: Globe,
         title: "Job boards & LinkedIn",
-        pain: "Wrong audience. The best executives aren't on Indeed. And passive posting doesn't attract senior leaders.",
+        pain: "Wrong audience. The best professionals aren't on Indeed. And passive posting doesn't attract the right candidates.",
       },
     ],
     closing: "There's a better way.",
@@ -64,12 +64,12 @@ const content = {
       {
         icon: UserX,
         title: "Interne HR-Abteilung",
-        pain: "Kein Netzwerk für C-Level-Talente, keine Zeit für eine gründliche Suche, unzureichende Assessment-Expertise.",
+        pain: "Kein Netzwerk für knappe Talente, keine Zeit für eine gründliche Suche, unzureichende Assessment-Expertise.",
       },
       {
         icon: Globe,
         title: "Jobportale & LinkedIn",
-        pain: "Falsche Zielgruppe. Die besten Führungskräfte sind nicht auf Indeed. Passives Posting bringt keine Senior Leader.",
+        pain: "Falsche Zielgruppe. Die besten Fachkräfte sind nicht auf Indeed. Passives Posting bringt keine guten Kandidaten.",
       },
     ],
     closing: "Es gibt einen besseren Weg.",
