@@ -32,7 +32,7 @@ export function HeroSection() {
             transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
             className="font-display text-2xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
           >
-            Uw volgende leider zit
+            Uw volgende talent zit
             <br />
             <span className="text-accent">niet op een jobboard</span>
           </motion.h1>
