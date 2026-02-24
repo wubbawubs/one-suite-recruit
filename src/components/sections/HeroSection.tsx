@@ -22,7 +22,7 @@ export function HeroSection() {
             className="mb-6 md:mb-10 inline-flex items-center rounded-full border border-primary-foreground/12 bg-primary-foreground/5 px-4 md:px-6 py-2 md:py-2.5 backdrop-blur-sm"
           >
             <span className="text-xs md:text-sm font-medium text-primary-foreground/70">
-              ✦ De nieuwe standaard in executive recruitment
+              ✦ De nieuwe standaard in recruitment
             </span>
           </motion.div>
 
