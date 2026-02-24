@@ -57,8 +57,8 @@ const cases = [
 ];
 
 const articles = [
-  { title: "The Future of Executive Recruitment", excerpt: "How changing markets and technology are fundamentally transforming the way we find leaders.", readTime: "5 min", category: "Trends" },
-  { title: "5 Signs Your Organisation Needs New C-Level Leadership", excerpt: "When is it time to invest in new leadership? These indicators help you make the right decision.", readTime: "4 min", category: "Leadership" },
+  { title: "The Future of Recruitment in the Netherlands", excerpt: "How changing markets and technology are fundamentally transforming the way we find talent.", readTime: "5 min", category: "Trends" },
+  { title: "5 Signs Your Organisation Needs New Talent", excerpt: "When is it time to invest in new hires? These indicators help you make the right decision.", readTime: "4 min", category: "Talent" },
   { title: "Why Cultural Fit Matters More Than the CV", excerpt: "Research shows that cultural alignment is a better predictor of success than experience alone.", readTime: "6 min", category: "Assessment" },
 ];
 
