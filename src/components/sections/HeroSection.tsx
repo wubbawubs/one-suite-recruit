@@ -43,7 +43,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             className="mx-auto mt-5 md:mt-7 max-w-lg text-sm md:text-base leading-relaxed text-primary-foreground/55 md:text-lg"
           >
-            Traditionele search is traag, duur en ondoorzichtig. Wij leveren een shortlist van bewezen leiders binnen 18 dagen, tegen een vaste prijs.
+            Traditioneel recruitment is traag, duur en ondoorzichtig. Wij leveren een shortlist van bewezen professionals binnen 18 dagen, tegen een vaste prijs.
           </motion.p>
 
           <motion.div

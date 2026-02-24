@@ -38,7 +38,7 @@ const services = [
     icon: ClipboardCheck,
     title: "Assessment",
     description:
-      "Objectieve evaluatie van kandidaten en leiders. Competentie-based assessments en cultuurfit-analyses.",
+      "Objectieve evaluatie van kandidaten. Competentie-based assessments en cultuurfit-analyses.",
     href: "/nl/diensten/assessment-selectie",
     image: sfeerAbonnement,
   },

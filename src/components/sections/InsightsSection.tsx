@@ -17,7 +17,7 @@ export function InsightsSection() {
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Kennisbank</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Inzichten</h2>
-              <p className="mt-3 text-lg text-muted-foreground">Kennis en perspectief over leiderschap en executive search.</p>
+              <p className="mt-3 text-lg text-muted-foreground">Kennis en perspectief over recruitment en talent.</p>
             </div>
             <span className="hidden items-center gap-2 text-sm font-semibold text-muted-foreground md:inline-flex">
               Binnenkort meer artikelen

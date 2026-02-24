@@ -64,12 +64,12 @@ const content = {
       {
         icon: UserX,
         title: "Interne HR-Abteilung",
-        pain: "Kein Netzwerk für C-Level-Talente, keine Zeit für eine gründliche Suche, unzureichende Assessment-Expertise.",
+        pain: "Kein Netzwerk für knappe Talente, keine Zeit für eine gründliche Suche, unzureichende Assessment-Expertise.",
       },
       {
         icon: Globe,
         title: "Jobportale & LinkedIn",
-        pain: "Falsche Zielgruppe. Die besten Führungskräfte sind nicht auf Indeed. Passives Posting bringt keine Senior Leader.",
+        pain: "Falsche Zielgruppe. Die besten Fachkräfte sind nicht auf Indeed. Passives Posting bringt keine guten Kandidaten.",
       },
     ],
     closing: "Es gibt einen besseren Weg.",

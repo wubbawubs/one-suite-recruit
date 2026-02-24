@@ -38,7 +38,7 @@ export function WhySection() {
               Niet zomaar een recruitment&shy;bureau
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-              Wij zijn uw strategische partner in het vinden van leiderschap dat het verschil maakt.
+              Wij zijn uw strategische partner in het vinden van talent dat het verschil maakt.
             </p>
             <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
             <div className="mt-8 overflow-hidden rounded-2xl">
