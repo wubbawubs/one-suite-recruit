@@ -21,16 +21,15 @@ const services = [
     icon: Search,
     title: "Executive Search",
     description:
-      "C-level en senior executives die écht het verschil maken. Via onze exclusieve search methodiek en bewezen assessmentaanpak.",
+      "Senior professionals en directieleden die écht het verschil maken. Via onze exclusieve search methodiek en bewezen assessmentaanpak.",
     href: "/nl/diensten/executive-search",
-    highlight: true,
     image: sfeerSelectie,
   },
   {
     icon: UserSearch,
     title: "Interim Search",
     description:
-      "Direct beschikbare interim professionals voor kritische posities. Bewezen leiders die binnen dagen kunnen starten.",
+      "Direct beschikbare interim professionals voor kritische posities. Ervaren krachten die binnen dagen kunnen starten.",
     href: "/nl/diensten",
     image: sfeerZoekopdracht,
   },
