@@ -51,8 +51,8 @@ const NLDiensten = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="Diensten — One Time Recruit"
-        description="Van executive search tot interim management en talent mapping. Ontdek onze strategische recruitmentdiensten voor middelgrote en grote organisaties."
+        title="Diensten — Werving & Selectie | One Time Recruit"
+        description="Van werving & selectie tot executive search en interim management. Ontdek onze recruitmentdiensten voor organisaties die het verschil willen maken."
         locale="nl_NL"
         alternates={getAlternates("diensten", ["nl", "de", "en"])}
         jsonLd={{
