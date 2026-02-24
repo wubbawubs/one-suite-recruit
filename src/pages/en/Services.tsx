@@ -59,9 +59,9 @@ const ENServices = () => {
           "@context": "https://schema.org",
           "@type": "Service",
           provider: { "@type": "Organization", name: "One Time Recruit" },
-          serviceType: "Executive Search",
+          serviceType: "Recruitment and Selection",
           areaServed: [{ "@type": "Country", name: "Netherlands" }, { "@type": "Country", name: "Germany" }],
-          description: "Strategic executive search and recruitment services for enterprise organisations.",
+          description: "Recruitment & selection, executive search and recruitment services for organisations.",
         }}
       />
       <Header />
