@@ -59,9 +59,9 @@ const DELeistungen = () => {
           "@context": "https://schema.org",
           "@type": "Service",
           provider: { "@type": "Organization", name: "One Time Recruit" },
-          serviceType: "Executive Search",
+          serviceType: "Personalvermittlung",
           areaServed: [{ "@type": "Country", name: "Germany" }, { "@type": "Country", name: "Netherlands" }],
-          description: "Strategische Executive Search und Rekrutierungsleistungen für Unternehmen.",
+          description: "Personalvermittlung, Executive Search und Rekrutierungsleistungen für Unternehmen.",
         }}
       />
       <Header />
