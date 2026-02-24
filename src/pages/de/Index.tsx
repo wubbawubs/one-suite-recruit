@@ -57,8 +57,8 @@ const cases = [
 ];
 
 const articles = [
-  { title: "Die Zukunft der Personalvermittlung in Deutschland", excerpt: "Wie sich verändernde Märkte und Technologie die Art und Weise, wie wir Führungskräfte finden, grundlegend verändern.", readTime: "5 Min.", category: "Trends" },
-  { title: "5 Zeichen, dass Ihr Unternehmen neue C-Level-Führung braucht", excerpt: "Wann ist es Zeit, in neue Führung zu investieren? Diese Indikatoren helfen Ihnen bei der richtigen Entscheidung.", readTime: "4 Min.", category: "Führung" },
+  { title: "Die Zukunft der Personalvermittlung in Deutschland", excerpt: "Wie sich verändernde Märkte und Technologie die Art und Weise, wie wir Talent finden, grundlegend verändern.", readTime: "5 Min.", category: "Trends" },
+  { title: "5 Zeichen, dass Ihr Unternehmen Verstärkung braucht", excerpt: "Wann ist es Zeit, in neue Mitarbeiter zu investieren? Diese Indikatoren helfen Ihnen bei der richtigen Entscheidung.", readTime: "4 Min.", category: "Talent" },
   { title: "Warum Kulturpassung wichtiger ist als der Lebenslauf", excerpt: "Forschung zeigt, dass kulturelle Übereinstimmung ein besserer Erfolgsindikator ist als Erfahrung allein.", readTime: "6 Min.", category: "Assessment" },
 ];
 
