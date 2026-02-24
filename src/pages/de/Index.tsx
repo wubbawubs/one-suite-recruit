@@ -127,7 +127,7 @@ const DEHome = () => {
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
                 className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                Traditionelle Suche ist langsam, teuer und intransparent. Wir liefern eine Shortlist bewährter Führungskräfte in 18 Tagen, zum Festpreis.
+                Traditionelles Recruitment ist langsam, teuer und intransparent. Wir liefern eine Shortlist bewährter Fachkräfte in 18 Tagen, zum Festpreis.
               </motion.p>
 
               <motion.div
