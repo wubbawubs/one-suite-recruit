@@ -16,12 +16,12 @@ const content = {
       {
         icon: UserX,
         title: "Interne HR-afdeling",
-        pain: "Geen netwerk voor C-level talent, geen tijd voor een gedegen search, en onvoldoende assessmentexpertise.",
+        pain: "Geen netwerk voor schaars talent, geen tijd voor een gedegen search, en onvoldoende assessmentexpertise.",
       },
       {
         icon: Globe,
         title: "Jobboards & LinkedIn",
-        pain: "Verkeerd publiek. De beste executives zitten niet op Indeed. Passief posten levert geen senior leiders op.",
+        pain: "Verkeerd publiek. De beste professionals zitten niet op Indeed. Passief posten levert geen goede kandidaten op.",
       },
     ],
     closing: "Er is een betere manier.",
