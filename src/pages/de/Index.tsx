@@ -78,8 +78,8 @@ const DEHome = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="One Time Recruit — Executive Search & Personalvermittlung"
-        description="One Time Recruit ist Ihr Spezialist für Executive Search. Wir finden C-Level- und Senior-Führungskräfte für Ihr Unternehmen."
+        title="One Time Recruit — Personalvermittlung & Recruitment"
+        description="One Time Recruit ist Ihr Spezialist für Personalvermittlung. Wir finden die richtigen Fachkräfte für Ihr Unternehmen."
         jsonLd={orgJsonLd}
         locale="de_DE"
         alternates={getAlternates("home", ["nl", "de"])}
