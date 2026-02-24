@@ -127,7 +127,7 @@ const ENHome = () => {
                 transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
                 className="mx-auto mt-7 max-w-lg text-base leading-relaxed text-primary-foreground/55 md:text-lg"
               >
-                Traditional search is slow, expensive and opaque. We deliver a shortlist of proven leaders in 18 days, at a fixed fee.
+                Traditional recruitment is slow, expensive and opaque. We deliver a shortlist of proven professionals in 18 days, at a fixed fee.
               </motion.p>
 
               <motion.div
