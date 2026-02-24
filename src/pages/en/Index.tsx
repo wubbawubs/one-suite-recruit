@@ -201,7 +201,7 @@ const ENHome = () => {
             <ScrollReveal className="mx-auto max-w-2xl text-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Our Expertise</span>
               <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">What we do for you</h2>
-              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Three core areas where we excel, all designed to find and retain exceptional talent.</p>
+              <p className="mt-5 text-lg text-muted-foreground leading-relaxed">Five core areas where we excel, all designed to find and retain exceptional talent.</p>
             </ScrollReveal>
             <StaggerContainer className="mt-16 grid gap-6 md:grid-cols-3" stagger={0.12}>
               {services.map((s) => (
