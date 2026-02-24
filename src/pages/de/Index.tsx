@@ -70,7 +70,7 @@ const orgJsonLd = {
   name: "One Time Recruit",
   url: "https://onetimerecruit.nl",
   logo: "https://onetimerecruit.nl/logo.png",
-  description: "One Time Recruit ist Ihr Spezialist für Executive Search und Personalvermittlung von Führungskräften in Deutschland und den Niederlanden.",
+  description: "One Time Recruit ist Ihr Spezialist für Personalvermittlung und Recruitment in Deutschland und den Niederlanden.",
   contactPoint: { "@type": "ContactPoint", telephone: "+31-6-17226186", contactType: "sales", availableLanguage: ["German", "Dutch", "English"] },
 };
 
