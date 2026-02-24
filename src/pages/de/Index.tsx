@@ -34,7 +34,7 @@ const services = [
 ];
 
 const differentiators = [
-  { title: "Kandidaten, die Sie nirgendwo anders finden", description: "Unser Netzwerk von 7.500+ Senior-Führungskräften, die nicht auf Jobportalen sind. Wir sprechen sie persönlich an." },
+  { title: "Kandidaten, die Sie nirgendwo anders finden", description: "Unser Netzwerk von 7.500+ Fachkräften, die nicht auf Jobportalen sind. Wir sprechen sie persönlich an." },
   { title: "Kein Bauchgefühl, nur Daten", description: "Strukturiertes Assessment auf Kompetenzen, Führungsstil und Kulturpassung. Jeder Kandidat objektiv bewertet." },
   { title: "Festpreis, keine Prozente", description: "Sie zahlen einen festen Betrag, nicht 25-30% des Jahresgehalts. Vorab klar, nachher keine Überraschungen." },
   { title: "6 Monate Garantie auf jede Besetzung", description: "Passt es nicht? Wir finden kostenfrei einen Ersatz. Wir glauben an unsere Matches." },
