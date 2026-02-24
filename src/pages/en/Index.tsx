@@ -70,7 +70,7 @@ const orgJsonLd = {
   name: "OneTime Recruit",
   url: "https://onetimerecruit.nl",
   logo: "https://onetimerecruit.nl/logo.png",
-  description: "OneTime Recruit is your specialist in executive search and leadership recruitment in the Netherlands and Europe.",
+  description: "OneTime Recruit is your specialist in recruitment and selection in the Netherlands and Europe.",
   contactPoint: { "@type": "ContactPoint", telephone: "+31-6-17226186", contactType: "sales", availableLanguage: ["English", "Dutch", "German"] },
 };
 
