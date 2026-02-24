@@ -116,7 +116,7 @@ const ENHome = () => {
                 transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                 className="font-display text-3xl font-bold leading-[1.08] text-primary-foreground md:text-5xl lg:text-[3.75rem]"
               >
-                Your next leader isn't
+                Your next hire isn't
                 <br />
                 <span className="text-accent">on a job board</span>
               </motion.h1>
