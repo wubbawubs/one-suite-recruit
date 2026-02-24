@@ -20,7 +20,7 @@ const orgJsonLd = {
   name: "OneTime Recruit",
   url: "https://onetimerecruit.nl",
   logo: "https://onetimerecruit.nl/logo.png",
-  description: "One Time Recruit is dé specialist in executive search en leiderschap voor enterprise organisaties in Nederland.",
+  description: "One Time Recruit is dé specialist in werving & selectie voor organisaties in Nederland.",
   address: { "@type": "PostalAddress", addressLocality: "Amsterdam", addressCountry: "NL" },
   contactPoint: { "@type": "ContactPoint", telephone: "+31-6-17226186", contactType: "sales", availableLanguage: "Dutch" },
   sameAs: ["https://www.linkedin.com/company/onetimerecruit/"],

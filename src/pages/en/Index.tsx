@@ -235,7 +235,7 @@ const ENHome = () => {
               <ScrollReveal variant="slide-left" className="lg:col-span-2 lg:sticky lg:top-28">
                 <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Why OneTime</span>
                 <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Not just another recruitment agency</h2>
-                <p className="mt-5 text-lg leading-relaxed text-muted-foreground">We are your strategic partner in finding leaders who make the difference.</p>
+                <p className="mt-5 text-lg leading-relaxed text-muted-foreground">We are your strategic partner in finding talent that makes the difference.</p>
                 <div className="mt-8 h-1 w-16 rounded-full bg-accent/30" />
               </ScrollReveal>
               <StaggerContainer className="space-y-4 lg:col-span-3" stagger={0.08}>
