@@ -30,8 +30,8 @@ const NLHome = () => {
   return (
     <div className="min-h-screen">
       <PageMeta
-        title="One Time Recruit — Executive Search & Leiderschap"
-        description="One Time Recruit is dé specialist in executive search. Wij vinden C-level en senior leiders voor enterprise organisaties in Nederland."
+        title="One Time Recruit — Werving & Selectie Specialist"
+        description="One Time Recruit is dé specialist in werving & selectie. Wij vinden de juiste professionals voor uw organisatie — van mid-level tot directie."
         jsonLd={orgJsonLd}
         locale="nl_NL"
         alternates={getAlternates("home", ["nl"])}
