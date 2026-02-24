@@ -59,9 +59,9 @@ const NLDiensten = () => {
           "@context": "https://schema.org",
           "@type": "Service",
           provider: { "@type": "Organization", name: "One Time Recruit" },
-          serviceType: "Executive Search",
+          serviceType: "Werving en Selectie",
           areaServed: [{ "@type": "Country", name: "Netherlands" }, { "@type": "Country", name: "Germany" }],
-          description: "Strategische executive search en recruitmentdiensten voor middelgrote en grote organisaties.",
+          description: "Werving & selectie, executive search en recruitmentdiensten voor organisaties.",
         }}
       />
       <Header />
