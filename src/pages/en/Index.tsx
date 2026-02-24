@@ -34,7 +34,7 @@ const services = [
 ];
 
 const differentiators = [
-  { title: "Candidates you won't find anywhere else", description: "Our network of 7,500+ senior executives who aren't on job boards. We approach them personally." },
+  { title: "Candidates you won't find anywhere else", description: "Our network of 7,500+ professionals who aren't on job boards. We approach them personally." },
   { title: "No gut feeling, just data", description: "Structured assessment on competencies, leadership style and cultural fit. Every candidate objectively evaluated." },
   { title: "Fixed fee, no percentages", description: "You pay a fixed amount, not 25-30% of the annual salary. Clear upfront, no surprises after." },
   { title: "6-month guarantee on every placement", description: "Not the right fit? We find a replacement at no cost. We believe in our matches." },
