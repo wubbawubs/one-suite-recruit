@@ -260,10 +260,13 @@ const NLOverOns = () => {
                     <h3 className="mt-3 font-display text-xl font-bold text-card-foreground md:text-2xl">Priority Interim</h3>
                     <p className="mt-1 text-sm font-medium text-muted-foreground">Robert van Veggel</p>
                     <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
-                      Heeft u behoefte aan professionals in vaste dienst? One Time Recruit werkt samen met Priority Interim.
+                      Heeft u naast professionals in vaste dienst behoefte aan interim professionals? Priority Interim werkt samen met ONE-TIME Recruit.
                     </p>
                     <p className="mt-3 text-sm leading-relaxed text-muted-foreground/80">
-                      Priority Interim, onder leiding van Robert van Veggel, is als partner betrokken bij One Time Recruit en brengt diepgaande expertise in interim-oplossingen en executive finance in binnen ons ecosysteem.
+                      Priority Interim ondersteunt CFO's van grote, middelgrote en PE-backed organisaties met ervaren freelance financials die direct waarde toevoegen. Met meer dan 30 jaar recruitmentervaring en een sterk persoonlijk netwerk leveren wij snel de juiste interimmers voor finance, accounting, business control, reporting, FP&A, jaarrekeningen, transformatie en digitalisering.
+                    </p>
+                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground/80">
+                      ONE-TIME Recruit is binnen deze samenwerking verantwoordelijk voor het vaste-dienst recruitmentdomein en biedt een vernieuwend model waarin organisaties duurzame en herhaalbare toegang tot talent opbouwen.
                     </p>
                   </div>
                 </div>
