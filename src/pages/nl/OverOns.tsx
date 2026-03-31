@@ -15,6 +15,7 @@ import teamLuuk from "@/assets/team-luuk.jpeg";
 import teamAdriana from "@/assets/team-adriana.jpeg";
 import teamRoland from "@/assets/team-roland.jpeg";
 import sfeerOverOns from "@/assets/sfeer-over-ons.jpg";
+import partnerPriorityInterim from "@/assets/partner-priority-interim.png";
 
 const values = [
   { icon: Target, title: "Resultaatgericht", description: "Wij meten ons succes aan uw resultaat. Elke plaatsing moet duurzaam impact maken." },
