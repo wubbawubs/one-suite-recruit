@@ -1,7 +1,7 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Link } from "react-router-dom";
-import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp, Linkedin } from "lucide-react";
+import { ArrowRight, Target, Eye, Heart, Users, Award, TrendingUp, Linkedin, Handshake } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
