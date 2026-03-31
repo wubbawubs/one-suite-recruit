@@ -262,10 +262,10 @@ const NLOverOns = () => {
                     <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
                       Heeft u naast professionals in vaste dienst behoefte aan interim professionals? Priority Interim werkt samen met ONE-TIME Recruit.
                     </p>
-                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground/80">
+                    <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
                       Priority Interim ondersteunt CFO's van grote, middelgrote en PE-backed organisaties met ervaren freelance financials die direct waarde toevoegen. Met meer dan 30 jaar recruitmentervaring en een sterk persoonlijk netwerk leveren wij snel de juiste interimmers voor finance, accounting, business control, reporting, FP&A, jaarrekeningen, transformatie en digitalisering.
                     </p>
-                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground/80">
+                    <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
                       ONE-TIME Recruit is binnen deze samenwerking verantwoordelijk voor het vaste-dienst recruitmentdomein en biedt een vernieuwend model waarin organisaties duurzame en herhaalbare toegang tot talent opbouwen.
                     </p>
                   </div>
