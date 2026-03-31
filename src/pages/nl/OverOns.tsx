@@ -231,6 +231,47 @@ const NLOverOns = () => {
           </div>
         </section>
 
+        {/* Partners */}
+        <section className="py-16 md:py-24">
+          <div className="container">
+            <ScrollReveal className="mx-auto max-w-2xl text-center">
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Partners</span>
+              <h2 className="mt-4 font-display text-3xl font-bold text-foreground md:text-[2.5rem] leading-tight">Ons ecosysteem</h2>
+              <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
+                One Time Recruit werkt samen met gespecialiseerde partners om organisaties een compleet talent- en recruitmentaanbod te bieden.
+              </p>
+            </ScrollReveal>
+
+            <ScrollReveal className="mx-auto mt-16 max-w-3xl">
+              <div className="rounded-2xl border border-border bg-card p-8 md:p-10">
+                <div className="flex flex-col items-center gap-8 md:flex-row md:items-start">
+                  <div className="flex-shrink-0">
+                    <img
+                      src={partnerPriorityInterim}
+                      alt="Priority Interim logo"
+                      className="h-24 w-24 rounded-xl object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 text-center md:text-left">
+                    <div className="flex items-center justify-center gap-2 md:justify-start">
+                      <Handshake className="h-5 w-5 text-accent" />
+                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-accent">Partner</span>
+                    </div>
+                    <h3 className="mt-3 font-display text-xl font-bold text-card-foreground md:text-2xl">Priority Interim</h3>
+                    <p className="mt-1 text-sm font-medium text-muted-foreground">Robert van Veggel</p>
+                    <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">
+                      Heeft u behoefte aan professionals in vaste dienst? One Time Recruit werkt samen met Priority Interim.
+                    </p>
+                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground/80">
+                      Priority Interim, onder leiding van Robert van Veggel, is als partner betrokken bij One Time Recruit en brengt diepgaande expertise in interim-oplossingen en executive finance in binnen ons ecosysteem.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="relative overflow-hidden bg-accent py-14 md:py-20">
           <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-primary/10 blur-[80px]" />
